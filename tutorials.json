@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "brand": "oCIS Field Guide",
+    "tagline": "Visual, verified walkthroughs of ownCloud Infinite Scale Web — every step is a real end-to-end test, captured, not mocked.",
+    "ocisVersion": "8.0.1 Community",
+    "webUiVersion": "12.3.2",
+    "updated": "2026-06-14",
+    "repo": "https://github.com/dj4oC/ocis-field-guide"
+  },
+  "tutorials": [
+    {
+      "id": "search",
+      "category": "Search",
+      "title": "Searching your files",
+      "summary": "Find files by name or by what's inside them, then narrow the results with filters.",
+      "source": "owncloud/web · tests/e2e/specs/search/search.spec.ts",
+      "thumb": "assets/search/03-search-results-page.png",
+      "steps": [
+        {
+          "img": "assets/search/01-search-bar-location.png",
+          "title": "Start from the search bar",
+          "caption": "Wherever you are in ownCloud Web, the search bar sits at the very top. Click it and begin typing what you're looking for."
+        },
+        {
+          "img": "assets/search/02-live-results-dropdown.png",
+          "title": "Results appear as you type",
+          "caption": "Matches surface instantly in a dropdown. Pick one to jump straight to the file, or press <kbd>Enter</kbd> to open the full results page."
+        },
+        {
+          "img": "assets/search/03-search-results-page.png",
+          "title": "It searches inside your files too",
+          "caption": "Results match on the file <em>name</em> and the file's <em>contents</em>. Here <code>annual-summary.txt</code> matches because the word <mark>report</mark> appears inside it — shown highlighted."
+        },
+        {
+          "img": "assets/search/04-last-modified-filter.png",
+          "title": "Narrow by when it changed",
+          "caption": "Open the <strong>Last modified</strong> filter to limit results to today, the last 7 or 30 days, this year, or last year."
+        },
+        {
+          "img": "assets/search/05-title-only-toggle.png",
+          "title": "Match the file name only",
+          "caption": "Switch from <strong>Full text search</strong> to <mark>Title only</mark> to match file names alone. Content-only matches like <code>annual-summary.txt</code> drop away — leaving just <code>budget-report.txt</code>."
+        }
+      ]
+    }
+  ],
+  "upcoming": [
+    { "category": "Sharing", "title": "Sharing a file with a colleague" },
+    { "category": "Spaces", "title": "Creating a project Space" },
+    { "category": "Trash", "title": "Restoring a deleted file" },
+    { "category": "Tags", "title": "Organising files with tags" }
+  ]
+}
