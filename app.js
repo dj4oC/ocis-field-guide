@@ -7,6 +7,7 @@ const footerMeta = document.getElementById('footerMeta');
 
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const pad = (n) => String(n).padStart(2, '0');
+const sep = ' <span class="sep">·</span> ';
 const lockIcon = '<svg width="11" height="11" viewBox="0 0 24 24" fill="none"><rect x="4" y="10" width="16" height="11" rx="2" fill="currentColor"/><path d="M8 10V7a4 4 0 0 1 8 0v3" stroke="currentColor" stroke-width="2"/></svg>';
 
 let DATA = null;
@@ -16,11 +17,10 @@ fetch('tutorials.json')
   .then((data) => {
     DATA = data;
     const m = data.meta;
-    buildBadge.innerHTML =
-      `<b>${esc(m.ocisVersion)}</b> <span class="dot">·</span> Web ${esc(m.webUiVersion)}<br>generated ${esc(m.updated)}`;
+    buildBadge.innerHTML = `oCIS <b>${esc(m.ocisVersion)}</b>${sep}Web <b>${esc(m.webUiVersion)}</b><br>captured ${esc(m.updated)}`;
     footerMeta.innerHTML =
-      `oCIS Field Guide · captured against ownCloud Infinite Scale ${esc(m.ocisVersion)} · ` +
-      `<a href="${esc(m.repo)}">source on GitHub</a>`;
+      `Captured against ownCloud Infinite Scale ${esc(m.ocisVersion)}${sep}Web UI ${esc(m.webUiVersion)}` +
+      `<br><a href="${esc(m.repo)}">source on GitHub</a>${sep}<a href="https://owncloud.com">owncloud.com</a>`;
     route();
   })
   .catch((e) => {
@@ -33,7 +33,7 @@ function route() {
   if (!DATA) return;
   const id = (location.hash.replace(/^#\/?/, '') || '').trim();
   const tut = DATA.tutorials.find((t) => t.id === id);
-  window.scrollTo({ top: 0, behavior: 'instant' in window ? 'instant' : 'auto' });
+  window.scrollTo(0, 0);
   if (tut) renderTutorial(tut); else renderCatalog();
 }
 
@@ -64,20 +64,25 @@ function renderCatalog() {
     </div>`).join('');
 
   main.innerHTML = `
-    <section class="wrap hero">
-      <p class="kicker load d1">Generated from end-to-end tests</p>
-      <h1 class="load d2">A field guide to <em>ownCloud&nbsp;Web</em>.</h1>
-      <p class="hero__lede load d3">${esc(m.tagline)}</p>
-      <div class="hero__strip load d4">
-        <span><span class="live"></span> <b>${DATA.tutorials.length}</b>&nbsp;live walkthrough${DATA.tutorials.length === 1 ? '' : 's'}</span>
-        <span><b>${esc(m.ocisVersion)}</b></span>
-        <span>Web&nbsp;UI <b>${esc(m.webUiVersion)}</b></span>
-        <span>updated <b>${esc(m.updated)}</b></span>
+    <section class="hero">
+      <div class="wrap hero__inner">
+        <p class="kicker load d1">Generated from end-to-end tests</p>
+        <h1 class="load d2">A field guide to <span class="u">ownCloud&nbsp;Web</span>.</h1>
+        <p class="hero__lede load d3">${esc(m.tagline)}</p>
+        <p class="hero__short load d3">open source. <b>original.</b> yours.</p>
+        <div class="hero__strip load d4">
+          <span><span class="live"></span> <b>${DATA.tutorials.length}</b>&nbsp;live walkthrough${DATA.tutorials.length === 1 ? '' : 's'}</span>
+          <span>oCIS <b>${esc(m.ocisVersion)}</b></span>
+          <span>Web&nbsp;UI <b>${esc(m.webUiVersion)}</b></span>
+          <span>updated <b>${esc(m.updated)}</b></span>
+        </div>
       </div>
     </section>
-    <section class="wrap">
-      <p class="section-label">Walkthroughs</p>
-      <div class="grid">${cards}${ghosts}</div>
+    <section class="catalog">
+      <div class="wrap">
+        <p class="section-label">Walkthroughs</p>
+        <div class="grid">${cards}${ghosts}</div>
+      </div>
     </section>`;
 }
 
@@ -86,7 +91,7 @@ function renderTutorial(t) {
   const steps = t.steps.map((s, i) => `
     <article class="step reveal" id="step-${i + 1}" data-step="${i + 1}">
       <div class="step__head">
-        <span class="step__num"><small>${pad(i + 1)}</small></span>
+        <span class="step__num">${pad(i + 1)}</span>
         <h2 class="step__title">${esc(s.title)}</h2>
       </div>
       <p class="step__caption">${s.caption}</p>
@@ -149,8 +154,7 @@ function setupRail() {
   const io = new IntersectionObserver((entries) => {
     entries.forEach((e) => {
       if (!e.isIntersecting) return;
-      const id = e.target.id;
-      railItems.forEach((li) => li.classList.toggle('active', li.dataset.target === id));
+      railItems.forEach((li) => li.classList.toggle('active', li.dataset.target === e.target.id));
     });
   }, { rootMargin: '-45% 0px -45% 0px' });
   steps.forEach((s) => io.observe(s));
