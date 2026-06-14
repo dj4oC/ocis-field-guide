@@ -86,6 +86,9 @@ full e2e run  ->  capture step screenshots  ->  regenerate tutorials.json + lang
               ->  commit assets/ + json     ->  GitHub Pages redeploys
 ```
 
+See [`INTEGRATION.md`](./INTEGRATION.md) for a concrete proposal of what owncloud/web would
+add to wire this into its release process (capture step, story specs, generator, CI job).
+
 ## Local preview
 
 ```bash
