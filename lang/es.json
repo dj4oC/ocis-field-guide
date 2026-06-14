@@ -1,0 +1,85 @@
+{
+  "ui": {
+    "dir": "ltr",
+    "kicker": "Generado a partir de pruebas end-to-end",
+    "heroTitle": "Una guía de campo de <span class='u'>ownCloud&nbsp;Web</span>.",
+    "lede": "Recorridos visuales y verificados de ownCloud Infinite Scale Web. Cada paso es una prueba end-to-end real, capturada, no simulada.",
+    "liveWalkthroughs": "{n} recorridos activos",
+    "webUiLabel": "Web UI",
+    "updatedLabel": "actualizado",
+    "capturedLabel": "capturado",
+    "walkthroughs": "Recorridos",
+    "viewWalkthrough": "Ver recorrido",
+    "stepsCount": "{n} pasos",
+    "comingSoon": "de una próxima prueba e2e",
+    "allWalkthroughs": "Todos los recorridos",
+    "sourceNote": "Generado a partir de {source} y vuelto a capturar en cada ejecución completa de CI.",
+    "backToAll": "Volver a todos los recorridos",
+    "sourceLink": "Código en GitHub",
+    "footerLede": "Cada recorrido se genera a partir de una prueba end-to-end superada y se vuelve a capturar en cada ejecución completa de CI, de modo que las capturas nunca se desvían del producto real.",
+    "footerMeta": "Capturado con ownCloud Infinite Scale {ocis}, Web UI {web}.",
+    "loadError": "No se pudo cargar el contenido. Sirva esta carpeta por HTTP."
+  },
+  "content": {
+    "search": {
+      "category": "Búsqueda",
+      "title": "Buscar tus archivos",
+      "summary": "Encuentra archivos por su nombre o por su contenido y acota los resultados con filtros.",
+      "steps": [
+        { "title": "Comienza en la barra de búsqueda", "caption": "Estés donde estés en ownCloud Web, la barra de búsqueda está arriba del todo. Haz clic en ella y empieza a escribir lo que buscas." },
+        { "title": "Los resultados aparecen mientras escribes", "caption": "Las coincidencias surgen al instante en un desplegable. Elige una para ir directamente al archivo, o pulsa <kbd>Enter</kbd> para abrir la página de resultados completa." },
+        { "title": "También busca dentro de tus archivos", "caption": "Los resultados coinciden por el nombre del archivo y por su contenido. Aquí <code>annual-summary.txt</code> coincide porque la palabra <mark>report</mark> aparece dentro, resaltada." },
+        { "title": "Acota por fecha de cambio", "caption": "Abre el filtro <strong>Last modified</strong> para limitar los resultados a hoy, los últimos 7 o 30 días, este año o el año pasado." },
+        { "title": "Coincidir solo con el nombre", "caption": "Cambia de <strong>Full text search</strong> a <mark>Title only</mark> para coincidir solo con los nombres de archivo. Las coincidencias solo por contenido como <code>annual-summary.txt</code> desaparecen, dejando solo <code>budget-report.txt</code>." }
+      ]
+    },
+    "sharing": {
+      "category": "Compartir",
+      "title": "Compartir un archivo con un compañero",
+      "summary": "Da acceso a un archivo a alguien de tu organización, elige lo que puede hacer y mantén el control.",
+      "steps": [
+        { "title": "Abre el panel de compartir", "caption": "Pasa el ratón sobre un archivo y haz clic en el icono <strong>Share</strong>. El panel de compartir se abre a la derecha, listo para añadir personas." },
+        { "title": "Encuentra a tu compañero", "caption": "Escribe un nombre o correo en el campo <strong>Search</strong>. Aparecen las personas de tu organización que coinciden, así que elige la correcta." },
+        { "title": "Elige lo que puede hacer", "caption": "Define el permiso: <mark>Can view</mark> permite ver y descargar, mientras que <mark>Can edit</mark> también permite subir y modificar el archivo." },
+        { "title": "Envía la invitación", "caption": "Haz clic en <strong>Share</strong>. Tu compañero aparece ahora en <strong>Shared with</strong> con exactamente el acceso que elegiste." },
+        { "title": "Controla lo que has compartido", "caption": "Todo lo que compartes está en <strong>Shares, Shared with others</strong>, donde puedes ajustar el rol o revocar el acceso en cualquier momento." }
+      ]
+    },
+    "spaces": {
+      "category": "Spaces",
+      "title": "Crear un Space de proyecto",
+      "summary": "Crea un Space compartido para un equipo o proyecto, con su propio almacenamiento y miembros, separado de tus archivos personales.",
+      "steps": [
+        { "title": "Crea un nuevo Space", "caption": "Ve a <strong>Spaces</strong> y haz clic en <strong>New Space</strong>. Dale un nombre claro, aquí <code>Project Apollo</code>, y créalo." },
+        { "title": "Tu Space está listo", "caption": "El nuevo Space aparece en tu vista de Spaces con su propia cuota de almacenamiento, independiente de tus archivos personales." },
+        { "title": "Abre el panel de miembros", "caption": "Haz clic en <strong>Show members</strong> en el Space para gestionar quién pertenece a él. Empiezas como <mark>Manager</mark>." },
+        { "title": "Invita a tu equipo", "caption": "Busca a un compañero, elige un rol y haz clic en <strong>Add</strong>. Aquí Marie se une a <code>Project Apollo</code> con acceso <mark>Can view</mark>." }
+      ]
+    },
+    "tags": {
+      "category": "Etiquetas",
+      "title": "Organizar archivos con etiquetas",
+      "summary": "Etiqueta los archivos con palabras clave para agruparlos y encontrarlos después, en todas las carpetas y Spaces.",
+      "steps": [
+        { "title": "Abre los detalles de un archivo", "caption": "Selecciona un archivo y abre el panel de detalles a la derecha. Entre los detalles del archivo encontrarás un campo <strong>Tags</strong>." },
+        { "title": "Añade una etiqueta", "caption": "Escribe una palabra clave, como <mark>quarterly</mark>, y pulsa <kbd>Enter</kbd>. Reutiliza una etiqueta existente o crea una nueva al momento." },
+        { "title": "Etiquetado y localizable", "caption": "La etiqueta se queda con el archivo. Después puedes recuperar todo lo que la lleve buscando <code>tag:quarterly</code>." }
+      ]
+    },
+    "trash": {
+      "category": "Papelera",
+      "title": "Restaurar un archivo eliminado",
+      "summary": "¿Has borrado algo por error? Los archivos no desaparecen de inmediato, puedes recuperarlos desde Deleted files.",
+      "steps": [
+        { "title": "Encuentra tus archivos eliminados", "caption": "Abre <strong>Deleted files</strong> en la barra lateral izquierda. Los elementos eliminados esperan aquí en lugar de desaparecer para siempre." },
+        { "title": "Selecciona y restaura", "caption": "Marca el archivo que quieres recuperar y haz clic en <mark>Restore</mark>." },
+        { "title": "Ha vuelto", "caption": "El archivo regresa a su ubicación original en tu espacio Personal, justo donde estaba." }
+      ]
+    }
+  },
+  "upcoming": {
+    "publiclinks": { "category": "Enlaces públicos", "title": "Compartir con un enlace público" },
+    "versions": { "category": "Versiones", "title": "Restaurar una versión anterior de un archivo" },
+    "movecopy": { "category": "Mover y copiar", "title": "Mover archivos entre carpetas" }
+  }
+}

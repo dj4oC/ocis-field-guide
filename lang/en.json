@@ -1,0 +1,85 @@
+{
+  "ui": {
+    "dir": "ltr",
+    "kicker": "Generated from end-to-end tests",
+    "heroTitle": "A field guide to <span class='u'>ownCloud&nbsp;Web</span>.",
+    "lede": "Visual, verified walkthroughs of ownCloud Infinite Scale Web. Every step is a real end-to-end test, captured, not mocked.",
+    "liveWalkthroughs": "{n} live walkthroughs",
+    "webUiLabel": "Web UI",
+    "updatedLabel": "updated",
+    "capturedLabel": "captured",
+    "walkthroughs": "Walkthroughs",
+    "viewWalkthrough": "View walkthrough",
+    "stepsCount": "{n} steps",
+    "comingSoon": "from an upcoming e2e spec",
+    "allWalkthroughs": "All walkthroughs",
+    "sourceNote": "Generated from {source} and re-captured on every full CI run.",
+    "backToAll": "Back to all walkthroughs",
+    "sourceLink": "Source on GitHub",
+    "footerLede": "Every walkthrough is generated from a passing end-to-end test and re-captured on each full CI run, so the screenshots can never drift from the real product.",
+    "footerMeta": "Captured against ownCloud Infinite Scale {ocis}, Web UI {web}.",
+    "loadError": "Could not load content. Serve this folder over HTTP."
+  },
+  "content": {
+    "search": {
+      "category": "Search",
+      "title": "Searching your files",
+      "summary": "Find files by name or by what is inside them, then narrow the results with filters.",
+      "steps": [
+        { "title": "Start from the search bar", "caption": "Wherever you are in ownCloud Web, the search bar sits at the very top. Click it and begin typing what you are looking for." },
+        { "title": "Results appear as you type", "caption": "Matches surface instantly in a dropdown. Pick one to jump straight to the file, or press <kbd>Enter</kbd> to open the full results page." },
+        { "title": "It searches inside your files too", "caption": "Results match on the file name and the file contents. Here <code>annual-summary.txt</code> matches because the word <mark>report</mark> appears inside it, shown highlighted." },
+        { "title": "Narrow by when it changed", "caption": "Open the <strong>Last modified</strong> filter to limit results to today, the last 7 or 30 days, this year, or last year." },
+        { "title": "Match the file name only", "caption": "Switch from <strong>Full text search</strong> to <mark>Title only</mark> to match file names alone. Content-only matches like <code>annual-summary.txt</code> drop away, leaving just <code>budget-report.txt</code>." }
+      ]
+    },
+    "sharing": {
+      "category": "Sharing",
+      "title": "Sharing a file with a colleague",
+      "summary": "Give someone in your organisation access to a file, choose what they can do, and keep track of it.",
+      "steps": [
+        { "title": "Open the share panel", "caption": "Hover a file and click the <strong>Share</strong> icon. The sharing panel opens on the right, ready to add people." },
+        { "title": "Find your colleague", "caption": "Type a name or email in the <strong>Search</strong> box. Matching people in your organisation appear, so pick the right one." },
+        { "title": "Choose what they can do", "caption": "Set the permission: <mark>Can view</mark> lets them view and download, while <mark>Can edit</mark> also lets them upload and change the file." },
+        { "title": "Send the invite", "caption": "Click <strong>Share</strong>. Your colleague now appears under <strong>Shared with</strong> with exactly the access you chose." },
+        { "title": "Keep track of what you shared", "caption": "Everything you share lives under <strong>Shares, Shared with others</strong>, where you can adjust the role or revoke access at any time." }
+      ]
+    },
+    "spaces": {
+      "category": "Spaces",
+      "title": "Creating a project Space",
+      "summary": "Set up a shared Space for a team or project, with its own storage and members, separate from your personal files.",
+      "steps": [
+        { "title": "Start a new Space", "caption": "Go to <strong>Spaces</strong> and click <strong>New Space</strong>. Give it a clear name, here <code>Project Apollo</code>, then create it." },
+        { "title": "Your Space is ready", "caption": "The new Space appears in your Spaces overview with its own storage quota, independent of your personal files." },
+        { "title": "Open the members panel", "caption": "Click <strong>Show members</strong> on the Space to manage who belongs to it. You start out as the <mark>Manager</mark>." },
+        { "title": "Invite your team", "caption": "Search for a colleague, pick a role, and click <strong>Add</strong>. Here Marie joins <code>Project Apollo</code> with <mark>Can view</mark> access." }
+      ]
+    },
+    "tags": {
+      "category": "Tags",
+      "title": "Organising files with tags",
+      "summary": "Label files with keywords so you can group and find them later, across folders and Spaces.",
+      "steps": [
+        { "title": "Open a file's details", "caption": "Select a file and open the details panel on the right. Among the file details you will find a <strong>Tags</strong> field." },
+        { "title": "Add a tag", "caption": "Type a label, like <mark>quarterly</mark>, and press <kbd>Enter</kbd>. Reuse an existing tag or create a new one on the fly." },
+        { "title": "Tagged and findable", "caption": "The tag sticks to the file. Later you can pull up everything with that label by searching <code>tag:quarterly</code>." }
+      ]
+    },
+    "trash": {
+      "category": "Trash",
+      "title": "Restoring a deleted file",
+      "summary": "Deleted something by mistake? Files are not gone immediately, so you can recover them from Deleted files.",
+      "steps": [
+        { "title": "Find your deleted files", "caption": "Open <strong>Deleted files</strong> from the left sidebar. Removed items wait here instead of disappearing for good." },
+        { "title": "Select and restore", "caption": "Tick the file you want back and click <mark>Restore</mark>." },
+        { "title": "It is back", "caption": "The file returns to its original location in your Personal space, exactly where it was before." }
+      ]
+    }
+  },
+  "upcoming": {
+    "publiclinks": { "category": "Public links", "title": "Sharing with a public link" },
+    "versions": { "category": "Versions", "title": "Restoring an earlier file version" },
+    "movecopy": { "category": "Move & Copy", "title": "Moving files between folders" }
+  }
+}

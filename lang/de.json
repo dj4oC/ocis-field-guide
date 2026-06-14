@@ -1,0 +1,85 @@
+{
+  "ui": {
+    "dir": "ltr",
+    "kicker": "Aus End-to-End-Tests generiert",
+    "heroTitle": "Ein Wegweiser durch <span class='u'>ownCloud&nbsp;Web</span>.",
+    "lede": "Visuelle, verifizierte Anleitungen für ownCloud Infinite Scale Web. Jeder Schritt ist ein echter End-to-End-Test, aufgenommen, nicht nachgestellt.",
+    "liveWalkthroughs": "{n} aktive Anleitungen",
+    "webUiLabel": "Web UI",
+    "updatedLabel": "aktualisiert",
+    "capturedLabel": "aufgenommen",
+    "walkthroughs": "Anleitungen",
+    "viewWalkthrough": "Anleitung ansehen",
+    "stepsCount": "{n} Schritte",
+    "comingSoon": "aus einem kommenden e2e-Test",
+    "allWalkthroughs": "Alle Anleitungen",
+    "sourceNote": "Generiert aus {source} und bei jedem vollständigen CI-Lauf neu aufgenommen.",
+    "backToAll": "Zurück zu allen Anleitungen",
+    "sourceLink": "Quelle auf GitHub",
+    "footerLede": "Jede Anleitung wird aus einem bestandenen End-to-End-Test generiert und bei jedem vollständigen CI-Lauf neu aufgenommen, damit die Screenshots niemals vom echten Produkt abweichen.",
+    "footerMeta": "Aufgenommen mit ownCloud Infinite Scale {ocis}, Web UI {web}.",
+    "loadError": "Inhalt konnte nicht geladen werden. Bitte diesen Ordner über HTTP bereitstellen."
+  },
+  "content": {
+    "search": {
+      "category": "Suche",
+      "title": "Dateien durchsuchen",
+      "summary": "Finden Sie Dateien anhand des Namens oder ihres Inhalts und grenzen Sie die Ergebnisse mit Filtern ein.",
+      "steps": [
+        { "title": "Mit der Suchleiste beginnen", "caption": "Egal wo Sie sich in ownCloud Web befinden, die Suchleiste sitzt ganz oben. Klicken Sie hinein und tippen Sie, wonach Sie suchen." },
+        { "title": "Ergebnisse erscheinen beim Tippen", "caption": "Treffer erscheinen sofort in einem Dropdown. Wählen Sie einen aus, um direkt zur Datei zu springen, oder drücken Sie <kbd>Enter</kbd> für die vollständige Ergebnisseite." },
+        { "title": "Es durchsucht auch den Dateiinhalt", "caption": "Treffer berücksichtigen den Dateinamen und den Dateiinhalt. Hier passt <code>annual-summary.txt</code>, weil das Wort <mark>report</mark> darin vorkommt, hervorgehoben dargestellt." },
+        { "title": "Nach Änderungsdatum eingrenzen", "caption": "Öffnen Sie den Filter <strong>Last modified</strong>, um Ergebnisse auf heute, die letzten 7 oder 30 Tage, dieses Jahr oder letztes Jahr zu begrenzen." },
+        { "title": "Nur den Dateinamen abgleichen", "caption": "Wechseln Sie von <strong>Full text search</strong> zu <mark>Title only</mark>, um nur Dateinamen abzugleichen. Reine Inhaltstreffer wie <code>annual-summary.txt</code> entfallen, sodass nur <code>budget-report.txt</code> bleibt." }
+      ]
+    },
+    "sharing": {
+      "category": "Teilen",
+      "title": "Eine Datei mit Kollegen teilen",
+      "summary": "Geben Sie jemandem in Ihrer Organisation Zugriff auf eine Datei, legen Sie die Berechtigung fest und behalten Sie den Überblick.",
+      "steps": [
+        { "title": "Das Teilen-Panel öffnen", "caption": "Fahren Sie über eine Datei und klicken Sie auf das <strong>Share</strong>-Symbol. Das Teilen-Panel öffnet sich rechts, bereit zum Hinzufügen von Personen." },
+        { "title": "Kollegen finden", "caption": "Tippen Sie einen Namen oder eine E-Mail in das <strong>Search</strong>-Feld. Passende Personen aus Ihrer Organisation erscheinen, wählen Sie die richtige aus." },
+        { "title": "Berechtigung wählen", "caption": "Legen Sie die Berechtigung fest: <mark>Can view</mark> erlaubt Ansehen und Herunterladen, <mark>Can edit</mark> zusätzlich Hochladen und Bearbeiten." },
+        { "title": "Einladung senden", "caption": "Klicken Sie auf <strong>Share</strong>. Ihr Kollege erscheint nun unter <strong>Shared with</strong> mit genau dem gewählten Zugriff." },
+        { "title": "Geteiltes im Blick behalten", "caption": "Alles, was Sie teilen, finden Sie unter <strong>Shares, Shared with others</strong>, wo Sie die Rolle anpassen oder den Zugriff jederzeit entziehen können." }
+      ]
+    },
+    "spaces": {
+      "category": "Spaces",
+      "title": "Einen Projekt-Space erstellen",
+      "summary": "Richten Sie einen gemeinsamen Space für ein Team oder Projekt ein, mit eigenem Speicher und eigenen Mitgliedern, getrennt von Ihren persönlichen Dateien.",
+      "steps": [
+        { "title": "Einen neuen Space anlegen", "caption": "Gehen Sie zu <strong>Spaces</strong> und klicken Sie auf <strong>New Space</strong>. Geben Sie ihm einen klaren Namen, hier <code>Project Apollo</code>, und erstellen Sie ihn." },
+        { "title": "Ihr Space ist bereit", "caption": "Der neue Space erscheint in Ihrer Spaces-Übersicht mit eigenem Speicherkontingent, unabhängig von Ihren persönlichen Dateien." },
+        { "title": "Das Mitglieder-Panel öffnen", "caption": "Klicken Sie beim Space auf <strong>Show members</strong>, um zu verwalten, wer dazugehört. Sie starten als <mark>Manager</mark>." },
+        { "title": "Ihr Team einladen", "caption": "Suchen Sie eine Kollegin oder einen Kollegen, wählen Sie eine Rolle und klicken Sie auf <strong>Add</strong>. Hier tritt Marie <code>Project Apollo</code> mit <mark>Can view</mark> bei." }
+      ]
+    },
+    "tags": {
+      "category": "Tags",
+      "title": "Dateien mit Tags organisieren",
+      "summary": "Versehen Sie Dateien mit Schlagworten, um sie später ordner- und Space-übergreifend zu gruppieren und zu finden.",
+      "steps": [
+        { "title": "Die Details einer Datei öffnen", "caption": "Wählen Sie eine Datei und öffnen Sie das Detail-Panel rechts. Unter den Dateidetails finden Sie ein Feld <strong>Tags</strong>." },
+        { "title": "Ein Tag hinzufügen", "caption": "Tippen Sie ein Schlagwort wie <mark>quarterly</mark> und drücken Sie <kbd>Enter</kbd>. Verwenden Sie ein vorhandenes Tag wieder oder erstellen Sie spontan ein neues." },
+        { "title": "Getaggt und auffindbar", "caption": "Das Tag bleibt an der Datei. Später finden Sie alles mit diesem Schlagwort über die Suche <code>tag:quarterly</code>." }
+      ]
+    },
+    "trash": {
+      "category": "Papierkorb",
+      "title": "Eine gelöschte Datei wiederherstellen",
+      "summary": "Versehentlich etwas gelöscht? Dateien sind nicht sofort weg, Sie können sie unter Deleted files wiederherstellen.",
+      "steps": [
+        { "title": "Ihre gelöschten Dateien finden", "caption": "Öffnen Sie <strong>Deleted files</strong> in der linken Seitenleiste. Entfernte Objekte warten hier, statt endgültig zu verschwinden." },
+        { "title": "Auswählen und wiederherstellen", "caption": "Markieren Sie die gewünschte Datei und klicken Sie auf <mark>Restore</mark>." },
+        { "title": "Sie ist zurück", "caption": "Die Datei kehrt an ihren ursprünglichen Ort in Ihrem persönlichen Bereich zurück, genau dorthin, wo sie war." }
+      ]
+    }
+  },
+  "upcoming": {
+    "publiclinks": { "category": "Öffentliche Links", "title": "Mit einem öffentlichen Link teilen" },
+    "versions": { "category": "Versionen", "title": "Eine frühere Dateiversion wiederherstellen" },
+    "movecopy": { "category": "Verschieben & Kopieren", "title": "Dateien zwischen Ordnern verschieben" }
+  }
+}

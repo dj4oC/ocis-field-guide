@@ -1,5 +1,5 @@
 /* =========================================================================
-   oCIS Field Guide — ownCloud brand system
+   oCIS Field Guide - ownCloud brand system
    Source Sans 3 · navy #041E42 / orange #E56F35 / bright-blue #4E85C8
    Dark/light panel split · circle motif · orange accent bars · flat (no gradients)
    ========================================================================= */
@@ -19,7 +19,7 @@
   --circle-dark:  rgba(78, 133, 200, 0.10);
   --circle-light: rgba(78, 133, 200, 0.07);
 
-  --font: "Source Sans 3", "Source Sans Pro", system-ui, sans-serif;
+  --font: "Source Sans 3", "Noto Sans JP", "Source Sans Pro", system-ui, sans-serif;
   --font-mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace; /* code/kbd only */
 
   --xs: 4px; --sm: 8px; --md: 16px; --lg: 24px; --xl: 40px; --xxl: 64px;
@@ -68,20 +68,36 @@ em { font-style: normal; }
   border-bottom: 4px solid var(--oc-orange);   /* orange accent anchoring the dark bar */
   position: sticky; top: 0; z-index: 40;
 }
-.brand { display: inline-flex; align-items: center; gap: .65rem; text-decoration: none; }
-.brand__cloud { color: var(--oc-white); display: inline-flex; }
-.brand__word { font-weight: 700; font-size: 1.3rem; color: var(--oc-white); letter-spacing: -.01em; }
-.brand__div { width: 1px; height: 20px; background: rgba(255,255,255,.28); margin: 0 .2rem; }
-.brand__guide { font-weight: 600; font-size: .95rem; color: var(--oc-blue); letter-spacing: .01em; }
+.brand { display: inline-flex; align-items: center; gap: .7rem; text-decoration: none; }
+/* official ownCloud logo, rendered white = the approved reversed treatment on navy */
+.brand__logo { height: 42px; width: auto; display: block; filter: brightness(0) invert(1); }
+.brand__div { width: 1px; height: 24px; background: rgba(255,255,255,.28); margin: 0 .15rem; }
+.brand__guide { font-weight: 600; font-size: 1rem; color: var(--oc-blue); letter-spacing: .01em; white-space: nowrap; }
+
+.appbar__right { display: flex; align-items: center; gap: clamp(.8rem, 2vw, 1.6rem); }
+
+.lang { display: inline-flex; align-items: center; gap: .4rem; color: rgba(255,255,255,.7); }
+.lang__globe { display: inline-flex; }
+.lang select {
+  appearance: none; -webkit-appearance: none;
+  background-color: rgba(255,255,255,.08); color: #fff; border: 1px solid rgba(255,255,255,.28);
+  border-radius: var(--radius); padding: .34rem 1.7rem .34rem .55rem; font-family: var(--font);
+  font-size: .82rem; font-weight: 600; cursor: pointer; line-height: 1.2;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23ffffff' stroke-width='2.4'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat; background-position: right .5rem center;
+}
+.lang select:hover { border-color: rgba(255,255,255,.5); }
+.lang select option { color: var(--oc-navy); background: #fff; }
+
 .appbar__meta {
-  font-size: .72rem; font-weight: 600; text-transform: uppercase; letter-spacing: .08em;
+  font-size: .72rem; font-weight: 600; text-transform: uppercase; letter-spacing: .06em;
   color: rgba(255,255,255,.62); text-align: right; line-height: 1.5;
 }
 .appbar__meta b { color: var(--oc-white); }
 .appbar__meta .sep { color: var(--oc-orange); margin: 0 .15rem; }
 
 /* =========================================================================
-   HERO — dark navy panel with circle motif + bottom orange bar
+   HERO - dark navy panel with circle motif + bottom orange bar
    ========================================================================= */
 .hero {
   position: relative; overflow: hidden;
@@ -159,7 +175,7 @@ em { font-style: normal; }
 .card__cta { color: var(--oc-blue); font-weight: 700; display: inline-flex; align-items: center; gap: .4rem; transition: gap .3s var(--ease); }
 .card:hover .card__cta { gap: .65rem; }
 
-/* badge / chip — pill, navy on light tint or navy on white */
+/* badge / chip - pill, navy on light tint or navy on white */
 .tag {
   align-self: flex-start; font-size: .68rem; font-weight: 700; text-transform: uppercase; letter-spacing: .1em;
   color: var(--oc-navy); background: rgba(78,133,200,.16); padding: .3rem .65rem; border-radius: 100px;
@@ -215,7 +231,7 @@ em { font-style: normal; }
 .step__caption { color: var(--oc-gray); max-width: 62ch; margin: 0 0 1.5rem; font-size: 1.05rem; }
 .step__caption code { background: #e7ebf1; }
 
-/* faux-browser frame — navy chrome (on brand), screenshot inside */
+/* faux-browser frame - navy chrome (on brand), screenshot inside */
 .frame { border-radius: var(--radius); overflow: hidden; border: 1px solid var(--oc-border); background: var(--oc-navy); box-shadow: 0 20px 48px -30px rgba(4,30,66,.55); }
 .frame__bar { display: flex; align-items: center; gap: .8rem; padding: .7rem .95rem; background: var(--oc-navy); }
 .frame__dots { display: flex; gap: .42rem; }
@@ -244,15 +260,15 @@ em { font-style: normal; }
 .btn:hover { background: var(--oc-navy); color: #fff; gap: .75rem; }
 
 /* =========================================================================
-   FOOTER — dark navy panel, orange top bar, circle, brand lockup
+   FOOTER - dark navy panel, orange top bar, circle, brand lockup
    ========================================================================= */
 .footer { position: relative; overflow: hidden; background: var(--oc-navy); color: #cdd9e6; border-top: 8px solid var(--oc-orange); margin-top: var(--xl); }
 .footer::after { content: ""; position: absolute; width: 460px; height: 460px; border-radius: 50%; background: var(--circle-dark); left: -180px; top: -200px; pointer-events: none; }
 .footer__inner { position: relative; z-index: 1; max-width: var(--maxw); margin: 0 auto; padding: clamp(2.6rem,5vw,3.6rem) clamp(1.1rem,4vw,3rem); }
 .footer__lede { font-size: clamp(1.15rem, 2.2vw, 1.55rem); line-height: 1.4; color: #fff; max-width: 34ch; margin: 0; font-weight: 600; }
-.footer__brand { margin: 2rem 0 0; display: flex; align-items: baseline; gap: .6rem; flex-wrap: wrap; }
-.footer__word { font-weight: 700; font-size: 1.5rem; color: #fff; }
-.footer__kite { font-size: .9rem; font-weight: 600; color: #93a7bf; }
+.footer__brand { margin: 2rem 0 0; display: flex; align-items: center; gap: .8rem; flex-wrap: wrap; }
+.footer__logo { height: 40px; width: auto; filter: brightness(0) invert(1); }
+.footer__kite { font-size: .92rem; font-weight: 600; color: #93a7bf; }
 .footer__tag { margin: .4rem 0 0; font-weight: 700; font-size: 1rem; color: var(--oc-orange); }
 .footer__meta { margin: 1.6rem 0 0; font-size: .82rem; color: #7b8ba0; }
 .footer__meta a { color: #cdd9e6; }
