@@ -42,12 +42,126 @@
           "caption": "Switch from <strong>Full text search</strong> to <mark>Title only</mark> to match file names alone. Content-only matches like <code>annual-summary.txt</code> drop away — leaving just <code>budget-report.txt</code>."
         }
       ]
+    },
+    {
+      "id": "sharing",
+      "category": "Sharing",
+      "title": "Sharing a file with a colleague",
+      "summary": "Give someone in your organisation access to a file, choose what they can do, and keep track of it.",
+      "source": "owncloud/web · tests/e2e/specs/shares/share.spec.ts",
+      "thumb": "assets/sharing/04-shared.png",
+      "steps": [
+        {
+          "img": "assets/sharing/01-open-share-panel.png",
+          "title": "Open the share panel",
+          "caption": "Hover a file and click the <strong>Share</strong> icon. The sharing panel opens on the right, ready to add people."
+        },
+        {
+          "img": "assets/sharing/02-add-recipient.png",
+          "title": "Find your colleague",
+          "caption": "Type a name or email in the <strong>Search</strong> box. Matching people in your organisation appear — pick the right one."
+        },
+        {
+          "img": "assets/sharing/03-choose-role.png",
+          "title": "Choose what they can do",
+          "caption": "Set the permission: <mark>Can view</mark> lets them view and download; <mark>Can edit</mark> also lets them upload and change the file."
+        },
+        {
+          "img": "assets/sharing/04-shared.png",
+          "title": "Send the invite",
+          "caption": "Click <strong>Share</strong>. Your colleague now appears under <strong>Shared with</strong> with exactly the access you chose."
+        },
+        {
+          "img": "assets/sharing/05-shared-with-others.png",
+          "title": "Keep track of what you've shared",
+          "caption": "Everything you share lives under <strong>Shares → Shared with others</strong>, where you can adjust the role or revoke access at any time."
+        }
+      ]
+    },
+    {
+      "id": "spaces",
+      "category": "Spaces",
+      "title": "Creating a project Space",
+      "summary": "Set up a shared Space for a team or project, with its own storage and members — separate from your personal files.",
+      "source": "owncloud/web · tests/e2e/specs/spaces/project.spec.ts",
+      "thumb": "assets/spaces/04-member-added.png",
+      "steps": [
+        {
+          "img": "assets/spaces/01-create-space.png",
+          "title": "Start a new Space",
+          "caption": "Go to <strong>Spaces</strong> and click <strong>New Space</strong>. Give it a clear name — here, <code>Project Apollo</code> — then create it."
+        },
+        {
+          "img": "assets/spaces/02-new-space.png",
+          "title": "Your Space is ready",
+          "caption": "The new Space appears in your Spaces overview with its own storage quota — independent of your personal files."
+        },
+        {
+          "img": "assets/spaces/03-members-panel.png",
+          "title": "Open the members panel",
+          "caption": "Click <strong>Show members</strong> on the Space to manage who belongs to it. You start out as the <mark>Manager</mark>."
+        },
+        {
+          "img": "assets/spaces/04-member-added.png",
+          "title": "Invite your team",
+          "caption": "Search for a colleague, pick a role, and click <strong>Add</strong>. Here Marie joins <code>Project Apollo</code> with <mark>Can view</mark> access."
+        }
+      ]
+    },
+    {
+      "id": "tags",
+      "category": "Tags",
+      "title": "Organising files with tags",
+      "summary": "Label files with keywords so you can group and find them later — across folders and Spaces.",
+      "source": "owncloud/web · tests/e2e/specs/smoke/tags.spec.ts",
+      "thumb": "assets/tags/03-tag-added.png",
+      "steps": [
+        {
+          "img": "assets/tags/01-tags-field.png",
+          "title": "Open a file's details",
+          "caption": "Select a file and open the details panel on the right. Among the file's details you'll find a <strong>Tags</strong> field."
+        },
+        {
+          "img": "assets/tags/02-type-tag.png",
+          "title": "Add a tag",
+          "caption": "Type a label — like <mark>quarterly</mark> — and press <kbd>Enter</kbd>. Reuse an existing tag or create a new one on the fly."
+        },
+        {
+          "img": "assets/tags/03-tag-added.png",
+          "title": "Tagged and findable",
+          "caption": "The tag sticks to the file. Later you can pull up everything with that label by searching <code>tag:quarterly</code>."
+        }
+      ]
+    },
+    {
+      "id": "trash",
+      "category": "Trash",
+      "title": "Restoring a deleted file",
+      "summary": "Deleted something by mistake? Files aren't gone immediately — recover them from Deleted files.",
+      "source": "owncloud/web · tests/e2e/specs/smoke/trashbinDelete.spec.ts",
+      "thumb": "assets/trash/01-deleted-files.png",
+      "steps": [
+        {
+          "img": "assets/trash/01-deleted-files.png",
+          "title": "Find your deleted files",
+          "caption": "Open <strong>Deleted files</strong> from the left sidebar. Removed items wait here instead of disappearing for good."
+        },
+        {
+          "img": "assets/trash/02-restore.png",
+          "title": "Select and restore",
+          "caption": "Tick the file you want back and click <mark>Restore</mark>."
+        },
+        {
+          "img": "assets/trash/03-restored.png",
+          "title": "It's back",
+          "caption": "The file returns to its original location in your Personal space — exactly where it was before."
+        }
+      ]
     }
   ],
   "upcoming": [
-    { "category": "Sharing", "title": "Sharing a file with a colleague" },
-    { "category": "Spaces", "title": "Creating a project Space" },
-    { "category": "Trash", "title": "Restoring a deleted file" },
-    { "category": "Tags", "title": "Organising files with tags" }
+    { "category": "Public links", "title": "Sharing with a public link" },
+    { "category": "Versions", "title": "Restoring an earlier file version" },
+    { "category": "Move & Copy", "title": "Moving files between folders" }
   ]
 }
