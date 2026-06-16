@@ -26,11 +26,26 @@
       "title": "Rechercher vos fichiers",
       "summary": "Trouvez des fichiers par leur nom ou par leur contenu, puis affinez les résultats avec des filtres.",
       "steps": [
-        { "title": "Commencez dans la barre de recherche", "caption": "Où que vous soyez dans ownCloud Web, la barre de recherche se trouve tout en haut. Cliquez dedans et commencez à taper ce que vous cherchez." },
-        { "title": "Les résultats apparaissent à la frappe", "caption": "Les correspondances surgissent aussitôt dans une liste déroulante. Choisissez-en une pour aller directement au fichier, ou appuyez sur <kbd>Entrée</kbd> pour ouvrir la page de résultats complète." },
-        { "title": "Elle cherche aussi dans le contenu de vos fichiers", "caption": "Les résultats correspondent au nom du fichier et à son contenu. Ici, <code>annual-summary.txt</code> correspond car le mot <mark>report</mark> y figure, affiché en surbrillance." },
-        { "title": "Affinez par date de modification", "caption": "Ouvrez le filtre <strong>Last modified</strong> pour limiter les résultats à aujourd'hui, aux 7 ou 30 derniers jours, à cette année ou à l'an dernier." },
-        { "title": "Faire correspondre uniquement le nom", "caption": "Passez de <strong>Full text search</strong> à <mark>Title only</mark> pour ne faire correspondre que les noms de fichiers. Les correspondances de contenu seul comme <code>annual-summary.txt</code> disparaissent, ne laissant que <code>budget-report.txt</code>." }
+        {
+          "title": "Commencez dans la barre de recherche",
+          "caption": "Où que vous soyez dans ownCloud Web, la barre de recherche se trouve tout en haut. Cliquez dedans et commencez à taper ce que vous cherchez."
+        },
+        {
+          "title": "Les résultats apparaissent à la frappe",
+          "caption": "Les correspondances surgissent aussitôt dans une liste déroulante. Choisissez-en une pour aller directement au fichier, ou appuyez sur <kbd>Entrée</kbd> pour ouvrir la page de résultats complète."
+        },
+        {
+          "title": "Elle cherche aussi dans le contenu de vos fichiers",
+          "caption": "Les résultats correspondent au nom du fichier et à son contenu. Ici, <code>annual-summary.txt</code> correspond car le mot <mark>report</mark> y figure, affiché en surbrillance."
+        },
+        {
+          "title": "Affinez par date de modification",
+          "caption": "Ouvrez le filtre <strong>Last modified</strong> pour limiter les résultats à aujourd'hui, aux 7 ou 30 derniers jours, à cette année ou à l'an dernier."
+        },
+        {
+          "title": "Faire correspondre uniquement le nom",
+          "caption": "Passez de <strong>Full text search</strong> à <mark>Title only</mark> pour ne faire correspondre que les noms de fichiers. Les correspondances de contenu seul comme <code>annual-summary.txt</code> disparaissent, ne laissant que <code>budget-report.txt</code>."
+        }
       ]
     },
     "sharing": {
@@ -38,11 +53,26 @@
       "title": "Partager un fichier avec un collègue",
       "summary": "Donnez à quelqu'un de votre organisation l'accès à un fichier, choisissez ce qu'il peut faire et gardez le contrôle.",
       "steps": [
-        { "title": "Ouvrez le panneau de partage", "caption": "Survolez un fichier et cliquez sur l'icône <strong>Share</strong>. Le panneau de partage s'ouvre à droite, prêt à ajouter des personnes." },
-        { "title": "Trouvez votre collègue", "caption": "Tapez un nom ou un e-mail dans le champ <strong>Search</strong>. Les personnes correspondantes de votre organisation apparaissent, choisissez la bonne." },
-        { "title": "Choisissez ce qu'il peut faire", "caption": "Définissez l'autorisation : <mark>Can view</mark> permet de consulter et télécharger, tandis que <mark>Can edit</mark> permet aussi d'envoyer et de modifier le fichier." },
-        { "title": "Envoyez l'invitation", "caption": "Cliquez sur <strong>Share</strong>. Votre collègue apparaît désormais sous <strong>Shared with</strong> avec exactement l'accès que vous avez choisi." },
-        { "title": "Gardez une trace de vos partages", "caption": "Tout ce que vous partagez se trouve sous <strong>Shares, Shared with others</strong>, où vous pouvez ajuster le rôle ou révoquer l'accès à tout moment." }
+        {
+          "title": "Ouvrez le panneau de partage",
+          "caption": "Survolez un fichier et cliquez sur l'icône <strong>Share</strong>. Le panneau de partage s'ouvre à droite, prêt à ajouter des personnes."
+        },
+        {
+          "title": "Trouvez votre collègue",
+          "caption": "Tapez un nom ou un e-mail dans le champ <strong>Search</strong>. Les personnes correspondantes de votre organisation apparaissent, choisissez la bonne."
+        },
+        {
+          "title": "Choisissez ce qu'il peut faire",
+          "caption": "Définissez l'autorisation : <mark>Can view</mark> permet de consulter et télécharger, tandis que <mark>Can edit</mark> permet aussi d'envoyer et de modifier le fichier."
+        },
+        {
+          "title": "Envoyez l'invitation",
+          "caption": "Cliquez sur <strong>Share</strong>. Votre collègue apparaît désormais sous <strong>Shared with</strong> avec exactement l'accès que vous avez choisi."
+        },
+        {
+          "title": "Gardez une trace de vos partages",
+          "caption": "Tout ce que vous partagez se trouve sous <strong>Shares, Shared with others</strong>, où vous pouvez ajuster le rôle ou révoquer l'accès à tout moment."
+        }
       ]
     },
     "spaces": {
@@ -50,10 +80,22 @@
       "title": "Créer un Space de projet",
       "summary": "Créez un Space partagé pour une équipe ou un projet, avec son propre stockage et ses membres, distinct de vos fichiers personnels.",
       "steps": [
-        { "title": "Créez un nouveau Space", "caption": "Allez dans <strong>Spaces</strong> et cliquez sur <strong>New Space</strong>. Donnez-lui un nom clair, ici <code>Project Apollo</code>, puis créez-le." },
-        { "title": "Votre Space est prêt", "caption": "Le nouveau Space apparaît dans votre vue Spaces avec son propre quota de stockage, indépendant de vos fichiers personnels." },
-        { "title": "Ouvrez le panneau des membres", "caption": "Cliquez sur <strong>Show members</strong> sur le Space pour gérer qui en fait partie. Vous démarrez en tant que <mark>Manager</mark>." },
-        { "title": "Invitez votre équipe", "caption": "Recherchez un collègue, choisissez un rôle et cliquez sur <strong>Add</strong>. Ici, Marie rejoint <code>Project Apollo</code> avec l'accès <mark>Can view</mark>." }
+        {
+          "title": "Créez un nouveau Space",
+          "caption": "Allez dans <strong>Spaces</strong> et cliquez sur <strong>New Space</strong>. Donnez-lui un nom clair, ici <code>Project Apollo</code>, puis créez-le."
+        },
+        {
+          "title": "Votre Space est prêt",
+          "caption": "Le nouveau Space apparaît dans votre vue Spaces avec son propre quota de stockage, indépendant de vos fichiers personnels."
+        },
+        {
+          "title": "Ouvrez le panneau des membres",
+          "caption": "Cliquez sur <strong>Show members</strong> sur le Space pour gérer qui en fait partie. Vous démarrez en tant que <mark>Manager</mark>."
+        },
+        {
+          "title": "Invitez votre équipe",
+          "caption": "Recherchez un collègue, choisissez un rôle et cliquez sur <strong>Add</strong>. Ici, Marie rejoint <code>Project Apollo</code> avec l'accès <mark>Can view</mark>."
+        }
       ]
     },
     "tags": {
@@ -61,9 +103,18 @@
       "title": "Organiser les fichiers avec des étiquettes",
       "summary": "Étiquetez les fichiers avec des mots-clés pour les regrouper et les retrouver plus tard, à travers les dossiers et les Spaces.",
       "steps": [
-        { "title": "Ouvrez les détails d'un fichier", "caption": "Sélectionnez un fichier et ouvrez le panneau de détails à droite. Parmi les détails du fichier, vous trouverez un champ <strong>Tags</strong>." },
-        { "title": "Ajoutez une étiquette", "caption": "Tapez un mot-clé, comme <mark>quarterly</mark>, et appuyez sur <kbd>Entrée</kbd>. Réutilisez une étiquette existante ou créez-en une nouvelle à la volée." },
-        { "title": "Étiqueté et retrouvable", "caption": "L'étiquette reste attachée au fichier. Plus tard, vous retrouvez tout ce qui la porte en recherchant <code>tag:quarterly</code>." }
+        {
+          "title": "Ouvrez les détails d'un fichier",
+          "caption": "Sélectionnez un fichier et ouvrez le panneau de détails à droite. Parmi les détails du fichier, vous trouverez un champ <strong>Tags</strong>."
+        },
+        {
+          "title": "Ajoutez une étiquette",
+          "caption": "Tapez un mot-clé, comme <mark>quarterly</mark>, et appuyez sur <kbd>Entrée</kbd>. Réutilisez une étiquette existante ou créez-en une nouvelle à la volée."
+        },
+        {
+          "title": "Étiqueté et retrouvable",
+          "caption": "L'étiquette reste attachée au fichier. Plus tard, vous retrouvez tout ce qui la porte en recherchant <code>tag:quarterly</code>."
+        }
       ]
     },
     "trash": {
@@ -71,15 +122,60 @@
       "title": "Restaurer un fichier supprimé",
       "summary": "Vous avez supprimé quelque chose par erreur ? Les fichiers ne disparaissent pas immédiatement, vous pouvez les récupérer depuis Deleted files.",
       "steps": [
-        { "title": "Trouvez vos fichiers supprimés", "caption": "Ouvrez <strong>Deleted files</strong> dans la barre latérale gauche. Les éléments supprimés attendent ici au lieu de disparaître définitivement." },
-        { "title": "Sélectionnez et restaurez", "caption": "Cochez le fichier que vous voulez récupérer et cliquez sur <mark>Restore</mark>." },
-        { "title": "Il est de retour", "caption": "Le fichier revient à son emplacement d'origine dans votre espace Personnel, exactement là où il était." }
+        {
+          "title": "Trouvez vos fichiers supprimés",
+          "caption": "Ouvrez <strong>Deleted files</strong> dans la barre latérale gauche. Les éléments supprimés attendent ici au lieu de disparaître définitivement."
+        },
+        {
+          "title": "Sélectionnez et restaurez",
+          "caption": "Cochez le fichier que vous voulez récupérer et cliquez sur <mark>Restore</mark>."
+        },
+        {
+          "title": "Il est de retour",
+          "caption": "Le fichier revient à son emplacement d'origine dans votre espace Personnel, exactement là où il était."
+        }
+      ]
+    },
+    "publiclinks": {
+      "category": "Liens publics",
+      "title": "Partager avec un lien public",
+      "summary": "Créez un lien que tout le monde peut ouvrir, décidez de ce qui est permis, protégez-le par un mot de passe et gérez-le quand vous le souhaitez.",
+      "steps": [
+        {
+          "title": "Choisissez le fichier à partager",
+          "caption": "Ouvrez <strong>Personal</strong> et trouvez le fichier à transmettre. Un lien public fonctionne pour un seul fichier ou pour un dossier entier."
+        },
+        {
+          "title": "Ouvrez la section Public links",
+          "caption": "Survolez le fichier et cliquez sur l'icône <strong>Share</strong>, puis faites défiler jusqu'à <strong>Public links</strong> dans le panneau et cliquez sur <mark>Add link</mark>."
+        },
+        {
+          "title": "Définissez les options du lien",
+          "caption": "Choisissez le niveau d'accès, définissez un <strong>password</strong> (obligatoire ici, un mot de passe est généré pour vous) et ajoutez éventuellement une <strong>expiry date</strong>."
+        },
+        {
+          "title": "Choisissez ce que peuvent faire les destinataires",
+          "caption": "<mark>Can view</mark> permet de consulter et de télécharger. <mark>Can edit</mark> permet aussi d'envoyer, de modifier et de supprimer, transformant le lien en point de dépôt."
+        },
+        {
+          "title": "Copiez et partagez le lien",
+          "caption": "Cliquez sur <strong>Copy link</strong>. ownCloud confirme qu'il est dans le presse-papiers, prêt à coller dans un e-mail ou un chat, et le lien apparaît sous <strong>Public links</strong>."
+        },
+        {
+          "title": "Gérez le lien à tout moment",
+          "caption": "Ouvrez <strong>More options</strong> pour renommer le lien, changer son mot de passe ou sa date d'expiration, ou le <mark>supprimer</mark> pour révoquer l'accès immédiatement."
+        }
       ]
     }
   },
   "upcoming": {
-    "publiclinks": { "category": "Liens publics", "title": "Partager avec un lien public" },
-    "versions": { "category": "Versions", "title": "Restaurer une version antérieure d'un fichier" },
-    "movecopy": { "category": "Déplacer et copier", "title": "Déplacer des fichiers entre dossiers" }
+    "versions": {
+      "category": "Versions",
+      "title": "Restaurer une version antérieure d'un fichier"
+    },
+    "movecopy": {
+      "category": "Déplacer et copier",
+      "title": "Déplacer des fichiers entre dossiers"
+    }
   }
 }

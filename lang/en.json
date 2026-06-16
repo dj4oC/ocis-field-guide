@@ -26,11 +26,26 @@
       "title": "Searching your files",
       "summary": "Find files by name or by what is inside them, then narrow the results with filters.",
       "steps": [
-        { "title": "Start from the search bar", "caption": "Wherever you are in ownCloud Web, the search bar sits at the very top. Click it and begin typing what you are looking for." },
-        { "title": "Results appear as you type", "caption": "Matches surface instantly in a dropdown. Pick one to jump straight to the file, or press <kbd>Enter</kbd> to open the full results page." },
-        { "title": "It searches inside your files too", "caption": "Results match on the file name and the file contents. Here <code>annual-summary.txt</code> matches because the word <mark>report</mark> appears inside it, shown highlighted." },
-        { "title": "Narrow by when it changed", "caption": "Open the <strong>Last modified</strong> filter to limit results to today, the last 7 or 30 days, this year, or last year." },
-        { "title": "Match the file name only", "caption": "Switch from <strong>Full text search</strong> to <mark>Title only</mark> to match file names alone. Content-only matches like <code>annual-summary.txt</code> drop away, leaving just <code>budget-report.txt</code>." }
+        {
+          "title": "Start from the search bar",
+          "caption": "Wherever you are in ownCloud Web, the search bar sits at the very top. Click it and begin typing what you are looking for."
+        },
+        {
+          "title": "Results appear as you type",
+          "caption": "Matches surface instantly in a dropdown. Pick one to jump straight to the file, or press <kbd>Enter</kbd> to open the full results page."
+        },
+        {
+          "title": "It searches inside your files too",
+          "caption": "Results match on the file name and the file contents. Here <code>annual-summary.txt</code> matches because the word <mark>report</mark> appears inside it, shown highlighted."
+        },
+        {
+          "title": "Narrow by when it changed",
+          "caption": "Open the <strong>Last modified</strong> filter to limit results to today, the last 7 or 30 days, this year, or last year."
+        },
+        {
+          "title": "Match the file name only",
+          "caption": "Switch from <strong>Full text search</strong> to <mark>Title only</mark> to match file names alone. Content-only matches like <code>annual-summary.txt</code> drop away, leaving just <code>budget-report.txt</code>."
+        }
       ]
     },
     "sharing": {
@@ -38,11 +53,26 @@
       "title": "Sharing a file with a colleague",
       "summary": "Give someone in your organisation access to a file, choose what they can do, and keep track of it.",
       "steps": [
-        { "title": "Open the share panel", "caption": "Hover a file and click the <strong>Share</strong> icon. The sharing panel opens on the right, ready to add people." },
-        { "title": "Find your colleague", "caption": "Type a name or email in the <strong>Search</strong> box. Matching people in your organisation appear, so pick the right one." },
-        { "title": "Choose what they can do", "caption": "Set the permission: <mark>Can view</mark> lets them view and download, while <mark>Can edit</mark> also lets them upload and change the file." },
-        { "title": "Send the invite", "caption": "Click <strong>Share</strong>. Your colleague now appears under <strong>Shared with</strong> with exactly the access you chose." },
-        { "title": "Keep track of what you shared", "caption": "Everything you share lives under <strong>Shares, Shared with others</strong>, where you can adjust the role or revoke access at any time." }
+        {
+          "title": "Open the share panel",
+          "caption": "Hover a file and click the <strong>Share</strong> icon. The sharing panel opens on the right, ready to add people."
+        },
+        {
+          "title": "Find your colleague",
+          "caption": "Type a name or email in the <strong>Search</strong> box. Matching people in your organisation appear, so pick the right one."
+        },
+        {
+          "title": "Choose what they can do",
+          "caption": "Set the permission: <mark>Can view</mark> lets them view and download, while <mark>Can edit</mark> also lets them upload and change the file."
+        },
+        {
+          "title": "Send the invite",
+          "caption": "Click <strong>Share</strong>. Your colleague now appears under <strong>Shared with</strong> with exactly the access you chose."
+        },
+        {
+          "title": "Keep track of what you shared",
+          "caption": "Everything you share lives under <strong>Shares, Shared with others</strong>, where you can adjust the role or revoke access at any time."
+        }
       ]
     },
     "spaces": {
@@ -50,10 +80,22 @@
       "title": "Creating a project Space",
       "summary": "Set up a shared Space for a team or project, with its own storage and members, separate from your personal files.",
       "steps": [
-        { "title": "Start a new Space", "caption": "Go to <strong>Spaces</strong> and click <strong>New Space</strong>. Give it a clear name, here <code>Project Apollo</code>, then create it." },
-        { "title": "Your Space is ready", "caption": "The new Space appears in your Spaces overview with its own storage quota, independent of your personal files." },
-        { "title": "Open the members panel", "caption": "Click <strong>Show members</strong> on the Space to manage who belongs to it. You start out as the <mark>Manager</mark>." },
-        { "title": "Invite your team", "caption": "Search for a colleague, pick a role, and click <strong>Add</strong>. Here Marie joins <code>Project Apollo</code> with <mark>Can view</mark> access." }
+        {
+          "title": "Start a new Space",
+          "caption": "Go to <strong>Spaces</strong> and click <strong>New Space</strong>. Give it a clear name, here <code>Project Apollo</code>, then create it."
+        },
+        {
+          "title": "Your Space is ready",
+          "caption": "The new Space appears in your Spaces overview with its own storage quota, independent of your personal files."
+        },
+        {
+          "title": "Open the members panel",
+          "caption": "Click <strong>Show members</strong> on the Space to manage who belongs to it. You start out as the <mark>Manager</mark>."
+        },
+        {
+          "title": "Invite your team",
+          "caption": "Search for a colleague, pick a role, and click <strong>Add</strong>. Here Marie joins <code>Project Apollo</code> with <mark>Can view</mark> access."
+        }
       ]
     },
     "tags": {
@@ -61,9 +103,18 @@
       "title": "Organising files with tags",
       "summary": "Label files with keywords so you can group and find them later, across folders and Spaces.",
       "steps": [
-        { "title": "Open a file's details", "caption": "Select a file and open the details panel on the right. Among the file details you will find a <strong>Tags</strong> field." },
-        { "title": "Add a tag", "caption": "Type a label, like <mark>quarterly</mark>, and press <kbd>Enter</kbd>. Reuse an existing tag or create a new one on the fly." },
-        { "title": "Tagged and findable", "caption": "The tag sticks to the file. Later you can pull up everything with that label by searching <code>tag:quarterly</code>." }
+        {
+          "title": "Open a file's details",
+          "caption": "Select a file and open the details panel on the right. Among the file details you will find a <strong>Tags</strong> field."
+        },
+        {
+          "title": "Add a tag",
+          "caption": "Type a label, like <mark>quarterly</mark>, and press <kbd>Enter</kbd>. Reuse an existing tag or create a new one on the fly."
+        },
+        {
+          "title": "Tagged and findable",
+          "caption": "The tag sticks to the file. Later you can pull up everything with that label by searching <code>tag:quarterly</code>."
+        }
       ]
     },
     "trash": {
@@ -71,15 +122,60 @@
       "title": "Restoring a deleted file",
       "summary": "Deleted something by mistake? Files are not gone immediately, so you can recover them from Deleted files.",
       "steps": [
-        { "title": "Find your deleted files", "caption": "Open <strong>Deleted files</strong> from the left sidebar. Removed items wait here instead of disappearing for good." },
-        { "title": "Select and restore", "caption": "Tick the file you want back and click <mark>Restore</mark>." },
-        { "title": "It is back", "caption": "The file returns to its original location in your Personal space, exactly where it was before." }
+        {
+          "title": "Find your deleted files",
+          "caption": "Open <strong>Deleted files</strong> from the left sidebar. Removed items wait here instead of disappearing for good."
+        },
+        {
+          "title": "Select and restore",
+          "caption": "Tick the file you want back and click <mark>Restore</mark>."
+        },
+        {
+          "title": "It is back",
+          "caption": "The file returns to its original location in your Personal space, exactly where it was before."
+        }
+      ]
+    },
+    "publiclinks": {
+      "category": "Public links",
+      "title": "Sharing with a public link",
+      "summary": "Create a link anyone can open, choose what they can do, protect it with a password, and manage it whenever you like.",
+      "steps": [
+        {
+          "title": "Pick the file to share",
+          "caption": "Open <strong>Personal</strong> and find the file you want to hand out. A public link works for a single file or for a whole folder."
+        },
+        {
+          "title": "Open the Public links section",
+          "caption": "Hover the file and click the <strong>Share</strong> icon, then scroll to <strong>Public links</strong> in the panel and click <mark>Add link</mark>."
+        },
+        {
+          "title": "Set the link options",
+          "caption": "Choose the access level, set a <strong>password</strong> (required here, and one is generated for you), and optionally add an <strong>expiry date</strong>."
+        },
+        {
+          "title": "Choose what recipients can do",
+          "caption": "<mark>Can view</mark> lets people view and download. <mark>Can edit</mark> also lets them upload, change and delete, turning the link into a drop-off point."
+        },
+        {
+          "title": "Copy and share the link",
+          "caption": "Click <strong>Copy link</strong>. ownCloud confirms it is on your clipboard, ready to paste into an email or chat, and the link now appears under <strong>Public links</strong>."
+        },
+        {
+          "title": "Manage the link anytime",
+          "caption": "Open <strong>More options</strong> to rename the link, change its password or expiry date, or <mark>delete</mark> it to revoke access right away."
+        }
       ]
     }
   },
   "upcoming": {
-    "publiclinks": { "category": "Public links", "title": "Sharing with a public link" },
-    "versions": { "category": "Versions", "title": "Restoring an earlier file version" },
-    "movecopy": { "category": "Move & Copy", "title": "Moving files between folders" }
+    "versions": {
+      "category": "Versions",
+      "title": "Restoring an earlier file version"
+    },
+    "movecopy": {
+      "category": "Move & Copy",
+      "title": "Moving files between folders"
+    }
   }
 }

@@ -26,11 +26,26 @@
       "title": "Je bestanden doorzoeken",
       "summary": "Vind bestanden op naam of op inhoud en verfijn de resultaten met filters.",
       "steps": [
-        { "title": "Begin in de zoekbalk", "caption": "Waar je ook bent in ownCloud Web, de zoekbalk staat helemaal bovenaan. Klik erin en begin te typen waarnaar je zoekt." },
-        { "title": "Resultaten verschijnen tijdens het typen", "caption": "Treffers verschijnen meteen in een uitklaplijst. Kies er een om direct naar het bestand te gaan, of druk op <kbd>Enter</kbd> voor de volledige resultatenpagina." },
-        { "title": "Het doorzoekt ook de inhoud van je bestanden", "caption": "Resultaten komen overeen op de bestandsnaam en de bestandsinhoud. Hier past <code>annual-summary.txt</code> omdat het woord <mark>report</mark> erin voorkomt, gemarkeerd weergegeven." },
-        { "title": "Verfijn op wijzigingsdatum", "caption": "Open het filter <strong>Last modified</strong> om resultaten te beperken tot vandaag, de laatste 7 of 30 dagen, dit jaar of vorig jaar." },
-        { "title": "Alleen op bestandsnaam zoeken", "caption": "Schakel van <strong>Full text search</strong> naar <mark>Title only</mark> om alleen op bestandsnamen te matchen. Treffers die alleen op inhoud passen, zoals <code>annual-summary.txt</code>, vallen weg, zodat alleen <code>budget-report.txt</code> overblijft." }
+        {
+          "title": "Begin in de zoekbalk",
+          "caption": "Waar je ook bent in ownCloud Web, de zoekbalk staat helemaal bovenaan. Klik erin en begin te typen waarnaar je zoekt."
+        },
+        {
+          "title": "Resultaten verschijnen tijdens het typen",
+          "caption": "Treffers verschijnen meteen in een uitklaplijst. Kies er een om direct naar het bestand te gaan, of druk op <kbd>Enter</kbd> voor de volledige resultatenpagina."
+        },
+        {
+          "title": "Het doorzoekt ook de inhoud van je bestanden",
+          "caption": "Resultaten komen overeen op de bestandsnaam en de bestandsinhoud. Hier past <code>annual-summary.txt</code> omdat het woord <mark>report</mark> erin voorkomt, gemarkeerd weergegeven."
+        },
+        {
+          "title": "Verfijn op wijzigingsdatum",
+          "caption": "Open het filter <strong>Last modified</strong> om resultaten te beperken tot vandaag, de laatste 7 of 30 dagen, dit jaar of vorig jaar."
+        },
+        {
+          "title": "Alleen op bestandsnaam zoeken",
+          "caption": "Schakel van <strong>Full text search</strong> naar <mark>Title only</mark> om alleen op bestandsnamen te matchen. Treffers die alleen op inhoud passen, zoals <code>annual-summary.txt</code>, vallen weg, zodat alleen <code>budget-report.txt</code> overblijft."
+        }
       ]
     },
     "sharing": {
@@ -38,11 +53,26 @@
       "title": "Een bestand delen met een collega",
       "summary": "Geef iemand in je organisatie toegang tot een bestand, kies wat diegene mag doen en houd het overzicht.",
       "steps": [
-        { "title": "Open het deelpaneel", "caption": "Beweeg over een bestand en klik op het <strong>Share</strong>-icoon. Het deelpaneel opent rechts, klaar om mensen toe te voegen." },
-        { "title": "Vind je collega", "caption": "Typ een naam of e-mailadres in het <strong>Search</strong>-veld. Passende personen uit je organisatie verschijnen, kies de juiste." },
-        { "title": "Kies wat diegene mag doen", "caption": "Stel de rechten in: <mark>Can view</mark> staat bekijken en downloaden toe, <mark>Can edit</mark> ook uploaden en wijzigen." },
-        { "title": "Verstuur de uitnodiging", "caption": "Klik op <strong>Share</strong>. Je collega verschijnt nu onder <strong>Shared with</strong> met precies de toegang die je koos." },
-        { "title": "Houd bij wat je hebt gedeeld", "caption": "Alles wat je deelt staat onder <strong>Shares, Shared with others</strong>, waar je de rol kunt aanpassen of de toegang op elk moment kunt intrekken." }
+        {
+          "title": "Open het deelpaneel",
+          "caption": "Beweeg over een bestand en klik op het <strong>Share</strong>-icoon. Het deelpaneel opent rechts, klaar om mensen toe te voegen."
+        },
+        {
+          "title": "Vind je collega",
+          "caption": "Typ een naam of e-mailadres in het <strong>Search</strong>-veld. Passende personen uit je organisatie verschijnen, kies de juiste."
+        },
+        {
+          "title": "Kies wat diegene mag doen",
+          "caption": "Stel de rechten in: <mark>Can view</mark> staat bekijken en downloaden toe, <mark>Can edit</mark> ook uploaden en wijzigen."
+        },
+        {
+          "title": "Verstuur de uitnodiging",
+          "caption": "Klik op <strong>Share</strong>. Je collega verschijnt nu onder <strong>Shared with</strong> met precies de toegang die je koos."
+        },
+        {
+          "title": "Houd bij wat je hebt gedeeld",
+          "caption": "Alles wat je deelt staat onder <strong>Shares, Shared with others</strong>, waar je de rol kunt aanpassen of de toegang op elk moment kunt intrekken."
+        }
       ]
     },
     "spaces": {
@@ -50,10 +80,22 @@
       "title": "Een project-Space aanmaken",
       "summary": "Zet een gedeelde Space op voor een team of project, met eigen opslag en leden, los van je persoonlijke bestanden.",
       "steps": [
-        { "title": "Maak een nieuwe Space", "caption": "Ga naar <strong>Spaces</strong> en klik op <strong>New Space</strong>. Geef hem een duidelijke naam, hier <code>Project Apollo</code>, en maak hem aan." },
-        { "title": "Je Space is klaar", "caption": "De nieuwe Space verschijnt in je Spaces-overzicht met een eigen opslagquotum, onafhankelijk van je persoonlijke bestanden." },
-        { "title": "Open het ledenpaneel", "caption": "Klik bij de Space op <strong>Show members</strong> om te beheren wie erbij hoort. Je begint als <mark>Manager</mark>." },
-        { "title": "Nodig je team uit", "caption": "Zoek een collega, kies een rol en klik op <strong>Add</strong>. Hier sluit Marie zich aan bij <code>Project Apollo</code> met <mark>Can view</mark>-toegang." }
+        {
+          "title": "Maak een nieuwe Space",
+          "caption": "Ga naar <strong>Spaces</strong> en klik op <strong>New Space</strong>. Geef hem een duidelijke naam, hier <code>Project Apollo</code>, en maak hem aan."
+        },
+        {
+          "title": "Je Space is klaar",
+          "caption": "De nieuwe Space verschijnt in je Spaces-overzicht met een eigen opslagquotum, onafhankelijk van je persoonlijke bestanden."
+        },
+        {
+          "title": "Open het ledenpaneel",
+          "caption": "Klik bij de Space op <strong>Show members</strong> om te beheren wie erbij hoort. Je begint als <mark>Manager</mark>."
+        },
+        {
+          "title": "Nodig je team uit",
+          "caption": "Zoek een collega, kies een rol en klik op <strong>Add</strong>. Hier sluit Marie zich aan bij <code>Project Apollo</code> met <mark>Can view</mark>-toegang."
+        }
       ]
     },
     "tags": {
@@ -61,9 +103,18 @@
       "title": "Bestanden ordenen met tags",
       "summary": "Voorzie bestanden van trefwoorden zodat je ze later kunt groeperen en terugvinden, over mappen en Spaces heen.",
       "steps": [
-        { "title": "Open de details van een bestand", "caption": "Selecteer een bestand en open het detailpaneel rechts. Tussen de bestandsdetails vind je een veld <strong>Tags</strong>." },
-        { "title": "Voeg een tag toe", "caption": "Typ een trefwoord, zoals <mark>quarterly</mark>, en druk op <kbd>Enter</kbd>. Hergebruik een bestaande tag of maak er meteen een nieuwe aan." },
-        { "title": "Getagd en vindbaar", "caption": "De tag blijft aan het bestand hangen. Later vind je alles met dat trefwoord terug door te zoeken op <code>tag:quarterly</code>." }
+        {
+          "title": "Open de details van een bestand",
+          "caption": "Selecteer een bestand en open het detailpaneel rechts. Tussen de bestandsdetails vind je een veld <strong>Tags</strong>."
+        },
+        {
+          "title": "Voeg een tag toe",
+          "caption": "Typ een trefwoord, zoals <mark>quarterly</mark>, en druk op <kbd>Enter</kbd>. Hergebruik een bestaande tag of maak er meteen een nieuwe aan."
+        },
+        {
+          "title": "Getagd en vindbaar",
+          "caption": "De tag blijft aan het bestand hangen. Later vind je alles met dat trefwoord terug door te zoeken op <code>tag:quarterly</code>."
+        }
       ]
     },
     "trash": {
@@ -71,15 +122,60 @@
       "title": "Een verwijderd bestand herstellen",
       "summary": "Per ongeluk iets verwijderd? Bestanden zijn niet meteen weg, je kunt ze herstellen via Deleted files.",
       "steps": [
-        { "title": "Vind je verwijderde bestanden", "caption": "Open <strong>Deleted files</strong> in de linker zijbalk. Verwijderde items wachten hier in plaats van definitief te verdwijnen." },
-        { "title": "Selecteer en herstel", "caption": "Vink het bestand aan dat je terug wilt en klik op <mark>Restore</mark>." },
-        { "title": "Het is terug", "caption": "Het bestand keert terug naar de oorspronkelijke locatie in je persoonlijke ruimte, precies waar het stond." }
+        {
+          "title": "Vind je verwijderde bestanden",
+          "caption": "Open <strong>Deleted files</strong> in de linker zijbalk. Verwijderde items wachten hier in plaats van definitief te verdwijnen."
+        },
+        {
+          "title": "Selecteer en herstel",
+          "caption": "Vink het bestand aan dat je terug wilt en klik op <mark>Restore</mark>."
+        },
+        {
+          "title": "Het is terug",
+          "caption": "Het bestand keert terug naar de oorspronkelijke locatie in je persoonlijke ruimte, precies waar het stond."
+        }
+      ]
+    },
+    "publiclinks": {
+      "category": "Openbare links",
+      "title": "Delen met een openbare link",
+      "summary": "Maak een link die iedereen kan openen, bepaal wat ze mogen doen, beveilig hem met een wachtwoord en beheer hem wanneer je wilt.",
+      "steps": [
+        {
+          "title": "Kies het bestand om te delen",
+          "caption": "Open <strong>Personal</strong> en zoek het bestand dat je wilt delen. Een openbare link werkt voor één bestand of voor een hele map."
+        },
+        {
+          "title": "Open het gedeelte Public links",
+          "caption": "Beweeg over het bestand en klik op het <strong>Share</strong>-icoon; scroll daarna in het paneel naar <strong>Public links</strong> en klik op <mark>Add link</mark>."
+        },
+        {
+          "title": "Stel de linkopties in",
+          "caption": "Kies het toegangsniveau, stel een <strong>password</strong> in (hier verplicht, er wordt er een voor je gegenereerd) en voeg eventueel een <strong>expiry date</strong> toe."
+        },
+        {
+          "title": "Bepaal wat ontvangers mogen",
+          "caption": "<mark>Can view</mark> laat mensen bekijken en downloaden. <mark>Can edit</mark> laat ze ook uploaden, wijzigen en verwijderen, waardoor de link een inleverpunt wordt."
+        },
+        {
+          "title": "Kopieer en deel de link",
+          "caption": "Klik op <strong>Copy link</strong>. ownCloud bevestigt dat hij op je klembord staat, klaar om in een e-mail of chat te plakken, en de link verschijnt onder <strong>Public links</strong>."
+        },
+        {
+          "title": "Beheer de link wanneer je wilt",
+          "caption": "Open <strong>More options</strong> om de link te hernoemen, het wachtwoord of de vervaldatum te wijzigen, of hem te <mark>verwijderen</mark> om de toegang direct in te trekken."
+        }
       ]
     }
   },
   "upcoming": {
-    "publiclinks": { "category": "Openbare links", "title": "Delen met een openbare link" },
-    "versions": { "category": "Versies", "title": "Een eerdere bestandsversie herstellen" },
-    "movecopy": { "category": "Verplaatsen & kopiëren", "title": "Bestanden tussen mappen verplaatsen" }
+    "versions": {
+      "category": "Versies",
+      "title": "Een eerdere bestandsversie herstellen"
+    },
+    "movecopy": {
+      "category": "Verplaatsen & kopiëren",
+      "title": "Bestanden tussen mappen verplaatsen"
+    }
   }
 }

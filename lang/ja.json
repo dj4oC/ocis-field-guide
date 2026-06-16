@@ -26,11 +26,26 @@
       "title": "ファイルを検索する",
       "summary": "ファイルを名前または内容で見つけ、フィルターで結果を絞り込みます。",
       "steps": [
-        { "title": "検索バーから始める", "caption": "ownCloud Web のどこにいても、検索バーは画面の最上部にあります。クリックして、探しているものを入力し始めます。" },
-        { "title": "入力するとすぐに結果が表示される", "caption": "一致するものがドロップダウンに即座に表示されます。1 つを選ぶとそのファイルに直接移動でき、<kbd>Enter</kbd> を押すと結果ページ全体が開きます。" },
-        { "title": "ファイルの中身も検索する", "caption": "結果はファイル名とファイルの内容の両方に一致します。ここでは <code>annual-summary.txt</code> が一致しています。<mark>report</mark> という語が中に含まれており、ハイライト表示されているためです。" },
-        { "title": "更新日で絞り込む", "caption": "<strong>Last modified</strong> フィルターを開いて、結果を今日、過去 7 日間または 30 日間、今年、昨年に限定します。" },
-        { "title": "ファイル名だけで一致させる", "caption": "<strong>Full text search</strong> から <mark>Title only</mark> に切り替えると、ファイル名だけに一致します。<code>annual-summary.txt</code> のように内容だけが一致するものは除外され、<code>budget-report.txt</code> だけが残ります。" }
+        {
+          "title": "検索バーから始める",
+          "caption": "ownCloud Web のどこにいても、検索バーは画面の最上部にあります。クリックして、探しているものを入力し始めます。"
+        },
+        {
+          "title": "入力するとすぐに結果が表示される",
+          "caption": "一致するものがドロップダウンに即座に表示されます。1 つを選ぶとそのファイルに直接移動でき、<kbd>Enter</kbd> を押すと結果ページ全体が開きます。"
+        },
+        {
+          "title": "ファイルの中身も検索する",
+          "caption": "結果はファイル名とファイルの内容の両方に一致します。ここでは <code>annual-summary.txt</code> が一致しています。<mark>report</mark> という語が中に含まれており、ハイライト表示されているためです。"
+        },
+        {
+          "title": "更新日で絞り込む",
+          "caption": "<strong>Last modified</strong> フィルターを開いて、結果を今日、過去 7 日間または 30 日間、今年、昨年に限定します。"
+        },
+        {
+          "title": "ファイル名だけで一致させる",
+          "caption": "<strong>Full text search</strong> から <mark>Title only</mark> に切り替えると、ファイル名だけに一致します。<code>annual-summary.txt</code> のように内容だけが一致するものは除外され、<code>budget-report.txt</code> だけが残ります。"
+        }
       ]
     },
     "sharing": {
@@ -38,11 +53,26 @@
       "title": "ファイルを同僚と共有する",
       "summary": "組織内の誰かにファイルへのアクセスを与え、できることを選び、状況を把握します。",
       "steps": [
-        { "title": "共有パネルを開く", "caption": "ファイルにカーソルを合わせ、<strong>Share</strong> アイコンをクリックします。共有パネルが右側に開き、相手を追加できます。" },
-        { "title": "同僚を見つける", "caption": "<strong>Search</strong> 欄に名前またはメールアドレスを入力します。組織内の一致する人が表示されるので、正しい相手を選びます。" },
-        { "title": "できることを選ぶ", "caption": "権限を設定します。<mark>Can view</mark> は閲覧とダウンロードを許可し、<mark>Can edit</mark> はさらにアップロードと編集も許可します。" },
-        { "title": "招待を送る", "caption": "<strong>Share</strong> をクリックします。選んだアクセス権のとおりに、同僚が <strong>Shared with</strong> に表示されます。" },
-        { "title": "共有したものを把握する", "caption": "共有したものはすべて <strong>Shares, Shared with others</strong> にあり、いつでも役割を変更したりアクセスを取り消したりできます。" }
+        {
+          "title": "共有パネルを開く",
+          "caption": "ファイルにカーソルを合わせ、<strong>Share</strong> アイコンをクリックします。共有パネルが右側に開き、相手を追加できます。"
+        },
+        {
+          "title": "同僚を見つける",
+          "caption": "<strong>Search</strong> 欄に名前またはメールアドレスを入力します。組織内の一致する人が表示されるので、正しい相手を選びます。"
+        },
+        {
+          "title": "できることを選ぶ",
+          "caption": "権限を設定します。<mark>Can view</mark> は閲覧とダウンロードを許可し、<mark>Can edit</mark> はさらにアップロードと編集も許可します。"
+        },
+        {
+          "title": "招待を送る",
+          "caption": "<strong>Share</strong> をクリックします。選んだアクセス権のとおりに、同僚が <strong>Shared with</strong> に表示されます。"
+        },
+        {
+          "title": "共有したものを把握する",
+          "caption": "共有したものはすべて <strong>Shares, Shared with others</strong> にあり、いつでも役割を変更したりアクセスを取り消したりできます。"
+        }
       ]
     },
     "spaces": {
@@ -50,10 +80,22 @@
       "title": "プロジェクト Space を作成する",
       "summary": "チームやプロジェクト用の共有 Space を、独自のストレージとメンバーで、個人のファイルとは別に用意します。",
       "steps": [
-        { "title": "新しい Space を作る", "caption": "<strong>Spaces</strong> に移動し、<strong>New Space</strong> をクリックします。わかりやすい名前（ここでは <code>Project Apollo</code>）を付けて作成します。" },
-        { "title": "Space の準備ができた", "caption": "新しい Space が Spaces 一覧に表示され、個人のファイルとは独立した独自のストレージ容量を持ちます。" },
-        { "title": "メンバーパネルを開く", "caption": "Space で <strong>Show members</strong> をクリックして、誰が所属するかを管理します。あなたは最初 <mark>Manager</mark> です。" },
-        { "title": "チームを招待する", "caption": "同僚を検索し、役割を選んで <strong>Add</strong> をクリックします。ここでは Marie が <mark>Can view</mark> のアクセス権で <code>Project Apollo</code> に参加します。" }
+        {
+          "title": "新しい Space を作る",
+          "caption": "<strong>Spaces</strong> に移動し、<strong>New Space</strong> をクリックします。わかりやすい名前（ここでは <code>Project Apollo</code>）を付けて作成します。"
+        },
+        {
+          "title": "Space の準備ができた",
+          "caption": "新しい Space が Spaces 一覧に表示され、個人のファイルとは独立した独自のストレージ容量を持ちます。"
+        },
+        {
+          "title": "メンバーパネルを開く",
+          "caption": "Space で <strong>Show members</strong> をクリックして、誰が所属するかを管理します。あなたは最初 <mark>Manager</mark> です。"
+        },
+        {
+          "title": "チームを招待する",
+          "caption": "同僚を検索し、役割を選んで <strong>Add</strong> をクリックします。ここでは Marie が <mark>Can view</mark> のアクセス権で <code>Project Apollo</code> に参加します。"
+        }
       ]
     },
     "tags": {
@@ -61,9 +103,18 @@
       "title": "タグでファイルを整理する",
       "summary": "ファイルにキーワードを付けて、後でフォルダーや Space をまたいでまとめたり見つけたりできるようにします。",
       "steps": [
-        { "title": "ファイルの詳細を開く", "caption": "ファイルを選択して、右側の詳細パネルを開きます。ファイルの詳細の中に <strong>Tags</strong> 欄があります。" },
-        { "title": "タグを追加する", "caption": "<mark>quarterly</mark> のようなキーワードを入力して <kbd>Enter</kbd> を押します。既存のタグを再利用したり、その場で新しく作成したりできます。" },
-        { "title": "タグ付けして見つけやすく", "caption": "タグはファイルに付いたままになります。後で <code>tag:quarterly</code> と検索すれば、そのタグの付いたものをすべて呼び出せます。" }
+        {
+          "title": "ファイルの詳細を開く",
+          "caption": "ファイルを選択して、右側の詳細パネルを開きます。ファイルの詳細の中に <strong>Tags</strong> 欄があります。"
+        },
+        {
+          "title": "タグを追加する",
+          "caption": "<mark>quarterly</mark> のようなキーワードを入力して <kbd>Enter</kbd> を押します。既存のタグを再利用したり、その場で新しく作成したりできます。"
+        },
+        {
+          "title": "タグ付けして見つけやすく",
+          "caption": "タグはファイルに付いたままになります。後で <code>tag:quarterly</code> と検索すれば、そのタグの付いたものをすべて呼び出せます。"
+        }
       ]
     },
     "trash": {
@@ -71,15 +122,60 @@
       "title": "削除したファイルを復元する",
       "summary": "うっかり削除しても、ファイルはすぐには消えません。Deleted files から復元できます。",
       "steps": [
-        { "title": "削除したファイルを見つける", "caption": "左側のサイドバーから <strong>Deleted files</strong> を開きます。削除した項目は完全に消えるのではなく、ここで待機しています。" },
-        { "title": "選んで復元する", "caption": "戻したいファイルにチェックを入れ、<mark>Restore</mark> をクリックします。" },
-        { "title": "元に戻った", "caption": "ファイルは個人スペースの元の場所、以前あったとおりの場所に戻ります。" }
+        {
+          "title": "削除したファイルを見つける",
+          "caption": "左側のサイドバーから <strong>Deleted files</strong> を開きます。削除した項目は完全に消えるのではなく、ここで待機しています。"
+        },
+        {
+          "title": "選んで復元する",
+          "caption": "戻したいファイルにチェックを入れ、<mark>Restore</mark> をクリックします。"
+        },
+        {
+          "title": "元に戻った",
+          "caption": "ファイルは個人スペースの元の場所、以前あったとおりの場所に戻ります。"
+        }
+      ]
+    },
+    "publiclinks": {
+      "category": "公開リンク",
+      "title": "公開リンクで共有する",
+      "summary": "誰でも開けるリンクを作成し、できることを選び、パスワードで保護して、いつでも管理できます。",
+      "steps": [
+        {
+          "title": "共有するファイルを選ぶ",
+          "caption": "<strong>Personal</strong> を開き、渡したいファイルを見つけます。公開リンクは単一のファイルでもフォルダー全体でも使えます。"
+        },
+        {
+          "title": "Public links セクションを開く",
+          "caption": "ファイルにカーソルを合わせて <strong>Share</strong> アイコンをクリックし、パネルの <strong>Public links</strong> までスクロールして <mark>Add link</mark> をクリックします。"
+        },
+        {
+          "title": "リンクのオプションを設定する",
+          "caption": "アクセスレベルを選び、<strong>password</strong> を設定し（ここでは必須で、自動生成されます）、必要に応じて <strong>expiry date</strong> を追加します。"
+        },
+        {
+          "title": "受け取った人ができることを選ぶ",
+          "caption": "<mark>Can view</mark> は閲覧とダウンロードを許可します。<mark>Can edit</mark> はアップロード・編集・削除も許可し、リンクが受け取り場所になります。"
+        },
+        {
+          "title": "リンクをコピーして共有する",
+          "caption": "<strong>Copy link</strong> をクリックします。ownCloud がクリップボードにコピーされたことを知らせ、メールやチャットに貼り付けられます。リンクは <strong>Public links</strong> に表示されます。"
+        },
+        {
+          "title": "いつでもリンクを管理する",
+          "caption": "<strong>More options</strong> を開くと、リンクの名前変更、パスワードや有効期限の変更、または <mark>削除</mark> してアクセスをすぐに取り消せます。"
+        }
       ]
     }
   },
   "upcoming": {
-    "publiclinks": { "category": "公開リンク", "title": "公開リンクで共有する" },
-    "versions": { "category": "バージョン", "title": "以前のファイルバージョンを復元する" },
-    "movecopy": { "category": "移動とコピー", "title": "フォルダー間でファイルを移動する" }
+    "versions": {
+      "category": "バージョン",
+      "title": "以前のファイルバージョンを復元する"
+    },
+    "movecopy": {
+      "category": "移動とコピー",
+      "title": "フォルダー間でファイルを移動する"
+    }
   }
 }

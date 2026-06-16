@@ -2,16 +2,34 @@
   "meta": {
     "ocisVersion": "8.0.1 Community",
     "webUiVersion": "12.3.2",
-    "updated": "2026-06-14",
+    "updated": "2026-06-16",
     "repo": "https://github.com/dj4oC/ocis-field-guide"
   },
   "languages": [
-    { "code": "en", "label": "English" },
-    { "code": "de", "label": "Deutsch" },
-    { "code": "es", "label": "Español" },
-    { "code": "nl", "label": "Nederlands" },
-    { "code": "fr", "label": "Français" },
-    { "code": "ja", "label": "日本語" }
+    {
+      "code": "en",
+      "label": "English"
+    },
+    {
+      "code": "de",
+      "label": "Deutsch"
+    },
+    {
+      "code": "es",
+      "label": "Español"
+    },
+    {
+      "code": "nl",
+      "label": "Nederlands"
+    },
+    {
+      "code": "fr",
+      "label": "Français"
+    },
+    {
+      "code": "ja",
+      "label": "日本語"
+    }
   ],
   "tutorials": [
     {
@@ -19,11 +37,21 @@
       "source": "owncloud/web · tests/e2e/specs/search/search.spec.ts",
       "thumb": "assets/search/03-search-results-page.png",
       "steps": [
-        { "img": "assets/search/01-search-bar-location.png" },
-        { "img": "assets/search/02-live-results-dropdown.png" },
-        { "img": "assets/search/03-search-results-page.png" },
-        { "img": "assets/search/04-last-modified-filter.png" },
-        { "img": "assets/search/05-title-only-toggle.png" }
+        {
+          "img": "assets/search/01-search-bar-location.png"
+        },
+        {
+          "img": "assets/search/02-live-results-dropdown.png"
+        },
+        {
+          "img": "assets/search/03-search-results-page.png"
+        },
+        {
+          "img": "assets/search/04-last-modified-filter.png"
+        },
+        {
+          "img": "assets/search/05-title-only-toggle.png"
+        }
       ]
     },
     {
@@ -31,11 +59,46 @@
       "source": "owncloud/web · tests/e2e/specs/shares/share.spec.ts",
       "thumb": "assets/sharing/04-shared.png",
       "steps": [
-        { "img": "assets/sharing/01-open-share-panel.png" },
-        { "img": "assets/sharing/02-add-recipient.png" },
-        { "img": "assets/sharing/03-choose-role.png" },
-        { "img": "assets/sharing/04-shared.png" },
-        { "img": "assets/sharing/05-shared-with-others.png" }
+        {
+          "img": "assets/sharing/01-open-share-panel.png"
+        },
+        {
+          "img": "assets/sharing/02-add-recipient.png"
+        },
+        {
+          "img": "assets/sharing/03-choose-role.png"
+        },
+        {
+          "img": "assets/sharing/04-shared.png"
+        },
+        {
+          "img": "assets/sharing/05-shared-with-others.png"
+        }
+      ]
+    },
+    {
+      "id": "publiclinks",
+      "source": "owncloud/web · tests/e2e/specs/shares/link.spec.ts",
+      "thumb": "assets/publiclinks/05-link-created.png",
+      "steps": [
+        {
+          "img": "assets/publiclinks/01-files-list.png"
+        },
+        {
+          "img": "assets/publiclinks/02-shares-panel.png"
+        },
+        {
+          "img": "assets/publiclinks/03-link-options.png"
+        },
+        {
+          "img": "assets/publiclinks/04-link-roles.png"
+        },
+        {
+          "img": "assets/publiclinks/05-link-created.png"
+        },
+        {
+          "img": "assets/publiclinks/06-link-manage.png"
+        }
       ]
     },
     {
@@ -43,10 +106,18 @@
       "source": "owncloud/web · tests/e2e/specs/spaces/project.spec.ts",
       "thumb": "assets/spaces/04-member-added.png",
       "steps": [
-        { "img": "assets/spaces/01-create-space.png" },
-        { "img": "assets/spaces/02-new-space.png" },
-        { "img": "assets/spaces/03-members-panel.png" },
-        { "img": "assets/spaces/04-member-added.png" }
+        {
+          "img": "assets/spaces/01-create-space.png"
+        },
+        {
+          "img": "assets/spaces/02-new-space.png"
+        },
+        {
+          "img": "assets/spaces/03-members-panel.png"
+        },
+        {
+          "img": "assets/spaces/04-member-added.png"
+        }
       ]
     },
     {
@@ -54,9 +125,15 @@
       "source": "owncloud/web · tests/e2e/specs/smoke/tags.spec.ts",
       "thumb": "assets/tags/03-tag-added.png",
       "steps": [
-        { "img": "assets/tags/01-tags-field.png" },
-        { "img": "assets/tags/02-type-tag.png" },
-        { "img": "assets/tags/03-tag-added.png" }
+        {
+          "img": "assets/tags/01-tags-field.png"
+        },
+        {
+          "img": "assets/tags/02-type-tag.png"
+        },
+        {
+          "img": "assets/tags/03-tag-added.png"
+        }
       ]
     },
     {
@@ -64,15 +141,24 @@
       "source": "owncloud/web · tests/e2e/specs/smoke/trashbinDelete.spec.ts",
       "thumb": "assets/trash/01-deleted-files.png",
       "steps": [
-        { "img": "assets/trash/01-deleted-files.png" },
-        { "img": "assets/trash/02-restore.png" },
-        { "img": "assets/trash/03-restored.png" }
+        {
+          "img": "assets/trash/01-deleted-files.png"
+        },
+        {
+          "img": "assets/trash/02-restore.png"
+        },
+        {
+          "img": "assets/trash/03-restored.png"
+        }
       ]
     }
   ],
   "upcoming": [
-    { "id": "publiclinks" },
-    { "id": "versions" },
-    { "id": "movecopy" }
+    {
+      "id": "versions"
+    },
+    {
+      "id": "movecopy"
+    }
   ]
 }
