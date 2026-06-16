@@ -185,6 +185,849 @@
           "caption": "Es funktioniert genauso für Text- und Markdown-Notizen, nicht nur für PDFs, sodass Sie den Kern einer Datei erfassen, bevor Sie sie öffnen."
         }
       ]
+    },
+    "appstore": {
+      "category": "App Store",
+      "title": "Apps entdecken",
+      "summary": "Durchsuchen, suchen und filtern Sie die für Ihr ownCloud verfügbaren Apps im integrierten App Store.",
+      "steps": [
+        {
+          "title": "Den App Store öffnen",
+          "caption": "Öffnen Sie den App Store über das Anwendungsmenü (das Raster-Symbol oben links). Jede für Ihre Instanz verfügbare App wird als Kachel angezeigt."
+        },
+        {
+          "title": "Nach Namen suchen",
+          "caption": "Tippen Sie in das Suchfeld, um die Liste einzugrenzen. Die Suche nach <mark>draw</mark> bringt den Diagramm-Editor Draw.io hervor."
+        },
+        {
+          "title": "Nach Kategorie filtern",
+          "caption": "Klicken Sie auf ein Kategorie-Tag wie <strong>viewer</strong>, um nur Apps dieser Art anzuzeigen."
+        },
+        {
+          "title": "Eine App öffnen",
+          "caption": "Wählen Sie eine beliebige App, um ihre vollständige Beschreibung, Screenshots und verfügbaren Versionen zu lesen."
+        }
+      ]
+    },
+    "appstore-details": {
+      "category": "App Store",
+      "title": "App-Details und Versionen",
+      "summary": "Sehen Sie sich die Details einer App an und laden Sie eine bestimmte Version aus dem App Store herunter.",
+      "steps": [
+        {
+          "title": "Im App Store beginnen",
+          "caption": "Wählen Sie in der App-Store-Übersicht die App aus, die Sie interessiert."
+        },
+        {
+          "title": "Die App-Details lesen",
+          "caption": "Die Detailseite zeigt die Beschreibung, Metadaten und die Liste der veröffentlichten Versionen."
+        },
+        {
+          "title": "Eine bestimmte Version herunterladen",
+          "caption": "Laden Sie jede aufgeführte Version herunter, nicht nur die neueste, was praktisch ist, um eine bekanntermaßen funktionierende Version festzulegen."
+        }
+      ]
+    },
+    "admin-general": {
+      "category": "Administration",
+      "title": "Allgemeine Verwaltungseinstellungen",
+      "summary": "Finden Sie die Informationen zu Ihrer Instanz und passen Sie das Erscheinungsbild an, einschließlich des Logos, im Verwaltungsbereich.",
+      "steps": [
+        {
+          "title": "Allgemeine Einstellungen öffnen",
+          "caption": "Öffnen Sie als Administrator die <strong>Administration Settings</strong> und wählen Sie <strong>General</strong>. Der Info-Bereich zeigt Ihre Edition und die Versionen."
+        },
+        {
+          "title": "Ein eigenes Logo hochladen",
+          "caption": "Laden Sie unter <strong>Appearance</strong> Ihr eigenes Logo hoch, um die Weboberfläche zu branden."
+        },
+        {
+          "title": "Auf Standard zurücksetzen",
+          "caption": "Sie haben es sich anders überlegt? Setzen Sie das Logo jederzeit auf den ownCloud-Standard zurück."
+        }
+      ]
+    },
+    "admin-groups": {
+      "category": "Administration",
+      "title": "Gruppen verwalten",
+      "summary": "Erstellen, benennen und löschen Sie Gruppen, um Benutzer zu organisieren und Zugriff in großen Mengen zu gewähren.",
+      "steps": [
+        {
+          "title": "Die Gruppenverwaltung öffnen",
+          "caption": "Öffnen Sie in den <strong>Administration Settings</strong> den Bereich <strong>Groups</strong>, um jede Gruppe in einer Tabelle zu sehen."
+        },
+        {
+          "title": "Eine Gruppe erstellen",
+          "caption": "Verwenden Sie <strong>+ New group</strong>, um eine Gruppe hinzuzufügen; sie erscheint sofort in der Liste."
+        },
+        {
+          "title": "Eine Gruppe umbenennen",
+          "caption": "Wählen Sie eine Gruppe aus und bearbeiten Sie ihren Anzeigenamen im rechten Panel."
+        },
+        {
+          "title": "Gespeichert",
+          "caption": "Der neue Name erscheint in der Gruppentabelle. Eine Gruppe zu entfernen geht über die Zeilenaktionen genauso schnell."
+        }
+      ]
+    },
+    "download": {
+      "category": "Mit Dateien arbeiten",
+      "title": "Dateien und Ordner herunterladen",
+      "summary": "Holen Sie sich eine Kopie jeder Datei, jedes Ordners oder geteilten Objekts auf Ihr Gerät.",
+      "steps": [
+        {
+          "title": "Aus der Dateiliste herunterladen",
+          "caption": "Jede Zeile hat eine <strong>Download</strong>-Aktion, und Ordner werden als <code>.zip</code> gepackt. Auch das Rechtsklick-Menü stellt sie bereit."
+        },
+        {
+          "title": "Aus dem Viewer herunterladen",
+          "caption": "Öffnen Sie eine Datei im Viewer und verwenden Sie das Download-Symbol in der Werkzeugleiste, um die angezeigte Version zu speichern."
+        },
+        {
+          "title": "Geteilte Objekte herunterladen",
+          "caption": "Dieselbe Download-Aktion steht für Dateien und Ordner zur Verfügung, die andere mit Ihnen geteilt haben, unter <strong>Shares</strong>."
+        }
+      ]
+    },
+    "admin-spaces": {
+      "category": "Administration",
+      "title": "Spaces verwalten",
+      "summary": "Erstellen, bearbeiten, deaktivieren und prüfen Sie Projekt-Spaces in den Verwaltungseinstellungen.",
+      "steps": [
+        {
+          "title": "Die Spaces-Verwaltungsseite öffnen",
+          "caption": "Wählen Sie unter <strong>Administration Settings</strong> in der Seitenleiste <strong>Spaces</strong>. Die Tabelle listet jeden Projekt-Space mit seinem <strong>Manager</strong>, den <strong>Members</strong>, dem <strong>Remaining quota</strong> und der letzten Änderungszeit auf."
+        },
+        {
+          "title": "Einen neuen Space erstellen",
+          "caption": "Verwenden Sie die Schaltfläche <strong>New Space</strong>, um einen Projekt-Space hinzuzufügen (zum Beispiel <mark>team A</mark>). Eine Meldung <strong>Space was created successfully</strong> bestätigt dies, und der neue Space erscheint oben in der Liste."
+        },
+        {
+          "title": "Umbenennen und Kontingent anpassen",
+          "caption": "Markieren Sie einen Space, um die Aktionen <strong>Edit quota</strong> und <strong>Disable</strong> in der Werkzeugleiste einzublenden. Das Umbenennen, das Ändern des Untertitels und das Anheben des Kontingents (hier auf <mark>50 GB</mark>) geben jeweils eine eigene Bestätigungsmeldung zurück."
+        },
+        {
+          "title": "Einen Space deaktivieren oder löschen",
+          "caption": "Bei ausgewähltem Space wechselt die Werkzeugleiste zu <strong>Enable</strong> und <strong>Delete</strong>. Das Deaktivieren nimmt ihn außer Betrieb, ohne Daten zu entfernen, angezeigt durch die Meldung <strong>was disabled successfully</strong>."
+        },
+        {
+          "title": "Space-Mitglieder prüfen",
+          "caption": "Öffnen Sie das Seitenpanel <strong>Members</strong>, um zu sehen, wer zu einem Space gehört, gruppiert nach Rolle: <strong>Can manage</strong>, <strong>Can edit with versions and trashbin</strong> und <strong>Can view</strong>. Verwenden Sie <strong>Filter members</strong>, um eine lange Liste zu durchsuchen."
+        }
+      ]
+    },
+    "admin-users": {
+      "category": "Administration",
+      "title": "Benutzer verwalten",
+      "summary": "Erstellen Sie einen Benutzer, bearbeiten Sie seine Kontodetails und weisen Sie ihn in den Verwaltungseinstellungen Gruppen zu.",
+      "steps": [
+        {
+          "title": "Die Benutzerverwaltungsseite öffnen",
+          "caption": "Wählen Sie unter <strong>Administration Settings</strong> den Punkt <strong>Users</strong>. Die Tabelle zeigt jedes Konto mit seinem <strong>User name</strong>, der <strong>Email</strong>, der <strong>Role</strong> und dem <strong>Login</strong>-Status, und die <strong>Filter</strong>-Steuerungen grenzen die Liste nach Gruppe oder Rolle ein."
+        },
+        {
+          "title": "Einen neuen Benutzer erstellen",
+          "caption": "Wählen Sie <strong>New user</strong> und füllen Sie die Kontodetails aus (zum Beispiel <mark>max</mark>). Eine Meldung <strong>User was created successfully</strong> bestätigt dies, und das neue Konto erscheint in der Liste."
+        },
+        {
+          "title": "Die Details eines Benutzers bearbeiten",
+          "caption": "Wählen Sie einen Benutzer und öffnen Sie das Panel <strong>Edit user</strong>, um Name, E-Mail, Passwort, <strong>Role</strong>, <strong>Login</strong> und <strong>Personal quota</strong> zu ändern. Jede Änderung wird direkt gespeichert, angezeigt durch <strong>Changes saved</strong>."
+        },
+        {
+          "title": "Den Benutzer Gruppen zuweisen",
+          "caption": "Verwenden Sie im selben Panel das Feld <strong>Groups</strong>, um den Benutzer einer oder mehreren Gruppen hinzuzufügen, etwa <mark>sales department</mark> und <mark>finance department</mark>. Jede Gruppe erscheint als Chip, den Sie mit seiner Schaltfläche &times; entfernen können."
+        }
+      ]
+    },
+    "appmenu": {
+      "category": "Navigation",
+      "title": "Apps über das Anwendungsmenü wechseln",
+      "summary": "Verwenden Sie das Raster-Symbol oben links, um zwischen den Apps von ownCloud zu wechseln, etwa Files und dem Texteditor.",
+      "steps": [
+        {
+          "title": "Das Anwendungsmenü öffnen",
+          "caption": "Das Raster-Symbol in der äußersten oberen linken Ecke ist das <strong>application menu</strong>. Wählen Sie daraus eine App, um den Kontext zu wechseln, hier öffnet es den Texteditor mit einer neuen Datei."
+        },
+        {
+          "title": "In der gewählten App arbeiten",
+          "caption": "Jede App füllt das Fenster. Tippen Sie Ihren Inhalt, zum Beispiel <mark>Hello world</mark>, und speichern Sie dann mit dem Disketten-Symbol in der oberen Werkzeugleiste."
+        },
+        {
+          "title": "Zurück zu Files",
+          "caption": "Öffnen Sie das Raster-Menü erneut und wählen Sie <strong>Files</strong>, um zurückzukehren, wo Ihre gespeicherte <code>New file.txt</code> in der Liste wartet."
+        }
+      ]
+    },
+    "batchactions": {
+      "category": "Mit Dateien arbeiten",
+      "title": "Auf viele Dateien gleichzeitig wirken",
+      "summary": "Wählen Sie mehrere Dateien und Ordner zusammen aus und wenden Sie dann eine einzige Aktion auf alle an.",
+      "steps": [
+        {
+          "title": "Mit Kontrollkästchen auswählen",
+          "caption": "Jede Zeile hat links ein Kontrollkästchen, und das Kästchen in der Kopfzeile <strong>Name</strong> ist ein Alles-auswählen-Schalter. Markieren Sie mehrere Ordner, um sie gemeinsam zu bearbeiten statt einzeln nacheinander."
+        },
+        {
+          "title": "Die Freigaben finden",
+          "caption": "Öffnen Sie <strong>Shares</strong> und den Tab <strong>Shared with me</strong>, um alles zu sehen, was andere Ihnen gesendet haben, jeweils mit eigenem Kontrollkästchen, sodass Sie einen ganzen Stapel auf einmal auswählen können."
+        },
+        {
+          "title": "Eine Aktion auf alle anwenden",
+          "caption": "Mit den ausgewählten Zeilen wird eine einzige Aktion (hier das <strong>sync</strong>-Steuerelement neben jeder Freigabe) über die gesamte Auswahl auf einmal angewendet, sodass Sie den Klick nicht pro Objekt wiederholen."
+        }
+      ]
+    },
+    "breadcrumb": {
+      "category": "Navigation",
+      "title": "Mit der Breadcrumb-Leiste navigieren",
+      "summary": "Verwenden Sie den Pfad oben in der Dateiliste, um zu sehen, wo Sie sind, und mit einem Klick zu jedem übergeordneten Ordner zurückzuspringen.",
+      "steps": [
+        {
+          "title": "Ihren vollständigen Pfad sehen",
+          "caption": "Während Sie Ordner um Ordner öffnen, wächst die Breadcrumb-Leiste oben: <code>Personal > parent > folder > 'single-double quotes' > \"inner\" double quote > sub-folder</code>. Sie zeigt immer genau, wo Sie sich befinden."
+        },
+        {
+          "title": "Zu einem übergeordneten Ordner springen",
+          "caption": "Klicken Sie auf einen früheren Namen in der Leiste, um direkt zu diesem Ordner zurückzuspringen und alle dazwischenliegenden Ebenen zu überspringen. Sie müssen nicht wiederholt auf Zurück drücken."
+        },
+        {
+          "title": "Zurück nach oben klettern",
+          "caption": "Ein paar Klicks später sind Sie wieder bei <strong>parent</strong>, nahe der Spitze des Baums. Die drei Punkte neben dem aktuellen Ordner öffnen ein Kontextmenü mit Aktionen dafür."
+        }
+      ]
+    },
+    "fileviewer": {
+      "category": "Mit Dateien arbeiten",
+      "title": "Dateien in der Vorschau ansehen",
+      "summary": "Öffnen Sie Bilder, Videos, Audio und mehr direkt im Browser, ohne sie zuerst herunterzuladen.",
+      "steps": [
+        {
+          "title": "Dateien an ihren Vorschaubildern erkennen",
+          "caption": "In der Dateiliste zeigen Bilder und Medien ein kleines Vorschaubild, sodass Sie sie auf einen Blick erkennen. Klicken Sie auf einen Dateinamen, um ihn im Viewer zu öffnen."
+        },
+        {
+          "title": "Die Datei öffnet sich im Viewer",
+          "caption": "Das Bild füllt den Bildschirm, ohne dass ein Download nötig ist. Eine Werkzeugleiste am unteren Rand lässt Sie hinein- und herauszoomen, drehen und in den Vollbildmodus wechseln."
+        },
+        {
+          "title": "Zwischen Dateien blättern",
+          "caption": "Verwenden Sie die Pfeile in der Werkzeugleiste, um sich durch den Ordner zu bewegen, angezeigt als <strong>6 of 7</strong>. Das Panel <strong>Details</strong> rechts zeigt Größe, Eigentümer, Versionen und mehr."
+        },
+        {
+          "title": "Video inline ansehen",
+          "caption": "Videodateien wie <code>.webm</code> werden direkt im Viewer mit den üblichen Wiedergabesteuerungen abgespielt, sodass Sie sie nicht zuerst speichern müssen."
+        },
+        {
+          "title": "Auch Audio abspielen",
+          "caption": "Audiodateien wie <code>.mp3</code> öffnen sich mit einem eingebauten Player. Drücken Sie auf Wiedergabe, um zu hören, ohne ownCloud zu verlassen."
+        }
+      ]
+    },
+    "journey": {
+      "category": "Anwendungsbeispiele",
+      "title": "Ein Tag in ownCloud: den Speiseplan dieser Woche teilen",
+      "summary": "Begleiten Sie Alice, wie sie einen Ordner vorbereitet, ihn mit den Eltern teilt, und diese ihn von ihren eigenen Konten abrufen.",
+      "steps": [
+        {
+          "title": "Im persönlichen Bereich beginnen",
+          "caption": "Alice meldet sich an und landet in ihrem <strong>Personal</strong>-Bereich, dem privaten Zuhause für ihre eigenen Dateien. Von hier aus kann sie Ordner erstellen und den Plan dieser Woche hochladen."
+        },
+        {
+          "title": "Den Ordner vorbereiten",
+          "caption": "Sie sammelt die Dateien in einem Ordner und öffnet das Panel <strong>Details</strong>, um Eigentümer, Größe und letzte Änderung zu bestätigen, bevor sie ihn verschickt."
+        },
+        {
+          "title": "Mit den Eltern teilen",
+          "caption": "Über die Teilen-Symbole in den <strong>Actions</strong> der Zeile lädt Alice die Eltern ein, damit alle denselben aktuellen Plan erhalten."
+        },
+        {
+          "title": "Die Eltern sehen es sofort",
+          "caption": "Brian öffnet <strong>Shares</strong> und findet den Speiseplan und die Dateien wartend unter <strong>Shared with me</strong>, mit Angabe, wer sie geteilt hat und wann."
+        },
+        {
+          "title": "Anschließend aufräumen",
+          "caption": "Sobald die Woche vorbei ist, wählt Alice die Reste aus und entfernt sie mit der Stapelaktion, um ihren <strong>Personal</strong>-Bereich sauber zu halten."
+        }
+      ]
+    },
+    "movecopy": {
+      "category": "Mit Dateien arbeiten",
+      "title": "Dateien kopieren und verschieben",
+      "summary": "Erstellen Sie eine Kopie einer Datei in einem anderen Ordner oder verschieben Sie sie an einen neuen Ort, ohne erneut hochzuladen.",
+      "steps": [
+        {
+          "title": "In einem Ordner mit Dateien beginnen",
+          "caption": "Öffnen Sie einen beliebigen Ordner, der die Dateien enthält, die Sie neu ordnen möchten. Hier enthält <strong>Personal</strong> &gt; <strong>Duplicate</strong> eine Datei und einen Unterordner, bereit zum Kopieren oder Verschieben."
+        },
+        {
+          "title": "Auswählen, was kopiert oder verschoben wird",
+          "caption": "Wählen Sie ein Objekt aus oder markieren Sie mehrere, um sie auf einmal zu bearbeiten. Sie können mit Rechtsklick auf eine Zeile <strong>Copy</strong> oder <strong>Cut</strong> wählen, per Drag-and-drop auf einen Ordner ziehen oder Tastenkürzel verwenden."
+        },
+        {
+          "title": "Einfügen und die Kopie erscheint",
+          "caption": "Nach <strong>Copy</strong> wählen Sie ein Ziel im Standortwähler und bestätigen. Die neue Kopie landet neben dem Original mit einem nummerierten Namen, wie <mark>duplicate (1).txt</mark>."
+        },
+        {
+          "title": "Verschieben legt es an den neuen Ort",
+          "caption": "Das Verschieben mit <strong>Cut</strong> (oder durch Ziehen auf einen Ordner) entfernt das Objekt von seinem bisherigen Platz und legt es am Ziel ab, wie <strong>Sub1</strong> in diesem Ordner."
+        }
+      ]
+    },
+    "pagination": {
+      "category": "Navigation",
+      "title": "Durch große Ordner blättern",
+      "summary": "Legen Sie fest, wie viele Objekte pro Seite erscheinen, und blättern Sie mit dem Pager durch eine lange Dateiliste.",
+      "steps": [
+        {
+          "title": "Objekte pro Seite wählen",
+          "caption": "Verwenden Sie das Einstellungs-Zahnrad oben rechts, um die Objekte pro Seite festzulegen, zum Beispiel <mark>20</mark>. Die Liste füllt nun eine Seite, und unten erscheint ein Pager."
+        },
+        {
+          "title": "Zur nächsten Seite wechseln",
+          "caption": "Klicken Sie im Pager auf <strong>2</strong>, um die übrigen Objekte zu sehen. Die Fußzeile behält die laufende Summe, hier <strong>26 items with 223 B in total</strong>."
+        },
+        {
+          "title": "Versteckte Dateien anzeigen",
+          "caption": "Das Einschalten von <strong>Show hidden files</strong> fügt der Zählung Dot-Dateien hinzu, sodass die Fußzeile aktualisiert wird und die Seiten neu gefüllt werden, um sie einzuschließen."
+        },
+        {
+          "title": "Alles auf eine Seite bringen",
+          "caption": "Erhöhen Sie die Objekte pro Seite auf <mark>500</mark>, und der ganze Ordner passt auf einmal, sodass der Pager komplett verschwindet."
+        }
+      ]
+    },
+    "rename": {
+      "category": "Mit Dateien arbeiten",
+      "title": "Dateien und Ordner umbenennen",
+      "summary": "Geben Sie jeder Datei oder jedem Ordner einen klareren Namen, in Ihrem eigenen Bereich oder in etwas, das mit Ihnen geteilt wurde.",
+      "steps": [
+        {
+          "title": "Die umzubenennende Datei finden",
+          "caption": "Öffnen Sie den Ordner, der das Objekt enthält, hier <code>example.txt</code> in einem mit Ihnen geteilten Ordner. Das kleine Stift-Symbol neben dem Namen startet eine Umbenennung."
+        },
+        {
+          "title": "Den neuen Namen eingeben",
+          "caption": "Klicken Sie auf den Stift (oder wählen Sie <strong>Rename</strong> aus dem Aktionsmenü der Zeile), tippen Sie den neuen Namen wie <mark>renamedByBrian.txt</mark> und bestätigen Sie, um ihn anzuwenden."
+        },
+        {
+          "title": "Die umbenannte Datei",
+          "caption": "Die Liste aktualisiert sich mit dem neuen Namen, zum Beispiel <mark>renamedByAlice.txt</mark>. Dieselbe Aktion <strong>Rename</strong> funktioniert auch bei Ordnern."
+        }
+      ]
+    },
+    "searchspace": {
+      "category": "Dateien finden",
+      "title": "Innerhalb eines Space suchen",
+      "summary": "Finden Sie Dateien, die in einem bestimmten Projekt-Space liegen, mit Ergebnissen, die zeigen, zu welchem Space jeder Treffer gehört.",
+      "steps": [
+        {
+          "title": "Ihren Projekt-Space öffnen",
+          "caption": "Gehen Sie in der linken Seitenleiste zu <strong>Spaces</strong> und öffnen Sie einen Projekt-Space, hier den Space <mark>team</mark>, in dem Ihre geteilten Projektdateien liegen."
+        },
+        {
+          "title": "Die Dateien in diesem Space",
+          "caption": "Innerhalb des Space sehen Sie dessen eigene Ordner und Dateien, getrennt von Ihrem Bereich <strong>Personal</strong>."
+        },
+        {
+          "title": "Über alles hinweg suchen",
+          "caption": "Tippen Sie in das Suchfeld oben und drücken Sie <kbd>Enter</kbd>. Jedes Ergebnis nennt den Ordner, in dem es liegt, sodass Sie Projektdateien von Ihren eigenen unterscheiden können."
+        },
+        {
+          "title": "Sehen, zu welchem Space ein Ergebnis gehört",
+          "caption": "Ein Treffer, der in einem Projekt-Space liegt, ist mit dem Namen dieses Space gekennzeichnet, wie das Abzeichen <mark>team</mark> hier, was bestätigt, dass die Datei diesem Space zugeordnet ist."
+        }
+      ]
+    },
+    "shortcuts": {
+      "category": "Navigation",
+      "title": "Verknüpfungen erstellen und öffnen",
+      "summary": "Erstellen Sie Verknüpfungsdateien, die direkt zu einer anderen Datei, einem Ordner oder einer externen Webseite springen.",
+      "steps": [
+        {
+          "title": "In Ihren Dateien beginnen",
+          "caption": "Öffnen Sie die App <strong>Files</strong> und verwenden Sie die Schaltfläche <strong>New</strong>, um eine Verknüpfung zu erstellen, genau wie Sie einen Ordner oder ein Dokument erstellen würden."
+        },
+        {
+          "title": "Verknüpfungen erscheinen in der Liste",
+          "caption": "Jede Verknüpfung ist eine kleine <code>.url</code>-Datei mit einem Pfeil-Abzeichen, wie <mark>docs.url</mark> oder <mark>companyNews.url</mark>. Sie können auf eine Datei, einen Ordner oder eine externe Adresse zeigen."
+        },
+        {
+          "title": "Einen externen Link öffnen",
+          "caption": "Das Auswählen und Öffnen einer Verknüpfung wie <mark>companyNews.url</mark> bringt Sie direkt zu ihrer Ziel-Webseite, zum Beispiel <code>https://owncloud.com/news/</code>."
+        },
+        {
+          "title": "Die Zieldatei öffnen",
+          "caption": "Eine Verknüpfung, die auf eine Datei zeigt, öffnet diese Datei direkt, hier landet sie im Texteditor und zeigt <code>notice.txt</code> im Ordner <strong>docs</strong>."
+        }
+      ]
+    },
+    "activity": {
+      "category": "Auf dem Laufenden bleiben",
+      "title": "Aktivitäten an Dateien und Spaces verfolgen",
+      "summary": "Sehen Sie eine Zeitleiste, wer was geändert hat, für eine einzelne Datei oder einen ganzen Space.",
+      "steps": [
+        {
+          "title": "Eine Änderung vornehmen",
+          "caption": "Alltägliche Aktionen werden aufgezeichnet, während Sie arbeiten. Hier wurde gerade ein Ordner umbenannt, angezeigt durch das <strong>0 seconds ago</strong> in der Spalte <strong>Modified</strong>."
+        },
+        {
+          "title": "Aktivität für eine Datei",
+          "caption": "Wählen Sie eine Datei und öffnen Sie das Panel <strong>Activities</strong>, um ihre Historie zu lesen: sie wurde umbenannt, aktualisiert und hinzugefügt, jeder Eintrag versehen mit Angabe, wer es getan hat und wann."
+        },
+        {
+          "title": "Aktivität für einen Space",
+          "caption": "Öffnen Sie einen Space wie <strong>team</strong>, und dasselbe Panel <strong>Activities</strong> deckt alles darin ab: beitretende Mitglieder, hinzugefügte Dateien und das Teilen des Space."
+        }
+      ]
+    },
+    "downloadspace": {
+      "category": "Spaces",
+      "title": "Einen ganzen Space herunterladen",
+      "summary": "Speichern Sie den gesamten Inhalt eines Projekt-Space als ein einziges Archiv auf Ihrem Gerät.",
+      "steps": [
+        {
+          "title": "Den Space öffnen",
+          "caption": "Gehen Sie zu <strong>Spaces</strong> und öffnen Sie den Projekt-Space, den Sie herunterladen möchten, etwa <mark>team</mark>."
+        },
+        {
+          "title": "Den Inhalt herunterladen",
+          "caption": "Verwenden Sie das Aktionsmenü des Space (die drei Punkte neben dem Namen) und wählen Sie <strong>Download</strong>. Alles wird zusammen als ein einziges <code>.zip</code> gepackt."
+        },
+        {
+          "title": "Auch Mitglieder können herunterladen",
+          "caption": "Jeder, der als Mitglied hinzugefügt wurde, sieht denselben Space und kann seinen Inhalt auf dieselbe Weise herunterladen, sodass das ganze Team bei Bedarf eine Kopie hat."
+        }
+      ]
+    },
+    "gdprexport": {
+      "category": "Ihr Konto",
+      "title": "Ihre Daten exportieren",
+      "summary": "Fordern Sie in Ihren Kontoeinstellungen einen personenbezogenen Datenexport nach DSGVO an und laden Sie ihn herunter, sobald er bereit ist.",
+      "steps": [
+        {
+          "title": "Ihre Kontoseite öffnen",
+          "caption": "Öffnen Sie über das Benutzermenü <strong>My Account</strong> und scrollen Sie ganz nach unten zum Bereich <strong>GDPR</strong>. Die Zeile <strong>GDPR export</strong> lässt Sie einen personenbezogenen Datenexport gemäß <code>&sect;20 GDPR</code> anfordern."
+        },
+        {
+          "title": "Einen neuen Export anfordern",
+          "caption": "Klicken Sie auf <strong>Request new export</strong>. ownCloud bereitet im Hintergrund ein Archiv Ihrer personenbezogenen Daten vor, und ein <strong>Download</strong>-Link erscheint, sobald es bereit ist."
+        },
+        {
+          "title": "Den Export herunterladen",
+          "caption": "Wenn der Export fertig ist, verwenden Sie die Aktion <strong>Download</strong> neben <strong>GDPR export</strong>, um das Archiv auf Ihrem Gerät zu speichern."
+        }
+      ]
+    },
+    "language": {
+      "category": "Ihr Konto",
+      "title": "Die Sprache ändern",
+      "summary": "Wählen Sie die gewünschte Sprache für die Weboberfläche und sehen Sie zu, wie sie sofort umschaltet.",
+      "steps": [
+        {
+          "title": "Ihre Kontoseite öffnen",
+          "caption": "Öffnen Sie über das Benutzermenü <strong>My Account</strong>. Unter <strong>Preferences</strong> zeigt die Zeile <strong>Language</strong> die aktuell von der Oberfläche verwendete Sprache, hier <strong>English</strong>."
+        },
+        {
+          "title": "Eine neue Sprache wählen",
+          "caption": "Öffnen Sie das Dropdown <strong>Language</strong> und wählen Sie eine Sprache, zum Beispiel <mark>Deutsch - German</mark>. Die gesamte Oberfläche schaltet sofort um, sodass der Seitentitel zu <strong>Mein Konto</strong> wird."
+        },
+        {
+          "title": "Änderung gespeichert",
+          "caption": "Eine kurze Bestätigung (<strong>Einstellung gespeichert</strong>) erscheint, und Ihre Wahl wird beim nächsten Anmelden erinnert."
+        }
+      ]
+    },
+    "notifications": {
+      "category": "Ihr Konto",
+      "title": "Benachrichtigungseinstellungen",
+      "summary": "Lesen Sie In-App-Benachrichtigungen über die Glocke, löschen Sie sie und steuern Sie, ob Sie Benachrichtigungsmails erhalten.",
+      "steps": [
+        {
+          "title": "Die Benachrichtigungsglocke prüfen",
+          "caption": "Das Glocken-Symbol in der oberen Leiste zeigt eine rote Zahl, wenn etwas Ihre Aufmerksamkeit erfordert. Klicken Sie darauf, um die jüngsten Aktivitäten zu lesen, wie <strong>Alice Hansen shared share_to_group with you</strong>."
+        },
+        {
+          "title": "Alle als gelesen markieren",
+          "caption": "Verwenden Sie <strong>Mark all as read</strong> oben im Panel, um die Liste zu leeren. Die Zahl an der Glocke verschwindet, und das Panel zeigt <strong>Nothing new</strong>."
+        },
+        {
+          "title": "Benachrichtigungsmails steuern",
+          "caption": "Auf <strong>My Account</strong> steuert die Einstellung <strong>Notifications</strong> (<strong>Receive notification mails</strong>), ob Ereignisse auch per E-Mail an Sie gesendet werden. Deaktivieren Sie sie, um Benachrichtigungen nur in der App zu behalten."
+        }
+      ]
+    },
+    "spacefromselection": {
+      "category": "Spaces",
+      "title": "Einen Space aus ausgewählten Objekten erstellen",
+      "summary": "Verwandeln Sie einen Ordner oder eine Auswahl von Dateien in einem Schritt in einen brandneuen Projekt-Space.",
+      "steps": [
+        {
+          "title": "In Ihrem Personal-Bereich beginnen",
+          "caption": "Öffnen Sie <strong>Personal</strong> und finden Sie die Dateien und Ordner, die Sie zusammenfassen möchten, zum Beispiel <mark>resourceFolder</mark> und <mark>lorem.txt</mark>."
+        },
+        {
+          "title": "Space aus Auswahl erstellen",
+          "caption": "Wählen Sie die Objekte aus, klicken Sie dann mit der rechten Maustaste und wählen Sie <strong>Create Space from selection</strong>. Eine Bestätigung mit dem Text <strong>Space was created successfully</strong> erscheint."
+        },
+        {
+          "title": "Ihr neuer Space, bereit zur Nutzung",
+          "caption": "Öffnen Sie den neuen Projekt-Space unter <strong>Spaces</strong>, und Ihre ausgewählten Objekte sind bereits darin, bereit zum Teilen und Zusammenarbeiten."
+        }
+      ]
+    },
+    "spacelink": {
+      "category": "Spaces",
+      "title": "Einen öffentlichen Link zu einem Space erstellen",
+      "summary": "Teilen Sie einen ganzen Projekt-Space (oder einen Ordner darin) mit Personen ohne Konto, geschützt durch ein Passwort.",
+      "steps": [
+        {
+          "title": "Den öffentlichen Link erstellen",
+          "caption": "Verwenden Sie im Panel <strong>Members</strong> des Space die Option <strong>Add link</strong> unter <strong>Public links</strong> und legen Sie ein Passwort fest. Der neue Link erscheint mit seiner Rolle (hier <strong>Can view</strong>), und eine Meldung bestätigt, dass er in die Zwischenablage kopiert wurde."
+        },
+        {
+          "title": "Bestätigen, dass der Link existiert",
+          "caption": "Die <strong>Details</strong> des Space lauten nun <strong>This space has one member and 1 link</strong>. Öffnen Sie <strong>Members</strong> jederzeit, um den Link umzubenennen, seine Rolle zu ändern oder ihn zu entfernen."
+        },
+        {
+          "title": "Was der Empfänger sieht",
+          "caption": "Jeder, dem Sie den Link senden, landet bei <strong>This resource is password-protected</strong>. Er gibt das Passwort unter <strong>Enter password for public link</strong> ein und wählt <strong>Continue</strong>."
+        },
+        {
+          "title": "Den geteilten Space durchsuchen",
+          "caption": "Nach dem Entsperren sieht der Empfänger den Space-Inhalt auf einer aufgeräumten <strong>Public link</strong>-Seite, wo er Dateien gemäß der von Ihnen gewährten Rolle durchsuchen und öffnen kann."
+        }
+      ]
+    },
+    "spacememberexpiry": {
+      "category": "Spaces",
+      "title": "Einem Mitglied zeitlich begrenzten Zugriff geben",
+      "summary": "Legen Sie ein Ablaufdatum fest, sodass der Zugriff eines Space-Mitglieds am von Ihnen gewählten Tag automatisch endet.",
+      "steps": [
+        {
+          "title": "Das Mitglied hinzufügen",
+          "caption": "Öffnen Sie den Space und fügen Sie die Person über das Panel <strong>Members</strong> hinzu. Eine Meldung <strong>Share was added successfully</strong> bestätigt, dass sie nun Zugriff hat."
+        },
+        {
+          "title": "Ein Ablaufdatum festlegen",
+          "caption": "Verwenden Sie das Kalender-Symbol neben dem Mitglied, zum Beispiel <mark>Brian Murphy</mark>, um ein Datum zu wählen. Sein Zugriff endet automatisch, wenn dieser Tag erreicht ist."
+        },
+        {
+          "title": "Es entfernen, um den Zugriff dauerhaft zu machen",
+          "caption": "Sie haben es sich anders überlegt? Löschen Sie das Datum auf dieselbe Weise, und das Mitglied behält den Zugriff ohne Enddatum, bestätigt durch <strong>Share successfully changed</strong>."
+        }
+      ]
+    },
+    "spacemembers": {
+      "category": "Spaces",
+      "title": "Die Mitglieder eines Space verwalten",
+      "summary": "Fügen Sie Personen und Gruppen zu einem Projekt-Space hinzu, wählen Sie, was jede tun darf, und entziehen Sie den Zugriff, wenn er nicht mehr benötigt wird.",
+      "steps": [
+        {
+          "title": "Ihren Projekt-Space öffnen",
+          "caption": "Gehen Sie zu <strong>Spaces</strong> und öffnen Sie den Space, den Sie verwalten, hier <mark>team</mark>. Die Kopfzeile zeigt die aktuelle Anzahl, zum Beispiel <strong>1 member</strong>, bevor Sie jemand anderen einladen."
+        },
+        {
+          "title": "Mitglieder hinzufügen",
+          "caption": "Laden Sie Personen oder Gruppen in den Space ein. Jedes hinzugefügte Mitglied erzeugt eine Bestätigung <strong>Share was added successfully</strong>, und die Anzahl steigt (hier auf <strong>5 members</strong>)."
+        },
+        {
+          "title": "Die Rolle jedes Mitglieds wählen",
+          "caption": "Öffnen Sie das Panel <strong>Members</strong>, um Rollen festzulegen. Wählen Sie <strong>Can view</strong>, <strong>Can edit with versions and trashbin</strong> oder <strong>Can manage</strong> aus dem Dropdown jedes Mitglieds. Änderungen werden mit <strong>Share successfully changed</strong> bestätigt."
+        },
+        {
+          "title": "Ein Mitglied entfernen",
+          "caption": "Verwenden Sie das Drei-Punkte-Menü neben einem Mitglied, um seinen Zugriff zu entziehen. Eine Meldung <strong>Share was removed successfully</strong> bestätigt, dass es den Space nicht mehr erreichen kann."
+        }
+      ]
+    },
+    "spacespagination": {
+      "category": "Spaces",
+      "title": "Durch einen Space mit vielen Objekten blättern",
+      "summary": "Wechseln Sie zwischen Seiten, zeigen Sie versteckte Dateien an und ändern Sie, wie viele Objekte in einem großen Space gleichzeitig erscheinen.",
+      "steps": [
+        {
+          "title": "Zwischen Seiten springen",
+          "caption": "Wenn ein Space mehr Objekte enthält, als auf eine Seite passen, lässt der Pager unten Sie durch sie blättern. Die Fußzeile zeigt die volle Anzahl, etwa <code>112 items with 1 kB in total</code>."
+        },
+        {
+          "title": "Versteckte Dateien einblenden",
+          "caption": "Schalten Sie <strong>Show hidden files</strong> in den Anzeigeeinstellungen ein, um Objekte mit Punkt-Präfix in die Zählung und die Liste aufzunehmen."
+        },
+        {
+          "title": "Mehr pro Seite anzeigen",
+          "caption": "Öffnen Sie die Anzeigeeinstellungen (das Zahnrad-Symbol) und erhöhen Sie die Objekte pro Seite, zum Beispiel auf <mark>500</mark>. Wenn alles auf einer Seite ist, verschwindet der Pager komplett."
+        }
+      ]
+    },
+    "upload": {
+      "category": "Mit Dateien arbeiten",
+      "title": "Dateien und Ordner hochladen",
+      "summary": "Fügen Sie Ihrem Bereich Dateien und ganze Ordner hinzu, einzeln oder viele auf einmal.",
+      "steps": [
+        {
+          "title": "In Ihrem Bereich beginnen",
+          "caption": "Öffnen Sie <strong>Personal</strong>, und Sie sehen eine leere Liste. Verwenden Sie die Schaltfläche <strong>Upload</strong> oder ziehen Sie Dateien und Ordner einfach auf die Seite, um sie hinzuzufügen."
+        },
+        {
+          "title": "Dateien landen in der Liste",
+          "caption": "Hochgeladene Dateien erscheinen sofort mit ihrer Größe und einer <strong>Modified</strong>-Zeit. Der Drag-and-drop-Bereich akzeptiert gemischte Auswahlen aus Dateien und Ordnern auf einmal."
+        },
+        {
+          "title": "Einen ganzen Ordner hochladen",
+          "caption": "Ordner behalten ihre Struktur, wenn Sie sie hochladen. Öffnen Sie <strong>PARENT</strong>, und Sie finden seine Dateien und Unterordner genau so, wie sie auf Ihrem Gerät waren."
+        },
+        {
+          "title": "Viele Dateien auf einmal hochladen",
+          "caption": "Sie können Dutzende Dateien in einem Vorgang auswählen. Jede wird einzeln hochgeladen und aufgelistet, sodass ein Massenimport zu einer aufgeräumten Dateiliste wird."
+        }
+      ]
+    },
+    "uploadresume": {
+      "category": "Mit Dateien arbeiten",
+      "title": "Einen großen Upload pausieren und fortsetzen",
+      "summary": "Pausieren Sie einen großen Upload und nehmen Sie ihn später wieder auf, ohne von vorne zu beginnen.",
+      "steps": [
+        {
+          "title": "Ein Upload läuft",
+          "caption": "Wählen Sie <strong>Files</strong> aus dem Menü <strong>Upload</strong>, und das Fortschritts-Overlay erscheint in der Ecke und zeigt die verbleibende Zeit mit den Steuerungen <strong>pause</strong> und Abbrechen."
+        },
+        {
+          "title": "Pausieren, wenn Sie müssen",
+          "caption": "Drücken Sie die Pause-Steuerung, und die Übertragung hält an Ort und Stelle an. Der Fortschrittsbalken behält seine Position und ist bereit fortzusetzen, statt das bereits Gesendete zu verwerfen."
+        },
+        {
+          "title": "Dort fortsetzen, wo es aufgehört hat",
+          "caption": "Drücken Sie die Fortsetzen-Steuerung, und der Upload läuft vom selben Punkt weiter. Große Dateien überstehen eine Pause, ohne von Anfang an erneut gesendet werden zu müssen."
+        },
+        {
+          "title": "Fertig und in Ihren Dateien",
+          "caption": "Sobald er abgeschlossen ist, erscheint die Datei in der Liste in voller Größe, hier ein Upload von <mark>1.1 GB</mark>, was bestätigt, dass die fortgesetzte Übertragung intakt angekommen ist."
+        }
+      ]
+    },
+    "viewmodes": {
+      "category": "Mit Dateien arbeiten",
+      "title": "Kachel- und Listenansichten",
+      "summary": "Wechseln Sie die Dateiliste zwischen den Layouts kompakte Liste, Tabelle und Kacheln, passend zu dem, was Sie gerade tun.",
+      "steps": [
+        {
+          "title": "In der Listenansicht beginnen",
+          "caption": "Standardmäßig verwendet der Dateibereich ein Listenlayout. Die drei Ansichts-Schaltflächen oben rechts (<strong>condensed list</strong>, <strong>table</strong> und <strong>tiles</strong>) lassen Sie ändern, wie Ressourcen angezeigt werden."
+        },
+        {
+          "title": "Zu Kacheln wechseln",
+          "caption": "Klicken Sie auf die Schaltfläche <strong>tiles</strong> (das Raster-Symbol), um jede Datei und jeden Ordner als große Vorschaukachel anzuzeigen, wie <strong>tile_folder</strong> hier. Diese Ansicht ist praktisch, um Bilder und Ordner visuell zu durchsuchen."
+        },
+        {
+          "title": "Ihre Wahl bleibt erhalten",
+          "caption": "Öffnen Sie einen Ordner, und das Kachellayout bleibt ausgewählt, sodass alles in <code>tile_folder</code> weiterhin als Kacheln angezeigt wird, bis Sie zurückwechseln."
+        }
+      ]
+    },
+    "fulltextsearch": {
+      "category": "Dateien finden",
+      "title": "In Dateiinhalten suchen",
+      "summary": "Die Volltextsuche schaut in Ihre Dokumente hinein, sodass Sie eine Datei anhand eines darin enthaltenen Wortes finden können, nicht nur anhand ihres Namens.",
+      "steps": [
+        {
+          "title": "Über alles hinweg suchen",
+          "caption": "Tippen Sie in die globale Suchleiste und behalten Sie den Filter <strong>All files</strong>. Mit aktivierter Volltextsuche schaut ownCloud sowohl in die Dateiinhalte als auch auf die Dateinamen."
+        },
+        {
+          "title": "Treffer im Inhalt",
+          "caption": "Die Suche nach einem Wort wie <mark>Cheers</mark> liefert Dokumente zurück, die dieses Wort enthalten, selbst wenn es nirgends im Dateinamen steht."
+        },
+        {
+          "title": "Die Ergebnisse verfeinern",
+          "caption": "Grenzen Sie eine große Ergebnismenge mit den Filter-Chips ein, zum Beispiel nach einem <strong>Tag</strong>, einem Medientyp oder dem Datum der letzten Änderung."
+        },
+        {
+          "title": "Einen Treffer öffnen",
+          "caption": "Öffnen Sie jedes Ergebnis direkt aus der Liste, um zu der gesuchten Datei zu springen."
+        }
+      ]
+    },
+    "cast": {
+      "category": "Erweiterungen",
+      "title": "An ein Gerät casten",
+      "summary": "Senden Sie eine Datei an ein Cast-Gerät über die Aktion Cast, die diese Erweiterung dem Dateimenü hinzufügt.",
+      "steps": [
+        {
+          "title": "Eine Datei wählen",
+          "caption": "Beginnen Sie mit einer Datei in Ihrem Bereich, hier ein Bild namens <mark>logo.jpeg</mark> in <strong>Personal</strong>."
+        },
+        {
+          "title": "Die Aktion Cast",
+          "caption": "Klicken Sie mit der rechten Maustaste auf die Datei, und Sie finden ganz oben im Menü <strong>Cast</strong>, von dieser Erweiterung hinzugefügt, um die Datei an ein Cast-Gerät wie einen Chromecast zu senden."
+        }
+      ]
+    },
+    "drawio": {
+      "category": "Erweiterungen",
+      "title": "Diagramme mit draw.io",
+      "summary": "Erstellen und bearbeiten Sie draw.io-Diagramme direkt in ownCloud und speichern Sie sie zurück in Ihre Dateien.",
+      "steps": [
+        {
+          "title": "Das App-Menü öffnen",
+          "caption": "Öffnen Sie das Anwendungsmenü (oben links), um mit dem draw.io-Editor ein neues Diagramm zu beginnen."
+        },
+        {
+          "title": "Ihr Diagramm aufbauen",
+          "caption": "Der vollständige draw.io-Editor öffnet sich in ownCloud. Ziehen Sie Formen aus der linken Palette auf die Arbeitsfläche und verbinden Sie sie, um Ihr Diagramm aufzubauen."
+        },
+        {
+          "title": "Ihre Arbeit speichern",
+          "caption": "Verwenden Sie <strong>Save</strong> oben rechts, um das Diagramm zurück in Ihre Dateien zu speichern, und dann <strong>Exit</strong>, um zurückzukehren."
+        },
+        {
+          "title": "Als Datei gespeichert",
+          "caption": "Ihr Diagramm erscheint in der Dateiliste als <mark>New file.drawio</mark>-Datei, bereit zum jederzeitigen erneuten Öffnen und Bearbeiten."
+        }
+      ]
+    },
+    "externalsites": {
+      "category": "Erweiterungen",
+      "title": "Externe Seiten",
+      "summary": "Erreichen Sie Websites, die Ihr Administrator angeheftet hat, entweder in einem neuen Tab oder eingebettet in ownCloud.",
+      "steps": [
+        {
+          "title": "Das App-Menü öffnen",
+          "caption": "Konfigurierte Seiten erscheinen im Anwendungsmenü (oben links), hier als Einträge <strong>Owncloud External</strong> und <strong>Owncloud Embedded</strong>."
+        },
+        {
+          "title": "Eine eingebettete Seite wählen",
+          "caption": "Wählen Sie einen Eintrag wie <strong>Owncloud Embedded</strong>, um diese Website innerhalb von ownCloud zu öffnen."
+        },
+        {
+          "title": "Seite innerhalb von ownCloud angezeigt",
+          "caption": "Eine eingebettete Seite lädt auf einer Seite innerhalb von ownCloud (hier die ownCloud-Dokumentation), sodass Sie im selben Fenster bleiben. Externe Einträge öffnen sich stattdessen in einem neuen Browser-Tab."
+        }
+      ]
+    },
+    "jsonviewer": {
+      "category": "Erweiterungen",
+      "title": "JSON-Dateien ansehen",
+      "summary": "Öffnen Sie eine .json-Datei in einem formatierten, einklappbaren Viewer, statt rohen Text zu lesen.",
+      "steps": [
+        {
+          "title": "Eine JSON-Datei hinzufügen",
+          "caption": "Laden Sie eine <code>.json</code>-Datei in Ihren <strong>Personal</strong>-Bereich hoch oder erstellen Sie sie dort, hier eine Datei namens <mark>jsonFile.json</mark>."
+        },
+        {
+          "title": "Im JSON Viewer öffnen",
+          "caption": "Klicken Sie mit der rechten Maustaste auf die Datei und wählen Sie <strong>Open in JSON Viewer</strong>, was die Erweiterung neben <strong>Open in Text Editor</strong> hinzufügt."
+        },
+        {
+          "title": "Formatiert lesen",
+          "caption": "Die Datei öffnet sich mit Syntaxhervorhebung und einem sauberen, eingerückten Layout, sodass verschachtelte Schlüssel und Werte leicht zu verfolgen sind statt einer langen Textzeile."
+        }
+      ]
+    },
+    "progressbars": {
+      "category": "Erweiterungen",
+      "title": "Upload-Fortschrittsbalken",
+      "summary": "Wählen Sie in Ihren Kontoeinstellungen den Stil des Fortschrittsbalkens, der beim Hochladen von Dateien angezeigt wird.",
+      "steps": [
+        {
+          "title": "Ihr Konto öffnen",
+          "caption": "Gehen Sie über das Benutzermenü zu <strong>My Account</strong>, wo die Einstellungen und Erweiterungsoptionen liegen."
+        },
+        {
+          "title": "Einen Fortschrittsbalken wählen",
+          "caption": "Setzen Sie unter <strong>Extensions</strong> die Option <strong>Global progress bar</strong> auf einen Stil wie <mark>Nyan Cat progress bar</mark>, um anzupassen, was Sie beim Hochladen von Dateien sehen."
+        }
+      ]
+    },
+    "unzip": {
+      "category": "Erweiterungen",
+      "title": "ZIP-Archive entpacken",
+      "summary": "Entpacken Sie ein .zip-Archiv direkt dort, wo es liegt, ohne es zuerst herunterzuladen.",
+      "steps": [
+        {
+          "title": "Ein ZIP-Archiv hinzufügen",
+          "caption": "Laden Sie ein <code>.zip</code>-Archiv in einen Ordner hoch, hier eine Datei namens <mark>data.zip</mark> in Ihrem <strong>Personal</strong>-Bereich."
+        },
+        {
+          "title": "Hier entpacken",
+          "caption": "Klicken Sie mit der rechten Maustaste auf das Archiv und wählen Sie <strong>Extract here</strong>, die Aktion, die diese Erweiterung dem Dateimenü hinzufügt."
+        },
+        {
+          "title": "Dateien an Ort und Stelle entpackt",
+          "caption": "Der Inhalt landet in einem neuen Ordner neben dem Archiv, sodass Sie ihn sofort öffnen können, ohne ownCloud zu verlassen."
+        }
+      ]
+    },
+    "advancedsearch": {
+      "category": "Erweiterungen",
+      "title": "Erweiterte Suche",
+      "summary": "Finden Sie Dateien mit einer dedizierten Such-App, die Filter, Volltext-Inhaltssuche und wiederverwendbare gespeicherte Suchen kombiniert.",
+      "steps": [
+        {
+          "title": "Advanced Search öffnen",
+          "caption": "Die App <strong>Advanced Search</strong> öffnet sich mit einem großen Suchfeld plus einem vollständigen Filterformular darunter, bereit, bevor Sie etwas tippen."
+        },
+        {
+          "title": "Eine Suche ausführen",
+          "caption": "Tippen Sie einen Begriff wie <mark>test</mark> und drücken Sie <strong>Search</strong>. Ein aktiver Chip <strong>Search: test</strong> erscheint, und das Feld <strong>KQL Query</strong> füllt sich automatisch als <code>name:*test*</code>."
+        },
+        {
+          "title": "Mit Filtern verfeinern",
+          "caption": "Grenzen Sie Ergebnisse mit <strong>Type</strong>, <strong>Media Type</strong> und <strong>Tags</strong>, einem Volltextfeld <strong>Content</strong> oder den Bereichen <strong>Size</strong> und <strong>Modified</strong> ein. <strong>Clear All</strong> setzt alles mit einem Klick zurück."
+        },
+        {
+          "title": "Eine Suche speichern und wiederverwenden",
+          "caption": "Sobald eine Suche aktiv ist, erscheint <strong>Save Search</strong> oben rechts. Gespeicherte Einträge liegen hinter <strong>Saved Searches</strong>, sodass Sie eine komplexe Abfrage später erneut ausführen können, ohne sie neu aufzubauen."
+        }
+      ]
+    },
+    "photogallery": {
+      "category": "Erweiterungen",
+      "title": "Fotogalerie",
+      "summary": "Die Erweiterung Photos sammelt jedes Bild über alle Ihre Spaces hinweg in einer visuellen Zeitleiste, mit Kalender- und Kartenansichten.",
+      "steps": [
+        {
+          "title": "Alle Ihre Fotos an einem Ort",
+          "caption": "Öffnen Sie <strong>Photos</strong> über das Anwendungsmenü. Jedes Bild über Ihren persönlichen Bereich und Ihre Spaces hinweg wird in einem einzigen Raster gesammelt, nach Tag gruppiert."
+        },
+        {
+          "title": "Ein Foto öffnen",
+          "caption": "Wählen Sie ein beliebiges Foto, um es im Vollbild anzusehen, blättern Sie mit den Pfeilen durch den Satz und lesen Sie seine Details wie Datum, Kamera und Ort."
+        },
+        {
+          "title": "Kalender- und Kartenansichten",
+          "caption": "Verwenden Sie die Steuerungen oben rechts, um auf <strong>EXIF only</strong>-Bilder zu filtern oder zwischen der Zeitleiste <strong>Calendar</strong> und der <strong>Map</strong> zu wechseln."
+        }
+      ]
+    },
+    "photolightbox": {
+      "category": "Erweiterungen",
+      "title": "Foto-Lightbox",
+      "summary": "Öffnen Sie ein Foto im Vollbild, um es groß neben seinen EXIF-Metadaten zu sehen, und springen Sie direkt dorthin, wo es aufgenommen wurde.",
+      "steps": [
+        {
+          "title": "Ein Foto wählen",
+          "caption": "Klicken Sie in der Photos-Galerie auf ein beliebiges Vorschaubild, um es in der Lightbox zu öffnen."
+        },
+        {
+          "title": "Vollbild mit Details",
+          "caption": "Die Lightbox zeigt das Foto groß mit einem Zähler (<strong>1 / 6</strong>) und Pfeilen, um sich durch den Satz zu bewegen. Darunter listet das Detail-Panel <strong>Date taken</strong>, <strong>Camera</strong>, <strong>Model</strong>, <strong>Location</strong> und Dateiinfos auf, die aus den EXIF-Daten des Bildes gezogen werden."
+        }
+      ]
+    },
+    "photomap": {
+      "category": "Erweiterungen",
+      "title": "Fotos auf einer Karte",
+      "summary": "Tragen Sie Ihre mit Geotags versehenen Fotos auf einer Weltkarte ab, um zu sehen, wo jedes aufgenommen wurde.",
+      "steps": [
+        {
+          "title": "Fotos tragen ihren Ort mit sich",
+          "caption": "Mit einem Telefon oder einer GPS-Kamera aufgenommene Fotos speichern Koordinaten in ihren EXIF-Daten, hier angezeigt als <strong>Location</strong> mit einer Verknüpfung <strong>View on Map</strong>."
+        },
+        {
+          "title": "Sie auf der Karte sehen",
+          "caption": "Wechseln Sie zur Ansicht <strong>Map</strong>, und jedes mit Geotags versehene Foto wird als Pin auf einer Weltkarte abgesetzt. Die Kopfzeile lautet <strong>Photos (4 of 4 in view)</strong>; verschieben und zoomen Sie, um zu erkunden, und klicken Sie auf einen Pin, um diese Fotos zu öffnen."
+        }
+      ]
     }
   },
   "upcoming": {

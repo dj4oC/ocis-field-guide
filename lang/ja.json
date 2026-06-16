@@ -185,6 +185,849 @@
           "caption": "PDF だけでなくテキストや Markdown のメモでも同じように動作するので、開く前にファイルの要点をつかめます。"
         }
       ]
+    },
+    "appstore": {
+      "category": "App Store",
+      "title": "アプリを見つける",
+      "summary": "組み込みの App Store から、ownCloud で利用できるアプリを閲覧・検索・絞り込みします。",
+      "steps": [
+        {
+          "title": "App Store を開く",
+          "caption": "アプリケーションメニュー（左上のグリッドアイコン）から App Store を開きます。インスタンスで利用できるすべてのアプリがカードとして表示されます。"
+        },
+        {
+          "title": "名前で検索する",
+          "caption": "検索ボックスに入力すると一覧が絞り込まれます。<mark>draw</mark> と検索すると Draw.io 図表エディターが表示されます。"
+        },
+        {
+          "title": "カテゴリで絞り込む",
+          "caption": "<strong>viewer</strong> のようなカテゴリタグをクリックすると、その種類のアプリだけが表示されます。"
+        },
+        {
+          "title": "アプリを開く",
+          "caption": "任意のアプリを選択すると、詳しい説明、スクリーンショット、利用できるバージョンを確認できます。"
+        }
+      ]
+    },
+    "appstore-details": {
+      "category": "App Store",
+      "title": "アプリの詳細とバージョン",
+      "summary": "アプリの詳細を確認し、App Store から特定のバージョンをダウンロードします。",
+      "steps": [
+        {
+          "title": "App Store から始める",
+          "caption": "App Store の一覧から、気になるアプリを選びます。"
+        },
+        {
+          "title": "アプリの詳細を読む",
+          "caption": "詳細ページには説明、メタデータ、リリース済みバージョンの一覧が表示されます。"
+        },
+        {
+          "title": "特定のバージョンをダウンロードする",
+          "caption": "最新版だけでなく、一覧にある任意のバージョンをダウンロードできます。動作確認済みのリリースを固定したいときに便利です。"
+        }
+      ]
+    },
+    "admin-general": {
+      "category": "管理",
+      "title": "一般の管理設定",
+      "summary": "管理エリアでインスタンス情報を確認し、ロゴを含む外観をカスタマイズします。",
+      "steps": [
+        {
+          "title": "General 設定を開く",
+          "caption": "管理者として <strong>Administration Settings</strong> を開き、<strong>General</strong> を選択します。Info セクションにエディションとバージョンが表示されます。"
+        },
+        {
+          "title": "カスタムロゴをアップロードする",
+          "caption": "<strong>Appearance</strong> で独自のロゴをアップロードし、Web インターフェースにブランドを反映できます。"
+        },
+        {
+          "title": "デフォルトに戻す",
+          "caption": "気が変わりましたか。ロゴはいつでも ownCloud のデフォルトに戻せます。"
+        }
+      ]
+    },
+    "admin-groups": {
+      "category": "管理",
+      "title": "グループを管理する",
+      "summary": "グループを作成・名前変更・削除して、ユーザーをまとめたりアクセス権を一括で付与したりします。",
+      "steps": [
+        {
+          "title": "Groups 管理を開く",
+          "caption": "<strong>Administration Settings</strong> で <strong>Groups</strong> を開くと、すべてのグループが表で表示されます。"
+        },
+        {
+          "title": "グループを作成する",
+          "caption": "<strong>+ New group</strong> でグループを追加すると、すぐに一覧に表示されます。"
+        },
+        {
+          "title": "グループの名前を変更する",
+          "caption": "グループを選択し、右側のパネルから表示名を編集します。"
+        },
+        {
+          "title": "保存完了",
+          "caption": "新しい名前がグループの表に表示されます。グループの削除も、各行のアクションから同じくらい手早く行えます。"
+        }
+      ]
+    },
+    "download": {
+      "category": "ファイル操作",
+      "title": "ファイルとフォルダーをダウンロードする",
+      "summary": "任意のファイル、フォルダー、共有された項目のコピーをデバイスに取得します。",
+      "steps": [
+        {
+          "title": "ファイル一覧からダウンロードする",
+          "caption": "各行に <strong>Download</strong> アクションがあり、フォルダーは <code>.zip</code> にまとめられます。右クリックメニューからも利用できます。"
+        },
+        {
+          "title": "ビューアーからダウンロードする",
+          "caption": "ファイルをビューアーで開き、ツールバーのダウンロードアイコンを使って、表示しているバージョンを保存します。"
+        },
+        {
+          "title": "共有された項目をダウンロードする",
+          "caption": "同じ Download アクションは、ほかの人があなたと共有したファイルやフォルダーでも、<strong>Shares</strong> から利用できます。"
+        }
+      ]
+    },
+    "admin-spaces": {
+      "category": "管理",
+      "title": "Spaces を管理する",
+      "summary": "管理設定からプロジェクト Space を作成・編集・無効化し、内容を確認します。",
+      "steps": [
+        {
+          "title": "Spaces 管理ページを開く",
+          "caption": "<strong>Administration Settings</strong> で、サイドバーの <strong>Spaces</strong> を選択します。表には各プロジェクト Space の <strong>Manager</strong>、<strong>Members</strong>、<strong>Remaining quota</strong>、最終更新日時が表示されます。"
+        },
+        {
+          "title": "新しい Space を作成する",
+          "caption": "<strong>New Space</strong> ボタンでプロジェクト Space（たとえば <mark>team A</mark>）を追加します。<strong>Space was created successfully</strong> というメッセージで確認でき、新しい Space が一覧の先頭に表示されます。"
+        },
+        {
+          "title": "名前を変更しクォータを調整する",
+          "caption": "Space にチェックを入れると、ツールバーに <strong>Edit quota</strong> と <strong>Disable</strong> のアクションが表示されます。名前変更、サブタイトルの変更、クォータの引き上げ（ここでは <mark>50 GB</mark> へ）は、それぞれ専用の確認トーストを返します。"
+        },
+        {
+          "title": "Space を無効化または削除する",
+          "caption": "Space を選択すると、ツールバーは <strong>Enable</strong> と <strong>Delete</strong> に切り替わります。無効化はデータを削除せずに利用を停止するもので、<strong>was disabled successfully</strong> というメッセージで示されます。"
+        },
+        {
+          "title": "Space のメンバーを確認する",
+          "caption": "<strong>Members</strong> のサイドバーパネルを開くと、Space に所属するメンバーが役割ごとに表示されます。<strong>Can manage</strong>、<strong>Can edit with versions and trashbin</strong>、<strong>Can view</strong> です。長い一覧は <strong>Filter members</strong> で検索できます。"
+        }
+      ]
+    },
+    "admin-users": {
+      "category": "管理",
+      "title": "ユーザーを管理する",
+      "summary": "管理設定からユーザーを作成し、アカウントの詳細を編集して、グループに割り当てます。",
+      "steps": [
+        {
+          "title": "Users 管理ページを開く",
+          "caption": "<strong>Administration Settings</strong> で <strong>Users</strong> を選びます。表には各アカウントの <strong>User name</strong>、<strong>Email</strong>、<strong>Role</strong>、<strong>Login</strong> の状態が表示され、<strong>Filter</strong> でグループや役割によって一覧を絞り込めます。"
+        },
+        {
+          "title": "新しいユーザーを作成する",
+          "caption": "<strong>New user</strong> を選択してアカウントの詳細（たとえば <mark>max</mark>）を入力します。<strong>User was created successfully</strong> というメッセージで確認でき、新しいアカウントが一覧に加わります。"
+        },
+        {
+          "title": "ユーザーの詳細を編集する",
+          "caption": "ユーザーを選び、<strong>Edit user</strong> パネルを開いて、名前、メール、パスワード、<strong>Role</strong>、<strong>Login</strong>、<strong>Personal quota</strong> を変更します。各変更はその場で保存され、<strong>Changes saved</strong> で示されます。"
+        },
+        {
+          "title": "ユーザーをグループに割り当てる",
+          "caption": "同じパネルで <strong>Groups</strong> 欄を使い、ユーザーを <mark>sales department</mark> や <mark>finance department</mark> などの 1 つ以上のグループに追加します。各グループはチップとして表示され、&times; ボタンで削除できます。"
+        }
+      ]
+    },
+    "appmenu": {
+      "category": "操作と移動",
+      "title": "アプリケーションメニューでアプリを切り替える",
+      "summary": "左上のグリッドアイコンを使って、Files やテキストエディターなど ownCloud のアプリ間を移動します。",
+      "steps": [
+        {
+          "title": "アプリケーションメニューを開く",
+          "caption": "最も左上の隅にあるグリッドアイコンが <strong>application menu</strong> です。ここからアプリを選んで切り替えます。ここでは新規ファイルでテキストエディターが開きます。"
+        },
+        {
+          "title": "選んだアプリで作業する",
+          "caption": "各アプリはウィンドウいっぱいに表示されます。内容（たとえば <mark>Hello world</mark>）を入力し、上部ツールバーのディスクアイコンで保存します。"
+        },
+        {
+          "title": "Files に戻る",
+          "caption": "もう一度グリッドメニューを開いて <strong>Files</strong> を選ぶと戻れます。保存した <code>New file.txt</code> が一覧で待っています。"
+        }
+      ]
+    },
+    "batchactions": {
+      "category": "ファイル操作",
+      "title": "複数のファイルをまとめて操作する",
+      "summary": "複数のファイルやフォルダーを一緒に選択し、そのすべてに 1 つのアクションを適用します。",
+      "steps": [
+        {
+          "title": "チェックボックスで選択する",
+          "caption": "各行の左にチェックボックスがあり、<strong>Name</strong> ヘッダーのボックスはすべて選択するトグルです。複数のフォルダーにチェックを入れて、1 つずつではなくまとめて操作します。"
+        },
+        {
+          "title": "共有を見つける",
+          "caption": "<strong>Shares</strong> と <strong>Shared with me</strong> タブを開くと、ほかの人があなたに送ったものがすべて表示されます。それぞれにチェックボックスがあるので、一度にまとめて選べます。"
+        },
+        {
+          "title": "1 つのアクションをすべてに適用する",
+          "caption": "行を選択した状態で、1 つのアクション（ここでは各共有の隣にある <strong>sync</strong> コントロール）が選択全体に一度に適用されます。項目ごとにクリックを繰り返す必要はありません。"
+        }
+      ]
+    },
+    "breadcrumb": {
+      "category": "操作と移動",
+      "title": "パンくずリストでナビゲートする",
+      "summary": "ファイル一覧の上部にあるパスで現在地を把握し、任意の親フォルダーへワンクリックで戻ります。",
+      "steps": [
+        {
+          "title": "完全なパスを確認する",
+          "caption": "フォルダーを次々に開くと、上部のパンくずが伸びていきます。<code>Personal > parent > folder > 'single-double quotes' > \"inner\" double quote > sub-folder</code> のように、常に現在地を正確に示します。"
+        },
+        {
+          "title": "上位フォルダーへジャンプする",
+          "caption": "リストの中の前の名前をクリックすると、間のすべての階層を飛ばして、そのフォルダーへ直接戻れます。何度も戻るボタンを押す必要はありません。"
+        },
+        {
+          "title": "一番上まで戻る",
+          "caption": "数回クリックすると、ツリーの上部近くにある <strong>parent</strong> に戻ります。現在のフォルダーの隣にある 3 点アイコンを押すと、そのフォルダーのアクションを含むコンテキストメニューが開きます。"
+        }
+      ]
+    },
+    "fileviewer": {
+      "category": "ファイル操作",
+      "title": "ファイルをプレビューする",
+      "summary": "画像、動画、音声などを、先にダウンロードせずブラウザー内でそのまま開きます。",
+      "steps": [
+        {
+          "title": "サムネイルでファイルを見分ける",
+          "caption": "ファイル一覧では、画像やメディアに小さなサムネイルが表示され、ひと目で見分けられます。ファイル名をクリックするとビューアーで開きます。"
+        },
+        {
+          "title": "ファイルがビューアーで開く",
+          "caption": "画像はダウンロード不要で画面いっぱいに表示されます。下部のツールバーでズームの拡大・縮小、回転、全画面表示ができます。"
+        },
+        {
+          "title": "ファイルを切り替える",
+          "caption": "ツールバーの矢印を使ってフォルダー内を移動できます。<strong>6 of 7</strong> のように表示されます。右側の <strong>Details</strong> パネルにはサイズ、所有者、バージョンなどが表示されます。"
+        },
+        {
+          "title": "動画をその場で再生する",
+          "caption": "<code>.webm</code> のような動画ファイルは標準の再生コントロールでビューアー内でそのまま再生されるので、先に保存する必要はありません。"
+        },
+        {
+          "title": "音声も再生する",
+          "caption": "<code>.mp3</code> のような音声ファイルは組み込みのプレーヤーで開きます。再生を押せば ownCloud を離れずに聴けます。"
+        }
+      ]
+    },
+    "journey": {
+      "category": "活用例",
+      "title": "ownCloud の一日: 今週の献立を共有する",
+      "summary": "Alice がフォルダーを準備し、保護者と共有して、保護者が自分のアカウントから受け取るまでを追います。",
+      "steps": [
+        {
+          "title": "個人スペースから始める",
+          "caption": "Alice はサインインして、自分のファイルのためのプライベートな拠点である <strong>Personal</strong> スペースに着きます。ここからフォルダーを作成し、今週の献立をアップロードできます。"
+        },
+        {
+          "title": "フォルダーを準備する",
+          "caption": "ファイルをフォルダーにまとめ、送る前に <strong>Details</strong> パネルを開いて所有者、サイズ、最終更新を確認します。"
+        },
+        {
+          "title": "保護者と共有する",
+          "caption": "行の <strong>Actions</strong> にある共有アイコンを使って、Alice は保護者を招待します。これで全員が同じ最新の献立を受け取れます。"
+        },
+        {
+          "title": "保護者にすぐ表示される",
+          "caption": "Brian が <strong>Shares</strong> を開くと、献立とファイルが <strong>Shared with me</strong> に、誰がいつ共有したかとともに表示されています。"
+        },
+        {
+          "title": "あとで片付ける",
+          "caption": "その週が終わると、Alice は残ったものを選んで一括アクションで削除し、<strong>Personal</strong> スペースをすっきり保ちます。"
+        }
+      ]
+    },
+    "movecopy": {
+      "category": "ファイル操作",
+      "title": "ファイルをコピー・移動する",
+      "summary": "再アップロードせずに、ファイルを別のフォルダーにコピーしたり、新しい場所へ移動したりします。",
+      "steps": [
+        {
+          "title": "ファイルのあるフォルダーから始める",
+          "caption": "整理したいファイルが入っている任意のフォルダーを開きます。ここでは <strong>Personal</strong> &gt; <strong>Duplicate</strong> にファイルとサブフォルダーがあり、コピーや移動の準備ができています。"
+        },
+        {
+          "title": "コピー・移動するものを選ぶ",
+          "caption": "1 つの項目を選ぶか、複数にチェックを入れてまとめて操作します。行を右クリックして <strong>Copy</strong> や <strong>Cut</strong> を選んだり、フォルダーへドラッグ&ドロップしたり、キーボードショートカットを使ったりできます。"
+        },
+        {
+          "title": "貼り付けるとコピーが現れる",
+          "caption": "<strong>Copy</strong> の後、ロケーションピッカーで宛先を選んで確定します。新しいコピーは <mark>duplicate (1).txt</mark> のように番号付きの名前で元の隣に置かれます。"
+        },
+        {
+          "title": "移動すると新しい場所に入る",
+          "caption": "<strong>Cut</strong>（またはフォルダーへのドラッグ）で移動すると、元の場所から項目が取り除かれ、宛先に置かれます。たとえばこのフォルダー内の <strong>Sub1</strong> です。"
+        }
+      ]
+    },
+    "pagination": {
+      "category": "操作と移動",
+      "title": "大きなフォルダーをページ送りする",
+      "summary": "1 ページに表示する項目数を設定し、ページャーで長いファイル一覧を順に進みます。",
+      "steps": [
+        {
+          "title": "1 ページの項目数を選ぶ",
+          "caption": "右上の設定ギアで 1 ページの項目数（たとえば <mark>20</mark>）を設定します。一覧が 1 ページ分で埋まり、下部にページャーが表示されます。"
+        },
+        {
+          "title": "次のページへ移動する",
+          "caption": "ページャーの <strong>2</strong> をクリックすると、残りの項目が表示されます。フッターは合計を保ち続けます。ここでは <strong>26 items with 223 B in total</strong> です。"
+        },
+        {
+          "title": "隠しファイルを表示する",
+          "caption": "<strong>Show hidden files</strong> をオンにするとドットファイルがカウントに加わるので、フッターが更新され、ページもそれらを含めて埋め直されます。"
+        },
+        {
+          "title": "すべてを 1 ページに収める",
+          "caption": "1 ページの項目数を <mark>500</mark> に上げると、フォルダー全体が一度に収まり、ページャーは完全に消えます。"
+        }
+      ]
+    },
+    "rename": {
+      "category": "ファイル操作",
+      "title": "ファイルとフォルダーの名前を変更する",
+      "summary": "自分のスペースでも、共有されたものでも、任意のファイルやフォルダーにわかりやすい名前を付けます。",
+      "steps": [
+        {
+          "title": "名前を変更するファイルを見つける",
+          "caption": "項目があるフォルダーを開きます。ここでは共有されたフォルダー内の <code>example.txt</code> です。名前の隣の小さな鉛筆アイコンで名前変更を始めます。"
+        },
+        {
+          "title": "新しい名前を入力する",
+          "caption": "鉛筆をクリックする（または行のアクションメニューから <strong>Rename</strong> を選ぶ）と、<mark>renamedByBrian.txt</mark> のように新しい名前を入力して確定し、適用できます。"
+        },
+        {
+          "title": "名前が変わったファイル",
+          "caption": "一覧が更新され、たとえば <mark>renamedByAlice.txt</mark> のように新しい名前が反映されます。同じ <strong>Rename</strong> アクションはフォルダーにも使えます。"
+        }
+      ]
+    },
+    "searchspace": {
+      "category": "ファイル検索",
+      "title": "Space 内を検索する",
+      "summary": "特定のプロジェクト Space にあるファイルを見つけます。各結果はどの Space に属するかを示します。",
+      "steps": [
+        {
+          "title": "プロジェクト Space を開く",
+          "caption": "左サイドバーの <strong>Spaces</strong> に移動し、プロジェクト Space を開きます。ここでは共有プロジェクトファイルが置かれている <mark>team</mark> Space です。"
+        },
+        {
+          "title": "その Space のファイル",
+          "caption": "Space の中には、<strong>Personal</strong> エリアとは別に、その Space 独自のフォルダーやファイルが表示されます。"
+        },
+        {
+          "title": "全体を横断して検索する",
+          "caption": "上部の検索ボックスに入力して <kbd>Enter</kbd> を押します。各結果にはそれが置かれているフォルダーが表示されるので、プロジェクトファイルと自分のファイルを区別できます。"
+        },
+        {
+          "title": "結果がどの Space に属するか確認する",
+          "caption": "プロジェクト Space にある一致には、ここの <mark>team</mark> バッジのようにその Space の名前が付き、ファイルがその Space に属していることが確認できます。"
+        }
+      ]
+    },
+    "shortcuts": {
+      "category": "操作と移動",
+      "title": "ショートカットを作成して開く",
+      "summary": "別のファイル、フォルダー、外部の Web ページへ直接移動するショートカットファイルを作ります。",
+      "steps": [
+        {
+          "title": "ファイルから始める",
+          "caption": "<strong>Files</strong> アプリを開き、フォルダーやドキュメントを作るのと同じように <strong>New</strong> ボタンを使ってショートカットを作成します。"
+        },
+        {
+          "title": "ショートカットが一覧に表示される",
+          "caption": "各ショートカットは矢印のバッジが付いた小さな <code>.url</code> ファイルで、<mark>docs.url</mark> や <mark>companyNews.url</mark> のように表示されます。ファイル、フォルダー、外部アドレスを指すことができます。"
+        },
+        {
+          "title": "外部リンクを開く",
+          "caption": "<mark>companyNews.url</mark> のようなショートカットを選んで開くと、たとえば <code>https://owncloud.com/news/</code> のように、その宛先 Web ページへ直接移動します。"
+        },
+        {
+          "title": "対象ファイルを開く",
+          "caption": "ファイルを指すショートカットは、そのファイルを直接開きます。ここでは <strong>docs</strong> フォルダー内の <code>notice.txt</code> を表示するテキストエディターに着きます。"
+        }
+      ]
+    },
+    "activity": {
+      "category": "アクティビティ",
+      "title": "ファイルや Space のアクティビティを追う",
+      "summary": "誰が何を変更したかのタイムラインを、単一のファイルでも Space 全体でも確認します。",
+      "steps": [
+        {
+          "title": "変更を加える",
+          "caption": "日々の操作は作業しながら記録されます。ここではフォルダーの名前を変更したばかりで、<strong>Modified</strong> 列の <strong>0 seconds ago</strong> で示されています。"
+        },
+        {
+          "title": "ファイルのアクティビティ",
+          "caption": "ファイルを選んで <strong>Activities</strong> パネルを開くと、その履歴を読めます。名前変更、更新、追加が、それぞれ誰がいつ行ったかとともに記録されています。"
+        },
+        {
+          "title": "Space のアクティビティ",
+          "caption": "<strong>team</strong> のような Space を開くと、同じ <strong>Activities</strong> パネルがその中のすべてを対象にします。メンバーの参加、ファイルの追加、Space の共有などです。"
+        }
+      ]
+    },
+    "downloadspace": {
+      "category": "Spaces",
+      "title": "Space 全体をダウンロードする",
+      "summary": "プロジェクト Space の内容全体を、1 つのアーカイブとしてデバイスに保存します。",
+      "steps": [
+        {
+          "title": "Space を開く",
+          "caption": "<strong>Spaces</strong> に移動し、ダウンロードしたいプロジェクト Space（たとえば <mark>team</mark>）を開きます。"
+        },
+        {
+          "title": "内容をダウンロードする",
+          "caption": "Space のアクションメニュー（名前の隣の 3 点）を使って <strong>Download</strong> を選びます。すべてが 1 つの <code>.zip</code> にまとめられます。"
+        },
+        {
+          "title": "メンバーもダウンロードできる",
+          "caption": "メンバーとして追加された人は同じ Space を見ることができ、同じ方法で内容をダウンロードできます。これでチーム全員が必要なときにコピーを持てます。"
+        }
+      ]
+    },
+    "gdprexport": {
+      "category": "アカウント",
+      "title": "自分のデータをエクスポートする",
+      "summary": "アカウント設定から GDPR に基づく個人データのエクスポートをリクエストし、準備ができたらダウンロードします。",
+      "steps": [
+        {
+          "title": "アカウントページを開く",
+          "caption": "ユーザーメニューから <strong>My Account</strong> を開き、一番下の <strong>GDPR</strong> セクションまでスクロールします。<strong>GDPR export</strong> 行で、<code>&sect;20 GDPR</code> に基づく個人データのエクスポートをリクエストできます。"
+        },
+        {
+          "title": "新しいエクスポートをリクエストする",
+          "caption": "<strong>Request new export</strong> をクリックします。ownCloud がバックグラウンドで個人データのアーカイブを準備し、準備ができると <strong>Download</strong> リンクが表示されます。"
+        },
+        {
+          "title": "エクスポートをダウンロードする",
+          "caption": "エクスポートが完了したら、<strong>GDPR export</strong> の隣の <strong>Download</strong> アクションを使ってアーカイブをデバイスに保存します。"
+        }
+      ]
+    },
+    "language": {
+      "category": "アカウント",
+      "title": "言語を変更する",
+      "summary": "Web インターフェースに使いたい言語を選ぶと、すぐに切り替わります。",
+      "steps": [
+        {
+          "title": "アカウントページを開く",
+          "caption": "ユーザーメニューから <strong>My Account</strong> を開きます。<strong>Preferences</strong> の <strong>Language</strong> 行に、インターフェースが現在使っている言語（ここでは <strong>English</strong>）が表示されます。"
+        },
+        {
+          "title": "新しい言語を選ぶ",
+          "caption": "<strong>Language</strong> のドロップダウンを開いて言語（たとえば <mark>Deutsch - German</mark>）を選びます。インターフェース全体がすぐに切り替わり、ページタイトルは <strong>Mein Konto</strong> になります。"
+        },
+        {
+          "title": "変更が保存された",
+          "caption": "短い確認（<strong>Einstellung gespeichert</strong>、設定が保存されたという意味）が表示され、次回サインイン時にも選択が記憶されます。"
+        }
+      ]
+    },
+    "notifications": {
+      "category": "アカウント",
+      "title": "通知の設定",
+      "summary": "ベルからアプリ内通知を読み、消去し、通知メールを受け取るかどうかを管理します。",
+      "steps": [
+        {
+          "title": "通知ベルを確認する",
+          "caption": "上部バーのベルアイコンは、注意が必要なときに赤い数字を表示します。クリックすると最近のアクティビティを読めます。たとえば <strong>Alice Hansen shared share_to_group with you</strong> です。"
+        },
+        {
+          "title": "すべて既読にする",
+          "caption": "パネル上部の <strong>Mark all as read</strong> で一覧を消去します。ベルの数字が消え、パネルには <strong>Nothing new</strong> が表示されます。"
+        },
+        {
+          "title": "通知メールを管理する",
+          "caption": "<strong>My Account</strong> の <strong>Notifications</strong> 設定（<strong>Receive notification mails</strong>）で、イベントをメールでも受け取るかどうかを管理します。チェックを外すと、通知をアプリ内だけに保てます。"
+        }
+      ]
+    },
+    "spacefromselection": {
+      "category": "Spaces",
+      "title": "選択した項目から Space を作成する",
+      "summary": "フォルダーやファイルの選択を、ひとつの操作でまったく新しいプロジェクト Space に変えます。",
+      "steps": [
+        {
+          "title": "Personal エリアから始める",
+          "caption": "<strong>Personal</strong> を開き、まとめたいファイルやフォルダー（たとえば <mark>resourceFolder</mark> と <mark>lorem.txt</mark>）を見つけます。"
+        },
+        {
+          "title": "選択から Space を作成する",
+          "caption": "項目を選択し、右クリックして <strong>Create Space from selection</strong> を選びます。<strong>Space was created successfully</strong> という確認が表示されます。"
+        },
+        {
+          "title": "すぐ使える新しい Space",
+          "caption": "<strong>Spaces</strong> で新しいプロジェクト Space を開くと、選んだ項目がすでに中にあり、共有して共同作業する準備ができています。"
+        }
+      ]
+    },
+    "spacelink": {
+      "category": "Spaces",
+      "title": "Space への公開リンクを作成する",
+      "summary": "プロジェクト Space 全体（またはその中のフォルダー）を、アカウントを持たない人とパスワードで保護して共有します。",
+      "steps": [
+        {
+          "title": "公開リンクを作成する",
+          "caption": "Space の <strong>Members</strong> パネルで、<strong>Public links</strong> の <strong>Add link</strong> を使ってパスワードを設定します。新しいリンクが役割（ここでは <strong>Can view</strong>）とともに表示され、トーストがクリップボードにコピーされたことを確認します。"
+        },
+        {
+          "title": "リンクがあることを確認する",
+          "caption": "Space の <strong>Details</strong> には <strong>This space has one member and 1 link</strong> と表示されます。<strong>Members</strong> はいつでも開いて、リンクの名前変更、役割の変更、削除ができます。"
+        },
+        {
+          "title": "受け取った人に表示されるもの",
+          "caption": "リンクを送った相手は <strong>This resource is password-protected</strong> に着きます。<strong>Enter password for public link</strong> でパスワードを入力し、<strong>Continue</strong> を選びます。"
+        },
+        {
+          "title": "共有された Space を閲覧する",
+          "caption": "ロックを解除すると、受け取った人はすっきりとした <strong>Public link</strong> ページで Space の内容を見られ、あなたが付与した役割に従ってファイルを閲覧したり開いたりできます。"
+        }
+      ]
+    },
+    "spacememberexpiry": {
+      "category": "Spaces",
+      "title": "メンバーに期限付きのアクセス権を与える",
+      "summary": "有効期限を設定し、選んだ日に Space メンバーのアクセス権が自動で終了するようにします。",
+      "steps": [
+        {
+          "title": "メンバーを追加する",
+          "caption": "Space を開き、<strong>Members</strong> パネルから人を追加します。<strong>Share was added successfully</strong> というメッセージで、その人がアクセスできるようになったことを確認します。"
+        },
+        {
+          "title": "有効期限を設定する",
+          "caption": "メンバー（たとえば <mark>Brian Murphy</mark>）の隣のカレンダーアイコンを使って日付を選びます。その日が来ると、アクセス権が自動で終了します。"
+        },
+        {
+          "title": "アクセスを恒久にするには削除する",
+          "caption": "気が変わりましたか。同じ方法で日付をクリアすると、メンバーは期限なしでアクセスを保ち、<strong>Share successfully changed</strong> で確認されます。"
+        }
+      ]
+    },
+    "spacemembers": {
+      "category": "Spaces",
+      "title": "Space のメンバーを管理する",
+      "summary": "プロジェクト Space に人やグループを追加し、それぞれができることを選び、不要になったらアクセスを取り消します。",
+      "steps": [
+        {
+          "title": "プロジェクト Space を開く",
+          "caption": "<strong>Spaces</strong> に移動し、管理する Space（ここでは <mark>team</mark>）を開きます。ヘッダーには現在の人数（たとえば <strong>1 member</strong>）が、誰かを招待する前に表示されます。"
+        },
+        {
+          "title": "メンバーを追加する",
+          "caption": "人やグループを Space に招待します。追加されたメンバーごとに <strong>Share was added successfully</strong> の確認が出て、人数が増えます（ここでは <strong>5 members</strong> へ）。"
+        },
+        {
+          "title": "各メンバーの役割を選ぶ",
+          "caption": "<strong>Members</strong> パネルを開いて役割を設定します。各メンバーのドロップダウンから <strong>Can view</strong>、<strong>Can edit with versions and trashbin</strong>、<strong>Can manage</strong> を選びます。変更は <strong>Share successfully changed</strong> で確認されます。"
+        },
+        {
+          "title": "メンバーを削除する",
+          "caption": "メンバーの隣の 3 点メニューを使ってアクセス権を取り消します。<strong>Share was removed successfully</strong> というメッセージで、その人が Space にアクセスできなくなったことを確認します。"
+        }
+      ]
+    },
+    "spacespagination": {
+      "category": "Spaces",
+      "title": "項目の多い Space をページ送りする",
+      "summary": "ページ間を移動し、隠しファイルを表示し、大きな Space で一度に表示する項目数を変更します。",
+      "steps": [
+        {
+          "title": "ページ間をジャンプする",
+          "caption": "Space に 1 ページに収まらないほどの項目があるとき、下部のページャーで順に進めます。フッターには全体の数（たとえば <code>112 items with 1 kB in total</code>）が表示されます。"
+        },
+        {
+          "title": "隠しファイルを表示する",
+          "caption": "表示設定から <strong>Show hidden files</strong> をオンにすると、ドットで始まる項目がカウントと一覧に含まれます。"
+        },
+        {
+          "title": "1 ページの表示数を増やす",
+          "caption": "表示設定（ギアアイコン）を開いて 1 ページの項目数を上げます（たとえば <mark>500</mark> へ）。すべてが 1 ページに収まると、ページャーは完全に消えます。"
+        }
+      ]
+    },
+    "upload": {
+      "category": "ファイル操作",
+      "title": "ファイルとフォルダーをアップロードする",
+      "summary": "ファイルやフォルダー全体を、1 つずつでもまとめてでもスペースに追加します。",
+      "steps": [
+        {
+          "title": "自分のスペースから始める",
+          "caption": "<strong>Personal</strong> を開くと空の一覧が表示されます。<strong>Upload</strong> ボタンを使うか、ファイルやフォルダーをページにドラッグするだけで追加できます。"
+        },
+        {
+          "title": "ファイルが一覧に並ぶ",
+          "caption": "アップロードしたファイルは、サイズと <strong>Modified</strong> 時刻とともにすぐに表示されます。ドラッグ&ドロップ領域は、ファイルとフォルダーが混ざった選択を一度に受け付けます。"
+        },
+        {
+          "title": "フォルダー全体をアップロードする",
+          "caption": "フォルダーはアップロードしても構造を保ちます。<strong>PARENT</strong> を開くと、デバイス上にあったとおりのファイルやサブフォルダーが見つかります。"
+        },
+        {
+          "title": "多数のファイルを一度にアップロードする",
+          "caption": "数十のファイルを一度に選べます。それぞれが個別にアップロードされ一覧に並ぶので、一括インポートがすっきりしたファイル一覧になります。"
+        }
+      ]
+    },
+    "uploadresume": {
+      "category": "ファイル操作",
+      "title": "大きなアップロードを一時停止して再開する",
+      "summary": "大きなアップロードを一時停止し、最初からやり直さずに後で続きから再開します。",
+      "steps": [
+        {
+          "title": "進行中のアップロード",
+          "caption": "<strong>Upload</strong> メニューから <strong>Files</strong> を選ぶと、進捗のオーバーレイが隅に表示され、残り時間と <strong>pause</strong>・キャンセルのコントロールが示されます。"
+        },
+        {
+          "title": "必要なときに一時停止する",
+          "caption": "一時停止コントロールを押すと、転送はその位置で止まります。進捗バーは、すでに送ったぶんを捨てずに、続行できる状態でその位置を保ちます。"
+        },
+        {
+          "title": "止まったところから再開する",
+          "caption": "再開コントロールを押すと、アップロードは同じ地点から続きます。大きなファイルは一時停止に耐え、最初から送り直す必要はありません。"
+        },
+        {
+          "title": "完了してファイルに入る",
+          "caption": "完了すると、ファイルはフルサイズで一覧に表示されます。ここでは <mark>1.1 GB</mark> のアップロードで、再開した転送が無事に届いたことを確認できます。"
+        }
+      ]
+    },
+    "viewmodes": {
+      "category": "ファイル操作",
+      "title": "タイルとリストの表示",
+      "summary": "ファイル一覧を、コンパクトなリスト、テーブル、タイルのレイアウトに切り替えて、作業に合わせます。",
+      "steps": [
+        {
+          "title": "リスト表示から始める",
+          "caption": "デフォルトではファイルエリアはリストレイアウトを使います。右上の 3 つの表示ボタン（<strong>condensed list</strong>、<strong>table</strong>、<strong>tiles</strong>）で、リソースの表示方法を変えられます。"
+        },
+        {
+          "title": "タイルに切り替える",
+          "caption": "<strong>tiles</strong> ボタン（グリッドアイコン）をクリックすると、各ファイルとフォルダーが大きなサムネイルのタイルとして表示されます。ここの <strong>tile_folder</strong> のようにです。この表示は画像やフォルダーを視覚的に見るのに便利です。"
+        },
+        {
+          "title": "選んだ表示が保たれる",
+          "caption": "フォルダーを開いてもタイルレイアウトは選ばれたままなので、<code>tile_folder</code> の中身も、切り替えるまでタイルで表示され続けます。"
+        }
+      ]
+    },
+    "fulltextsearch": {
+      "category": "ファイル検索",
+      "title": "ファイルの中身を検索する",
+      "summary": "全文検索はドキュメントの中身も調べるので、ファイル名だけでなく、含まれている単語でファイルを見つけられます。",
+      "steps": [
+        {
+          "title": "全体を横断して検索する",
+          "caption": "グローバル検索バーに入力し、<strong>All files</strong> フィルターのままにします。全文検索が有効なら、ownCloud はファイル名だけでなくファイルの中身も調べます。"
+        },
+        {
+          "title": "中身に含まれる一致",
+          "caption": "<mark>Cheers</mark> のような単語を検索すると、ファイル名のどこにもなくても、その単語を含むドキュメントが返ります。"
+        },
+        {
+          "title": "結果を絞り込む",
+          "caption": "大きな結果セットは、たとえば <strong>Tag</strong>、メディアタイプ、最終更新日のフィルターチップで絞り込めます。"
+        },
+        {
+          "title": "一致を開く",
+          "caption": "一覧から任意の結果を直接開くと、探していたファイルへ移動できます。"
+        }
+      ]
+    },
+    "cast": {
+      "category": "拡張機能",
+      "title": "デバイスにキャストする",
+      "summary": "この拡張機能がファイルメニューに追加する Cast アクションを使って、ファイルをキャストデバイスに送ります。",
+      "steps": [
+        {
+          "title": "ファイルを選ぶ",
+          "caption": "スペースのファイルから始めます。ここでは <strong>Personal</strong> にある <mark>logo.jpeg</mark> という画像です。"
+        },
+        {
+          "title": "Cast アクション",
+          "caption": "ファイルを右クリックすると、メニューの一番上に <strong>Cast</strong> が見つかります。この拡張機能が追加したもので、Chromecast などのキャストデバイスにファイルを送ります。"
+        }
+      ]
+    },
+    "drawio": {
+      "category": "拡張機能",
+      "title": "draw.io で図を描く",
+      "summary": "draw.io の図を ownCloud の中で直接作成・編集し、ファイルに保存し直します。",
+      "steps": [
+        {
+          "title": "アプリメニューを開く",
+          "caption": "アプリケーションメニュー（左上）を開いて、draw.io エディターで新しい図を作り始めます。"
+        },
+        {
+          "title": "図を作る",
+          "caption": "draw.io のフルエディターが ownCloud 内で開きます。左のパレットから図形をキャンバスにドラッグし、つなげて図を作ります。"
+        },
+        {
+          "title": "作業を保存する",
+          "caption": "右上の <strong>Save</strong> で図をファイルに保存し、<strong>Exit</strong> で戻ります。"
+        },
+        {
+          "title": "ファイルとして保存される",
+          "caption": "図はファイル一覧に <mark>New file.drawio</mark> ファイルとして表示され、いつでも開いて編集できます。"
+        }
+      ]
+    },
+    "externalsites": {
+      "category": "拡張機能",
+      "title": "外部サイト",
+      "summary": "管理者が固定した Web サイトに、新しいタブで、または ownCloud 内に埋め込んでアクセスします。",
+      "steps": [
+        {
+          "title": "アプリメニューを開く",
+          "caption": "設定済みのサイトはアプリケーションメニュー（左上）に表示されます。ここでは <strong>Owncloud External</strong> と <strong>Owncloud Embedded</strong> の項目です。"
+        },
+        {
+          "title": "埋め込みサイトを選ぶ",
+          "caption": "<strong>Owncloud Embedded</strong> のような項目を選ぶと、その Web サイトが ownCloud 内で開きます。"
+        },
+        {
+          "title": "ownCloud 内に表示されるサイト",
+          "caption": "埋め込みサイトは ownCloud 内のページに読み込まれる（ここでは ownCloud ドキュメント）ので、同じウィンドウにとどまれます。External の項目は代わりに新しいブラウザータブで開きます。"
+        }
+      ]
+    },
+    "jsonviewer": {
+      "category": "拡張機能",
+      "title": "JSON ファイルを表示する",
+      "summary": ".json ファイルを、生のテキストとしてではなく、整形され折りたためるビューアーで開きます。",
+      "steps": [
+        {
+          "title": "JSON ファイルを追加する",
+          "caption": "<strong>Personal</strong> スペースに <code>.json</code> ファイルをアップロードまたは作成します。ここでは <mark>jsonFile.json</mark> という名前のファイルです。"
+        },
+        {
+          "title": "JSON Viewer で開く",
+          "caption": "ファイルを右クリックして <strong>Open in JSON Viewer</strong> を選びます。これは拡張機能が <strong>Open in Text Editor</strong> の隣に追加したものです。"
+        },
+        {
+          "title": "整形して読む",
+          "caption": "ファイルはシンタックスハイライトときれいなインデントレイアウトで開くので、長い 1 行のテキストではなく、入れ子になったキーと値を追いやすくなります。"
+        }
+      ]
+    },
+    "progressbars": {
+      "category": "拡張機能",
+      "title": "アップロードの進捗バー",
+      "summary": "ファイルのアップロード中に表示される進捗バーのスタイルを、アカウント設定から選びます。",
+      "steps": [
+        {
+          "title": "アカウントを開く",
+          "caption": "ユーザーメニューから <strong>My Account</strong> に移動します。ここに設定や拡張機能のオプションがあります。"
+        },
+        {
+          "title": "進捗バーを選ぶ",
+          "caption": "<strong>Extensions</strong> で <strong>Global progress bar</strong> を <mark>Nyan Cat progress bar</mark> のようなスタイルに設定して、ファイルのアップロード中に表示される見た目をカスタマイズします。"
+        }
+      ]
+    },
+    "unzip": {
+      "category": "拡張機能",
+      "title": "ZIP アーカイブを展開する",
+      "summary": ".zip アーカイブを、先にダウンロードせずにその場で展開します。",
+      "steps": [
+        {
+          "title": "ZIP アーカイブを追加する",
+          "caption": "<code>.zip</code> アーカイブをフォルダーにアップロードします。ここでは <strong>Personal</strong> スペースにある <mark>data.zip</mark> という名前のファイルです。"
+        },
+        {
+          "title": "ここに展開する",
+          "caption": "アーカイブを右クリックして <strong>Extract here</strong> を選びます。これはこの拡張機能がファイルメニューに追加するアクションです。"
+        },
+        {
+          "title": "その場で展開されたファイル",
+          "caption": "内容はアーカイブの隣の新しいフォルダーに置かれるので、ownCloud を離れずにすぐ開けます。"
+        }
+      ]
+    },
+    "advancedsearch": {
+      "category": "拡張機能",
+      "title": "Advanced Search",
+      "summary": "フィルター、全文の内容検索、再利用できる保存済み検索を組み合わせた専用の検索アプリでファイルを見つけます。",
+      "steps": [
+        {
+          "title": "Advanced Search を開く",
+          "caption": "<strong>Advanced Search</strong> アプリは、大きな検索ボックス 1 つに加えて、その下の充実したフィルターフォームとともに開き、入力する前から準備ができています。"
+        },
+        {
+          "title": "検索を実行する",
+          "caption": "<mark>test</mark> のような語を入力して <strong>Search</strong> を押します。<strong>Search: test</strong> のアクティブなチップが表示され、<strong>KQL Query</strong> 欄に <code>name:*test*</code> が自動で入ります。"
+        },
+        {
+          "title": "フィルターで絞り込む",
+          "caption": "<strong>Type</strong>、<strong>Media Type</strong>、<strong>Tags</strong>、全文の <strong>Content</strong> 欄、または <strong>Size</strong> と <strong>Modified</strong> の範囲で結果を絞り込みます。<strong>Clear All</strong> はすべてをワンクリックでリセットします。"
+        },
+        {
+          "title": "検索を保存して再利用する",
+          "caption": "検索がアクティブになると、右上に <strong>Save Search</strong> が表示されます。保存した項目は <strong>Saved Searches</strong> の中にあるので、複雑なクエリを作り直さずに後で再実行できます。"
+        }
+      ]
+    },
+    "photogallery": {
+      "category": "拡張機能",
+      "title": "フォトギャラリー",
+      "summary": "Photos 拡張機能は、スペース全体のすべての画像を 1 つのビジュアルなタイムラインにまとめ、カレンダーとマップの表示を備えます。",
+      "steps": [
+        {
+          "title": "すべての写真を 1 か所に",
+          "caption": "アプリケーションメニューから <strong>Photos</strong> を開きます。個人スペースや Spaces 全体のすべての画像が、日ごとにグループ化された 1 つのグリッドに集められます。"
+        },
+        {
+          "title": "写真を開く",
+          "caption": "任意の写真を選ぶと全画面で表示でき、矢印でセットを順に進め、日付・カメラ・場所などの詳細を読めます。"
+        },
+        {
+          "title": "カレンダーとマップの表示",
+          "caption": "右上のコントロールを使って <strong>EXIF only</strong> の画像に絞り込んだり、<strong>Calendar</strong> のタイムラインと <strong>Map</strong> を切り替えたりします。"
+        }
+      ]
+    },
+    "photolightbox": {
+      "category": "拡張機能",
+      "title": "フォトライトボックス",
+      "summary": "写真を全画面で開いて大きく表示し、その EXIF メタデータと並べて見て、撮影場所へ直接ジャンプします。",
+      "steps": [
+        {
+          "title": "写真を選ぶ",
+          "caption": "Photos ギャラリーで任意のサムネイルをクリックすると、ライトボックスで開きます。"
+        },
+        {
+          "title": "全画面と詳細",
+          "caption": "ライトボックスは写真を大きく、カウンター（<strong>1 / 6</strong>）とセットを移動する矢印とともに表示します。その下の詳細パネルには、画像の EXIF データから取り出した <strong>Date taken</strong>、<strong>Camera</strong>、<strong>Model</strong>、<strong>Location</strong> とファイル情報が一覧表示されます。"
+        }
+      ]
+    },
+    "photomap": {
+      "category": "拡張機能",
+      "title": "写真を地図上に表示する",
+      "summary": "ジオタグ付きの写真を世界地図上にプロットして、それぞれがどこで撮影されたかを確認します。",
+      "steps": [
+        {
+          "title": "写真が位置情報を持つ",
+          "caption": "スマートフォンや GPS カメラで撮った写真は、EXIF データに座標を保存します。ここでは <strong>Location</strong> として、<strong>View on Map</strong> のショートカットとともに表示されています。"
+        },
+        {
+          "title": "地図上で見る",
+          "caption": "<strong>Map</strong> 表示に切り替えると、ジオタグ付きのすべての写真が世界地図上にピンとして配置されます。ヘッダーには <strong>Photos (4 of 4 in view)</strong> と表示されます。パンやズームで探索し、ピンをクリックするとその写真が開きます。"
+        }
+      ]
     }
   },
   "upcoming": {

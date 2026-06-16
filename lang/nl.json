@@ -185,6 +185,849 @@
           "caption": "Het werkt net zo voor tekst- en Markdown-notities, niet alleen voor PDFs, zodat je de kern van een bestand begrijpt voordat je het opent."
         }
       ]
+    },
+    "appstore": {
+      "category": "App Store",
+      "title": "Apps ontdekken",
+      "summary": "Blader, zoek en filter door de apps die voor jouw ownCloud beschikbaar zijn vanuit de ingebouwde App Store.",
+      "steps": [
+        {
+          "title": "Open de App Store",
+          "caption": "Open de App Store via het applicatiemenu (het rasticoon, linksboven). Elke app die voor jouw instantie beschikbaar is, wordt als een kaart getoond."
+        },
+        {
+          "title": "Zoek op naam",
+          "caption": "Typ in het zoekveld om de lijst te beperken. Zoeken op <mark>draw</mark> brengt de Draw.io-diagrameditor naar boven."
+        },
+        {
+          "title": "Filter op categorie",
+          "caption": "Klik op een categorielabel zoals <strong>viewer</strong> om alleen apps van dat type te tonen."
+        },
+        {
+          "title": "Open een app",
+          "caption": "Selecteer een app om de volledige beschrijving, schermafbeeldingen en beschikbare versies te lezen."
+        }
+      ]
+    },
+    "appstore-details": {
+      "category": "App Store",
+      "title": "App-details en versies",
+      "summary": "Bekijk de details van een app en download een specifieke versie uit de App Store.",
+      "steps": [
+        {
+          "title": "Begin in de App Store",
+          "caption": "Kies in het App Store-overzicht de app waarin je geïnteresseerd bent."
+        },
+        {
+          "title": "Lees de app-details",
+          "caption": "De detailpagina toont de beschrijving, metadata en de lijst met uitgebrachte versies."
+        },
+        {
+          "title": "Download een specifieke versie",
+          "caption": "Download een willekeurige vermelde versie, niet alleen de nieuwste, wat handig is om een betrouwbare release vast te zetten."
+        }
+      ]
+    },
+    "admin-general": {
+      "category": "Administratie",
+      "title": "Algemene administratie-instellingen",
+      "summary": "Vind de informatie over je instantie en pas het uiterlijk aan, inclusief het logo, vanuit het beheergedeelte.",
+      "steps": [
+        {
+          "title": "Open General settings",
+          "caption": "Open als beheerder <strong>Administration Settings</strong> en selecteer <strong>General</strong>. Het Info-gedeelte toont je editie en versies."
+        },
+        {
+          "title": "Upload een eigen logo",
+          "caption": "Upload onder <strong>Appearance</strong> je eigen logo om de webinterface van een eigen huisstijl te voorzien."
+        },
+        {
+          "title": "Terugzetten naar standaard",
+          "caption": "Toch van gedachten veranderd? Zet het logo op elk moment terug naar het ownCloud-standaardlogo."
+        }
+      ]
+    },
+    "admin-groups": {
+      "category": "Administratie",
+      "title": "Groepen beheren",
+      "summary": "Maak groepen aan, hernoem en verwijder ze om gebruikers te ordenen en in bulk toegang te verlenen.",
+      "steps": [
+        {
+          "title": "Open het groepenbeheer",
+          "caption": "Open in <strong>Administration Settings</strong> het onderdeel <strong>Groups</strong> om elke groep in een tabel te zien."
+        },
+        {
+          "title": "Maak een groep aan",
+          "caption": "Gebruik <strong>+ New group</strong> om een groep toe te voegen; deze verschijnt meteen in de lijst."
+        },
+        {
+          "title": "Hernoem een groep",
+          "caption": "Selecteer een groep en bewerk de weergavenaam in het paneel aan de rechterkant."
+        },
+        {
+          "title": "Opgeslagen",
+          "caption": "De nieuwe naam verschijnt in de groepentabel. Een groep verwijderen gaat net zo snel via de acties bij de rij."
+        }
+      ]
+    },
+    "download": {
+      "category": "Werken met bestanden",
+      "title": "Bestanden en mappen downloaden",
+      "summary": "Haal een kopie van elk bestand, elke map of elk gedeeld item op je apparaat.",
+      "steps": [
+        {
+          "title": "Downloaden vanuit de bestandslijst",
+          "caption": "Elke rij heeft een <strong>Download</strong>-actie, en mappen worden verpakt als een <code>.zip</code>. Het rechtermuisknopmenu biedt het ook aan."
+        },
+        {
+          "title": "Downloaden vanuit de viewer",
+          "caption": "Open een bestand in de viewer en gebruik het downloadicoon in de werkbalk om de versie die je bekijkt op te slaan."
+        },
+        {
+          "title": "Gedeelde items downloaden",
+          "caption": "Dezelfde Download-actie is beschikbaar voor bestanden en mappen die anderen met je hebben gedeeld, onder <strong>Shares</strong>."
+        }
+      ]
+    },
+    "admin-spaces": {
+      "category": "Administratie",
+      "title": "Spaces beheren",
+      "summary": "Maak, bewerk, schakel uit en bekijk project-Spaces vanuit de beheerinstellingen.",
+      "steps": [
+        {
+          "title": "Open de Spaces-beheerpagina",
+          "caption": "Selecteer onder <strong>Administration Settings</strong> het onderdeel <strong>Spaces</strong> in de zijbalk. De tabel toont elke project-Space met de <strong>Manager</strong>, <strong>Members</strong>, <strong>Remaining quota</strong> en het tijdstip van laatste wijziging."
+        },
+        {
+          "title": "Maak een nieuwe Space",
+          "caption": "Gebruik de knop <strong>New Space</strong> om een project-Space toe te voegen (bijvoorbeeld <mark>team A</mark>). Een bericht <strong>Space was created successfully</strong> bevestigt dit, en de nieuwe Space verschijnt bovenaan de lijst."
+        },
+        {
+          "title": "Hernoemen en quotum aanpassen",
+          "caption": "Vink een Space aan om de acties <strong>Edit quota</strong> en <strong>Disable</strong> in de werkbalk te tonen. Hernoemen, de ondertitel wijzigen en het quotum verhogen (hier naar <mark>50 GB</mark>) geven elk hun eigen bevestigingsmelding."
+        },
+        {
+          "title": "Een Space uitschakelen of verwijderen",
+          "caption": "Met een Space geselecteerd schakelt de werkbalk over naar <strong>Enable</strong> en <strong>Delete</strong>. Uitschakelen neemt hem uit gebruik zonder gegevens te verwijderen, te zien aan het bericht <strong>was disabled successfully</strong>."
+        },
+        {
+          "title": "Bekijk de leden van een Space",
+          "caption": "Open het zijbalkpaneel <strong>Members</strong> om te zien wie bij een Space hoort, gegroepeerd per rol: <strong>Can manage</strong>, <strong>Can edit with versions and trashbin</strong> en <strong>Can view</strong>. Gebruik <strong>Filter members</strong> om door een lange lijst te zoeken."
+        }
+      ]
+    },
+    "admin-users": {
+      "category": "Administratie",
+      "title": "Gebruikers beheren",
+      "summary": "Maak een gebruiker aan, bewerk de accountgegevens en wijs de gebruiker toe aan groepen vanuit de beheerinstellingen.",
+      "steps": [
+        {
+          "title": "Open de gebruikersbeheerpagina",
+          "caption": "Kies onder <strong>Administration Settings</strong> het onderdeel <strong>Users</strong>. De tabel toont elk account met de <strong>User name</strong>, <strong>Email</strong>, <strong>Role</strong> en <strong>Login</strong>-status, en de <strong>Filter</strong>-knoppen beperken de lijst op groep of rol."
+        },
+        {
+          "title": "Maak een nieuwe gebruiker aan",
+          "caption": "Selecteer <strong>New user</strong> en vul de accountgegevens in (bijvoorbeeld <mark>max</mark>). Een bericht <strong>User was created successfully</strong> bevestigt dit, en het nieuwe account verschijnt in de lijst."
+        },
+        {
+          "title": "Bewerk de gegevens van een gebruiker",
+          "caption": "Kies een gebruiker en open het paneel <strong>Edit user</strong> om de naam, het e-mailadres, het wachtwoord, de <strong>Role</strong>, <strong>Login</strong> en het <strong>Personal quota</strong> te wijzigen. Elke wijziging wordt ter plekke opgeslagen, te zien aan <strong>Changes saved</strong>."
+        },
+        {
+          "title": "Wijs de gebruiker toe aan groepen",
+          "caption": "Gebruik in hetzelfde paneel het veld <strong>Groups</strong> om de gebruiker aan een of meer groepen toe te voegen, zoals <mark>sales department</mark> en <mark>finance department</mark>. Elke groep verschijnt als een chip die je met de bijbehorende &times;-knop kunt verwijderen."
+        }
+      ]
+    },
+    "appmenu": {
+      "category": "Navigeren",
+      "title": "Wisselen van app met het applicatiemenu",
+      "summary": "Gebruik het rasticoon linksboven om tussen de apps van ownCloud te wisselen, zoals Files en de teksteditor.",
+      "steps": [
+        {
+          "title": "Open het applicatiemenu",
+          "caption": "Het rasticoon helemaal in de linkerbovenhoek is het <strong>applicatiemenu</strong>. Kies er een app uit om van context te wisselen, hier opent het de teksteditor met een nieuw bestand."
+        },
+        {
+          "title": "Werk in de gekozen app",
+          "caption": "Elke app vult het venster. Typ je inhoud, bijvoorbeeld <mark>Hello world</mark>, en sla daarna op met het schijficoon in de bovenste werkbalk."
+        },
+        {
+          "title": "Terug naar Files",
+          "caption": "Open het rastermenu opnieuw en kies <strong>Files</strong> om terug te keren, waar je opgeslagen <code>New file.txt</code> in de lijst klaarstaat."
+        }
+      ]
+    },
+    "batchactions": {
+      "category": "Werken met bestanden",
+      "title": "Meerdere bestanden tegelijk bewerken",
+      "summary": "Selecteer meerdere bestanden en mappen tegelijk en pas er daarna één actie op toe.",
+      "steps": [
+        {
+          "title": "Selecteren met vinkvakjes",
+          "caption": "Elke rij heeft links een vinkvakje, en het vakje in de kop <strong>Name</strong> is een knop om alles te selecteren. Vink meerdere mappen aan om ze samen te bewerken in plaats van een voor een."
+        },
+        {
+          "title": "Vind de shares",
+          "caption": "Open <strong>Shares</strong> en het tabblad <strong>Shared with me</strong> om alles te zien wat anderen je hebben gestuurd, elk met een eigen vinkvakje zodat je in één keer een hele reeks kunt kiezen."
+        },
+        {
+          "title": "Pas één actie toe op alles",
+          "caption": "Met de rijen geselecteerd wordt één actie (hier de <strong>sync</strong>-knop naast elke share) in één keer op de hele selectie toegepast, zodat je niet per item op de knop hoeft te klikken."
+        }
+      ]
+    },
+    "breadcrumb": {
+      "category": "Navigeren",
+      "title": "Navigeren met het kruimelpad",
+      "summary": "Gebruik het pad boven aan de bestandslijst om te zien waar je bent en in één klik terug te springen naar een bovenliggende map.",
+      "steps": [
+        {
+          "title": "Zie je volledige pad",
+          "caption": "Naarmate je map na map opent, groeit het kruimelpad bovenaan: <code>Personal > parent > folder > 'single-double quotes' > \"inner\" double quote > sub-folder</code>. Het toont altijd precies waar je bent."
+        },
+        {
+          "title": "Spring naar een bovenliggende map",
+          "caption": "Klik op een eerdere naam in het pad om meteen terug te springen naar die map, met alle tussenliggende niveaus overgeslagen. Je hoeft niet steeds op terug te drukken."
+        },
+        {
+          "title": "Klim terug naar de top",
+          "caption": "Een paar klikken later ben je terug bij <strong>parent</strong>, bijna boven aan de boom. De drie puntjes naast de huidige map openen een contextmenu met acties ervoor."
+        }
+      ]
+    },
+    "fileviewer": {
+      "category": "Werken met bestanden",
+      "title": "Bestanden bekijken",
+      "summary": "Open afbeeldingen, video, audio en meer rechtstreeks in je browser, zonder ze eerst te downloaden.",
+      "steps": [
+        {
+          "title": "Herken bestanden aan hun miniaturen",
+          "caption": "In de bestandslijst tonen afbeeldingen en media een kleine miniatuur, zodat je ze in één oogopslag herkent. Klik op een bestandsnaam om het in de viewer te openen."
+        },
+        {
+          "title": "Het bestand opent in de viewer",
+          "caption": "De afbeelding vult het scherm zonder dat downloaden nodig is. Een werkbalk onderaan laat je in- en uitzoomen, draaien en naar volledig scherm gaan."
+        },
+        {
+          "title": "Blader tussen bestanden",
+          "caption": "Gebruik de pijlen in de werkbalk om door de map te bladeren, weergegeven als <strong>6 of 7</strong>. Het <strong>Details</strong>-paneel aan de rechterkant toont grootte, eigenaar, versies en meer."
+        },
+        {
+          "title": "Bekijk video direct",
+          "caption": "Videobestanden zoals <code>.webm</code> spelen direct af in de viewer met de gebruikelijke afspeelknoppen, zodat je ze niet eerst hoeft op te slaan."
+        },
+        {
+          "title": "Speel ook audio af",
+          "caption": "Audiobestanden zoals <code>.mp3</code> openen met een ingebouwde speler. Druk op afspelen om te luisteren zonder ownCloud te verlaten."
+        }
+      ]
+    },
+    "journey": {
+      "category": "Reizen",
+      "title": "Een dag in ownCloud: deel het menu van deze week",
+      "summary": "Volg Alice terwijl ze een map voorbereidt, deze met de ouders deelt en zij het vanuit hun eigen account oppikken.",
+      "steps": [
+        {
+          "title": "Begin in je persoonlijke ruimte",
+          "caption": "Alice meldt zich aan en komt terecht in haar <strong>Personal</strong>-ruimte, het privéthuis voor haar eigen bestanden. Van hieruit kan ze mappen aanmaken en het menu van deze week uploaden."
+        },
+        {
+          "title": "Bereid de map voor",
+          "caption": "Ze verzamelt de bestanden in een map en opent het <strong>Details</strong>-paneel om de eigenaar, grootte en laatste wijziging te bevestigen voordat ze het verstuurt."
+        },
+        {
+          "title": "Deel met de ouders",
+          "caption": "Met de deelicoontjes in de <strong>Actions</strong> van de rij nodigt Alice de ouders uit, zodat iedereen hetzelfde actuele menu krijgt."
+        },
+        {
+          "title": "Ouders zien het meteen",
+          "caption": "Brian opent <strong>Shares</strong> en vindt het menu en de bestanden klaarstaan onder <strong>Shared with me</strong>, met wie ze heeft gedeeld en wanneer."
+        },
+        {
+          "title": "Ruim achteraf op",
+          "caption": "Zodra de week voorbij is, selecteert Alice de overgebleven items en verwijdert ze met de bulkactie, zodat haar <strong>Personal</strong>-ruimte opgeruimd blijft."
+        }
+      ]
+    },
+    "movecopy": {
+      "category": "Werken met bestanden",
+      "title": "Bestanden kopiëren en verplaatsen",
+      "summary": "Maak een kopie van een bestand in een andere map, of verplaats het naar een nieuwe plek, zonder opnieuw te uploaden.",
+      "steps": [
+        {
+          "title": "Begin in een map met bestanden",
+          "caption": "Open een map met de bestanden die je wilt herordenen. Hier bevat <strong>Personal</strong> &gt; <strong>Duplicate</strong> een bestand en een submap, klaar om te kopiëren of verplaatsen."
+        },
+        {
+          "title": "Kies wat je kopieert of verplaatst",
+          "caption": "Selecteer één item, of vink er meerdere aan om ze tegelijk te bewerken. Je kunt met de rechtermuisknop op een rij klikken voor <strong>Copy</strong> of <strong>Cut</strong>, slepen en neerzetten op een map, of sneltoetsen gebruiken."
+        },
+        {
+          "title": "Plak en de kopie verschijnt",
+          "caption": "Kies na <strong>Copy</strong> een bestemming in de locatiekiezer en bevestig. De nieuwe kopie komt naast het origineel terecht met een genummerde naam, zoals <mark>duplicate (1).txt</mark>."
+        },
+        {
+          "title": "Verplaatsen zet het op de nieuwe plek",
+          "caption": "Verplaatsen met <strong>Cut</strong> (of door het op een map te slepen) haalt het item weg waar het stond en zet het op de bestemming, zoals <strong>Sub1</strong> in deze map."
+        }
+      ]
+    },
+    "pagination": {
+      "category": "Navigeren",
+      "title": "Door grote mappen bladeren",
+      "summary": "Stel in hoeveel items per pagina verschijnen en stap met de pager door een lange bestandslijst.",
+      "steps": [
+        {
+          "title": "Kies items per pagina",
+          "caption": "Gebruik het instellingentandwiel rechtsboven om het aantal items per pagina in te stellen, bijvoorbeeld <mark>20</mark>. De lijst vult nu één pagina en onderaan verschijnt een pager."
+        },
+        {
+          "title": "Ga naar de volgende pagina",
+          "caption": "Klik op <strong>2</strong> in de pager om de overige items te zien. De voettekst houdt het lopende totaal bij, hier <strong>26 items with 223 B in total</strong>."
+        },
+        {
+          "title": "Toon verborgen bestanden",
+          "caption": "Het inschakelen van <strong>Show hidden files</strong> voegt dot-bestanden aan het totaal toe, zodat de voettekst wordt bijgewerkt en de pagina's opnieuw worden gevuld om ze mee te nemen."
+        },
+        {
+          "title": "Pas alles op één pagina",
+          "caption": "Verhoog het aantal items per pagina naar <mark>500</mark> en de hele map past in één keer, zodat de pager volledig verdwijnt."
+        }
+      ]
+    },
+    "rename": {
+      "category": "Werken met bestanden",
+      "title": "Bestanden en mappen hernoemen",
+      "summary": "Geef elk bestand of elke map een duidelijkere naam, in je eigen ruimte of in iets dat met je is gedeeld.",
+      "steps": [
+        {
+          "title": "Vind het te hernoemen bestand",
+          "caption": "Open de map met het item, hier <code>example.txt</code> in een map die met je is gedeeld. Het kleine potloodicoon naast de naam start een hernoeming."
+        },
+        {
+          "title": "Typ de nieuwe naam",
+          "caption": "Klik op het potlood (of kies <strong>Rename</strong> uit het actiemenu van de rij), typ de nieuwe naam zoals <mark>renamedByBrian.txt</mark>, en bevestig om hem toe te passen."
+        },
+        {
+          "title": "Het hernoemde bestand",
+          "caption": "De lijst ververst met de nieuwe naam op zijn plek, bijvoorbeeld <mark>renamedByAlice.txt</mark>. Dezelfde <strong>Rename</strong>-actie werkt ook op mappen."
+        }
+      ]
+    },
+    "searchspace": {
+      "category": "Bestanden vinden",
+      "title": "Zoeken binnen een Space",
+      "summary": "Vind bestanden die in een specifieke project-Space staan, met resultaten die tonen bij welke Space elke treffer hoort.",
+      "steps": [
+        {
+          "title": "Open je project-Space",
+          "caption": "Ga naar <strong>Spaces</strong> in de linker zijbalk en open een project-Space, hier de <mark>team</mark>-Space, waar je gedeelde projectbestanden staan."
+        },
+        {
+          "title": "De bestanden in die Space",
+          "caption": "Binnen de Space zie je de eigen mappen en bestanden, los van je <strong>Personal</strong>-gebied."
+        },
+        {
+          "title": "Zoek overal tegelijk",
+          "caption": "Typ in het zoekveld bovenaan en druk op <kbd>Enter</kbd>. Bij elk resultaat staat de map waarin het zit, zodat je projectbestanden van je eigen bestanden kunt onderscheiden."
+        },
+        {
+          "title": "Zie bij welke Space een resultaat hoort",
+          "caption": "Een treffer die in een project-Space staat, krijgt het label van die Space, zoals de <mark>team</mark>-badge hier, wat bevestigt dat het bestand bij die Space hoort."
+        }
+      ]
+    },
+    "shortcuts": {
+      "category": "Navigeren",
+      "title": "Snelkoppelingen aanmaken en openen",
+      "summary": "Maak snelkoppelingsbestanden die direct naar een ander bestand, een map of een externe webpagina springen.",
+      "steps": [
+        {
+          "title": "Begin in je bestanden",
+          "caption": "Open de <strong>Files</strong>-app en gebruik de knop <strong>New</strong> om een snelkoppeling te maken, net zoals je een map of document zou maken."
+        },
+        {
+          "title": "Snelkoppelingen verschijnen in de lijst",
+          "caption": "Elke snelkoppeling is een klein <code>.url</code>-bestand met een pijlbadge, zoals <mark>docs.url</mark> of <mark>companyNews.url</mark>. Ze kunnen verwijzen naar een bestand, een map of een extern adres."
+        },
+        {
+          "title": "Open een externe link",
+          "caption": "Een snelkoppeling als <mark>companyNews.url</mark> selecteren en openen stuurt je direct naar de doelwebpagina, bijvoorbeeld <code>https://owncloud.com/news/</code>."
+        },
+        {
+          "title": "Open het doelbestand",
+          "caption": "Een snelkoppeling die naar een bestand verwijst, opent dat bestand rechtstreeks, hier komt het uit in de teksteditor met <code>notice.txt</code> in de map <strong>docs</strong>."
+        }
+      ]
+    },
+    "activity": {
+      "category": "Op de hoogte blijven",
+      "title": "Activiteit op bestanden en Spaces volgen",
+      "summary": "Zie een tijdlijn van wie wat heeft gewijzigd, voor een enkel bestand of een hele Space.",
+      "steps": [
+        {
+          "title": "Breng een wijziging aan",
+          "caption": "Alledaagse handelingen worden vastgelegd terwijl je werkt. Hier is zojuist een map hernoemd, te zien aan de <strong>0 seconds ago</strong> in de kolom <strong>Modified</strong>."
+        },
+        {
+          "title": "Activiteit voor een bestand",
+          "caption": "Selecteer een bestand en open het <strong>Activities</strong>-paneel om de geschiedenis te lezen: het werd hernoemd, bijgewerkt en toegevoegd, elke regel voorzien van wie het deed en wanneer."
+        },
+        {
+          "title": "Activiteit voor een Space",
+          "caption": "Open een Space zoals <strong>team</strong> en hetzelfde <strong>Activities</strong>-paneel beslaat alles erin: leden die zich aansluiten, toegevoegde bestanden en de Space die wordt gedeeld."
+        }
+      ]
+    },
+    "downloadspace": {
+      "category": "Spaces",
+      "title": "Een hele Space downloaden",
+      "summary": "Sla de volledige inhoud van een project-Space op je apparaat op als één archief.",
+      "steps": [
+        {
+          "title": "Open de Space",
+          "caption": "Ga naar <strong>Spaces</strong> en open de project-Space die je wilt downloaden, zoals <mark>team</mark>."
+        },
+        {
+          "title": "Download de inhoud",
+          "caption": "Gebruik het actiemenu van de Space (de drie puntjes naast de naam) en kies <strong>Download</strong>. Alles wordt samen verpakt als één <code>.zip</code>."
+        },
+        {
+          "title": "Leden kunnen ook downloaden",
+          "caption": "Iedereen die als lid is toegevoegd, ziet dezelfde Space en kan de inhoud op dezelfde manier downloaden, zodat het hele team een kopie heeft wanneer dat nodig is."
+        }
+      ]
+    },
+    "gdprexport": {
+      "category": "Je account",
+      "title": "Je gegevens exporteren",
+      "summary": "Vraag in je accountinstellingen een persoonlijke gegevensexport aan volgens de AVG en download deze zodra hij klaar is.",
+      "steps": [
+        {
+          "title": "Open je accountpagina",
+          "caption": "Open vanuit het gebruikersmenu <strong>My Account</strong> en scroll naar het <strong>GDPR</strong>-gedeelte onderaan. Op de regel <strong>GDPR export</strong> kun je een persoonlijke gegevensexport aanvragen volgens <code>&sect;20 GDPR</code>."
+        },
+        {
+          "title": "Vraag een nieuwe export aan",
+          "caption": "Klik op <strong>Request new export</strong>. ownCloud bereidt op de achtergrond een archief van je persoonlijke gegevens voor, en er verschijnt een <strong>Download</strong>-link zodra het klaar is."
+        },
+        {
+          "title": "Download de export",
+          "caption": "Wanneer de export klaar is, gebruik je de <strong>Download</strong>-actie naast <strong>GDPR export</strong> om het archief op je apparaat op te slaan."
+        }
+      ]
+    },
+    "language": {
+      "category": "Je account",
+      "title": "De taal wijzigen",
+      "summary": "Kies de taal die je voor de webinterface wilt, en zie hoe deze direct omschakelt.",
+      "steps": [
+        {
+          "title": "Open je accountpagina",
+          "caption": "Open vanuit het gebruikersmenu <strong>My Account</strong>. Onder <strong>Preferences</strong> toont de regel <strong>Language</strong> de taal die de interface momenteel gebruikt, hier <strong>English</strong>."
+        },
+        {
+          "title": "Kies een nieuwe taal",
+          "caption": "Open de keuzelijst <strong>Language</strong> en kies een taal, bijvoorbeeld <mark>Deutsch - German</mark>. De hele interface schakelt meteen om, zodat de paginatitel <strong>Mein Konto</strong> wordt."
+        },
+        {
+          "title": "Wijziging opgeslagen",
+          "caption": "Een korte bevestiging (<strong>Einstellung gespeichert</strong>, wat betekent dat de instelling is opgeslagen) verschijnt, en je keuze wordt onthouden de volgende keer dat je je aanmeldt."
+        }
+      ]
+    },
+    "notifications": {
+      "category": "Je account",
+      "title": "Meldingsinstellingen",
+      "summary": "Lees meldingen in de app via de bel, wis ze en bepaal of je meldingsmails ontvangt.",
+      "steps": [
+        {
+          "title": "Controleer de meldingsbel",
+          "caption": "Het belicoon in de bovenbalk toont een rood aantal wanneer er iets je aandacht nodig heeft. Klik erop om recente activiteit te lezen, zoals <strong>Alice Hansen shared share_to_group with you</strong>."
+        },
+        {
+          "title": "Markeer alles als gelezen",
+          "caption": "Gebruik <strong>Mark all as read</strong> boven aan het paneel om de lijst te wissen. Het aantal op de bel verdwijnt en het paneel toont <strong>Nothing new</strong>."
+        },
+        {
+          "title": "Beheer meldingsmails",
+          "caption": "Op <strong>My Account</strong> bepaalt de voorkeur <strong>Notifications</strong> (<strong>Receive notification mails</strong>) of gebeurtenissen ook naar je worden gemaild. Vink hem uit om meldingen alleen in de app te houden."
+        }
+      ]
+    },
+    "spacefromselection": {
+      "category": "Spaces",
+      "title": "Een Space maken van geselecteerde items",
+      "summary": "Verander een map of een selectie bestanden in één stap in een gloednieuwe project-Space.",
+      "steps": [
+        {
+          "title": "Begin in je Personal-gebied",
+          "caption": "Open <strong>Personal</strong> en vind de bestanden en mappen die je wilt samenbrengen, bijvoorbeeld <mark>resourceFolder</mark> en <mark>lorem.txt</mark>."
+        },
+        {
+          "title": "Maak een Space van de selectie",
+          "caption": "Selecteer de items, klik met de rechtermuisknop en kies <strong>Create Space from selection</strong>. Er verschijnt een bevestiging met <strong>Space was created successfully</strong>."
+        },
+        {
+          "title": "Je nieuwe Space, klaar voor gebruik",
+          "caption": "Open de nieuwe project-Space onder <strong>Spaces</strong> en je geselecteerde items staan er al in, klaar om te delen en samen aan te werken."
+        }
+      ]
+    },
+    "spacelink": {
+      "category": "Spaces",
+      "title": "Een openbare link naar een Space maken",
+      "summary": "Deel een hele project-Space (of een map erin) met mensen zonder account, beveiligd met een wachtwoord.",
+      "steps": [
+        {
+          "title": "Maak de openbare link",
+          "caption": "Gebruik in het <strong>Members</strong>-paneel van de Space de optie <strong>Add link</strong> onder <strong>Public links</strong> en stel een wachtwoord in. De nieuwe link verschijnt met zijn rol (hier <strong>Can view</strong>), en een melding bevestigt dat hij naar je klembord is gekopieerd."
+        },
+        {
+          "title": "Bevestig dat de link bestaat",
+          "caption": "De <strong>Details</strong> van de Space tonen nu <strong>This space has one member and 1 link</strong>. Open <strong>Members</strong> op elk moment om de link te hernoemen, de rol te wijzigen of hem te verwijderen."
+        },
+        {
+          "title": "Wat de ontvanger ziet",
+          "caption": "Iedereen aan wie je de link stuurt, komt terecht op <strong>This resource is password-protected</strong>. Ze typen het wachtwoord onder <strong>Enter password for public link</strong> en selecteren <strong>Continue</strong>."
+        },
+        {
+          "title": "Door de gedeelde Space bladeren",
+          "caption": "Na het ontgrendelen ziet de ontvanger de inhoud van de Space op een overzichtelijke <strong>Public link</strong>-pagina, waar hij bestanden kan bekijken en openen volgens de rol die je hebt verleend."
+        }
+      ]
+    },
+    "spacememberexpiry": {
+      "category": "Spaces",
+      "title": "Geef een lid tijdelijke toegang",
+      "summary": "Stel een vervaldatum in zodat de toegang van een Space-lid automatisch eindigt op de dag die je kiest.",
+      "steps": [
+        {
+          "title": "Voeg het lid toe",
+          "caption": "Open de Space en voeg de persoon toe via het <strong>Members</strong>-paneel. Een bericht <strong>Share was added successfully</strong> bevestigt dat hij nu toegang heeft."
+        },
+        {
+          "title": "Stel een vervaldatum in",
+          "caption": "Gebruik het kalendericoon naast het lid, bijvoorbeeld <mark>Brian Murphy</mark>, om een datum te kiezen. Hun toegang eindigt automatisch wanneer die dag aanbreekt."
+        },
+        {
+          "title": "Verwijder hem om toegang permanent te maken",
+          "caption": "Toch van gedachten veranderd? Wis de datum op dezelfde manier en het lid houdt toegang zonder einddatum, bevestigd door <strong>Share successfully changed</strong>."
+        }
+      ]
+    },
+    "spacemembers": {
+      "category": "Spaces",
+      "title": "De leden van een Space beheren",
+      "summary": "Voeg mensen en groepen toe aan een project-Space, kies wat elk lid mag doen en trek de toegang in wanneer die niet meer nodig is.",
+      "steps": [
+        {
+          "title": "Open je project-Space",
+          "caption": "Ga naar <strong>Spaces</strong> en open de Space die je beheert, hier <mark>team</mark>. De kop toont het huidige aantal, bijvoorbeeld <strong>1 member</strong>, voordat je iemand anders uitnodigt."
+        },
+        {
+          "title": "Leden toevoegen",
+          "caption": "Nodig mensen of groepen uit voor de Space. Elk toegevoegd lid levert een bevestiging <strong>Share was added successfully</strong> op, en het aantal loopt op (hier naar <strong>5 members</strong>)."
+        },
+        {
+          "title": "Kies de rol van elk lid",
+          "caption": "Open het <strong>Members</strong>-paneel om rollen in te stellen. Kies <strong>Can view</strong>, <strong>Can edit with versions and trashbin</strong> of <strong>Can manage</strong> uit de keuzelijst van elk lid. Wijzigingen worden bevestigd met <strong>Share successfully changed</strong>."
+        },
+        {
+          "title": "Een lid verwijderen",
+          "caption": "Gebruik het menu met drie puntjes naast een lid om de toegang in te trekken. Een bericht <strong>Share was removed successfully</strong> bevestigt dat hij de Space niet meer kan bereiken."
+        }
+      ]
+    },
+    "spacespagination": {
+      "category": "Spaces",
+      "title": "Door een Space met veel items bladeren",
+      "summary": "Wissel tussen pagina's, toon verborgen bestanden en wijzig hoeveel items er tegelijk verschijnen in een grote Space.",
+      "steps": [
+        {
+          "title": "Spring tussen pagina's",
+          "caption": "Wanneer een Space meer items bevat dan op één pagina passen, kun je er met de pager onderaan doorheen stappen. De voettekst toont het volledige aantal, zoals <code>112 items with 1 kB in total</code>."
+        },
+        {
+          "title": "Toon verborgen bestanden",
+          "caption": "Schakel <strong>Show hidden files</strong> in via de weergave-instellingen om items met een punt ervoor mee te nemen in het aantal en de lijst."
+        },
+        {
+          "title": "Toon meer per pagina",
+          "caption": "Open de weergave-instellingen (het tandwielicoon) en verhoog het aantal items per pagina, bijvoorbeeld naar <mark>500</mark>. Met alles op één pagina verdwijnt de pager volledig."
+        }
+      ]
+    },
+    "upload": {
+      "category": "Werken met bestanden",
+      "title": "Bestanden en mappen uploaden",
+      "summary": "Voeg bestanden en hele mappen toe aan je ruimte, een voor een of meerdere tegelijk.",
+      "steps": [
+        {
+          "title": "Begin in je ruimte",
+          "caption": "Open <strong>Personal</strong> en je ziet een lege lijst. Gebruik de knop <strong>Upload</strong>, of sleep simpelweg bestanden en mappen op de pagina om ze toe te voegen."
+        },
+        {
+          "title": "Bestanden komen in de lijst",
+          "caption": "Geüploade bestanden verschijnen meteen met hun grootte en een <strong>Modified</strong>-tijd. Het sleepgebied accepteert gemengde selecties van bestanden en mappen tegelijk."
+        },
+        {
+          "title": "Upload een hele map",
+          "caption": "Mappen behouden hun structuur wanneer je ze uploadt. Open <strong>PARENT</strong> en je vindt de bestanden en submappen precies zoals ze op je apparaat stonden."
+        },
+        {
+          "title": "Upload veel bestanden tegelijk",
+          "caption": "Je kunt in één keer tientallen bestanden selecteren. Elk wordt afzonderlijk geüpload en vermeld, zodat een bulkimport een nette bestandslijst wordt."
+        }
+      ]
+    },
+    "uploadresume": {
+      "category": "Werken met bestanden",
+      "title": "Een grote upload pauzeren en hervatten",
+      "summary": "Pauzeer een grote upload en pak hem later weer op zonder opnieuw te beginnen.",
+      "steps": [
+        {
+          "title": "Een upload bezig",
+          "caption": "Kies <strong>Files</strong> uit het <strong>Upload</strong>-menu en de voortgangsoverlay verschijnt in de hoek, met de resterende tijd en de knoppen <strong>pause</strong> en annuleren."
+        },
+        {
+          "title": "Pauzeer wanneer het nodig is",
+          "caption": "Druk op de pauzeknop en de overdracht stopt waar hij is. De voortgangsbalk houdt zijn positie vast, klaar om door te gaan, in plaats van weg te gooien wat al verstuurd was."
+        },
+        {
+          "title": "Hervat vanaf waar hij stopte",
+          "caption": "Druk op de hervatknop en de upload gaat verder vanaf hetzelfde punt. Grote bestanden overleven een pauze zonder vanaf het begin opnieuw verstuurd te hoeven worden."
+        },
+        {
+          "title": "Klaar en in je bestanden",
+          "caption": "Zodra hij voltooid is, verschijnt het bestand in de lijst op volledige grootte, hier een upload van <mark>1.1 GB</mark>, wat bevestigt dat de hervatte overdracht intact is aangekomen."
+        }
+      ]
+    },
+    "viewmodes": {
+      "category": "Werken met bestanden",
+      "title": "Tegels- en lijstweergave",
+      "summary": "Wissel de bestandslijst tussen de compacte lijst, tabel en tegels om aan te passen aan wat je doet.",
+      "steps": [
+        {
+          "title": "Begin in de lijstweergave",
+          "caption": "Standaard gebruikt het bestandsgebied een lijstweergave. Met de drie weergaveknoppen rechtsboven (<strong>condensed list</strong>, <strong>table</strong> en <strong>tiles</strong>) kun je wijzigen hoe bronnen worden getoond."
+        },
+        {
+          "title": "Schakel over naar tegels",
+          "caption": "Klik op de knop <strong>tiles</strong> (het rasticoon) om elk bestand en elke map als een grote miniatuurtegel te tonen, zoals <strong>tile_folder</strong> hier. Deze weergave is handig om afbeeldingen en mappen visueel te doorbladeren."
+        },
+        {
+          "title": "Je keuze blijft behouden",
+          "caption": "Open een map en de tegelweergave blijft geselecteerd, zodat alles in <code>tile_folder</code> als tegels getoond blijft tot je terugschakelt."
+        }
+      ]
+    },
+    "fulltextsearch": {
+      "category": "Bestanden vinden",
+      "title": "Zoeken in de inhoud van bestanden",
+      "summary": "Full-text-zoeken kijkt in je documenten, zodat je een bestand kunt vinden op een woord dat erin staat, niet alleen op de naam.",
+      "steps": [
+        {
+          "title": "Zoek overal tegelijk",
+          "caption": "Typ in de globale zoekbalk en houd het filter <strong>All files</strong> aan. Met full-text-zoeken ingeschakeld kijkt ownCloud in de inhoud van bestanden én naar de bestandsnamen."
+        },
+        {
+          "title": "Treffers in de inhoud",
+          "caption": "Zoeken op een woord als <mark>Cheers</mark> levert documenten op die dat woord bevatten, ook als het nergens in de bestandsnaam voorkomt."
+        },
+        {
+          "title": "Verfijn de resultaten",
+          "caption": "Beperk een grote resultatenset met de filterchips, bijvoorbeeld op een <strong>Tag</strong>, mediatype of wijzigingsdatum."
+        },
+        {
+          "title": "Open een treffer",
+          "caption": "Open een resultaat rechtstreeks vanuit de lijst om naar het bestand te springen dat je zocht."
+        }
+      ]
+    },
+    "cast": {
+      "category": "Extensies",
+      "title": "Casten naar een apparaat",
+      "summary": "Stuur een bestand naar een cast-apparaat met de Cast-actie die deze extensie aan het bestandsmenu toevoegt.",
+      "steps": [
+        {
+          "title": "Kies een bestand",
+          "caption": "Begin bij een bestand in je ruimte, hier een afbeelding met de naam <mark>logo.jpeg</mark> in <strong>Personal</strong>."
+        },
+        {
+          "title": "De Cast-actie",
+          "caption": "Klik met de rechtermuisknop op het bestand en je vindt boven aan het menu <strong>Cast</strong>, toegevoegd door deze extensie om het bestand naar een cast-apparaat zoals een Chromecast te sturen."
+        }
+      ]
+    },
+    "drawio": {
+      "category": "Extensies",
+      "title": "Diagrammen met draw.io",
+      "summary": "Maak en bewerk draw.io-diagrammen rechtstreeks in ownCloud en sla ze terug op in je bestanden.",
+      "steps": [
+        {
+          "title": "Open het app-menu",
+          "caption": "Open het applicatiemenu (linksboven) om een nieuw diagram te starten met de draw.io-editor."
+        },
+        {
+          "title": "Bouw je diagram",
+          "caption": "De volledige draw.io-editor opent in ownCloud. Sleep vormen uit het linkerpalet op het canvas en verbind ze om je diagram te bouwen."
+        },
+        {
+          "title": "Sla je werk op",
+          "caption": "Gebruik <strong>Save</strong> rechtsboven om het diagram terug in je bestanden op te slaan, en daarna <strong>Exit</strong> om terug te keren."
+        },
+        {
+          "title": "Opgeslagen als een bestand",
+          "caption": "Je diagram verschijnt in de bestandslijst als een bestand <mark>New file.drawio</mark>, klaar om op elk moment opnieuw te openen en te bewerken."
+        }
+      ]
+    },
+    "externalsites": {
+      "category": "Extensies",
+      "title": "Externe sites",
+      "summary": "Bereik websites die je beheerder heeft vastgezet, in een nieuw tabblad of ingebed in ownCloud.",
+      "steps": [
+        {
+          "title": "Open het app-menu",
+          "caption": "Geconfigureerde sites verschijnen in het applicatiemenu (linksboven), hier als de items <strong>Owncloud External</strong> en <strong>Owncloud Embedded</strong>."
+        },
+        {
+          "title": "Kies een ingebedde site",
+          "caption": "Selecteer een item zoals <strong>Owncloud Embedded</strong> om die website in ownCloud te openen."
+        },
+        {
+          "title": "Site getoond in ownCloud",
+          "caption": "Een ingebedde site laadt in een pagina binnen ownCloud (hier de ownCloud-documentatie), zodat je in hetzelfde venster blijft. Externe items openen juist in een nieuw browsertabblad."
+        }
+      ]
+    },
+    "jsonviewer": {
+      "category": "Extensies",
+      "title": "JSON-bestanden bekijken",
+      "summary": "Open een .json-bestand in een opgemaakte, inklapbare viewer in plaats van ruwe tekst te lezen.",
+      "steps": [
+        {
+          "title": "Voeg een JSON-bestand toe",
+          "caption": "Upload of maak een <code>.json</code>-bestand in je <strong>Personal</strong>-ruimte, hier een bestand met de naam <mark>jsonFile.json</mark>."
+        },
+        {
+          "title": "Open in JSON Viewer",
+          "caption": "Klik met de rechtermuisknop op het bestand en kies <strong>Open in JSON Viewer</strong>, die de extensie naast <strong>Open in Text Editor</strong> toevoegt."
+        },
+        {
+          "title": "Lees het opgemaakt",
+          "caption": "Het bestand opent met syntaxismarkering en een nette ingesprongen indeling, zodat geneste sleutels en waarden gemakkelijk te volgen zijn in plaats van één lange regel tekst."
+        }
+      ]
+    },
+    "progressbars": {
+      "category": "Extensies",
+      "title": "Voortgangsbalken bij uploads",
+      "summary": "Kies de stijl van de voortgangsbalk die wordt getoond terwijl bestanden uploaden, vanuit je accountinstellingen.",
+      "steps": [
+        {
+          "title": "Open je account",
+          "caption": "Ga via het gebruikersmenu naar <strong>My Account</strong>, waar de voorkeuren en extensie-opties staan."
+        },
+        {
+          "title": "Kies een voortgangsbalk",
+          "caption": "Stel onder <strong>Extensions</strong> de <strong>Global progress bar</strong> in op een stijl zoals <mark>Nyan Cat progress bar</mark> om aan te passen wat je ziet terwijl bestanden uploaden."
+        }
+      ]
+    },
+    "unzip": {
+      "category": "Extensies",
+      "title": "ZIP-archieven uitpakken",
+      "summary": "Pak een .zip-archief uit op de plek waar het staat, zonder het eerst te downloaden.",
+      "steps": [
+        {
+          "title": "Voeg een ZIP-archief toe",
+          "caption": "Upload een <code>.zip</code>-archief naar een map, hier een bestand met de naam <mark>data.zip</mark> in je <strong>Personal</strong>-ruimte."
+        },
+        {
+          "title": "Hier uitpakken",
+          "caption": "Klik met de rechtermuisknop op het archief en kies <strong>Extract here</strong>, de actie die deze extensie aan het bestandsmenu toevoegt."
+        },
+        {
+          "title": "Bestanden ter plekke uitgepakt",
+          "caption": "De inhoud komt terecht in een nieuwe map naast het archief, zodat je ze meteen kunt openen zonder ownCloud te verlaten."
+        }
+      ]
+    },
+    "advancedsearch": {
+      "category": "Extensies",
+      "title": "Advanced Search",
+      "summary": "Vind bestanden met een speciale zoek-app die filters, full-text-inhoudszoeken en herbruikbare opgeslagen zoekopdrachten combineert.",
+      "steps": [
+        {
+          "title": "Open Advanced Search",
+          "caption": "De <strong>Advanced Search</strong>-app opent met één groot zoekveld plus een volledig filterformulier eronder, klaar voordat je iets typt."
+        },
+        {
+          "title": "Voer een zoekopdracht uit",
+          "caption": "Typ een term als <mark>test</mark> en druk op <strong>Search</strong>. Er verschijnt een actieve chip <strong>Search: test</strong> en het veld <strong>KQL Query</strong> wordt automatisch ingevuld als <code>name:*test*</code>."
+        },
+        {
+          "title": "Verfijn met filters",
+          "caption": "Beperk resultaten met <strong>Type</strong>, <strong>Media Type</strong> en <strong>Tags</strong>, een full-text-veld <strong>Content</strong>, of bereiken voor <strong>Size</strong> en <strong>Modified</strong>. <strong>Clear All</strong> zet in één klik alles terug."
+        },
+        {
+          "title": "Sla een zoekopdracht op en hergebruik hem",
+          "caption": "Zodra een zoekopdracht actief is, verschijnt <strong>Save Search</strong> rechtsboven. Opgeslagen items staan achter <strong>Saved Searches</strong>, zodat je een complexe zoekopdracht later opnieuw kunt uitvoeren zonder hem opnieuw op te bouwen."
+        }
+      ]
+    },
+    "photogallery": {
+      "category": "Extensies",
+      "title": "Fotogalerij",
+      "summary": "De Photos-extensie verzamelt elke afbeelding uit al je ruimtes in één visuele tijdlijn, met kalender- en kaartweergaven.",
+      "steps": [
+        {
+          "title": "Al je foto's op één plek",
+          "caption": "Open <strong>Photos</strong> vanuit het applicatiemenu. Elke afbeelding uit je persoonlijke ruimte en je Spaces wordt verzameld in één raster, gegroepeerd per dag."
+        },
+        {
+          "title": "Open een foto",
+          "caption": "Selecteer een foto om hem op volledig scherm te bekijken, blader met de pijlen door de reeks en lees de details zoals datum, camera en locatie."
+        },
+        {
+          "title": "Kalender- en kaartweergaven",
+          "caption": "Gebruik de knoppen rechtsboven om te filteren op <strong>EXIF only</strong>-afbeeldingen of te wisselen tussen de <strong>Calendar</strong>-tijdlijn en de <strong>Map</strong>."
+        }
+      ]
+    },
+    "photolightbox": {
+      "category": "Extensies",
+      "title": "Foto-lightbox",
+      "summary": "Open een foto op volledig scherm om hem groot te zien naast de EXIF-metadata, en spring direct naar waar hij is gemaakt.",
+      "steps": [
+        {
+          "title": "Kies een foto",
+          "caption": "Klik in de fotogalerij op een miniatuur om hem in de lightbox te openen."
+        },
+        {
+          "title": "Volledig scherm met details",
+          "caption": "De lightbox toont de foto groot met een teller (<strong>1 / 6</strong>) en pijlen om door de reeks te bladeren. Eronder vermeldt het detailpaneel <strong>Date taken</strong>, <strong>Camera</strong>, <strong>Model</strong>, <strong>Location</strong> en bestandsinformatie uit de EXIF-data van de afbeelding."
+        }
+      ]
+    },
+    "photomap": {
+      "category": "Extensies",
+      "title": "Foto's op een kaart",
+      "summary": "Plaats je geotagde foto's op een wereldkaart om te zien waar elke foto is gemaakt.",
+      "steps": [
+        {
+          "title": "Foto's dragen hun locatie mee",
+          "caption": "Foto's gemaakt met een telefoon of GPS-camera slaan coördinaten op in hun EXIF-data, hier getoond als <strong>Location</strong> met een snelkoppeling <strong>View on Map</strong>."
+        },
+        {
+          "title": "Zie ze op de kaart",
+          "caption": "Schakel over naar de <strong>Map</strong>-weergave en elke geotagde foto wordt als een speld op een wereldkaart geplaatst. De kop toont <strong>Photos (4 of 4 in view)</strong>; pan en zoom om te verkennen, en klik op een speld om die foto's te openen."
+        }
+      ]
     }
   },
   "upcoming": {

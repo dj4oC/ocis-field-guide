@@ -185,6 +185,849 @@
           "caption": "Cela fonctionne de la même façon pour les notes en texte et en Markdown, pas seulement les PDF, afin de saisir l'essentiel d'un fichier avant de l'ouvrir."
         }
       ]
+    },
+    "appstore": {
+      "category": "App Store",
+      "title": "Découvrir les applications",
+      "summary": "Parcourez, recherchez et filtrez les applications disponibles pour votre ownCloud depuis l'App Store intégré.",
+      "steps": [
+        {
+          "title": "Ouvrez l'App Store",
+          "caption": "Ouvrez l'App Store depuis le menu des applications (l'icône en grille, en haut à gauche). Chaque application disponible pour votre instance est présentée sous forme de carte."
+        },
+        {
+          "title": "Recherchez par nom",
+          "caption": "Tapez dans la barre de recherche pour réduire la liste. Une recherche de <mark>draw</mark> fait apparaître l'éditeur de diagrammes Draw.io."
+        },
+        {
+          "title": "Filtrez par catégorie",
+          "caption": "Cliquez sur une étiquette de catégorie comme <strong>viewer</strong> pour n'afficher que les applications de ce type."
+        },
+        {
+          "title": "Ouvrez une application",
+          "caption": "Sélectionnez n'importe quelle application pour lire sa description complète, ses captures d'écran et ses versions disponibles."
+        }
+      ]
+    },
+    "appstore-details": {
+      "category": "App Store",
+      "title": "Détails et versions d'une application",
+      "summary": "Examinez les détails d'une application et téléchargez une version précise depuis l'App Store.",
+      "steps": [
+        {
+          "title": "Partez de l'App Store",
+          "caption": "Depuis l'aperçu de l'App Store, choisissez l'application qui vous intéresse."
+        },
+        {
+          "title": "Lisez les détails de l'application",
+          "caption": "La page de détails montre la description, les métadonnées et la liste des versions publiées."
+        },
+        {
+          "title": "Téléchargez une version précise",
+          "caption": "Téléchargez n'importe quelle version listée, pas seulement la plus récente, ce qui est pratique pour figer une version éprouvée."
+        }
+      ]
+    },
+    "admin-general": {
+      "category": "Administration",
+      "title": "Paramètres généraux d'administration",
+      "summary": "Retrouvez les informations de votre instance et personnalisez l'apparence, y compris le logo, depuis la zone d'administration.",
+      "steps": [
+        {
+          "title": "Ouvrez les paramètres General",
+          "caption": "En tant qu'administrateur, ouvrez <strong>Administration Settings</strong> et sélectionnez <strong>General</strong>. La section Info montre votre édition et vos versions."
+        },
+        {
+          "title": "Envoyez un logo personnalisé",
+          "caption": "Sous <strong>Appearance</strong>, envoyez votre propre logo pour marquer l'interface web à vos couleurs."
+        },
+        {
+          "title": "Rétablissez la valeur par défaut",
+          "caption": "Vous avez changé d'avis ? Rétablissez à tout moment le logo par défaut d'ownCloud."
+        }
+      ]
+    },
+    "admin-groups": {
+      "category": "Administration",
+      "title": "Gérer les groupes",
+      "summary": "Créez, renommez et supprimez des groupes pour organiser les utilisateurs et accorder des accès en masse.",
+      "steps": [
+        {
+          "title": "Ouvrez la gestion des groupes",
+          "caption": "Dans <strong>Administration Settings</strong>, ouvrez <strong>Groups</strong> pour voir chaque groupe dans un tableau."
+        },
+        {
+          "title": "Créez un groupe",
+          "caption": "Utilisez <strong>+ New group</strong> pour ajouter un groupe ; il apparaît aussitôt dans la liste."
+        },
+        {
+          "title": "Renommez un groupe",
+          "caption": "Sélectionnez un groupe et modifiez son nom d'affichage depuis le panneau de droite."
+        },
+        {
+          "title": "Enregistré",
+          "caption": "Le nouveau nom s'affiche dans le tableau des groupes. Supprimer un groupe est tout aussi rapide depuis les actions de sa ligne."
+        }
+      ]
+    },
+    "download": {
+      "category": "Travailler avec les fichiers",
+      "title": "Télécharger des fichiers et des dossiers",
+      "summary": "Récupérez une copie de n'importe quel fichier, dossier ou élément partagé sur votre appareil.",
+      "steps": [
+        {
+          "title": "Télécharger depuis la liste de fichiers",
+          "caption": "Chaque ligne dispose d'une action <strong>Download</strong>, et les dossiers sont empaquetés dans un <code>.zip</code>. Le menu du clic droit la propose aussi."
+        },
+        {
+          "title": "Télécharger depuis la visionneuse",
+          "caption": "Ouvrez un fichier dans la visionneuse et utilisez l'icône de téléchargement de la barre d'outils pour enregistrer la version que vous consultez."
+        },
+        {
+          "title": "Télécharger des éléments partagés",
+          "caption": "La même action Download est disponible pour les fichiers et dossiers que d'autres ont partagés avec vous, sous <strong>Shares</strong>."
+        }
+      ]
+    },
+    "admin-spaces": {
+      "category": "Administration",
+      "title": "Administrer les Spaces",
+      "summary": "Créez, modifiez, désactivez et inspectez les Spaces de projet depuis les paramètres d'administration.",
+      "steps": [
+        {
+          "title": "Ouvrez la page de gestion des Spaces",
+          "caption": "Sous <strong>Administration Settings</strong>, sélectionnez <strong>Spaces</strong> dans la barre latérale. Le tableau liste chaque Space de projet avec son <strong>Manager</strong>, ses <strong>Members</strong>, son <strong>Remaining quota</strong> et sa date de dernière modification."
+        },
+        {
+          "title": "Créez un nouveau Space",
+          "caption": "Utilisez le bouton <strong>New Space</strong> pour ajouter un Space de projet (par exemple <mark>team A</mark>). Un message <strong>Space was created successfully</strong> le confirme, et le nouveau Space apparaît en haut de la liste."
+        },
+        {
+          "title": "Renommez et ajustez le quota",
+          "caption": "Cochez un Space pour faire apparaître les actions <strong>Edit quota</strong> et <strong>Disable</strong> dans la barre d'outils. Renommer, changer le sous-titre et augmenter le quota (ici à <mark>50 GB</mark>) renvoient chacun leur propre notification de confirmation."
+        },
+        {
+          "title": "Désactivez ou supprimez un Space",
+          "caption": "Lorsqu'un Space est sélectionné, la barre d'outils bascule sur <strong>Enable</strong> et <strong>Delete</strong>. La désactivation le retire de l'usage sans supprimer les données, comme l'indique le message <strong>was disabled successfully</strong>."
+        },
+        {
+          "title": "Passez en revue les membres d'un Space",
+          "caption": "Ouvrez le panneau latéral <strong>Members</strong> pour voir qui appartient à un Space, regroupé par rôle : <strong>Can manage</strong>, <strong>Can edit with versions and trashbin</strong> et <strong>Can view</strong>. Utilisez <strong>Filter members</strong> pour parcourir une longue liste."
+        }
+      ]
+    },
+    "admin-users": {
+      "category": "Administration",
+      "title": "Gérer les utilisateurs",
+      "summary": "Créez un utilisateur, modifiez les détails de son compte et affectez-le à des groupes depuis les paramètres d'administration.",
+      "steps": [
+        {
+          "title": "Ouvrez la page de gestion des utilisateurs",
+          "caption": "Sous <strong>Administration Settings</strong>, choisissez <strong>Users</strong>. Le tableau montre chaque compte avec son <strong>User name</strong>, son <strong>Email</strong>, son <strong>Role</strong> et son état de <strong>Login</strong>, et les contrôles <strong>Filter</strong> réduisent la liste par groupe ou par rôle."
+        },
+        {
+          "title": "Créez un nouvel utilisateur",
+          "caption": "Sélectionnez <strong>New user</strong> et renseignez les détails du compte (par exemple <mark>max</mark>). Un message <strong>User was created successfully</strong> le confirme, et le nouveau compte rejoint la liste."
+        },
+        {
+          "title": "Modifiez les détails d'un utilisateur",
+          "caption": "Choisissez un utilisateur et ouvrez le panneau <strong>Edit user</strong> pour changer son nom, son e-mail, son mot de passe, son <strong>Role</strong>, son <strong>Login</strong> et son <strong>Personal quota</strong>. Chaque changement est enregistré sur place, comme l'indique <strong>Changes saved</strong>."
+        },
+        {
+          "title": "Affectez l'utilisateur à des groupes",
+          "caption": "Dans le même panneau, utilisez le champ <strong>Groups</strong> pour ajouter l'utilisateur à un ou plusieurs groupes, tels que <mark>sales department</mark> et <mark>finance department</mark>. Chaque groupe apparaît comme une puce que vous pouvez retirer avec son bouton &times;."
+        }
+      ]
+    },
+    "appmenu": {
+      "category": "Se repérer",
+      "title": "Changer d'application avec le menu des applications",
+      "summary": "Utilisez l'icône en grille en haut à gauche pour passer d'une application ownCloud à l'autre, comme Files et l'éditeur de texte.",
+      "steps": [
+        {
+          "title": "Ouvrez le menu des applications",
+          "caption": "L'icône en grille tout en haut à gauche est le <strong>menu des applications</strong>. Choisissez-y une application pour changer de contexte ; ici, elle ouvre l'éditeur de texte sur un nouveau fichier."
+        },
+        {
+          "title": "Travaillez dans l'application choisie",
+          "caption": "Chaque application remplit la fenêtre. Tapez votre contenu, par exemple <mark>Hello world</mark>, puis enregistrez avec l'icône de disquette dans la barre d'outils du haut."
+        },
+        {
+          "title": "Retour vers Files",
+          "caption": "Ouvrez à nouveau le menu en grille et choisissez <strong>Files</strong> pour revenir, où votre <code>New file.txt</code> enregistré vous attend dans la liste."
+        }
+      ]
+    },
+    "batchactions": {
+      "category": "Travailler avec les fichiers",
+      "title": "Agir sur plusieurs fichiers à la fois",
+      "summary": "Sélectionnez plusieurs fichiers et dossiers ensemble, puis appliquez une seule action à tous.",
+      "steps": [
+        {
+          "title": "Sélectionnez avec les cases à cocher",
+          "caption": "Chaque ligne a une case à cocher à gauche, et la case dans l'en-tête <strong>Name</strong> est une bascule de tout sélectionner. Cochez plusieurs dossiers pour agir dessus ensemble plutôt qu'un par un."
+        },
+        {
+          "title": "Trouvez les partages",
+          "caption": "Ouvrez <strong>Shares</strong> et l'onglet <strong>Shared with me</strong> pour voir tout ce que d'autres vous ont envoyé, chacun avec sa propre case à cocher, afin de sélectionner tout un lot d'un coup."
+        },
+        {
+          "title": "Appliquez une seule action à tous",
+          "caption": "Une fois les lignes sélectionnées, une seule action (ici le contrôle <strong>sync</strong> à côté de chaque partage) s'applique à toute la sélection d'un coup, pour ne pas répéter le clic par élément."
+        }
+      ]
+    },
+    "breadcrumb": {
+      "category": "Se repérer",
+      "title": "Naviguer avec le fil d'Ariane",
+      "summary": "Utilisez le chemin en haut de la liste de fichiers pour voir où vous êtes et revenir à n'importe quel dossier parent en un clic.",
+      "steps": [
+        {
+          "title": "Voyez votre chemin complet",
+          "caption": "À mesure que vous ouvrez dossier après dossier, le fil d'Ariane en haut s'allonge : <code>Personal > parent > folder > 'single-double quotes' > \"inner\" double quote > sub-folder</code>. Il indique toujours exactement où vous êtes."
+        },
+        {
+          "title": "Sautez vers un dossier ancêtre",
+          "caption": "Cliquez sur un nom antérieur du fil pour revenir directement à ce dossier, en sautant tous les niveaux intermédiaires. Inutile d'appuyer sur précédent à répétition."
+        },
+        {
+          "title": "Remontez tout en haut",
+          "caption": "Quelques clics plus tard, vous voilà de retour à <strong>parent</strong>, près du sommet de l'arborescence. Les trois points à côté du dossier courant ouvrent un menu contextuel avec ses actions."
+        }
+      ]
+    },
+    "fileviewer": {
+      "category": "Travailler avec les fichiers",
+      "title": "Prévisualiser des fichiers",
+      "summary": "Ouvrez images, vidéos, audio et plus encore directement dans votre navigateur, sans les télécharger d'abord.",
+      "steps": [
+        {
+          "title": "Repérez les fichiers à leurs miniatures",
+          "caption": "Dans la liste de fichiers, les images et médias affichent une petite miniature pour les reconnaître d'un coup d'œil. Cliquez sur un nom de fichier pour l'ouvrir dans la visionneuse."
+        },
+        {
+          "title": "Le fichier s'ouvre dans la visionneuse",
+          "caption": "L'image remplit l'écran sans aucun téléchargement. Une barre d'outils en bas vous permet de zoomer, de pivoter et de passer en plein écran."
+        },
+        {
+          "title": "Passez d'un fichier à l'autre",
+          "caption": "Utilisez les flèches de la barre d'outils pour parcourir le dossier, affiché comme <strong>6 of 7</strong>. Le panneau <strong>Details</strong> à droite montre la taille, le propriétaire, les versions et plus encore."
+        },
+        {
+          "title": "Regardez la vidéo en ligne",
+          "caption": "Les fichiers vidéo comme <code>.webm</code> se lisent directement dans la visionneuse avec les contrôles de lecture habituels, sans avoir à les enregistrer d'abord."
+        },
+        {
+          "title": "Écoutez aussi l'audio",
+          "caption": "Les fichiers audio tels que <code>.mp3</code> s'ouvrent avec un lecteur intégré. Appuyez sur lecture pour écouter sans quitter ownCloud."
+        }
+      ]
+    },
+    "journey": {
+      "category": "Parcours",
+      "title": "Une journée dans ownCloud : partager le menu de la semaine",
+      "summary": "Suivez Alice qui prépare un dossier, le partage avec les parents, et eux le récupèrent depuis leurs propres comptes.",
+      "steps": [
+        {
+          "title": "Commencez dans votre espace personnel",
+          "caption": "Alice se connecte et arrive dans son espace <strong>Personal</strong>, le foyer privé de ses propres fichiers. De là, elle peut créer des dossiers et envoyer le menu de la semaine."
+        },
+        {
+          "title": "Préparez le dossier",
+          "caption": "Elle rassemble les fichiers dans un dossier et ouvre le panneau <strong>Details</strong> pour confirmer le propriétaire, la taille et la dernière modification avant de l'envoyer."
+        },
+        {
+          "title": "Partagez avec les parents",
+          "caption": "À l'aide des icônes de partage dans les <strong>Actions</strong> de la ligne, Alice invite les parents afin que chacun ait le même menu à jour."
+        },
+        {
+          "title": "Les parents le voient aussitôt",
+          "caption": "Brian ouvre <strong>Shares</strong> et trouve le menu et les fichiers qui l'attendent sous <strong>Shared with me</strong>, avec qui les a partagés et quand."
+        },
+        {
+          "title": "Faites le ménage ensuite",
+          "caption": "Une fois la semaine passée, Alice sélectionne les restes et les supprime avec l'action par lot, gardant son espace <strong>Personal</strong> bien rangé."
+        }
+      ]
+    },
+    "movecopy": {
+      "category": "Travailler avec les fichiers",
+      "title": "Copier et déplacer des fichiers",
+      "summary": "Faites une copie d'un fichier dans un autre dossier, ou déplacez-le ailleurs, sans le renvoyer.",
+      "steps": [
+        {
+          "title": "Commencez dans un dossier de fichiers",
+          "caption": "Ouvrez n'importe quel dossier contenant les fichiers à réorganiser. Ici <strong>Personal</strong> &gt; <strong>Duplicate</strong> contient un fichier et un sous-dossier, prêts à être copiés ou déplacés."
+        },
+        {
+          "title": "Choisissez ce qu'il faut copier ou déplacer",
+          "caption": "Sélectionnez un élément, ou cochez-en plusieurs pour agir d'un coup. Vous pouvez faire un clic droit sur une ligne pour <strong>Copy</strong> ou <strong>Cut</strong>, glisser-déposer sur un dossier, ou utiliser les raccourcis clavier."
+        },
+        {
+          "title": "Collez et la copie apparaît",
+          "caption": "Après <strong>Copy</strong>, choisissez une destination dans le sélecteur d'emplacement et confirmez. La nouvelle copie atterrit à côté de l'original avec un nom numéroté, comme <mark>duplicate (1).txt</mark>."
+        },
+        {
+          "title": "Le déplacement le place au nouvel endroit",
+          "caption": "Déplacer avec <strong>Cut</strong> (ou en glissant sur un dossier) retire l'élément de son emplacement et le dépose dans la destination, comme <strong>Sub1</strong> dans ce dossier."
+        }
+      ]
+    },
+    "pagination": {
+      "category": "Se repérer",
+      "title": "Feuilleter les grands dossiers",
+      "summary": "Réglez le nombre d'éléments par page et parcourez une longue liste de fichiers avec le pagineur.",
+      "steps": [
+        {
+          "title": "Choisissez le nombre d'éléments par page",
+          "caption": "Utilisez la roue dentée des paramètres en haut à droite pour régler les éléments par page, par exemple <mark>20</mark>. La liste remplit alors une page et un pagineur apparaît en bas."
+        },
+        {
+          "title": "Passez à la page suivante",
+          "caption": "Cliquez sur <strong>2</strong> dans le pagineur pour voir les éléments restants. Le pied de page conserve le total courant, ici <strong>26 items with 223 B in total</strong>."
+        },
+        {
+          "title": "Affichez les fichiers cachés",
+          "caption": "Activer <strong>Show hidden files</strong> ajoute les fichiers point au décompte, le pied de page se met donc à jour et les pages se remplissent à nouveau pour les inclure."
+        },
+        {
+          "title": "Faites tenir le tout sur une page",
+          "caption": "Augmentez les éléments par page à <mark>500</mark> et tout le dossier tient d'un coup, le pagineur disparaît alors complètement."
+        }
+      ]
+    },
+    "rename": {
+      "category": "Travailler avec les fichiers",
+      "title": "Renommer des fichiers et des dossiers",
+      "summary": "Donnez à n'importe quel fichier ou dossier un nom plus clair, dans votre espace ou dans quelque chose partagé avec vous.",
+      "steps": [
+        {
+          "title": "Trouvez le fichier à renommer",
+          "caption": "Ouvrez le dossier qui contient l'élément, ici <code>example.txt</code> dans un dossier partagé avec vous. La petite icône de crayon à côté du nom lance un renommage."
+        },
+        {
+          "title": "Tapez le nouveau nom",
+          "caption": "Cliquez sur le crayon (ou choisissez <strong>Rename</strong> dans le menu d'actions de la ligne), tapez le nouveau nom comme <mark>renamedByBrian.txt</mark>, et confirmez pour l'appliquer."
+        },
+        {
+          "title": "Le fichier renommé",
+          "caption": "La liste se rafraîchit avec le nouveau nom en place, par exemple <mark>renamedByAlice.txt</mark>. La même action <strong>Rename</strong> fonctionne aussi sur les dossiers."
+        }
+      ]
+    },
+    "searchspace": {
+      "category": "Recherche",
+      "title": "Rechercher dans un Space",
+      "summary": "Trouvez les fichiers qui vivent dans un Space de projet précis, avec des résultats qui montrent à quel Space chaque correspondance appartient.",
+      "steps": [
+        {
+          "title": "Ouvrez votre Space de projet",
+          "caption": "Allez dans <strong>Spaces</strong> dans la barre latérale gauche et ouvrez un Space de projet, ici le Space <mark>team</mark>, où vivent vos fichiers de projet partagés."
+        },
+        {
+          "title": "Les fichiers de ce Space",
+          "caption": "À l'intérieur du Space, vous voyez ses propres dossiers et fichiers, distincts de votre zone <strong>Personal</strong>."
+        },
+        {
+          "title": "Cherchez dans tout",
+          "caption": "Tapez dans la barre de recherche en haut et appuyez sur <kbd>Enter</kbd>. Chaque résultat indique le dossier où il se trouve, afin de distinguer les fichiers de projet des vôtres."
+        },
+        {
+          "title": "Voyez à quel Space appartient un résultat",
+          "caption": "Une correspondance qui vit dans un Space de projet est étiquetée du nom de ce Space, comme le badge <mark>team</mark> ici, confirmant que le fichier est rattaché à ce Space."
+        }
+      ]
+    },
+    "shortcuts": {
+      "category": "Se repérer",
+      "title": "Créer et ouvrir des raccourcis",
+      "summary": "Créez des fichiers raccourcis qui mènent directement à un autre fichier, à un dossier ou à une page web externe.",
+      "steps": [
+        {
+          "title": "Commencez dans vos fichiers",
+          "caption": "Ouvrez l'application <strong>Files</strong> et utilisez le bouton <strong>New</strong> pour créer un raccourci, tout comme vous créeriez un dossier ou un document."
+        },
+        {
+          "title": "Les raccourcis apparaissent dans la liste",
+          "caption": "Chaque raccourci est un petit fichier <code>.url</code> avec un badge en forme de flèche, tel que <mark>docs.url</mark> ou <mark>companyNews.url</mark>. Ils peuvent pointer vers un fichier, un dossier ou une adresse externe."
+        },
+        {
+          "title": "Ouvrez un lien externe",
+          "caption": "Sélectionner un raccourci comme <mark>companyNews.url</mark> et l'ouvrir vous envoie directement vers sa page web cible, par exemple <code>https://owncloud.com/news/</code>."
+        },
+        {
+          "title": "Ouvrez le fichier cible",
+          "caption": "Un raccourci qui pointe vers un fichier ouvre ce fichier directement, ici en arrivant dans l'éditeur de texte qui montre <code>notice.txt</code> dans le dossier <strong>docs</strong>."
+        }
+      ]
+    },
+    "activity": {
+      "category": "Rester informé",
+      "title": "Suivre l'activité des fichiers et des Spaces",
+      "summary": "Voyez une chronologie de qui a changé quoi, pour un seul fichier ou pour tout un Space.",
+      "steps": [
+        {
+          "title": "Faites un changement",
+          "caption": "Les actions quotidiennes sont enregistrées au fil de votre travail. Ici, un dossier vient d'être renommé, comme l'indique le <strong>0 seconds ago</strong> dans la colonne <strong>Modified</strong>."
+        },
+        {
+          "title": "Activité d'un fichier",
+          "caption": "Sélectionnez un fichier et ouvrez le panneau <strong>Activities</strong> pour lire son historique : il a été renommé, mis à jour et ajouté, chaque entrée datée de qui l'a fait et quand."
+        },
+        {
+          "title": "Activité d'un Space",
+          "caption": "Ouvrez un Space tel que <strong>team</strong> et le même panneau <strong>Activities</strong> couvre tout ce qu'il contient : les membres qui rejoignent, les fichiers ajoutés et le Space qui est partagé."
+        }
+      ]
+    },
+    "downloadspace": {
+      "category": "Spaces",
+      "title": "Télécharger un Space entier",
+      "summary": "Enregistrez tout le contenu d'un Space de projet sur votre appareil sous forme d'une seule archive.",
+      "steps": [
+        {
+          "title": "Ouvrez le Space",
+          "caption": "Allez dans <strong>Spaces</strong> et ouvrez le Space de projet que vous voulez télécharger, tel que <mark>team</mark>."
+        },
+        {
+          "title": "Téléchargez le contenu",
+          "caption": "Utilisez le menu d'actions du Space (les trois points à côté du nom) et choisissez <strong>Download</strong>. Tout est empaqueté ensemble dans un seul <code>.zip</code>."
+        },
+        {
+          "title": "Les membres peuvent aussi télécharger",
+          "caption": "Toute personne ajoutée comme membre voit le même Space et peut télécharger son contenu de la même manière, ainsi toute l'équipe en a une copie quand elle en a besoin."
+        }
+      ]
+    },
+    "gdprexport": {
+      "category": "Votre compte",
+      "title": "Exporter vos données",
+      "summary": "Demandez un export de vos données personnelles au titre du RGPD depuis les paramètres de votre compte et téléchargez-le une fois prêt.",
+      "steps": [
+        {
+          "title": "Ouvrez la page de votre compte",
+          "caption": "Depuis le menu utilisateur, ouvrez <strong>My Account</strong> et faites défiler jusqu'à la section <strong>GDPR</strong> en bas. La ligne <strong>GDPR export</strong> vous permet de demander un export de vos données personnelles conformément à <code>&sect;20 GDPR</code>."
+        },
+        {
+          "title": "Demandez un nouvel export",
+          "caption": "Cliquez sur <strong>Request new export</strong>. ownCloud prépare une archive de vos données personnelles en arrière-plan, et un lien <strong>Download</strong> apparaît une fois qu'elle est prête."
+        },
+        {
+          "title": "Téléchargez l'export",
+          "caption": "Quand l'export est terminé, utilisez l'action <strong>Download</strong> à côté de <strong>GDPR export</strong> pour enregistrer l'archive sur votre appareil."
+        }
+      ]
+    },
+    "language": {
+      "category": "Votre compte",
+      "title": "Changer la langue",
+      "summary": "Choisissez la langue que vous voulez pour l'interface web, et regardez-la basculer instantanément.",
+      "steps": [
+        {
+          "title": "Ouvrez la page de votre compte",
+          "caption": "Depuis le menu utilisateur, ouvrez <strong>My Account</strong>. Sous <strong>Preferences</strong>, la ligne <strong>Language</strong> montre la langue actuellement utilisée par l'interface, ici <strong>English</strong>."
+        },
+        {
+          "title": "Choisissez une nouvelle langue",
+          "caption": "Ouvrez le menu déroulant <strong>Language</strong> et choisissez une langue, par exemple <mark>Deutsch - German</mark>. Toute l'interface bascule aussitôt, et le titre de la page devient <strong>Mein Konto</strong>."
+        },
+        {
+          "title": "Changement enregistré",
+          "caption": "Une courte confirmation (<strong>Einstellung gespeichert</strong>, qui signifie que le paramètre a été enregistré) apparaît, et votre choix est mémorisé pour votre prochaine connexion."
+        }
+      ]
+    },
+    "notifications": {
+      "category": "Votre compte",
+      "title": "Paramètres de notification",
+      "summary": "Lisez les notifications dans l'application depuis la cloche, effacez-les et contrôlez si vous recevez des e-mails de notification.",
+      "steps": [
+        {
+          "title": "Vérifiez la cloche de notification",
+          "caption": "L'icône de cloche dans la barre du haut affiche un compteur rouge quand quelque chose requiert votre attention. Cliquez dessus pour lire l'activité récente, comme <strong>Alice Hansen shared share_to_group with you</strong>."
+        },
+        {
+          "title": "Tout marquer comme lu",
+          "caption": "Utilisez <strong>Mark all as read</strong> en haut du panneau pour vider la liste. Le compteur de la cloche disparaît et le panneau affiche <strong>Nothing new</strong>."
+        },
+        {
+          "title": "Contrôlez les e-mails de notification",
+          "caption": "Dans <strong>My Account</strong>, la préférence <strong>Notifications</strong> (<strong>Receive notification mails</strong>) contrôle si les événements vous sont aussi envoyés par e-mail. Décochez-la pour garder les notifications uniquement dans l'application."
+        }
+      ]
+    },
+    "spacefromselection": {
+      "category": "Spaces",
+      "title": "Créer un Space à partir d'éléments sélectionnés",
+      "summary": "Transformez un dossier ou une sélection de fichiers en un tout nouveau Space de projet en une étape.",
+      "steps": [
+        {
+          "title": "Commencez dans votre zone Personal",
+          "caption": "Ouvrez <strong>Personal</strong> et trouvez les fichiers et dossiers que vous voulez regrouper, par exemple <mark>resourceFolder</mark> et <mark>lorem.txt</mark>."
+        },
+        {
+          "title": "Créez un Space à partir de la sélection",
+          "caption": "Sélectionnez les éléments, puis faites un clic droit et choisissez <strong>Create Space from selection</strong>. Une confirmation indiquant <strong>Space was created successfully</strong> apparaît."
+        },
+        {
+          "title": "Votre nouveau Space, prêt à l'emploi",
+          "caption": "Ouvrez le nouveau Space de projet sous <strong>Spaces</strong> et vos éléments sélectionnés sont déjà à l'intérieur, prêts à partager et à collaborer."
+        }
+      ]
+    },
+    "spacelink": {
+      "category": "Spaces",
+      "title": "Créer un lien public vers un Space",
+      "summary": "Partagez tout un Space de projet (ou un dossier qu'il contient) avec des personnes sans compte, protégé par un mot de passe.",
+      "steps": [
+        {
+          "title": "Créez le lien public",
+          "caption": "Dans le panneau <strong>Members</strong> du Space, utilisez <strong>Add link</strong> sous <strong>Public links</strong> et définissez un mot de passe. Le nouveau lien apparaît avec son rôle (ici <strong>Can view</strong>), et une notification confirme qu'il a été copié dans votre presse-papiers."
+        },
+        {
+          "title": "Confirmez que le lien existe",
+          "caption": "Les <strong>Details</strong> du Space indiquent désormais <strong>This space has one member and 1 link</strong>. Ouvrez <strong>Members</strong> à tout moment pour renommer le lien, changer son rôle ou le supprimer."
+        },
+        {
+          "title": "Ce que voit le destinataire",
+          "caption": "Toute personne à qui vous envoyez le lien arrive sur <strong>This resource is password-protected</strong>. Elle tape le mot de passe sous <strong>Enter password for public link</strong> et sélectionne <strong>Continue</strong>."
+        },
+        {
+          "title": "Parcourir le Space partagé",
+          "caption": "Une fois déverrouillé, le destinataire voit le contenu du Space sur une page <strong>Public link</strong> épurée, où il peut parcourir et ouvrir les fichiers selon le rôle que vous avez accordé."
+        }
+      ]
+    },
+    "spacememberexpiry": {
+      "category": "Spaces",
+      "title": "Donner à un membre un accès limité dans le temps",
+      "summary": "Définissez une date d'expiration pour que l'accès d'un membre d'un Space se termine automatiquement le jour que vous choisissez.",
+      "steps": [
+        {
+          "title": "Ajoutez le membre",
+          "caption": "Ouvrez le Space et ajoutez la personne depuis le panneau <strong>Members</strong>. Un message <strong>Share was added successfully</strong> confirme qu'elle a désormais accès."
+        },
+        {
+          "title": "Définissez une date d'expiration",
+          "caption": "Utilisez l'icône de calendrier à côté du membre, par exemple <mark>Brian Murphy</mark>, pour choisir une date. Son accès se termine automatiquement à l'arrivée de ce jour."
+        },
+        {
+          "title": "Retirez-la pour rendre l'accès permanent",
+          "caption": "Vous avez changé d'avis ? Effacez la date de la même façon et le membre conserve l'accès sans date de fin, confirmé par <strong>Share successfully changed</strong>."
+        }
+      ]
+    },
+    "spacemembers": {
+      "category": "Spaces",
+      "title": "Gérer les membres d'un Space",
+      "summary": "Ajoutez des personnes et des groupes à un Space de projet, choisissez ce que chacun peut faire et retirez l'accès quand il n'est plus nécessaire.",
+      "steps": [
+        {
+          "title": "Ouvrez votre Space de projet",
+          "caption": "Allez dans <strong>Spaces</strong> et ouvrez le Space que vous gérez, ici <mark>team</mark>. L'en-tête montre le décompte actuel, par exemple <strong>1 member</strong>, avant que vous n'invitiez qui que ce soit."
+        },
+        {
+          "title": "Ajoutez des membres",
+          "caption": "Invitez des personnes ou des groupes au Space. Chaque membre ajouté produit une confirmation <strong>Share was added successfully</strong>, et le décompte augmente (ici à <strong>5 members</strong>)."
+        },
+        {
+          "title": "Choisissez le rôle de chaque membre",
+          "caption": "Ouvrez le panneau <strong>Members</strong> pour définir les rôles. Choisissez <strong>Can view</strong>, <strong>Can edit with versions and trashbin</strong> ou <strong>Can manage</strong> dans le menu déroulant de chaque membre. Les changements se confirment avec <strong>Share successfully changed</strong>."
+        },
+        {
+          "title": "Retirez un membre",
+          "caption": "Utilisez le menu à trois points à côté d'un membre pour révoquer son accès. Un message <strong>Share was removed successfully</strong> confirme qu'il ne peut plus atteindre le Space."
+        }
+      ]
+    },
+    "spacespagination": {
+      "category": "Spaces",
+      "title": "Feuilleter un Space comportant de nombreux éléments",
+      "summary": "Passez d'une page à l'autre, affichez les fichiers cachés et changez le nombre d'éléments affichés d'un coup dans un grand Space.",
+      "steps": [
+        {
+          "title": "Sautez d'une page à l'autre",
+          "caption": "Quand un Space contient plus d'éléments qu'il n'en tient sur une page, le pagineur en bas vous permet de les parcourir. Le pied de page montre le décompte complet, tel que <code>112 items with 1 kB in total</code>."
+        },
+        {
+          "title": "Révélez les fichiers cachés",
+          "caption": "Activez <strong>Show hidden files</strong> depuis les paramètres d'affichage pour inclure les éléments préfixés d'un point dans le décompte et la liste."
+        },
+        {
+          "title": "Affichez-en plus par page",
+          "caption": "Ouvrez les paramètres d'affichage (l'icône en roue dentée) et augmentez les éléments par page, par exemple à <mark>500</mark>. Avec tout sur une seule page, le pagineur disparaît complètement."
+        }
+      ]
+    },
+    "upload": {
+      "category": "Travailler avec les fichiers",
+      "title": "Envoyer des fichiers et des dossiers",
+      "summary": "Ajoutez des fichiers et des dossiers entiers à votre espace, un par un ou plusieurs à la fois.",
+      "steps": [
+        {
+          "title": "Commencez dans votre espace",
+          "caption": "Ouvrez <strong>Personal</strong> et vous voyez une liste vide. Utilisez le bouton <strong>Upload</strong>, ou glissez simplement des fichiers et des dossiers sur la page pour les ajouter."
+        },
+        {
+          "title": "Les fichiers atterrissent dans la liste",
+          "caption": "Les fichiers envoyés apparaissent aussitôt avec leur taille et une heure <strong>Modified</strong>. La zone de glisser-déposer accepte des sélections mixtes de fichiers et de dossiers à la fois."
+        },
+        {
+          "title": "Envoyez un dossier entier",
+          "caption": "Les dossiers conservent leur structure quand vous les envoyez. Ouvrez <strong>PARENT</strong> et vous y trouvez ses fichiers et sous-dossiers exactement comme ils étaient sur votre appareil."
+        },
+        {
+          "title": "Envoyez de nombreux fichiers à la fois",
+          "caption": "Vous pouvez sélectionner des dizaines de fichiers d'un coup. Chacun est envoyé et listé individuellement, ainsi un import en masse devient une liste de fichiers bien rangée."
+        }
+      ]
+    },
+    "uploadresume": {
+      "category": "Travailler avec les fichiers",
+      "title": "Suspendre et reprendre un gros envoi",
+      "summary": "Suspendez un gros envoi et reprenez-le plus tard sans tout recommencer.",
+      "steps": [
+        {
+          "title": "Un envoi en cours",
+          "caption": "Choisissez <strong>Files</strong> dans le menu <strong>Upload</strong> et la surcouche de progression apparaît dans le coin, montrant le temps restant avec les contrôles <strong>pause</strong> et annuler."
+        },
+        {
+          "title": "Suspendez quand vous en avez besoin",
+          "caption": "Appuyez sur le contrôle de pause et le transfert s'arrête où il en est. La barre de progression garde sa position, prête à continuer, au lieu de jeter ce qui a déjà été envoyé."
+        },
+        {
+          "title": "Reprenez là où il s'est arrêté",
+          "caption": "Appuyez sur le contrôle de reprise et l'envoi se poursuit depuis le même point. Les gros fichiers survivent à une pause sans avoir à être renvoyés depuis le début."
+        },
+        {
+          "title": "Terminé et dans vos fichiers",
+          "caption": "Une fois achevé, le fichier apparaît dans la liste à sa taille complète, ici un envoi de <mark>1.1 GB</mark>, confirmant que le transfert repris est arrivé intact."
+        }
+      ]
+    },
+    "viewmodes": {
+      "category": "Travailler avec les fichiers",
+      "title": "Vues en tuiles et en liste",
+      "summary": "Basculez la liste de fichiers entre les dispositions liste condensée, tableau et tuiles selon ce que vous faites.",
+      "steps": [
+        {
+          "title": "Commencez dans la vue liste",
+          "caption": "Par défaut, la zone des fichiers utilise une disposition en liste. Les trois boutons de vue en haut à droite (<strong>condensed list</strong>, <strong>table</strong> et <strong>tiles</strong>) vous permettent de changer la façon dont les ressources sont affichées."
+        },
+        {
+          "title": "Passez en tuiles",
+          "caption": "Cliquez sur le bouton <strong>tiles</strong> (l'icône en grille) pour afficher chaque fichier et dossier comme une grande tuile miniature, comme <strong>tile_folder</strong> ici. Cette vue est pratique pour parcourir les images et les dossiers visuellement."
+        },
+        {
+          "title": "Votre choix est conservé",
+          "caption": "Ouvrez un dossier et la disposition en tuiles reste sélectionnée, ainsi tout ce qui est dans <code>tile_folder</code> continue de s'afficher en tuiles jusqu'à ce que vous reveniez en arrière."
+        }
+      ]
+    },
+    "fulltextsearch": {
+      "category": "Recherche",
+      "title": "Rechercher dans le contenu des fichiers",
+      "summary": "La recherche plein texte regarde à l'intérieur de vos documents, afin de trouver un fichier par un mot qu'il contient, pas seulement par son nom.",
+      "steps": [
+        {
+          "title": "Cherchez dans tout",
+          "caption": "Tapez dans la barre de recherche globale et conservez le filtre <strong>All files</strong>. Avec la recherche plein texte activée, ownCloud regarde dans le contenu des fichiers comme dans leurs noms."
+        },
+        {
+          "title": "Des correspondances dans le contenu",
+          "caption": "Rechercher un mot comme <mark>Cheers</mark> renvoie les documents qui contiennent ce mot, même quand il n'apparaît nulle part dans le nom du fichier."
+        },
+        {
+          "title": "Affinez les résultats",
+          "caption": "Réduisez un grand ensemble de résultats avec les puces de filtre, par exemple par <strong>Tag</strong>, par type de média ou par date de dernière modification."
+        },
+        {
+          "title": "Ouvrez une correspondance",
+          "caption": "Ouvrez n'importe quel résultat directement depuis la liste pour aller au fichier que vous cherchiez."
+        }
+      ]
+    },
+    "cast": {
+      "category": "Extensions",
+      "title": "Diffuser vers un appareil",
+      "summary": "Envoyez un fichier vers un appareil de diffusion à l'aide de l'action Cast que cette extension ajoute au menu du fichier.",
+      "steps": [
+        {
+          "title": "Choisissez un fichier",
+          "caption": "Partez d'un fichier dans votre espace, ici une image nommée <mark>logo.jpeg</mark> dans <strong>Personal</strong>."
+        },
+        {
+          "title": "L'action Cast",
+          "caption": "Faites un clic droit sur le fichier et vous trouverez <strong>Cast</strong> en haut du menu, ajoutée par cette extension pour envoyer le fichier vers un appareil de diffusion tel qu'un Chromecast."
+        }
+      ]
+    },
+    "drawio": {
+      "category": "Extensions",
+      "title": "Diagrammes avec draw.io",
+      "summary": "Créez et modifiez des diagrammes draw.io directement dans ownCloud et enregistrez-les dans vos fichiers.",
+      "steps": [
+        {
+          "title": "Ouvrez le menu des applications",
+          "caption": "Ouvrez le menu des applications (en haut à gauche) pour commencer un nouveau diagramme avec l'éditeur draw.io."
+        },
+        {
+          "title": "Construisez votre diagramme",
+          "caption": "L'éditeur draw.io complet s'ouvre dans ownCloud. Glissez des formes depuis la palette de gauche sur le canevas et reliez-les pour construire votre diagramme."
+        },
+        {
+          "title": "Enregistrez votre travail",
+          "caption": "Utilisez <strong>Save</strong> en haut à droite pour stocker le diagramme dans vos fichiers, puis <strong>Exit</strong> pour revenir."
+        },
+        {
+          "title": "Enregistré comme fichier",
+          "caption": "Votre diagramme apparaît dans la liste de fichiers comme un fichier <mark>New file.drawio</mark>, prêt à rouvrir et modifier à tout moment."
+        }
+      ]
+    },
+    "externalsites": {
+      "category": "Extensions",
+      "title": "Sites externes",
+      "summary": "Accédez aux sites web épinglés par votre administrateur, soit dans un nouvel onglet, soit intégrés dans ownCloud.",
+      "steps": [
+        {
+          "title": "Ouvrez le menu des applications",
+          "caption": "Les sites configurés apparaissent dans le menu des applications (en haut à gauche), ici comme entrées <strong>Owncloud External</strong> et <strong>Owncloud Embedded</strong>."
+        },
+        {
+          "title": "Choisissez un site intégré",
+          "caption": "Sélectionnez une entrée comme <strong>Owncloud Embedded</strong> pour ouvrir ce site web dans ownCloud."
+        },
+        {
+          "title": "Site affiché dans ownCloud",
+          "caption": "Un site intégré se charge dans une page au sein d'ownCloud (ici la documentation ownCloud), afin que vous restiez dans la même fenêtre. Les entrées externes s'ouvrent à la place dans un nouvel onglet du navigateur."
+        }
+      ]
+    },
+    "jsonviewer": {
+      "category": "Extensions",
+      "title": "Visualiser des fichiers JSON",
+      "summary": "Ouvrez un fichier .json dans une visionneuse formatée et repliable au lieu de lire du texte brut.",
+      "steps": [
+        {
+          "title": "Ajoutez un fichier JSON",
+          "caption": "Envoyez ou créez un fichier <code>.json</code> dans votre espace <strong>Personal</strong>, ici un fichier nommé <mark>jsonFile.json</mark>."
+        },
+        {
+          "title": "Ouvrez dans JSON Viewer",
+          "caption": "Faites un clic droit sur le fichier et choisissez <strong>Open in JSON Viewer</strong>, que l'extension ajoute à côté de <strong>Open in Text Editor</strong>."
+        },
+        {
+          "title": "Lisez-le formaté",
+          "caption": "Le fichier s'ouvre avec une coloration syntaxique et une mise en page indentée et propre, afin que les clés et valeurs imbriquées soient faciles à suivre, au lieu d'une longue ligne de texte."
+        }
+      ]
+    },
+    "progressbars": {
+      "category": "Extensions",
+      "title": "Barres de progression d'envoi",
+      "summary": "Choisissez le style de la barre de progression affichée pendant l'envoi des fichiers, depuis les paramètres de votre compte.",
+      "steps": [
+        {
+          "title": "Ouvrez votre compte",
+          "caption": "Allez dans <strong>My Account</strong> depuis le menu utilisateur, où vivent les préférences et les options d'extension."
+        },
+        {
+          "title": "Choisissez une barre de progression",
+          "caption": "Sous <strong>Extensions</strong>, réglez <strong>Global progress bar</strong> sur un style comme <mark>Nyan Cat progress bar</mark> pour personnaliser ce que vous voyez pendant l'envoi des fichiers."
+        }
+      ]
+    },
+    "unzip": {
+      "category": "Extensions",
+      "title": "Extraire des archives ZIP",
+      "summary": "Décompressez une archive .zip là où elle se trouve, sans la télécharger d'abord.",
+      "steps": [
+        {
+          "title": "Ajoutez une archive ZIP",
+          "caption": "Envoyez une archive <code>.zip</code> dans un dossier, ici un fichier nommé <mark>data.zip</mark> dans votre espace <strong>Personal</strong>."
+        },
+        {
+          "title": "Extract here",
+          "caption": "Faites un clic droit sur l'archive et choisissez <strong>Extract here</strong>, l'action que cette extension ajoute au menu du fichier."
+        },
+        {
+          "title": "Fichiers décompressés sur place",
+          "caption": "Le contenu atterrit dans un nouveau dossier à côté de l'archive, afin que vous puissiez l'ouvrir tout de suite sans quitter ownCloud."
+        }
+      ]
+    },
+    "advancedsearch": {
+      "category": "Extensions",
+      "title": "Advanced Search",
+      "summary": "Trouvez des fichiers avec une application de recherche dédiée qui combine filtres, recherche plein texte du contenu et recherches enregistrées réutilisables.",
+      "steps": [
+        {
+          "title": "Ouvrez Advanced Search",
+          "caption": "L'application <strong>Advanced Search</strong> s'ouvre avec une grande barre de recherche plus un formulaire complet de filtres en dessous, prête avant même que vous ne tapiez quoi que ce soit."
+        },
+        {
+          "title": "Lancez une recherche",
+          "caption": "Tapez un terme comme <mark>test</mark> et appuyez sur <strong>Search</strong>. Une puce active <strong>Search: test</strong> apparaît et le champ <strong>KQL Query</strong> se remplit automatiquement avec <code>name:*test*</code>."
+        },
+        {
+          "title": "Affinez avec des filtres",
+          "caption": "Réduisez les résultats avec <strong>Type</strong>, <strong>Media Type</strong> et <strong>Tags</strong>, un champ plein texte <strong>Content</strong>, ou des plages <strong>Size</strong> et <strong>Modified</strong>. <strong>Clear All</strong> réinitialise tout en un clic."
+        },
+        {
+          "title": "Enregistrez et réutilisez une recherche",
+          "caption": "Une fois une recherche active, <strong>Save Search</strong> apparaît en haut à droite. Les entrées enregistrées vivent derrière <strong>Saved Searches</strong>, afin de relancer une requête complexe plus tard sans la reconstruire."
+        }
+      ]
+    },
+    "photogallery": {
+      "category": "Extensions",
+      "title": "Galerie de photos",
+      "summary": "L'extension Photos rassemble chaque image de tous vos espaces dans une chronologie visuelle unique, avec des vues calendrier et carte.",
+      "steps": [
+        {
+          "title": "Toutes vos photos au même endroit",
+          "caption": "Ouvrez <strong>Photos</strong> depuis le menu des applications. Chaque image de votre espace personnel et de vos Spaces est rassemblée dans une seule grille, regroupée par jour."
+        },
+        {
+          "title": "Ouvrez une photo",
+          "caption": "Sélectionnez n'importe quelle photo pour la voir en plein écran, parcourez l'ensemble avec les flèches et lisez ses détails tels que la date, l'appareil photo et le lieu."
+        },
+        {
+          "title": "Vues calendrier et carte",
+          "caption": "Utilisez les contrôles en haut à droite pour filtrer sur les images <strong>EXIF only</strong> ou basculer entre la chronologie <strong>Calendar</strong> et la <strong>Map</strong>."
+        }
+      ]
+    },
+    "photolightbox": {
+      "category": "Extensions",
+      "title": "Visionneuse de photos",
+      "summary": "Ouvrez une photo en plein écran pour la voir en grand à côté de ses métadonnées EXIF, et accédez directement à l'endroit où elle a été prise.",
+      "steps": [
+        {
+          "title": "Choisissez une photo",
+          "caption": "Dans la galerie Photos, cliquez sur n'importe quelle miniature pour l'ouvrir dans la visionneuse."
+        },
+        {
+          "title": "Plein écran avec les détails",
+          "caption": "La visionneuse montre la photo en grand avec un compteur (<strong>1 / 6</strong>) et des flèches pour parcourir l'ensemble. En dessous, le panneau de détails liste <strong>Date taken</strong>, <strong>Camera</strong>, <strong>Model</strong>, <strong>Location</strong> et les infos du fichier tirées des données EXIF de l'image."
+        }
+      ]
+    },
+    "photomap": {
+      "category": "Extensions",
+      "title": "Photos sur une carte",
+      "summary": "Placez vos photos géolocalisées sur une carte du monde pour voir où chacune a été prise.",
+      "steps": [
+        {
+          "title": "Les photos portent leur position",
+          "caption": "Les photos prises sur un téléphone ou un appareil GPS stockent des coordonnées dans leurs données EXIF, montrées ici comme <strong>Location</strong> avec un raccourci <strong>View on Map</strong>."
+        },
+        {
+          "title": "Voyez-les sur la carte",
+          "caption": "Passez à la vue <strong>Map</strong> et chaque photo géolocalisée est posée comme une épingle sur une carte du monde. L'en-tête indique <strong>Photos (4 of 4 in view)</strong> ; déplacez et zoomez pour explorer, et cliquez sur une épingle pour ouvrir ces photos."
+        }
+      ]
     }
   },
   "upcoming": {
