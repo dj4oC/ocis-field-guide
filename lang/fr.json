@@ -166,6 +166,25 @@
           "caption": "Ouvrez <strong>More options</strong> pour renommer le lien, changer son mot de passe ou sa date d'expiration, ou le <mark>supprimer</mark> pour révoquer l'accès immédiatement."
         }
       ]
+    },
+    "aidocsummary": {
+      "category": "Résumé par IA · Aperçu",
+      "title": "Résumer un document avec l'IA",
+      "summary": "Transformez un long PDF, un fichier texte ou Markdown en un court aperçu et quelques points clés, générés par un assistant IA directement dans ownCloud. Aperçu de l'extension AI Document Summary (web-extensions PR #452).",
+      "steps": [
+        {
+          "title": "Partez du menu du fichier",
+          "caption": "Ouvrez le menu contextuel d'un document. Pour les fichiers pris en charge (PDF, TXT et Markdown), une action <strong>Summarize</strong> avec une icône d'étincelle apparaît ; elle reste masquée pour les types qui ne peuvent pas être résumés."
+        },
+        {
+          "title": "Lisez l'aperçu et les points clés",
+          "caption": "Le panneau <strong>Summary</strong> s'ouvre à droite avec un aperçu de 2 à 3 phrases et quelques points essentiels. Utilisez <mark>Regenerate</mark> pour le relancer."
+        },
+        {
+          "title": "Résumez tout document pris en charge",
+          "caption": "Cela fonctionne de la même façon pour les notes en texte et en Markdown, pas seulement les PDF, afin de saisir l'essentiel d'un fichier avant de l'ouvrir."
+        }
+      ]
     }
   },
   "upcoming": {

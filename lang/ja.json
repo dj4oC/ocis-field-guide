@@ -166,6 +166,25 @@
           "caption": "<strong>More options</strong> を開くと、リンクの名前変更、パスワードや有効期限の変更、または <mark>削除</mark> してアクセスをすぐに取り消せます。"
         }
       ]
+    },
+    "aidocsummary": {
+      "category": "AI 要約 · プレビュー",
+      "title": "AI でドキュメントを要約する",
+      "summary": "長い PDF・テキスト・Markdown ファイルを、ownCloud の中で AI アシスタントが短い概要といくつかの要点に変換します。AI Document Summary 拡張機能（web-extensions PR #452）のプレビューです。",
+      "steps": [
+        {
+          "title": "ファイルメニューから始める",
+          "caption": "ドキュメントのコンテキストメニューを開きます。対応ファイル（PDF・TXT・Markdown）ではきらめくアイコン付きの <strong>Summarize</strong> アクションが表示され、要約できない種類では非表示のままです。"
+        },
+        {
+          "title": "概要と要点を読む",
+          "caption": "右側に <strong>Summary</strong> パネルが開き、2〜3 文の概要といくつかの要点が表示されます。<mark>Regenerate</mark> で再生成できます。"
+        },
+        {
+          "title": "対応するどんなドキュメントも要約する",
+          "caption": "PDF だけでなくテキストや Markdown のメモでも同じように動作するので、開く前にファイルの要点をつかめます。"
+        }
+      ]
     }
   },
   "upcoming": {

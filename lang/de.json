@@ -166,6 +166,25 @@
           "caption": "Öffnen Sie <strong>More options</strong>, um den Link umzubenennen, Passwort oder Ablaufdatum zu ändern oder ihn zu <mark>löschen</mark> und den Zugriff sofort zu entziehen."
         }
       ]
+    },
+    "aidocsummary": {
+      "category": "KI-Zusammenfassung · Vorschau",
+      "title": "Ein Dokument mit KI zusammenfassen",
+      "summary": "Verwandeln Sie ein langes PDF, eine Text- oder Markdown-Datei in einen kurzen Überblick und einige Kernpunkte, erzeugt von einem KI-Assistenten direkt in ownCloud. Vorschau der Erweiterung AI Document Summary (web-extensions PR #452).",
+      "steps": [
+        {
+          "title": "Im Dateimenü starten",
+          "caption": "Öffnen Sie das Kontextmenü eines Dokuments. Bei unterstützten Dateien (PDF, TXT und Markdown) erscheint eine Aktion <strong>Summarize</strong> mit einem Funkel-Symbol; bei nicht unterstützten Dateitypen bleibt sie ausgeblendet."
+        },
+        {
+          "title": "Überblick und Kernpunkte lesen",
+          "caption": "Das <strong>Summary</strong>-Panel öffnet sich rechts mit einem Überblick aus 2 bis 3 Sätzen und einigen Kernaussagen. Mit <mark>Regenerate</mark> lässt es sich erneut erzeugen."
+        },
+        {
+          "title": "Jedes unterstützte Dokument zusammenfassen",
+          "caption": "Es funktioniert genauso für Text- und Markdown-Notizen, nicht nur für PDFs, sodass Sie den Kern einer Datei erfassen, bevor Sie sie öffnen."
+        }
+      ]
     }
   },
   "upcoming": {

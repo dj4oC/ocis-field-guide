@@ -151,6 +151,22 @@
           "img": "assets/trash/03-restored.png"
         }
       ]
+    },
+    {
+      "id": "aidocsummary",
+      "source": "owncloud/web-extensions · packages/web-app-ai-doc-summary/tests/e2e/aiDocSummary.spec.ts (PR #452)",
+      "thumb": "assets/aidocsummary/02-summary-pdf.png",
+      "steps": [
+        {
+          "img": "assets/aidocsummary/01-summarize-action.png"
+        },
+        {
+          "img": "assets/aidocsummary/02-summary-pdf.png"
+        },
+        {
+          "img": "assets/aidocsummary/03-summary-markdown.png"
+        }
+      ]
     }
   ],
   "upcoming": [

@@ -166,6 +166,25 @@
           "caption": "Open <strong>More options</strong> om de link te hernoemen, het wachtwoord of de vervaldatum te wijzigen, of hem te <mark>verwijderen</mark> om de toegang direct in te trekken."
         }
       ]
+    },
+    "aidocsummary": {
+      "category": "AI-samenvatting · Preview",
+      "title": "Een document samenvatten met AI",
+      "summary": "Zet een lange PDF, tekst- of Markdown-bestand om in een kort overzicht en een paar kernpunten, gegenereerd door een AI-assistent in ownCloud zelf. Preview van de AI Document Summary-extensie (web-extensions PR #452).",
+      "steps": [
+        {
+          "title": "Begin vanuit het bestandsmenu",
+          "caption": "Open het contextmenu van een document. Voor ondersteunde bestanden (PDF, TXT en Markdown) verschijnt een <strong>Summarize</strong>-actie met een sprankel-icoon; bij niet-ondersteunde types blijft hij verborgen."
+        },
+        {
+          "title": "Lees het overzicht en de kernpunten",
+          "caption": "Het <strong>Summary</strong>-paneel opent rechts met een overzicht van 2 tot 3 zinnen en enkele kernpunten. Gebruik <mark>Regenerate</mark> om het opnieuw te genereren."
+        },
+        {
+          "title": "Vat elk ondersteund document samen",
+          "caption": "Het werkt net zo voor tekst- en Markdown-notities, niet alleen voor PDFs, zodat je de kern van een bestand begrijpt voordat je het opent."
+        }
+      ]
     }
   },
   "upcoming": {
