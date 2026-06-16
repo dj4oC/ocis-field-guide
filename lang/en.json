@@ -185,16 +185,650 @@
           "caption": "It works the same for plain text and Markdown notes, not just PDFs, so you can grasp the gist of a file before you open it."
         }
       ]
+    },
+    "appstore": {
+      "category": "App Store",
+      "title": "Discovering apps",
+      "summary": "Browse, search and filter the apps available for your ownCloud from the built-in App Store.",
+      "steps": [
+        {
+          "title": "Open the App Store",
+          "caption": "Open the App Store from the application menu (the grid icon, top left). Every app available for your instance is shown as a card."
+        },
+        {
+          "title": "Search by name",
+          "caption": "Type into the search box to narrow the list. Searching <mark>draw</mark> brings up the Draw.io diagram editor."
+        },
+        {
+          "title": "Filter by category",
+          "caption": "Click a category tag such as <strong>viewer</strong> to show only apps of that kind."
+        },
+        {
+          "title": "Open an app",
+          "caption": "Select any app to read its full description, screenshots and available versions."
+        }
+      ]
+    },
+    "appstore-details": {
+      "category": "App Store",
+      "title": "App details and versions",
+      "summary": "Inspect an app's details and download a specific version from the App Store.",
+      "steps": [
+        {
+          "title": "Start in the App Store",
+          "caption": "From the App Store overview, pick the app you are interested in."
+        },
+        {
+          "title": "Read the app details",
+          "caption": "The details page shows the description, metadata and the list of released versions."
+        },
+        {
+          "title": "Download a specific version",
+          "caption": "Download any listed version, not just the latest, which is handy for pinning a known-good release."
+        }
+      ]
+    },
+    "admin-general": {
+      "category": "Administration",
+      "title": "General administration settings",
+      "summary": "Find your instance information and customise the appearance, including the logo, from the admin area.",
+      "steps": [
+        {
+          "title": "Open General settings",
+          "caption": "As an administrator, open <strong>Administration Settings</strong> and select <strong>General</strong>. The Info section shows your edition and versions."
+        },
+        {
+          "title": "Upload a custom logo",
+          "caption": "Under <strong>Appearance</strong>, upload your own logo to brand the web interface."
+        },
+        {
+          "title": "Reset to default",
+          "caption": "Changed your mind? Reset the logo to the ownCloud default at any time."
+        }
+      ]
+    },
+    "admin-groups": {
+      "category": "Administration",
+      "title": "Managing groups",
+      "summary": "Create, rename and delete groups to organise users and grant access in bulk.",
+      "steps": [
+        {
+          "title": "Open Groups management",
+          "caption": "In <strong>Administration Settings</strong>, open <strong>Groups</strong> to see every group in a table."
+        },
+        {
+          "title": "Create a group",
+          "caption": "Use <strong>+ New group</strong> to add a group; it appears in the list straight away."
+        },
+        {
+          "title": "Rename a group",
+          "caption": "Select a group and edit its display name from the right-hand panel."
+        },
+        {
+          "title": "Saved",
+          "caption": "The new name shows in the groups table. Removing a group is just as quick from its row actions."
+        }
+      ]
+    },
+    "download": {
+      "category": "Working with files",
+      "title": "Downloading files and folders",
+      "summary": "Get a copy of any file, folder or shared item onto your device.",
+      "steps": [
+        {
+          "title": "Download from the file list",
+          "caption": "Every row has a <strong>Download</strong> action, and folders are packaged as a <code>.zip</code>. The right-click menu exposes it too."
+        },
+        {
+          "title": "Download from the viewer",
+          "caption": "Open a file in the viewer and use the download icon in the toolbar to save the version you are looking at."
+        },
+        {
+          "title": "Download shared items",
+          "caption": "The same Download action is available for files and folders others have shared with you, under <strong>Shares</strong>."
+        }
+      ]
+    },
+    "admin-spaces": {
+      "category": "Administration",
+      "title": "Administering Spaces",
+      "summary": "Create, edit, disable and inspect project Spaces from the admin settings.",
+      "steps": [
+        {
+          "title": "Open the Spaces management page",
+          "caption": "Under <strong>Administration Settings</strong>, select <strong>Spaces</strong> in the sidebar. The table lists every project Space with its <strong>Manager</strong>, <strong>Members</strong>, <strong>Remaining quota</strong> and last modified time."
+        },
+        {
+          "title": "Create a new Space",
+          "caption": "Use the <strong>New Space</strong> button to add a project Space (for example <mark>team A</mark>). A <strong>Space was created successfully</strong> message confirms it, and the new Space appears at the top of the list."
+        },
+        {
+          "title": "Rename and adjust quota",
+          "caption": "Tick a Space to reveal the <strong>Edit quota</strong> and <strong>Disable</strong> actions in the toolbar. Renaming, changing the subtitle and raising the quota (here to <mark>50 GB</mark>) each return their own confirmation toast."
+        },
+        {
+          "title": "Disable or delete a Space",
+          "caption": "With a Space selected, the toolbar switches to <strong>Enable</strong> and <strong>Delete</strong>. Disabling takes it out of use without removing data, shown by the <strong>was disabled successfully</strong> message."
+        },
+        {
+          "title": "Review Space members",
+          "caption": "Open the <strong>Members</strong> sidebar panel to see who belongs to a Space, grouped by role: <strong>Can manage</strong>, <strong>Can edit with versions and trashbin</strong> and <strong>Can view</strong>. Use <strong>Filter members</strong> to search a long list."
+        }
+      ]
+    },
+    "admin-users": {
+      "category": "Administration",
+      "title": "Managing users",
+      "summary": "Create a user, edit their account details and assign them to groups from the admin settings.",
+      "steps": [
+        {
+          "title": "Open the Users management page",
+          "caption": "Under <strong>Administration Settings</strong>, choose <strong>Users</strong>. The table shows each account with its <strong>User name</strong>, <strong>Email</strong>, <strong>Role</strong> and <strong>Login</strong> status, and the <strong>Filter</strong> controls narrow the list by group or role."
+        },
+        {
+          "title": "Create a new user",
+          "caption": "Select <strong>New user</strong> and fill in the account details (for example <mark>max</mark>). A <strong>User was created successfully</strong> message confirms it, and the new account joins the list."
+        },
+        {
+          "title": "Edit a user's details",
+          "caption": "Pick a user and open the <strong>Edit user</strong> panel to change their name, email, password, <strong>Role</strong>, <strong>Login</strong> and <strong>Personal quota</strong>. Each change is saved in place, shown by <strong>Changes saved</strong>."
+        },
+        {
+          "title": "Assign the user to groups",
+          "caption": "In the same panel, use the <strong>Groups</strong> field to add the user to one or more groups, such as <mark>sales department</mark> and <mark>finance department</mark>. Each group appears as a chip you can remove with its &times; button."
+        }
+      ]
+    },
+    "appmenu": {
+      "category": "Getting around",
+      "title": "Switching apps with the application menu",
+      "summary": "Use the grid icon in the top left to move between ownCloud's apps, like Files and the text editor.",
+      "steps": [
+        {
+          "title": "Open the application menu",
+          "caption": "The grid icon in the very top left corner is the <strong>application menu</strong>. Pick an app from it to switch context, here it opens the text editor on a new file."
+        },
+        {
+          "title": "Work in the chosen app",
+          "caption": "Each app fills the window. Type your content, for example <mark>Hello world</mark>, then save with the disk icon in the top toolbar."
+        },
+        {
+          "title": "Back to Files",
+          "caption": "Open the grid menu again and choose <strong>Files</strong> to return, where your saved <code>New file.txt</code> is waiting in the list."
+        }
+      ]
+    },
+    "batchactions": {
+      "category": "Working with files",
+      "title": "Acting on many files at once",
+      "summary": "Select several files and folders together, then apply a single action to all of them.",
+      "steps": [
+        {
+          "title": "Select with checkboxes",
+          "caption": "Each row has a checkbox on the left, and the box in the <strong>Name</strong> header is a select-all toggle. Tick several folders to act on them together instead of one at a time."
+        },
+        {
+          "title": "Find the shares",
+          "caption": "Open <strong>Shares</strong> and the <strong>Shared with me</strong> tab to see everything others have sent you, each with its own checkbox so you can pick a whole batch in one go."
+        },
+        {
+          "title": "Apply one action to all",
+          "caption": "With the rows selected, a single action (here the <strong>sync</strong> control next to each share) is applied across the whole selection at once, so you do not repeat the click per item."
+        }
+      ]
+    },
+    "breadcrumb": {
+      "category": "Getting around",
+      "title": "Navigating with the breadcrumb trail",
+      "summary": "Use the path at the top of the file list to see where you are and jump back to any parent folder in one click.",
+      "steps": [
+        {
+          "title": "See your full path",
+          "caption": "As you open folder after folder, the breadcrumb at the top grows: <code>Personal > parent > folder > 'single-double quotes' > \"inner\" double quote > sub-folder</code>. It always shows exactly where you are."
+        },
+        {
+          "title": "Jump to an ancestor",
+          "caption": "Click any earlier name in the trail to jump straight back to that folder, skipping all the levels in between. No need to press back repeatedly."
+        },
+        {
+          "title": "Climb back to the top",
+          "caption": "A few clicks later you are back at <strong>parent</strong>, near the top of the tree. The three dots next to the current folder open a context menu with actions for it."
+        }
+      ]
+    },
+    "fileviewer": {
+      "category": "Working with files",
+      "title": "Previewing files",
+      "summary": "Open images, video, audio and more right in your browser, without downloading them first.",
+      "steps": [
+        {
+          "title": "Spot files by their thumbnails",
+          "caption": "In the file list, images and media show a small thumbnail so you can recognise them at a glance. Click a file name to open it in the viewer."
+        },
+        {
+          "title": "The file opens in the viewer",
+          "caption": "The image fills the screen with no download needed. A toolbar along the bottom lets you zoom in and out, rotate, and go fullscreen."
+        },
+        {
+          "title": "Flip between files",
+          "caption": "Use the arrows in the toolbar to move through the folder, shown as <strong>6 of 7</strong>. The <strong>Details</strong> panel on the right shows size, owner, versions and more."
+        },
+        {
+          "title": "Watch video inline",
+          "caption": "Video files like <code>.webm</code> play right in the viewer with standard playback controls, so there is no need to save them first."
+        },
+        {
+          "title": "Play audio too",
+          "caption": "Audio files such as <code>.mp3</code> open with a built-in player. Press play to listen without leaving ownCloud."
+        }
+      ]
+    },
+    "journey": {
+      "category": "Journeys",
+      "title": "A day in ownCloud: share this week's meal plan",
+      "summary": "Follow Alice as she prepares a folder, shares it with the parents, and they pick it up from their own accounts.",
+      "steps": [
+        {
+          "title": "Start in your personal space",
+          "caption": "Alice signs in and lands in her <strong>Personal</strong> space, the private home for her own files. From here she can create folders and upload this week's plan."
+        },
+        {
+          "title": "Prepare the folder",
+          "caption": "She gathers the files into a folder and opens the <strong>Details</strong> panel to confirm the owner, size and last change before sending it out."
+        },
+        {
+          "title": "Share with the parents",
+          "caption": "Using the share icons in the row's <strong>Actions</strong>, Alice invites the parents so everyone gets the same up to date plan."
+        },
+        {
+          "title": "Parents see it instantly",
+          "caption": "Brian opens <strong>Shares</strong> and finds the meal plan and files waiting under <strong>Shared with me</strong>, with who shared them and when."
+        },
+        {
+          "title": "Tidy up afterwards",
+          "caption": "Once the week is over, Alice selects the leftovers and removes them with the batch action, keeping her <strong>Personal</strong> space clean."
+        }
+      ]
+    },
+    "movecopy": {
+      "category": "Working with files",
+      "title": "Copying and moving files",
+      "summary": "Make a copy of a file in another folder, or move it somewhere new, without re-uploading.",
+      "steps": [
+        {
+          "title": "Start in a folder of files",
+          "caption": "Open any folder that holds the files you want to reorganise. Here <strong>Personal</strong> &gt; <strong>Duplicate</strong> contains a file and a subfolder, ready to copy or move."
+        },
+        {
+          "title": "Pick what to copy or move",
+          "caption": "Select one item, or tick several to act on them at once. You can right-click a row for <strong>Copy</strong> or <strong>Cut</strong>, drag and drop onto a folder, or use keyboard shortcuts."
+        },
+        {
+          "title": "Paste and the copy appears",
+          "caption": "After <strong>Copy</strong>, pick a destination in the location picker and confirm. The new copy lands beside the original with a numbered name, like <mark>duplicate (1).txt</mark>."
+        },
+        {
+          "title": "Moving puts it in the new place",
+          "caption": "Moving with <strong>Cut</strong> (or by dragging onto a folder) removes the item from where it was and drops it into the destination, like <strong>Sub1</strong> inside this folder."
+        }
+      ]
+    },
+    "pagination": {
+      "category": "Getting around",
+      "title": "Paging through large folders",
+      "summary": "Set how many items appear per page and step through a long file list with the pager.",
+      "steps": [
+        {
+          "title": "Choose items per page",
+          "caption": "Use the settings gear at the top right to set the items per page, for example <mark>20</mark>. The list now fills one page and a pager appears at the bottom."
+        },
+        {
+          "title": "Move to the next page",
+          "caption": "Click <strong>2</strong> in the pager to see the remaining items. The footer keeps the running total, here <strong>26 items with 223 B in total</strong>."
+        },
+        {
+          "title": "Show hidden files",
+          "caption": "Turning on <strong>Show hidden files</strong> adds dot files to the count, so the footer updates and the pages refill to include them."
+        },
+        {
+          "title": "Fit everything on one page",
+          "caption": "Raise the items per page to <mark>500</mark> and the whole folder fits at once, so the pager disappears entirely."
+        }
+      ]
+    },
+    "rename": {
+      "category": "Working with files",
+      "title": "Renaming files and folders",
+      "summary": "Give any file or folder a clearer name, in your own space or in something shared with you.",
+      "steps": [
+        {
+          "title": "Find the file to rename",
+          "caption": "Open the folder that holds the item, here <code>example.txt</code> inside a folder shared with you. The small pencil icon beside the name starts a rename."
+        },
+        {
+          "title": "Type the new name",
+          "caption": "Click the pencil (or pick <strong>Rename</strong> from the row's action menu), type the new name like <mark>renamedByBrian.txt</mark>, and confirm to apply it."
+        },
+        {
+          "title": "The renamed file",
+          "caption": "The list refreshes with the new name in place, for example <mark>renamedByAlice.txt</mark>. The same <strong>Rename</strong> action works on folders too."
+        }
+      ]
+    },
+    "searchspace": {
+      "category": "Finding files",
+      "title": "Searching within a Space",
+      "summary": "Find files that live in a specific project Space, with results that show which Space each match belongs to.",
+      "steps": [
+        {
+          "title": "Open your project Space",
+          "caption": "Go to <strong>Spaces</strong> in the left sidebar and open a project Space, here the <mark>team</mark> Space, where your shared project files live."
+        },
+        {
+          "title": "The files in that Space",
+          "caption": "Inside the Space you see its own folders and files, separate from your <strong>Personal</strong> area."
+        },
+        {
+          "title": "Search across everything",
+          "caption": "Type into the search box at the top and press <kbd>Enter</kbd>. Each result lists the folder it sits in, so you can tell project files apart from your own."
+        },
+        {
+          "title": "See which Space a result belongs to",
+          "caption": "A match that lives in a project Space is tagged with that Space's name, like the <mark>team</mark> badge here, confirming the file is scoped to that Space."
+        }
+      ]
+    },
+    "shortcuts": {
+      "category": "Getting around",
+      "title": "Creating and opening shortcuts",
+      "summary": "Make shortcut files that jump straight to another file, a folder or an external web page.",
+      "steps": [
+        {
+          "title": "Start in your files",
+          "caption": "Open the <strong>Files</strong> app and use the <strong>New</strong> button to create a shortcut, just like you would create a folder or document."
+        },
+        {
+          "title": "Shortcuts appear in the list",
+          "caption": "Each shortcut is a small <code>.url</code> file with an arrow badge, such as <mark>docs.url</mark> or <mark>companyNews.url</mark>. They can point at a file, a folder or an external address."
+        },
+        {
+          "title": "Open an external link",
+          "caption": "Selecting a shortcut like <mark>companyNews.url</mark> and opening it sends you straight to its target web page, for example <code>https://owncloud.com/news/</code>."
+        },
+        {
+          "title": "Open the target file",
+          "caption": "A shortcut that points at a file opens that file directly, here landing in the text editor showing <code>notice.txt</code> in the <strong>docs</strong> folder."
+        }
+      ]
+    },
+    "activity": {
+      "category": "Staying informed",
+      "title": "Following activity on files and Spaces",
+      "summary": "See a timeline of who changed what, for a single file or a whole Space.",
+      "steps": [
+        {
+          "title": "Make a change",
+          "caption": "Everyday actions are recorded as you work. Here a folder has just been renamed, shown by the <strong>0 seconds ago</strong> in the <strong>Modified</strong> column."
+        },
+        {
+          "title": "Activity for a file",
+          "caption": "Select a file and open the <strong>Activities</strong> panel to read its history: it was renamed, updated, and added, each entry stamped with who did it and when."
+        },
+        {
+          "title": "Activity for a Space",
+          "caption": "Open a Space such as <strong>team</strong> and the same <strong>Activities</strong> panel covers everything in it: members joining, files added, and the Space being shared."
+        }
+      ]
+    },
+    "downloadspace": {
+      "category": "Spaces",
+      "title": "Download a whole Space",
+      "summary": "Save the entire contents of a project Space to your device as a single archive.",
+      "steps": [
+        {
+          "title": "Open the Space",
+          "caption": "Go to <strong>Spaces</strong> and open the project Space you want to download, such as <mark>team</mark>."
+        },
+        {
+          "title": "Download the contents",
+          "caption": "Use the Space's action menu (the three dots next to the name) and choose <strong>Download</strong>. Everything is packaged together as a single <code>.zip</code>."
+        },
+        {
+          "title": "Members can download too",
+          "caption": "Anyone added as a member sees the same Space and can download its contents the same way, so the whole team has a copy when they need one."
+        }
+      ]
+    },
+    "gdprexport": {
+      "category": "Your account",
+      "title": "Exporting your data",
+      "summary": "Request a personal data export under GDPR from your account settings and download it when it is ready.",
+      "steps": [
+        {
+          "title": "Open your account page",
+          "caption": "From the user menu, open <strong>My Account</strong> and scroll to the <strong>GDPR</strong> section at the bottom. The <strong>GDPR export</strong> row lets you request a personal data export according to <code>&sect;20 GDPR</code>."
+        },
+        {
+          "title": "Request a new export",
+          "caption": "Click <strong>Request new export</strong>. ownCloud prepares an archive of your personal data in the background, and a <strong>Download</strong> link appears once it is ready."
+        },
+        {
+          "title": "Download the export",
+          "caption": "When the export is finished, use the <strong>Download</strong> action next to <strong>GDPR export</strong> to save the archive to your device."
+        }
+      ]
+    },
+    "language": {
+      "category": "Your account",
+      "title": "Changing the language",
+      "summary": "Pick the language you want for the web interface, and watch it switch instantly.",
+      "steps": [
+        {
+          "title": "Open your account page",
+          "caption": "From the user menu, open <strong>My Account</strong>. Under <strong>Preferences</strong>, the <strong>Language</strong> row shows the language the interface currently uses, here <strong>English</strong>."
+        },
+        {
+          "title": "Pick a new language",
+          "caption": "Open the <strong>Language</strong> dropdown and choose a language, for example <mark>Deutsch - German</mark>. The whole interface switches right away, so the page title becomes <strong>Mein Konto</strong>."
+        },
+        {
+          "title": "Change saved",
+          "caption": "A short confirmation (<strong>Einstellung gespeichert</strong>, meaning the setting was saved) appears, and your choice is remembered the next time you sign in."
+        }
+      ]
+    },
+    "notifications": {
+      "category": "Your account",
+      "title": "Notification settings",
+      "summary": "Read in-app notifications from the bell, clear them, and control whether you get notification mails.",
+      "steps": [
+        {
+          "title": "Check the notification bell",
+          "caption": "The bell icon in the top bar shows a red count when something needs your attention. Click it to read recent activity, like <strong>Alice Hansen shared share_to_group with you</strong>."
+        },
+        {
+          "title": "Mark all as read",
+          "caption": "Use <strong>Mark all as read</strong> at the top of the panel to clear the list. The bell count disappears and the panel shows <strong>Nothing new</strong>."
+        },
+        {
+          "title": "Control notification mails",
+          "caption": "On <strong>My Account</strong>, the <strong>Notifications</strong> preference (<strong>Receive notification mails</strong>) controls whether events are also emailed to you. Untick it to keep notifications in-app only."
+        }
+      ]
+    },
+    "spacefromselection": {
+      "category": "Spaces",
+      "title": "Create a Space from selected items",
+      "summary": "Turn a folder or a selection of files into a brand new project Space in one step.",
+      "steps": [
+        {
+          "title": "Start in your Personal area",
+          "caption": "Open <strong>Personal</strong> and find the files and folders you want to group together, for example <mark>resourceFolder</mark> and <mark>lorem.txt</mark>."
+        },
+        {
+          "title": "Create Space from selection",
+          "caption": "Select the items, then right-click and choose <strong>Create Space from selection</strong>. A confirmation reading <strong>Space was created successfully</strong> appears."
+        },
+        {
+          "title": "Your new Space, ready to use",
+          "caption": "Open the new project Space under <strong>Spaces</strong> and your selected items are already inside, ready to share and collaborate on."
+        }
+      ]
+    },
+    "spacelink": {
+      "category": "Spaces",
+      "title": "Creating a public link to a Space",
+      "summary": "Share a whole project Space (or a folder inside it) with people who have no account, protected by a password.",
+      "steps": [
+        {
+          "title": "Create the public link",
+          "caption": "In the Space's <strong>Members</strong> panel, use <strong>Add link</strong> under <strong>Public links</strong> and set a password. The new link appears with its role (here <strong>Can view</strong>), and a toast confirms it was copied to your clipboard."
+        },
+        {
+          "title": "Confirm the link exists",
+          "caption": "The Space <strong>Details</strong> now reads <strong>This space has one member and 1 link</strong>. Open <strong>Members</strong> any time to rename the link, change its role, or remove it."
+        },
+        {
+          "title": "What the recipient sees",
+          "caption": "Anyone you send the link to lands on <strong>This resource is password-protected</strong>. They type the password under <strong>Enter password for public link</strong> and select <strong>Continue</strong>."
+        },
+        {
+          "title": "Browsing the shared Space",
+          "caption": "After unlocking, the recipient sees the Space contents on a clean <strong>Public link</strong> page, where they can browse and open files according to the role you granted."
+        }
+      ]
+    },
+    "spacememberexpiry": {
+      "category": "Spaces",
+      "title": "Give a member time-limited access",
+      "summary": "Set an expiration date so a Space member's access ends automatically on the day you choose.",
+      "steps": [
+        {
+          "title": "Add the member",
+          "caption": "Open the Space and add the person from the <strong>Members</strong> panel. A <strong>Share was added successfully</strong> message confirms they now have access."
+        },
+        {
+          "title": "Set an expiration date",
+          "caption": "Use the calendar icon next to the member, for example <mark>Brian Murphy</mark>, to pick a date. Their access ends automatically when that day arrives."
+        },
+        {
+          "title": "Remove it to make access permanent",
+          "caption": "Changed your mind? Clear the date the same way and the member keeps access with no end date, confirmed by <strong>Share successfully changed</strong>."
+        }
+      ]
+    },
+    "spacemembers": {
+      "category": "Spaces",
+      "title": "Managing the members of a Space",
+      "summary": "Add people and groups to a project Space, choose what each one can do, and remove access when it is no longer needed.",
+      "steps": [
+        {
+          "title": "Open your project Space",
+          "caption": "Go to <strong>Spaces</strong> and open the Space you manage, here <mark>team</mark>. The header shows the current count, for example <strong>1 member</strong>, before you invite anyone else."
+        },
+        {
+          "title": "Add members",
+          "caption": "Invite people or groups to the Space. Each added member produces a <strong>Share was added successfully</strong> confirmation, and the count rises (here to <strong>5 members</strong>)."
+        },
+        {
+          "title": "Choose each member's role",
+          "caption": "Open the <strong>Members</strong> panel to set roles. Pick <strong>Can view</strong>, <strong>Can edit with versions and trashbin</strong>, or <strong>Can manage</strong> from each member's dropdown. Changes confirm with <strong>Share successfully changed</strong>."
+        },
+        {
+          "title": "Remove a member",
+          "caption": "Use the three-dot menu next to a member to revoke their access. A <strong>Share was removed successfully</strong> message confirms they can no longer reach the Space."
+        }
+      ]
+    },
+    "spacespagination": {
+      "category": "Spaces",
+      "title": "Page through a Space with many items",
+      "summary": "Move between pages, show hidden files, and change how many items appear at once in a large Space.",
+      "steps": [
+        {
+          "title": "Jump between pages",
+          "caption": "When a Space holds more items than fit on one page, the pager at the bottom lets you step through them. The footer shows the full count, such as <code>112 items with 1 kB in total</code>."
+        },
+        {
+          "title": "Reveal hidden files",
+          "caption": "Turn on <strong>Show hidden files</strong> from the display settings to include dot-prefixed items in the count and the list."
+        },
+        {
+          "title": "Show more per page",
+          "caption": "Open the display settings (the gear icon) and raise the items per page, for example to <mark>500</mark>. With everything on one page, the pager disappears entirely."
+        }
+      ]
+    },
+    "upload": {
+      "category": "Working with files",
+      "title": "Uploading files and folders",
+      "summary": "Add files and whole folders to your space, one at a time or many at once.",
+      "steps": [
+        {
+          "title": "Start in your space",
+          "caption": "Open <strong>Personal</strong> and you see an empty list. Use the <strong>Upload</strong> button, or simply drag files and folders onto the page to add them."
+        },
+        {
+          "title": "Files land in the list",
+          "caption": "Uploaded files show up right away with their size and a <strong>Modified</strong> time. The drag-and-drop area accepts mixed selections of files and folders at once."
+        },
+        {
+          "title": "Upload a whole folder",
+          "caption": "Folders keep their structure when you upload them. Open <strong>PARENT</strong> and you find its files and subfolders exactly as they were on your device."
+        },
+        {
+          "title": "Upload many files at once",
+          "caption": "You can select dozens of files in one go. Each is uploaded and listed individually, so a bulk import becomes a tidy file list."
+        }
+      ]
+    },
+    "uploadresume": {
+      "category": "Working with files",
+      "title": "Pausing and resuming a large upload",
+      "summary": "Pause a big upload and pick it back up later without starting over.",
+      "steps": [
+        {
+          "title": "An upload in progress",
+          "caption": "Pick <strong>Files</strong> from the <strong>Upload</strong> menu and the progress overlay appears in the corner, showing how much time is left with <strong>pause</strong> and cancel controls."
+        },
+        {
+          "title": "Pause when you need to",
+          "caption": "Press the pause control and the transfer stops where it is. The progress bar holds its position, ready to continue, instead of throwing away what was already sent."
+        },
+        {
+          "title": "Resume from where it stopped",
+          "caption": "Press the resume control and the upload carries on from the same point. Large files survive a pause without having to be re-sent from the beginning."
+        },
+        {
+          "title": "Finished and in your files",
+          "caption": "Once it completes, the file appears in the list at its full size, here a <mark>1.1 GB</mark> upload, confirming the resumed transfer arrived intact."
+        }
+      ]
+    },
+    "viewmodes": {
+      "category": "Working with files",
+      "title": "Tiles and list views",
+      "summary": "Switch the files list between the condensed list, table and tiles layouts to suit what you are doing.",
+      "steps": [
+        {
+          "title": "Start in the list view",
+          "caption": "By default the files area uses a list layout. The three view buttons in the top right (<strong>condensed list</strong>, <strong>table</strong> and <strong>tiles</strong>) let you change how resources are shown."
+        },
+        {
+          "title": "Switch to tiles",
+          "caption": "Click the <strong>tiles</strong> button (the grid icon) to show each file and folder as a large thumbnail tile, like <strong>tile_folder</strong> here. This view is handy for browsing images and folders visually."
+        },
+        {
+          "title": "Your choice sticks",
+          "caption": "Open a folder and the tiles layout stays selected, so everything inside <code>tile_folder</code> keeps showing as tiles until you switch back."
+        }
+      ]
     }
   },
   "upcoming": {
     "versions": {
       "category": "Versions",
       "title": "Restoring an earlier file version"
-    },
-    "movecopy": {
-      "category": "Move & Copy",
-      "title": "Moving files between folders"
     }
   }
 }

@@ -191,10 +191,6 @@
     "versions": {
       "category": "Versies",
       "title": "Een eerdere bestandsversie herstellen"
-    },
-    "movecopy": {
-      "category": "Verplaatsen & kopiëren",
-      "title": "Bestanden tussen mappen verplaatsen"
     }
   }
 }

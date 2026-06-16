@@ -191,10 +191,6 @@
     "versions": {
       "category": "Versions",
       "title": "Restaurer une version antérieure d'un fichier"
-    },
-    "movecopy": {
-      "category": "Déplacer et copier",
-      "title": "Déplacer des fichiers entre dossiers"
     }
   }
 }

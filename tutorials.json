@@ -167,14 +167,542 @@
           "img": "assets/aidocsummary/03-summary-markdown.png"
         }
       ]
+    },
+    {
+      "id": "activity",
+      "source": "owncloud/web · tests/e2e/specs/smoke/activity.spec.ts",
+      "thumb": "assets/activity/02-file-activity.png",
+      "steps": [
+        {
+          "img": "assets/activity/01-make-a-change.png"
+        },
+        {
+          "img": "assets/activity/02-file-activity.png"
+        },
+        {
+          "img": "assets/activity/03-space-activity.png"
+        }
+      ]
+    },
+    {
+      "id": "admin-general",
+      "source": "owncloud/web · tests/e2e/specs/admin-settings/general.spec.ts",
+      "thumb": "assets/admin-general/01-general-page.png",
+      "steps": [
+        {
+          "img": "assets/admin-general/01-general-page.png"
+        },
+        {
+          "img": "assets/admin-general/02-upload-logo.png"
+        },
+        {
+          "img": "assets/admin-general/03-reset-logo.png"
+        }
+      ]
+    },
+    {
+      "id": "admin-groups",
+      "source": "owncloud/web · tests/e2e/specs/admin-settings/groups.spec.ts",
+      "thumb": "assets/admin-groups/01-groups-page.png",
+      "steps": [
+        {
+          "img": "assets/admin-groups/01-groups-page.png"
+        },
+        {
+          "img": "assets/admin-groups/02-create-group.png"
+        },
+        {
+          "img": "assets/admin-groups/03-rename-group.png"
+        },
+        {
+          "img": "assets/admin-groups/04-renamed.png"
+        }
+      ]
+    },
+    {
+      "id": "admin-spaces",
+      "source": "owncloud/web · tests/e2e/specs/admin-settings/spaces.spec.ts",
+      "thumb": "assets/admin-spaces/01-spaces-overview.png",
+      "steps": [
+        {
+          "img": "assets/admin-spaces/01-spaces-overview.png"
+        },
+        {
+          "img": "assets/admin-spaces/02-create-space.png"
+        },
+        {
+          "img": "assets/admin-spaces/03-edit-space.png"
+        },
+        {
+          "img": "assets/admin-spaces/04-disable-space.png"
+        },
+        {
+          "img": "assets/admin-spaces/05-space-members.png"
+        }
+      ]
+    },
+    {
+      "id": "admin-users",
+      "source": "owncloud/web · tests/e2e/specs/admin-settings/users.spec.ts",
+      "thumb": "assets/admin-users/02-create-user.png",
+      "steps": [
+        {
+          "img": "assets/admin-users/01-users-overview.png"
+        },
+        {
+          "img": "assets/admin-users/02-create-user.png"
+        },
+        {
+          "img": "assets/admin-users/03-edit-user.png"
+        },
+        {
+          "img": "assets/admin-users/04-assign-groups.png"
+        }
+      ]
+    },
+    {
+      "id": "appmenu",
+      "source": "owncloud/web · tests/e2e/specs/navigation/applicationMenu.spec.ts",
+      "thumb": "assets/appmenu/01-grid-icon.png",
+      "steps": [
+        {
+          "img": "assets/appmenu/01-grid-icon.png"
+        },
+        {
+          "img": "assets/appmenu/02-work-in-app.png"
+        },
+        {
+          "img": "assets/appmenu/03-back-to-files.png"
+        }
+      ]
+    },
+    {
+      "id": "appstore-details",
+      "source": "owncloud/web · tests/e2e/specs/app-store/details.spec.ts",
+      "thumb": "assets/appstore-details/02-details.png",
+      "steps": [
+        {
+          "img": "assets/appstore-details/01-store.png"
+        },
+        {
+          "img": "assets/appstore-details/02-details.png"
+        },
+        {
+          "img": "assets/appstore-details/03-download-version.png"
+        }
+      ]
+    },
+    {
+      "id": "appstore",
+      "source": "owncloud/web · tests/e2e/specs/app-store/discovery.spec.ts",
+      "thumb": "assets/appstore/01-overview.png",
+      "steps": [
+        {
+          "img": "assets/appstore/01-overview.png"
+        },
+        {
+          "img": "assets/appstore/02-search.png"
+        },
+        {
+          "img": "assets/appstore/03-filter-tag.png"
+        },
+        {
+          "img": "assets/appstore/04-open-app.png"
+        }
+      ]
+    },
+    {
+      "id": "batchactions",
+      "source": "owncloud/web · tests/e2e/specs/file-action/groupActions.spec.ts",
+      "thumb": "assets/batchactions/01-select-files.png",
+      "steps": [
+        {
+          "img": "assets/batchactions/01-select-files.png"
+        },
+        {
+          "img": "assets/batchactions/02-shared-with-me.png"
+        },
+        {
+          "img": "assets/batchactions/03-batch-action.png"
+        }
+      ]
+    },
+    {
+      "id": "breadcrumb",
+      "source": "owncloud/web · tests/e2e/specs/navigation/breadcrumb.spec.ts",
+      "thumb": "assets/breadcrumb/01-deep-trail.png",
+      "steps": [
+        {
+          "img": "assets/breadcrumb/01-deep-trail.png"
+        },
+        {
+          "img": "assets/breadcrumb/02-jump-to-ancestor.png"
+        },
+        {
+          "img": "assets/breadcrumb/03-navigate-up.png"
+        }
+      ]
+    },
+    {
+      "id": "download",
+      "source": "owncloud/web · tests/e2e/specs/file-action/download.spec.ts",
+      "thumb": "assets/download/01-from-list.png",
+      "steps": [
+        {
+          "img": "assets/download/01-from-list.png"
+        },
+        {
+          "img": "assets/download/02-from-viewer.png"
+        },
+        {
+          "img": "assets/download/03-shared.png"
+        }
+      ]
+    },
+    {
+      "id": "downloadspace",
+      "source": "owncloud/web · tests/e2e/specs/spaces/downloadSpace.spec.ts",
+      "thumb": "assets/downloadspace/02-download.png",
+      "steps": [
+        {
+          "img": "assets/downloadspace/01-open-space.png"
+        },
+        {
+          "img": "assets/downloadspace/02-download.png"
+        },
+        {
+          "img": "assets/downloadspace/03-members-too.png"
+        }
+      ]
+    },
+    {
+      "id": "fileviewer",
+      "source": "owncloud/web · tests/e2e/specs/file-action/fileViewer.spec.ts",
+      "thumb": "assets/fileviewer/02-open-viewer.png",
+      "steps": [
+        {
+          "img": "assets/fileviewer/01-thumbnails.png"
+        },
+        {
+          "img": "assets/fileviewer/02-open-viewer.png"
+        },
+        {
+          "img": "assets/fileviewer/03-navigate.png"
+        },
+        {
+          "img": "assets/fileviewer/04-video.png"
+        },
+        {
+          "img": "assets/fileviewer/05-audio.png"
+        }
+      ]
+    },
+    {
+      "id": "gdprexport",
+      "source": "owncloud/web · tests/e2e/specs/user-settings/gdprExport.spec.ts",
+      "thumb": "assets/gdprexport/02-request-export.png",
+      "steps": [
+        {
+          "img": "assets/gdprexport/01-open-account.png"
+        },
+        {
+          "img": "assets/gdprexport/02-request-export.png"
+        },
+        {
+          "img": "assets/gdprexport/03-download-export.png"
+        }
+      ]
+    },
+    {
+      "id": "journey",
+      "source": "owncloud/web · tests/e2e/specs/journeys/kindergarten.spec.ts",
+      "thumb": "assets/journey/03-share-with-parents.png",
+      "steps": [
+        {
+          "img": "assets/journey/01-personal-space.png"
+        },
+        {
+          "img": "assets/journey/02-prepare-folder.png"
+        },
+        {
+          "img": "assets/journey/03-share-with-parents.png"
+        },
+        {
+          "img": "assets/journey/04-shared-with-me.png"
+        },
+        {
+          "img": "assets/journey/05-tidy-up.png"
+        }
+      ]
+    },
+    {
+      "id": "language",
+      "source": "owncloud/web · tests/e2e/specs/user-settings/languageChange.spec.ts",
+      "thumb": "assets/language/02-pick-language.png",
+      "steps": [
+        {
+          "img": "assets/language/01-open-account.png"
+        },
+        {
+          "img": "assets/language/02-pick-language.png"
+        },
+        {
+          "img": "assets/language/03-saved.png"
+        }
+      ]
+    },
+    {
+      "id": "movecopy",
+      "source": "owncloud/web · tests/e2e/specs/file-action/copyMove.spec.ts",
+      "thumb": "assets/movecopy/03-copy-appears.png",
+      "steps": [
+        {
+          "img": "assets/movecopy/01-open-folder.png"
+        },
+        {
+          "img": "assets/movecopy/02-pick-a-file.png"
+        },
+        {
+          "img": "assets/movecopy/03-copy-appears.png"
+        },
+        {
+          "img": "assets/movecopy/04-moved-in.png"
+        }
+      ]
+    },
+    {
+      "id": "notifications",
+      "source": "owncloud/web · tests/e2e/specs/user-settings/notifications.spec.ts",
+      "thumb": "assets/notifications/01-open-bell.png",
+      "steps": [
+        {
+          "img": "assets/notifications/01-open-bell.png"
+        },
+        {
+          "img": "assets/notifications/02-mark-read.png"
+        },
+        {
+          "img": "assets/notifications/03-mail-preference.png"
+        }
+      ]
+    },
+    {
+      "id": "pagination",
+      "source": "owncloud/web · tests/e2e/specs/navigation/personalSpacePagination.spec.ts",
+      "thumb": "assets/pagination/01-items-per-page.png",
+      "steps": [
+        {
+          "img": "assets/pagination/01-items-per-page.png"
+        },
+        {
+          "img": "assets/pagination/02-go-to-page-two.png"
+        },
+        {
+          "img": "assets/pagination/03-show-hidden.png"
+        },
+        {
+          "img": "assets/pagination/04-fit-on-one-page.png"
+        }
+      ]
+    },
+    {
+      "id": "rename",
+      "source": "owncloud/web · tests/e2e/specs/file-action/rename.spec.ts",
+      "thumb": "assets/rename/01-find-the-file.png",
+      "steps": [
+        {
+          "img": "assets/rename/01-find-the-file.png"
+        },
+        {
+          "img": "assets/rename/02-type-new-name.png"
+        },
+        {
+          "img": "assets/rename/03-renamed-result.png"
+        }
+      ]
+    },
+    {
+      "id": "searchspace",
+      "source": "owncloud/web · tests/e2e/specs/search/searchProjectSpace.spec.ts",
+      "thumb": "assets/searchspace/04-space-badge.png",
+      "steps": [
+        {
+          "img": "assets/searchspace/01-open-space.png"
+        },
+        {
+          "img": "assets/searchspace/02-space-contents.png"
+        },
+        {
+          "img": "assets/searchspace/03-search.png"
+        },
+        {
+          "img": "assets/searchspace/04-space-badge.png"
+        }
+      ]
+    },
+    {
+      "id": "shortcuts",
+      "source": "owncloud/web · tests/e2e/specs/navigation/shortcut.spec.ts",
+      "thumb": "assets/shortcuts/02-shortcuts-in-list.png",
+      "steps": [
+        {
+          "img": "assets/shortcuts/01-start-in-files.png"
+        },
+        {
+          "img": "assets/shortcuts/02-shortcuts-in-list.png"
+        },
+        {
+          "img": "assets/shortcuts/03-external-link.png"
+        },
+        {
+          "img": "assets/shortcuts/04-open-target-file.png"
+        }
+      ]
+    },
+    {
+      "id": "spacefromselection",
+      "source": "owncloud/web · tests/e2e/specs/spaces/createSpaceFromSelection.spec.ts",
+      "thumb": "assets/spacefromselection/03-new-space.png",
+      "steps": [
+        {
+          "img": "assets/spacefromselection/01-pick-items.png"
+        },
+        {
+          "img": "assets/spacefromselection/02-create-from-selection.png"
+        },
+        {
+          "img": "assets/spacefromselection/03-new-space.png"
+        }
+      ]
+    },
+    {
+      "id": "spacelink",
+      "source": "owncloud/web · tests/e2e/specs/spaces/publicLink.spec.ts",
+      "thumb": "assets/spacelink/01-create-link.png",
+      "steps": [
+        {
+          "img": "assets/spacelink/01-create-link.png"
+        },
+        {
+          "img": "assets/spacelink/02-review-link.png"
+        },
+        {
+          "img": "assets/spacelink/03-password-gate.png"
+        },
+        {
+          "img": "assets/spacelink/04-browse-contents.png"
+        }
+      ]
+    },
+    {
+      "id": "spacememberexpiry",
+      "source": "owncloud/web · tests/e2e/specs/spaces/memberExpiry.spec.ts",
+      "thumb": "assets/spacememberexpiry/02-set-expiry.png",
+      "steps": [
+        {
+          "img": "assets/spacememberexpiry/01-add-member.png"
+        },
+        {
+          "img": "assets/spacememberexpiry/02-set-expiry.png"
+        },
+        {
+          "img": "assets/spacememberexpiry/03-remove-expiry.png"
+        }
+      ]
+    },
+    {
+      "id": "spacemembers",
+      "source": "owncloud/web · tests/e2e/specs/spaces/participantManagement.spec.ts",
+      "thumb": "assets/spacemembers/03-choose-roles.png",
+      "steps": [
+        {
+          "img": "assets/spacemembers/01-open-space.png"
+        },
+        {
+          "img": "assets/spacemembers/02-add-members.png"
+        },
+        {
+          "img": "assets/spacemembers/03-choose-roles.png"
+        },
+        {
+          "img": "assets/spacemembers/04-remove-access.png"
+        }
+      ]
+    },
+    {
+      "id": "spacespagination",
+      "source": "owncloud/web · tests/e2e/specs/spaces/pagination.spec.ts",
+      "thumb": "assets/spacespagination/01-use-pager.png",
+      "steps": [
+        {
+          "img": "assets/spacespagination/01-use-pager.png"
+        },
+        {
+          "img": "assets/spacespagination/02-show-hidden.png"
+        },
+        {
+          "img": "assets/spacespagination/03-items-per-page.png"
+        }
+      ]
+    },
+    {
+      "id": "upload",
+      "source": "owncloud/web · tests/e2e/specs/smoke/upload.spec.ts",
+      "thumb": "assets/upload/02-files-appear.png",
+      "steps": [
+        {
+          "img": "assets/upload/01-empty-start.png"
+        },
+        {
+          "img": "assets/upload/02-files-appear.png"
+        },
+        {
+          "img": "assets/upload/03-upload-a-folder.png"
+        },
+        {
+          "img": "assets/upload/04-many-at-once.png"
+        }
+      ]
+    },
+    {
+      "id": "uploadresume",
+      "source": "owncloud/web · tests/e2e/specs/smoke/uploadResumable.spec.ts",
+      "thumb": "assets/uploadresume/01-upload-running.png",
+      "steps": [
+        {
+          "img": "assets/uploadresume/01-upload-running.png"
+        },
+        {
+          "img": "assets/uploadresume/02-paused.png"
+        },
+        {
+          "img": "assets/uploadresume/03-resume.png"
+        },
+        {
+          "img": "assets/uploadresume/04-done.png"
+        }
+      ]
+    },
+    {
+      "id": "viewmodes",
+      "source": "owncloud/web · tests/e2e/specs/user-settings/tiles.spec.ts",
+      "thumb": "assets/viewmodes/02-tiles-view.png",
+      "steps": [
+        {
+          "img": "assets/viewmodes/01-list-view.png"
+        },
+        {
+          "img": "assets/viewmodes/02-tiles-view.png"
+        },
+        {
+          "img": "assets/viewmodes/03-tiles-persist.png"
+        }
+      ]
     }
   ],
   "upcoming": [
     {
       "id": "versions"
-    },
-    {
-      "id": "movecopy"
     }
   ]
 }

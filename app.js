@@ -16,6 +16,7 @@ const globeIcon = '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" s
 
 let BASE = null;
 let L = null;
+let EN = null;
 let LANG = 'en';
 
 const fill = (s, vars) => String(s).replace(/\{(\w+)\}/g, (_, k) => (vars && k in vars ? vars[k] : ''));
@@ -27,7 +28,7 @@ async function init() {
   try {
     BASE = await (await fetch('tutorials.json')).json();
     LANG = pickLang();
-    L = await loadLang(LANG);
+    L = await loadLangMerged(LANG);
     buildSwitcher();
     applyChrome();
     route();
@@ -39,6 +40,19 @@ async function init() {
 
 function loadLang(code) {
   return fetch('lang/' + code + '.json').then((r) => { if (!r.ok) throw new Error('lang ' + code); return r.json(); });
+}
+
+/* Load a language, falling back to English (per id) for any text not yet translated,
+   so a partially-translated tutorial degrades to English instead of breaking the page. */
+async function loadLangMerged(code) {
+  const lang = await loadLang(code);
+  if (code !== 'en') {
+    if (!EN) EN = await loadLang('en');
+    lang.ui = { ...EN.ui, ...(lang.ui || {}) };
+    lang.content = { ...EN.content, ...(lang.content || {}) };
+    lang.upcoming = { ...(EN.upcoming || {}), ...(lang.upcoming || {}) };
+  }
+  return lang;
 }
 
 function pickLang() {
@@ -55,7 +69,7 @@ function buildSwitcher() {
   document.getElementById('langSelect').addEventListener('change', async (e) => {
     LANG = e.target.value;
     localStorage.setItem(STORE, LANG);
-    L = await loadLang(LANG);
+    L = await loadLangMerged(LANG);
     applyChrome();
     route();
   });
