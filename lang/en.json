@@ -823,6 +823,211 @@
           "caption": "Open a folder and the tiles layout stays selected, so everything inside <code>tile_folder</code> keeps showing as tiles until you switch back."
         }
       ]
+    },
+    "fulltextsearch": {
+      "category": "Finding files",
+      "title": "Searching inside file contents",
+      "summary": "Full-text search looks inside your documents, so you can find a file by a word it contains, not just by its name.",
+      "steps": [
+        {
+          "title": "Search across everything",
+          "caption": "Type in the global search bar and keep the <strong>All files</strong> filter. With full-text search enabled, ownCloud looks inside file contents as well as at file names."
+        },
+        {
+          "title": "Matches inside the content",
+          "caption": "Searching for a word like <mark>Cheers</mark> returns documents that contain that word, even when it is nowhere in the file name."
+        },
+        {
+          "title": "Refine the results",
+          "caption": "Narrow a large result set with the filter chips, for example by a <strong>Tag</strong>, media type or last-modified date."
+        },
+        {
+          "title": "Open a hit",
+          "caption": "Open any result straight from the list to jump to the file you were looking for."
+        }
+      ]
+    },
+    "cast": {
+      "category": "Extensions",
+      "title": "Casting to a device",
+      "summary": "Send a file to a cast device using the Cast action this extension adds to the file menu.",
+      "steps": [
+        {
+          "title": "Pick a file",
+          "caption": "Start from a file in your space, here an image named <mark>logo.jpeg</mark> in <strong>Personal</strong>."
+        },
+        {
+          "title": "The Cast action",
+          "caption": "Right-click the file and you will find <strong>Cast</strong> at the top of the menu, added by this extension to send the file to a cast device such as a Chromecast."
+        }
+      ]
+    },
+    "drawio": {
+      "category": "Extensions",
+      "title": "Diagrams with draw.io",
+      "summary": "Create and edit draw.io diagrams directly inside ownCloud and save them back to your files.",
+      "steps": [
+        {
+          "title": "Open the app menu",
+          "caption": "Open the application menu (top left) to start a new diagram with the draw.io editor."
+        },
+        {
+          "title": "Build your diagram",
+          "caption": "The full draw.io editor opens in ownCloud. Drag shapes from the left palette onto the canvas and connect them to build your diagram."
+        },
+        {
+          "title": "Save your work",
+          "caption": "Use <strong>Save</strong> in the top right to store the diagram back into your files, then <strong>Exit</strong> to return."
+        },
+        {
+          "title": "Saved as a file",
+          "caption": "Your diagram appears in the file list as a <mark>New file.drawio</mark> file, ready to reopen and edit anytime."
+        }
+      ]
+    },
+    "externalsites": {
+      "category": "Extensions",
+      "title": "External sites",
+      "summary": "Reach websites your administrator pinned, either in a new tab or embedded inside ownCloud.",
+      "steps": [
+        {
+          "title": "Open the app menu",
+          "caption": "Configured sites show up in the application menu (top left), here as <strong>Owncloud External</strong> and <strong>Owncloud Embedded</strong> entries."
+        },
+        {
+          "title": "Pick an embedded site",
+          "caption": "Select an entry like <strong>Owncloud Embedded</strong> to open that website inside ownCloud."
+        },
+        {
+          "title": "Site shown inside ownCloud",
+          "caption": "An embedded site loads in a page within ownCloud (here the ownCloud documentation), so you stay in the same window. External entries instead open in a new browser tab."
+        }
+      ]
+    },
+    "jsonviewer": {
+      "category": "Extensions",
+      "title": "Viewing JSON files",
+      "summary": "Open a .json file in a formatted, collapsible viewer instead of reading raw text.",
+      "steps": [
+        {
+          "title": "Add a JSON file",
+          "caption": "Upload or create a <code>.json</code> file in your <strong>Personal</strong> space, here a file named <mark>jsonFile.json</mark>."
+        },
+        {
+          "title": "Open in JSON Viewer",
+          "caption": "Right-click the file and choose <strong>Open in JSON Viewer</strong>, which the extension adds alongside <strong>Open in Text Editor</strong>."
+        },
+        {
+          "title": "Read it formatted",
+          "caption": "The file opens with syntax highlighting and a clean indented layout, so nested keys and values are easy to follow instead of one long line of text."
+        }
+      ]
+    },
+    "progressbars": {
+      "category": "Extensions",
+      "title": "Upload progress bars",
+      "summary": "Choose the style of the progress bar shown while files upload, from your account settings.",
+      "steps": [
+        {
+          "title": "Open your account",
+          "caption": "Go to <strong>My Account</strong> from the user menu, where preferences and extension options live."
+        },
+        {
+          "title": "Choose a progress bar",
+          "caption": "Under <strong>Extensions</strong>, set <strong>Global progress bar</strong> to a style like <mark>Nyan Cat progress bar</mark> to customize what you see while files upload."
+        }
+      ]
+    },
+    "unzip": {
+      "category": "Extensions",
+      "title": "Extracting ZIP archives",
+      "summary": "Unpack a .zip archive right where it sits, without downloading it first.",
+      "steps": [
+        {
+          "title": "Add a ZIP archive",
+          "caption": "Upload a <code>.zip</code> archive to a folder, here a file named <mark>data.zip</mark> in your <strong>Personal</strong> space."
+        },
+        {
+          "title": "Extract here",
+          "caption": "Right-click the archive and choose <strong>Extract here</strong>, the action this extension adds to the file menu."
+        },
+        {
+          "title": "Files unpacked in place",
+          "caption": "The contents land in a new folder next to the archive, so you can open them straight away without leaving ownCloud."
+        }
+      ]
+    },
+    "advancedsearch": {
+      "category": "Extensions",
+      "title": "Advanced Search",
+      "summary": "Find files with a dedicated search app that combines filters, full-text content search, and reusable saved searches.",
+      "steps": [
+        {
+          "title": "Open Advanced Search",
+          "caption": "The <strong>Advanced Search</strong> app opens with one big search box plus a full filter form below, ready before you type anything."
+        },
+        {
+          "title": "Run a search",
+          "caption": "Type a term like <mark>test</mark> and press <strong>Search</strong>. An active <strong>Search: test</strong> chip appears and the <strong>KQL Query</strong> field fills in automatically as <code>name:*test*</code>."
+        },
+        {
+          "title": "Refine with filters",
+          "caption": "Narrow results with <strong>Type</strong>, <strong>Media Type</strong> and <strong>Tags</strong>, a <strong>Content</strong> full-text field, or <strong>Size</strong> and <strong>Modified</strong> ranges. <strong>Clear All</strong> resets everything in one click."
+        },
+        {
+          "title": "Save and reuse a search",
+          "caption": "Once a search is active, <strong>Save Search</strong> appears in the top right. Saved entries live behind <strong>Saved Searches</strong> so you can rerun a complex query later without rebuilding it."
+        }
+      ]
+    },
+    "photogallery": {
+      "category": "Extensions",
+      "title": "Photo gallery",
+      "summary": "The Photos extension gathers every image across your spaces into one visual timeline, with calendar and map views.",
+      "steps": [
+        {
+          "title": "All your photos in one place",
+          "caption": "Open <strong>Photos</strong> from the application menu. Every image across your personal space and Spaces is collected into a single grid, grouped by day."
+        },
+        {
+          "title": "Open a photo",
+          "caption": "Select any photo to view it full screen, step through the set with the arrows, and read its details such as date, camera and location."
+        },
+        {
+          "title": "Calendar and map views",
+          "caption": "Use the controls top right to filter to <strong>EXIF only</strong> images or switch between the <strong>Calendar</strong> timeline and the <strong>Map</strong>."
+        }
+      ]
+    },
+    "photolightbox": {
+      "category": "Extensions",
+      "title": "Photo lightbox",
+      "summary": "Open a photo full screen to see it large alongside its EXIF metadata, and jump straight to where it was taken.",
+      "steps": [
+        {
+          "title": "Pick a photo",
+          "caption": "In the Photos gallery, click any thumbnail to open it in the lightbox."
+        },
+        {
+          "title": "Full screen with details",
+          "caption": "The lightbox shows the photo large with a counter (<strong>1 / 6</strong>) and arrows to move through the set. Below it, the details panel lists <strong>Date taken</strong>, <strong>Camera</strong>, <strong>Model</strong>, <strong>Location</strong> and file info pulled from the image's EXIF data."
+        }
+      ]
+    },
+    "photomap": {
+      "category": "Extensions",
+      "title": "Photos on a map",
+      "summary": "Plot your geotagged photos on a world map to see where each one was taken.",
+      "steps": [
+        {
+          "title": "Photos carry their location",
+          "caption": "Photos taken on a phone or GPS camera store coordinates in their EXIF data, shown here as <strong>Location</strong> with a <strong>View on Map</strong> shortcut."
+        },
+        {
+          "title": "See them on the map",
+          "caption": "Switch to the <strong>Map</strong> view and every geotagged photo is dropped as a pin on a world map. The header reads <strong>Photos (4 of 4 in view)</strong>; pan and zoom to explore, and click a pin to open those photos."
+        }
+      ]
     }
   },
   "upcoming": {

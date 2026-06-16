@@ -170,7 +170,7 @@
     },
     {
       "id": "activity",
-      "source": "owncloud/web · tests/e2e/specs/smoke/activity.spec.ts",
+      "source": "owncloud/web · web/tests/e2e/specs/smoke/activity.spec.ts",
       "thumb": "assets/activity/02-file-activity.png",
       "steps": [
         {
@@ -221,7 +221,7 @@
     },
     {
       "id": "admin-spaces",
-      "source": "owncloud/web · tests/e2e/specs/admin-settings/spaces.spec.ts",
+      "source": "owncloud/web · web/tests/e2e/specs/admin-settings/spaces.spec.ts",
       "thumb": "assets/admin-spaces/01-spaces-overview.png",
       "steps": [
         {
@@ -243,7 +243,7 @@
     },
     {
       "id": "admin-users",
-      "source": "owncloud/web · tests/e2e/specs/admin-settings/users.spec.ts",
+      "source": "owncloud/web · web/tests/e2e/specs/admin-settings/users.spec.ts",
       "thumb": "assets/admin-users/02-create-user.png",
       "steps": [
         {
@@ -261,8 +261,27 @@
       ]
     },
     {
+      "id": "advancedsearch",
+      "source": "owncloud/web-extensions · packages/web-app-advanced-search/tests/e2e/advanced-search.spec.ts",
+      "thumb": "assets/advancedsearch/02-run-search.png",
+      "steps": [
+        {
+          "img": "assets/advancedsearch/01-open-app.png"
+        },
+        {
+          "img": "assets/advancedsearch/02-run-search.png"
+        },
+        {
+          "img": "assets/advancedsearch/03-refine-filters.png"
+        },
+        {
+          "img": "assets/advancedsearch/04-save-reuse.png"
+        }
+      ]
+    },
+    {
       "id": "appmenu",
-      "source": "owncloud/web · tests/e2e/specs/navigation/applicationMenu.spec.ts",
+      "source": "owncloud/web · web/tests/e2e/specs/navigation/applicationMenu.spec.ts",
       "thumb": "assets/appmenu/01-grid-icon.png",
       "steps": [
         {
@@ -313,7 +332,7 @@
     },
     {
       "id": "batchactions",
-      "source": "owncloud/web · tests/e2e/specs/file-action/groupActions.spec.ts",
+      "source": "owncloud/web · web/tests/e2e/specs/file-action/groupActions.spec.ts",
       "thumb": "assets/batchactions/01-select-files.png",
       "steps": [
         {
@@ -329,7 +348,7 @@
     },
     {
       "id": "breadcrumb",
-      "source": "owncloud/web · tests/e2e/specs/navigation/breadcrumb.spec.ts",
+      "source": "owncloud/web · web/tests/e2e/specs/navigation/breadcrumb.spec.ts",
       "thumb": "assets/breadcrumb/01-deep-trail.png",
       "steps": [
         {
@@ -340,6 +359,19 @@
         },
         {
           "img": "assets/breadcrumb/03-navigate-up.png"
+        }
+      ]
+    },
+    {
+      "id": "cast",
+      "source": "owncloud/web-extensions · packages/web-app-cast/tests/e2e/castFileAction.spec.ts",
+      "thumb": "assets/cast/02-cast-action.png",
+      "steps": [
+        {
+          "img": "assets/cast/01-pick-a-file.png"
+        },
+        {
+          "img": "assets/cast/02-cast-action.png"
         }
       ]
     },
@@ -361,7 +393,7 @@
     },
     {
       "id": "downloadspace",
-      "source": "owncloud/web · tests/e2e/specs/spaces/downloadSpace.spec.ts",
+      "source": "owncloud/web · web/tests/e2e/specs/spaces/downloadSpace.spec.ts",
       "thumb": "assets/downloadspace/02-download.png",
       "steps": [
         {
@@ -376,8 +408,43 @@
       ]
     },
     {
+      "id": "drawio",
+      "source": "owncloud/web-extensions · packages/web-app-draw-io/tests/e2e/createDrawIo.spec.ts",
+      "thumb": "assets/drawio/03-save.png",
+      "steps": [
+        {
+          "img": "assets/drawio/01-open-app-menu.png"
+        },
+        {
+          "img": "assets/drawio/02-draw.png"
+        },
+        {
+          "img": "assets/drawio/03-save.png"
+        },
+        {
+          "img": "assets/drawio/04-back-in-files.png"
+        }
+      ]
+    },
+    {
+      "id": "externalsites",
+      "source": "owncloud/web-extensions · packages/web-app-external-sites/tests/e2e/externalSites.spec.ts",
+      "thumb": "assets/externalsites/03-embedded-page.png",
+      "steps": [
+        {
+          "img": "assets/externalsites/01-app-menu.png"
+        },
+        {
+          "img": "assets/externalsites/02-pick-a-site.png"
+        },
+        {
+          "img": "assets/externalsites/03-embedded-page.png"
+        }
+      ]
+    },
+    {
       "id": "fileviewer",
-      "source": "owncloud/web · tests/e2e/specs/file-action/fileViewer.spec.ts",
+      "source": "owncloud/web · web/tests/e2e/specs/file-action/fileViewer.spec.ts",
       "thumb": "assets/fileviewer/02-open-viewer.png",
       "steps": [
         {
@@ -398,8 +465,27 @@
       ]
     },
     {
+      "id": "fulltextsearch",
+      "source": "owncloud/web · tests/e2e/specs/search/fullTextSearch.spec.ts",
+      "thumb": "assets/fulltextsearch/02-content-match.png",
+      "steps": [
+        {
+          "img": "assets/fulltextsearch/01-global-search.png"
+        },
+        {
+          "img": "assets/fulltextsearch/02-content-match.png"
+        },
+        {
+          "img": "assets/fulltextsearch/03-refine.png"
+        },
+        {
+          "img": "assets/fulltextsearch/04-open-result.png"
+        }
+      ]
+    },
+    {
       "id": "gdprexport",
-      "source": "owncloud/web · tests/e2e/specs/user-settings/gdprExport.spec.ts",
+      "source": "owncloud/web · web/tests/e2e/specs/user-settings/gdprExport.spec.ts",
       "thumb": "assets/gdprexport/02-request-export.png",
       "steps": [
         {
@@ -415,7 +501,7 @@
     },
     {
       "id": "journey",
-      "source": "owncloud/web · tests/e2e/specs/journeys/kindergarten.spec.ts",
+      "source": "owncloud/web · web/tests/e2e/specs/journeys/kindergarten.spec.ts",
       "thumb": "assets/journey/03-share-with-parents.png",
       "steps": [
         {
@@ -436,8 +522,24 @@
       ]
     },
     {
+      "id": "jsonviewer",
+      "source": "owncloud/web-extensions · packages/web-app-json-viewer/tests/e2e/jsonViewer.spec.ts",
+      "thumb": "assets/jsonviewer/03-formatted-view.png",
+      "steps": [
+        {
+          "img": "assets/jsonviewer/01-upload-json.png"
+        },
+        {
+          "img": "assets/jsonviewer/02-open-in-viewer.png"
+        },
+        {
+          "img": "assets/jsonviewer/03-formatted-view.png"
+        }
+      ]
+    },
+    {
       "id": "language",
-      "source": "owncloud/web · tests/e2e/specs/user-settings/languageChange.spec.ts",
+      "source": "owncloud/web · web/tests/e2e/specs/user-settings/languageChange.spec.ts",
       "thumb": "assets/language/02-pick-language.png",
       "steps": [
         {
@@ -453,7 +555,7 @@
     },
     {
       "id": "movecopy",
-      "source": "owncloud/web · tests/e2e/specs/file-action/copyMove.spec.ts",
+      "source": "owncloud/web · web/tests/e2e/specs/file-action/copyMove.spec.ts",
       "thumb": "assets/movecopy/03-copy-appears.png",
       "steps": [
         {
@@ -472,7 +574,7 @@
     },
     {
       "id": "notifications",
-      "source": "owncloud/web · tests/e2e/specs/user-settings/notifications.spec.ts",
+      "source": "owncloud/web · web/tests/e2e/specs/user-settings/notifications.spec.ts",
       "thumb": "assets/notifications/01-open-bell.png",
       "steps": [
         {
@@ -488,7 +590,7 @@
     },
     {
       "id": "pagination",
-      "source": "owncloud/web · tests/e2e/specs/navigation/personalSpacePagination.spec.ts",
+      "source": "owncloud/web · web/tests/e2e/specs/navigation/personalSpacePagination.spec.ts",
       "thumb": "assets/pagination/01-items-per-page.png",
       "steps": [
         {
@@ -506,8 +608,63 @@
       ]
     },
     {
+      "id": "photogallery",
+      "source": "owncloud/web-extensions · packages/web-app-photo-addon/tests/e2e/photo-gallery.spec.ts",
+      "thumb": "assets/photogallery/01-grid.png",
+      "steps": [
+        {
+          "img": "assets/photogallery/01-grid.png"
+        },
+        {
+          "img": "assets/photogallery/02-open.png"
+        },
+        {
+          "img": "assets/photogallery/03-views.png"
+        }
+      ]
+    },
+    {
+      "id": "photolightbox",
+      "source": "owncloud/web-extensions · packages/web-app-photo-addon/tests/e2e/lightbox.spec.ts",
+      "thumb": "assets/photolightbox/02-lightbox.png",
+      "steps": [
+        {
+          "img": "assets/photolightbox/01-pick.png"
+        },
+        {
+          "img": "assets/photolightbox/02-lightbox.png"
+        }
+      ]
+    },
+    {
+      "id": "photomap",
+      "source": "owncloud/web-extensions · packages/web-app-photo-addon/tests/e2e/map-view.spec.ts",
+      "thumb": "assets/photomap/02-map.png",
+      "steps": [
+        {
+          "img": "assets/photomap/01-location.png"
+        },
+        {
+          "img": "assets/photomap/02-map.png"
+        }
+      ]
+    },
+    {
+      "id": "progressbars",
+      "source": "owncloud/web-extensions · packages/web-app-progress-bars/tests/e2e/progressBar.spec.ts",
+      "thumb": "assets/progressbars/02-choose-style.png",
+      "steps": [
+        {
+          "img": "assets/progressbars/01-account-page.png"
+        },
+        {
+          "img": "assets/progressbars/02-choose-style.png"
+        }
+      ]
+    },
+    {
       "id": "rename",
-      "source": "owncloud/web · tests/e2e/specs/file-action/rename.spec.ts",
+      "source": "owncloud/web · web/tests/e2e/specs/file-action/rename.spec.ts",
       "thumb": "assets/rename/01-find-the-file.png",
       "steps": [
         {
@@ -523,7 +680,7 @@
     },
     {
       "id": "searchspace",
-      "source": "owncloud/web · tests/e2e/specs/search/searchProjectSpace.spec.ts",
+      "source": "owncloud/web · web/tests/e2e/specs/search/searchProjectSpace.spec.ts",
       "thumb": "assets/searchspace/04-space-badge.png",
       "steps": [
         {
@@ -542,7 +699,7 @@
     },
     {
       "id": "shortcuts",
-      "source": "owncloud/web · tests/e2e/specs/navigation/shortcut.spec.ts",
+      "source": "owncloud/web · web/tests/e2e/specs/navigation/shortcut.spec.ts",
       "thumb": "assets/shortcuts/02-shortcuts-in-list.png",
       "steps": [
         {
@@ -561,7 +718,7 @@
     },
     {
       "id": "spacefromselection",
-      "source": "owncloud/web · tests/e2e/specs/spaces/createSpaceFromSelection.spec.ts",
+      "source": "owncloud/web · web/tests/e2e/specs/spaces/createSpaceFromSelection.spec.ts",
       "thumb": "assets/spacefromselection/03-new-space.png",
       "steps": [
         {
@@ -577,7 +734,7 @@
     },
     {
       "id": "spacelink",
-      "source": "owncloud/web · tests/e2e/specs/spaces/publicLink.spec.ts",
+      "source": "owncloud/web · web/tests/e2e/specs/spaces/publicLink.spec.ts",
       "thumb": "assets/spacelink/01-create-link.png",
       "steps": [
         {
@@ -596,7 +753,7 @@
     },
     {
       "id": "spacememberexpiry",
-      "source": "owncloud/web · tests/e2e/specs/spaces/memberExpiry.spec.ts",
+      "source": "owncloud/web · web/tests/e2e/specs/spaces/memberExpiry.spec.ts",
       "thumb": "assets/spacememberexpiry/02-set-expiry.png",
       "steps": [
         {
@@ -612,7 +769,7 @@
     },
     {
       "id": "spacemembers",
-      "source": "owncloud/web · tests/e2e/specs/spaces/participantManagement.spec.ts",
+      "source": "owncloud/web · web/tests/e2e/specs/spaces/participantManagement.spec.ts",
       "thumb": "assets/spacemembers/03-choose-roles.png",
       "steps": [
         {
@@ -631,7 +788,7 @@
     },
     {
       "id": "spacespagination",
-      "source": "owncloud/web · tests/e2e/specs/spaces/pagination.spec.ts",
+      "source": "owncloud/web · web/tests/e2e/specs/spaces/pagination.spec.ts",
       "thumb": "assets/spacespagination/01-use-pager.png",
       "steps": [
         {
@@ -646,8 +803,24 @@
       ]
     },
     {
+      "id": "unzip",
+      "source": "owncloud/web-extensions · packages/web-app-unzip/tests/e2e/extractZip.spec.ts",
+      "thumb": "assets/unzip/02-extract-here.png",
+      "steps": [
+        {
+          "img": "assets/unzip/01-upload-zip.png"
+        },
+        {
+          "img": "assets/unzip/02-extract-here.png"
+        },
+        {
+          "img": "assets/unzip/03-view-contents.png"
+        }
+      ]
+    },
+    {
       "id": "upload",
-      "source": "owncloud/web · tests/e2e/specs/smoke/upload.spec.ts",
+      "source": "owncloud/web · web/tests/e2e/specs/smoke/upload.spec.ts",
       "thumb": "assets/upload/02-files-appear.png",
       "steps": [
         {
@@ -666,7 +839,7 @@
     },
     {
       "id": "uploadresume",
-      "source": "owncloud/web · tests/e2e/specs/smoke/uploadResumable.spec.ts",
+      "source": "owncloud/web · web/tests/e2e/specs/smoke/uploadResumable.spec.ts",
       "thumb": "assets/uploadresume/01-upload-running.png",
       "steps": [
         {
@@ -685,7 +858,7 @@
     },
     {
       "id": "viewmodes",
-      "source": "owncloud/web · tests/e2e/specs/user-settings/tiles.spec.ts",
+      "source": "owncloud/web · web/tests/e2e/specs/user-settings/tiles.spec.ts",
       "thumb": "assets/viewmodes/02-tiles-view.png",
       "steps": [
         {
