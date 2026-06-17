@@ -2,7 +2,7 @@
   "meta": {
     "ocisVersion": "8.0.1 Community",
     "webUiVersion": "12.3.2",
-    "updated": "2026-06-16",
+    "updated": "2026-06-17",
     "repo": "https://github.com/dj4oC/ocis-field-guide"
   },
   "languages": [
@@ -869,6 +869,25 @@
         },
         {
           "img": "assets/viewmodes/03-tiles-persist.png"
+        }
+      ]
+    },
+    {
+      "id": "chatwithfile",
+      "source": "owncloud/web-extensions · packages/web-app-chat-with-file/tests/e2e/chatWithFile.spec.ts (PR #454)",
+      "thumb": "assets/chatwithfile/02-ask.png",
+      "steps": [
+        {
+          "img": "assets/chatwithfile/01-open-panel.png"
+        },
+        {
+          "img": "assets/chatwithfile/02-ask.png"
+        },
+        {
+          "img": "assets/chatwithfile/03-edit.png"
+        },
+        {
+          "img": "assets/chatwithfile/04-apply.png"
         }
       ]
     }

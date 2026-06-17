@@ -1028,6 +1028,29 @@
           "caption": "Wechseln Sie zur Ansicht <strong>Map</strong>, und jedes mit Geotags versehene Foto wird als Pin auf einer Weltkarte abgesetzt. Die Kopfzeile lautet <strong>Photos (4 of 4 in view)</strong>; verschieben und zoomen Sie, um zu erkunden, und klicken Sie auf einen Pin, um diese Fotos zu öffnen."
         }
       ]
+    },
+    "chatwithfile": {
+      "category": "KI-Chat · Vorschau",
+      "title": "Mit einer Datei chatten",
+      "summary": "Öffnen Sie eine Chat-Seitenleiste neben einer PDF-, Text- oder Markdown-Datei, um Fragen dazu zu stellen oder die Datei von einem KI-Assistenten direkt umschreiben zu lassen. Vorschau der Erweiterung Chat with File (web-extensions PR #454).",
+      "steps": [
+        {
+          "title": "Das Chat-Panel öffnen",
+          "caption": "Öffnen Sie bei einer PDF-, Text- oder Markdown-Datei das <strong>Chat</strong>-Panel in der Seitenleiste (oder die Aktion <strong>Chat with file</strong>). Der Assistent liest die Datei, damit Sie über sie sprechen können."
+        },
+        {
+          "title": "Fragen zur Datei stellen",
+          "caption": "Geben Sie eine Frage ein und drücken Sie <kbd>Enter</kbd>. Der Assistent antwortet anhand des Dateiinhalts, hier mit einer Zusammenfassung der wichtigsten Risiken des Projekts."
+        },
+        {
+          "title": "Eine Änderung anfordern",
+          "caption": "Wechseln Sie in den <strong>Edit</strong>-Modus (für Text- und Markdown-Dateien verfügbar) und beschreiben Sie eine Änderung. Der Assistent schlägt die umgeschriebene Datei vor und zeigt einen Diff, der genau anzeigt, was geändert würde."
+        },
+        {
+          "title": "Übernehmen oder verwerfen",
+          "caption": "Prüfen Sie den Diff und klicken Sie dann auf <strong>Apply to file</strong>, um die Änderung direkt zu speichern, oder auf <strong>Discard</strong>, um das Original unverändert zu lassen."
+        }
+      ]
     }
   },
   "upcoming": {

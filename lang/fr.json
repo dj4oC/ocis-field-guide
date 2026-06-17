@@ -1028,6 +1028,29 @@
           "caption": "Passez à la vue <strong>Map</strong> et chaque photo géolocalisée est posée comme une épingle sur une carte du monde. L'en-tête indique <strong>Photos (4 of 4 in view)</strong> ; déplacez et zoomez pour explorer, et cliquez sur une épingle pour ouvrir ces photos."
         }
       ]
+    },
+    "chatwithfile": {
+      "category": "Chat IA · Aperçu",
+      "title": "Discuter avec un fichier",
+      "summary": "Ouvrez une barre latérale de chat à côté d'un fichier PDF, texte ou Markdown pour lui poser des questions, ou demandez à un assistant IA de le réécrire directement. Aperçu de l'extension Chat with File (web-extensions PR #454).",
+      "steps": [
+        {
+          "title": "Ouvrir le panneau Chat",
+          "caption": "Pour un fichier PDF, texte ou Markdown, ouvrez le panneau <strong>Chat</strong> depuis la barre latérale (ou l'action <strong>Chat with file</strong>). L'assistant lit le fichier pour que vous puissiez en discuter."
+        },
+        {
+          "title": "Poser une question sur le fichier",
+          "caption": "Saisissez une question et appuyez sur <kbd>Enter</kbd>. L'assistant répond à partir du contenu du fichier, ici en résumant les principaux risques du projet."
+        },
+        {
+          "title": "Demander une modification",
+          "caption": "Passez en mode <strong>Edit</strong> (disponible pour les fichiers texte et Markdown) et décrivez une modification. L'assistant propose le fichier réécrit et affiche un diff indiquant exactement ce qui serait modifié."
+        },
+        {
+          "title": "Appliquer ou abandonner",
+          "caption": "Examinez le diff, puis cliquez sur <strong>Apply to file</strong> pour enregistrer la modification dans le fichier, ou sur <strong>Discard</strong> pour conserver l'original intact."
+        }
+      ]
     }
   },
   "upcoming": {

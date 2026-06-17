@@ -1028,6 +1028,29 @@
           "caption": "Schakel over naar de <strong>Map</strong>-weergave en elke geotagde foto wordt als een speld op een wereldkaart geplaatst. De kop toont <strong>Photos (4 of 4 in view)</strong>; pan en zoom om te verkennen, en klik op een speld om die foto's te openen."
         }
       ]
+    },
+    "chatwithfile": {
+      "category": "AI-chat · Preview",
+      "title": "Chatten met een bestand",
+      "summary": "Open een chat-zijbalk naast een PDF-, tekst- of Markdown-bestand om er vragen over te stellen, of laat een AI-assistent het voor je herschrijven. Preview van de Chat with File-extensie (web-extensions PR #454).",
+      "steps": [
+        {
+          "title": "Open het Chat-paneel",
+          "caption": "Open bij een PDF-, tekst- of Markdown-bestand het <strong>Chat</strong>-paneel in de zijbalk (of de actie <strong>Chat with file</strong>). De assistent leest het bestand zodat je erover kunt praten."
+        },
+        {
+          "title": "Stel een vraag over het bestand",
+          "caption": "Typ een vraag en druk op <kbd>Enter</kbd>. De assistent antwoordt op basis van de inhoud van het bestand, hier met een samenvatting van de belangrijkste risico's van het project."
+        },
+        {
+          "title": "Vraag een wijziging aan",
+          "caption": "Schakel naar de <strong>Edit</strong>-modus (beschikbaar voor tekst- en Markdown-bestanden) en beschrijf een wijziging. De assistent stelt het herschreven bestand voor en toont een diff van precies wat er zou veranderen."
+        },
+        {
+          "title": "Toepassen of verwerpen",
+          "caption": "Bekijk de diff en klik dan op <strong>Apply to file</strong> om de wijziging direct op te slaan, of op <strong>Discard</strong> om het origineel ongewijzigd te laten."
+        }
+      ]
     }
   },
   "upcoming": {

@@ -1028,6 +1028,29 @@
           "caption": "<strong>Map</strong> 表示に切り替えると、ジオタグ付きのすべての写真が世界地図上にピンとして配置されます。ヘッダーには <strong>Photos (4 of 4 in view)</strong> と表示されます。パンやズームで探索し、ピンをクリックするとその写真が開きます。"
         }
       ]
+    },
+    "chatwithfile": {
+      "category": "AI チャット · プレビュー",
+      "title": "ファイルとチャットする",
+      "summary": "PDF・テキスト・Markdown ファイルの横にチャットのサイドパネルを開き、その内容について質問したり、AI アシスタントにその場で書き換えてもらったりできます。Chat with File 拡張機能（web-extensions PR #454）のプレビューです。",
+      "steps": [
+        {
+          "title": "チャットパネルを開く",
+          "caption": "PDF・テキスト・Markdown ファイルでは、サイドバーから <strong>Chat</strong> パネルを開きます（または <strong>Chat with file</strong> アクションを使います）。アシスタントがファイルを読み込み、その内容について会話できます。"
+        },
+        {
+          "title": "ファイルについて質問する",
+          "caption": "質問を入力して <kbd>Enter</kbd> を押します。アシスタントはファイルの内容に基づいて回答し、ここではプロジェクトの主なリスクを要約しています。"
+        },
+        {
+          "title": "編集を依頼する",
+          "caption": "<strong>Edit</strong> モード（テキストと Markdown ファイルで利用可能）に切り替えて、変更内容を説明します。アシスタントが書き換えたファイルを提案し、何がどう変わるかを示す差分（diff）を表示します。"
+        },
+        {
+          "title": "適用するか破棄する",
+          "caption": "差分を確認し、<strong>Apply to file</strong> で変更をファイルに直接保存するか、<strong>Discard</strong> で元のファイルをそのまま残します。"
+        }
+      ]
     }
   },
   "upcoming": {

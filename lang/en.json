@@ -1028,6 +1028,29 @@
           "caption": "Switch to the <strong>Map</strong> view and every geotagged photo is dropped as a pin on a world map. The header reads <strong>Photos (4 of 4 in view)</strong>; pan and zoom to explore, and click a pin to open those photos."
         }
       ]
+    },
+    "chatwithfile": {
+      "category": "AI chat · Preview",
+      "title": "Chatting with a file",
+      "summary": "Open a chat sidebar next to a PDF, text or Markdown file to ask questions about it, or have an AI assistant rewrite it for you in place. Preview of the Chat with File extension (web-extensions PR #454).",
+      "steps": [
+        {
+          "title": "Open the Chat panel",
+          "caption": "For a PDF, text or Markdown file, open the <strong>Chat</strong> panel from the sidebar (or the <strong>Chat with file</strong> context action). The assistant reads the file so you can talk about it."
+        },
+        {
+          "title": "Ask about the file",
+          "caption": "Type a question and press <kbd>Enter</kbd>. The assistant answers from the file's own content, here summarising the project's main risks."
+        },
+        {
+          "title": "Request an edit",
+          "caption": "Switch to <strong>Edit</strong> mode (available for text and Markdown files) and describe a change. The assistant proposes the rewritten file and shows a diff of exactly what it would change."
+        },
+        {
+          "title": "Apply or discard",
+          "caption": "Review the diff, then <strong>Apply to file</strong> to save the change in place, or <strong>Discard</strong> to keep the original untouched."
+        }
+      ]
     }
   },
   "upcoming": {

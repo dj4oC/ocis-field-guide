@@ -1028,6 +1028,29 @@
           "caption": "Cambia a la vista <strong>Map</strong> y cada foto geoetiquetada aparece como un marcador en un mapa del mundo. La cabecera dice <strong>Photos (4 of 4 in view)</strong>; desplázate y haz zoom para explorar, y haz clic en un marcador para abrir esas fotos."
         }
       ]
+    },
+    "chatwithfile": {
+      "category": "Chat con IA · Vista previa",
+      "title": "Chatear con un archivo",
+      "summary": "Abre una barra lateral de chat junto a un archivo PDF, de texto o Markdown para hacerle preguntas, o pide a un asistente de IA que lo reescriba por ti directamente. Vista previa de la extensión Chat with File (web-extensions PR #454).",
+      "steps": [
+        {
+          "title": "Abrir el panel de Chat",
+          "caption": "En un archivo PDF, de texto o Markdown, abre el panel <strong>Chat</strong> desde la barra lateral (o la acción <strong>Chat with file</strong>). El asistente lee el archivo para que puedas hablar sobre él."
+        },
+        {
+          "title": "Pregunta sobre el archivo",
+          "caption": "Escribe una pregunta y pulsa <kbd>Enter</kbd>. El asistente responde a partir del propio contenido del archivo, aquí resumiendo los principales riesgos del proyecto."
+        },
+        {
+          "title": "Solicita una edición",
+          "caption": "Cambia al modo <strong>Edit</strong> (disponible para archivos de texto y Markdown) y describe un cambio. El asistente propone el archivo reescrito y muestra un diff con exactamente lo que cambiaría."
+        },
+        {
+          "title": "Aplicar o descartar",
+          "caption": "Revisa el diff y luego pulsa <strong>Apply to file</strong> para guardar el cambio en el archivo, o <strong>Discard</strong> para dejar el original intacto."
+        }
+      ]
     }
   },
   "upcoming": {
