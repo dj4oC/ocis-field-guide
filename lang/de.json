@@ -1051,6 +1051,29 @@
           "caption": "Prüfen Sie den Diff und klicken Sie dann auf <strong>Apply to file</strong>, um die Änderung direkt zu speichern, oder auf <strong>Discard</strong>, um das Original unverändert zu lassen."
         }
       ]
+    },
+    "passwordfolder": {
+      "category": "Mit Dateien arbeiten",
+      "title": "Passwortgeschützte Ordner",
+      "summary": "Sperren Sie einen Ordner hinter einem Passwort, damit nur Personen, die es kennen, seinen Inhalt öffnen und teilen können.",
+      "steps": [
+        {
+          "title": "Ein gesperrter Ordner in Ihrer Liste",
+          "caption": "Ein passwortgeschützter Ordner erscheint in <strong>Personal</strong> als <code>.psec</code>-Element mit einem Schloss-Symbol, wie <mark>folder1</mark> und <mark>folder2</mark>. Der versteckte Ordner <code>.PasswordProtectedFolders</code> enthält den eigentlichen Inhalt."
+        },
+        {
+          "title": "Das Passwort eingeben",
+          "caption": "Beim Öffnen des Ordners erscheint <strong>This resource is password-protected</strong>. Geben Sie das Passwort ein und wählen Sie <strong>Continue</strong>. Ein falsches Passwort wird mit <strong>Incorrect password</strong> abgelehnt."
+        },
+        {
+          "title": "Ordner entsperrt",
+          "caption": "Mit dem richtigen Passwort öffnet sich der Ordner und Sie können seinen Inhalt durchsuchen. Verwenden Sie <strong>New</strong> oder <strong>Upload</strong>, um Dateien im geschützten Ordner hinzuzufügen."
+        },
+        {
+          "title": "Den gesperrten Ordner teilen",
+          "caption": "Kopieren Sie den Link des Ordners, um ihn zu teilen; eine Bestätigung meldet, dass der Link <strong>copied to your clipboard</strong> wurde. Empfänger öffnen den Link und entsperren ihn mit demselben Passwort."
+        }
+      ]
     }
   },
   "upcoming": {

@@ -1051,6 +1051,29 @@
           "caption": "Bekijk de diff en klik dan op <strong>Apply to file</strong> om de wijziging direct op te slaan, of op <strong>Discard</strong> om het origineel ongewijzigd te laten."
         }
       ]
+    },
+    "passwordfolder": {
+      "category": "Werken met bestanden",
+      "title": "Met een wachtwoord beveiligde mappen",
+      "summary": "Vergrendel een map achter een wachtwoord zodat alleen wie het kent de inhoud kan openen en delen.",
+      "steps": [
+        {
+          "title": "Een vergrendelde map in je lijst",
+          "caption": "Een met een wachtwoord beveiligde map verschijnt in <strong>Personal</strong> als een <code>.psec</code>-item met een slotje, zoals <mark>folder1</mark> en <mark>folder2</mark>. De verborgen map <code>.PasswordProtectedFolders</code> bevat de eigenlijke inhoud."
+        },
+        {
+          "title": "Voer het wachtwoord in",
+          "caption": "Bij het openen van de map verschijnt <strong>This resource is password-protected</strong>. Typ het wachtwoord en kies <strong>Continue</strong>. Een verkeerd wachtwoord wordt geweigerd met <strong>Incorrect password</strong>."
+        },
+        {
+          "title": "Map ontgrendeld",
+          "caption": "Met het juiste wachtwoord opent de map en kun je de inhoud bekijken. Gebruik <strong>New</strong> of <strong>Upload</strong> om bestanden in de beveiligde map toe te voegen."
+        },
+        {
+          "title": "Deel de vergrendelde map",
+          "caption": "Kopieer de link van de map om hem te delen; een melding bevestigt dat de link is <strong>copied to your clipboard</strong>. Ontvangers openen de link en ontgrendelen hem met hetzelfde wachtwoord."
+        }
+      ]
     }
   },
   "upcoming": {

@@ -1051,6 +1051,29 @@
           "caption": "Review the diff, then <strong>Apply to file</strong> to save the change in place, or <strong>Discard</strong> to keep the original untouched."
         }
       ]
+    },
+    "passwordfolder": {
+      "category": "Working with files",
+      "title": "Password protected folders",
+      "summary": "Lock a folder behind a password so only people who know it can open and share its contents.",
+      "steps": [
+        {
+          "title": "A locked folder in your list",
+          "caption": "A password protected folder appears in <strong>Personal</strong> as a <code>.psec</code> item with a lock badge, like <mark>folder1</mark> and <mark>folder2</mark>. The hidden <code>.PasswordProtectedFolders</code> folder holds the actual contents."
+        },
+        {
+          "title": "Enter the password",
+          "caption": "Opening the folder shows <strong>This resource is password-protected</strong>. Type the password and select <strong>Continue</strong>. A wrong password is rejected with <strong>Incorrect password</strong>."
+        },
+        {
+          "title": "Folder unlocked",
+          "caption": "With the correct password the folder opens and you can browse its contents. Use <strong>New</strong> or <strong>Upload</strong> to add files inside the protected folder."
+        },
+        {
+          "title": "Share the locked folder",
+          "caption": "Copy the folder's link to share it, and a confirmation toast reports the link has been <strong>copied to your clipboard</strong>. Recipients open the link and unlock it with the same password."
+        }
+      ]
     }
   },
   "upcoming": {

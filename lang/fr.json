@@ -1051,6 +1051,29 @@
           "caption": "Examinez le diff, puis cliquez sur <strong>Apply to file</strong> pour enregistrer la modification dans le fichier, ou sur <strong>Discard</strong> pour conserver l'original intact."
         }
       ]
+    },
+    "passwordfolder": {
+      "category": "Travailler avec les fichiers",
+      "title": "Dossiers protégés par mot de passe",
+      "summary": "Verrouillez un dossier derrière un mot de passe pour que seules les personnes qui le connaissent puissent ouvrir et partager son contenu.",
+      "steps": [
+        {
+          "title": "Un dossier verrouillé dans votre liste",
+          "caption": "Un dossier protégé par mot de passe apparaît dans <strong>Personal</strong> comme un élément <code>.psec</code> avec une icône de cadenas, comme <mark>folder1</mark> et <mark>folder2</mark>. Le dossier masqué <code>.PasswordProtectedFolders</code> contient le contenu réel."
+        },
+        {
+          "title": "Saisir le mot de passe",
+          "caption": "À l'ouverture du dossier s'affiche <strong>This resource is password-protected</strong>. Saisissez le mot de passe et sélectionnez <strong>Continue</strong>. Un mot de passe erroné est rejeté avec <strong>Incorrect password</strong>."
+        },
+        {
+          "title": "Dossier déverrouillé",
+          "caption": "Avec le bon mot de passe, le dossier s'ouvre et vous pouvez parcourir son contenu. Utilisez <strong>New</strong> ou <strong>Upload</strong> pour ajouter des fichiers dans le dossier protégé."
+        },
+        {
+          "title": "Partager le dossier verrouillé",
+          "caption": "Copiez le lien du dossier pour le partager ; une notification confirme que le lien a été <strong>copied to your clipboard</strong>. Les destinataires ouvrent le lien et le déverrouillent avec le même mot de passe."
+        }
+      ]
     }
   },
   "upcoming": {

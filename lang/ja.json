@@ -1051,6 +1051,29 @@
           "caption": "差分を確認し、<strong>Apply to file</strong> で変更をファイルに直接保存するか、<strong>Discard</strong> で元のファイルをそのまま残します。"
         }
       ]
+    },
+    "passwordfolder": {
+      "category": "ファイル操作",
+      "title": "パスワード保護フォルダー",
+      "summary": "フォルダーをパスワードで保護し、パスワードを知っている人だけがその内容を開いて共有できるようにします。",
+      "steps": [
+        {
+          "title": "一覧に表示される保護フォルダー",
+          "caption": "パスワード保護フォルダーは <strong>Personal</strong> に錠前アイコン付きの <code>.psec</code> 項目として表示されます（例: <mark>folder1</mark>、<mark>folder2</mark>）。実際の内容は非表示の <code>.PasswordProtectedFolders</code> フォルダーに保存されます。"
+        },
+        {
+          "title": "パスワードを入力する",
+          "caption": "フォルダーを開くと <strong>This resource is password-protected</strong> と表示されます。パスワードを入力して <strong>Continue</strong> を選択します。間違ったパスワードは <strong>Incorrect password</strong> で拒否されます。"
+        },
+        {
+          "title": "フォルダーのロック解除",
+          "caption": "正しいパスワードを入力するとフォルダーが開き、内容を閲覧できます。<strong>New</strong> または <strong>Upload</strong> で保護フォルダー内にファイルを追加できます。"
+        },
+        {
+          "title": "保護フォルダーを共有する",
+          "caption": "フォルダーのリンクをコピーして共有します。リンクが <strong>copied to your clipboard</strong> されたことが通知で表示されます。受信者はリンクを開き、同じパスワードでロックを解除します。"
+        }
+      ]
     }
   },
   "upcoming": {

@@ -1051,6 +1051,29 @@
           "caption": "Revisa el diff y luego pulsa <strong>Apply to file</strong> para guardar el cambio en el archivo, o <strong>Discard</strong> para dejar el original intacto."
         }
       ]
+    },
+    "passwordfolder": {
+      "category": "Trabajar con archivos",
+      "title": "Carpetas protegidas con contraseña",
+      "summary": "Bloquea una carpeta tras una contraseña para que solo quienes la conozcan puedan abrir y compartir su contenido.",
+      "steps": [
+        {
+          "title": "Una carpeta bloqueada en tu lista",
+          "caption": "Una carpeta protegida con contraseña aparece en <strong>Personal</strong> como un elemento <code>.psec</code> con un icono de candado, como <mark>folder1</mark> y <mark>folder2</mark>. La carpeta oculta <code>.PasswordProtectedFolders</code> contiene el contenido real."
+        },
+        {
+          "title": "Introduce la contraseña",
+          "caption": "Al abrir la carpeta aparece <strong>This resource is password-protected</strong>. Escribe la contraseña y pulsa <strong>Continue</strong>. Una contraseña incorrecta se rechaza con <strong>Incorrect password</strong>."
+        },
+        {
+          "title": "Carpeta desbloqueada",
+          "caption": "Con la contraseña correcta la carpeta se abre y puedes explorar su contenido. Usa <strong>New</strong> o <strong>Upload</strong> para añadir archivos dentro de la carpeta protegida."
+        },
+        {
+          "title": "Compartir la carpeta bloqueada",
+          "caption": "Copia el enlace de la carpeta para compartirla; un aviso confirma que el enlace se ha <strong>copied to your clipboard</strong>. Los destinatarios abren el enlace y lo desbloquean con la misma contraseña."
+        }
+      ]
     }
   },
   "upcoming": {
