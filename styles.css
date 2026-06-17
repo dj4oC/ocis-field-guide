@@ -96,6 +96,16 @@ em { font-style: normal; }
 .appbar__meta b { color: var(--oc-white); }
 .appbar__meta .sep { color: var(--oc-orange); margin: 0 .15rem; }
 
+/* On phones the version badge crowds the brand + language switcher (they collide on
+   ~390px screens) and the badge wraps to a tall block. The same version/date is already
+   shown in the hero strip and the step meta, so hide it here and let the switcher sit at
+   the right edge, clear of the wordmark. */
+@media (max-width: 640px) {
+  .appbar__meta { display: none; }
+  .appbar { gap: .75rem; }
+  .brand__guide { font-size: .95rem; }
+}
+
 /* =========================================================================
    HERO - dark navy panel with circle motif + bottom orange bar
    ========================================================================= */
