@@ -118,7 +118,9 @@ em { font-style: normal; }
 .hero::before, .hero::after { content: ""; position: absolute; border-radius: 50%; pointer-events: none; background: var(--circle-dark); }
 .hero::before { width: 620px; height: 620px; top: -260px; right: -160px; }
 .hero::after  { width: 380px; height: 380px; bottom: -220px; left: -120px; }
-.hero__inner { position: relative; z-index: 1; padding: clamp(3.2rem, 9vw, 6.5rem) 0 clamp(2.6rem, 6vw, 4rem); }
+/* padding-block sets only the vertical padding so the horizontal padding from .wrap
+   survives on small screens (a plain `padding` shorthand here would zero it -> flush text). */
+.hero__inner { position: relative; z-index: 1; padding-block: clamp(3.2rem, 9vw, 6.5rem) clamp(2.6rem, 6vw, 4rem); }
 
 .kicker {
   font-size: .8rem; font-weight: 700; text-transform: uppercase; letter-spacing: .18em;
@@ -201,7 +203,7 @@ em { font-style: normal; }
 /* =========================================================================
    WALKTHROUGH (light)
    ========================================================================= */
-.tut-head { padding: clamp(2.4rem, 6vw, 4rem) 0 clamp(1.6rem, 4vw, 2.6rem); }
+.tut-head { padding-block: clamp(2.4rem, 6vw, 4rem) clamp(1.6rem, 4vw, 2.6rem); }
 .back { font-size: .85rem; font-weight: 600; color: var(--oc-gray); text-decoration: none; display: inline-flex; align-items: center; gap: .5rem; margin-bottom: 1.8rem; transition: gap .3s var(--ease), color .3s; }
 .back:hover { color: var(--oc-orange); gap: .75rem; }
 .tut-head .kicker { color: var(--oc-navy); }
@@ -259,7 +261,7 @@ em { font-style: normal; }
 @keyframes rise { to { opacity: 1; transform: none; } }
 @media (prefers-reduced-motion: reduce) { .reveal, .load { opacity: 1; transform: none; transition: none; animation: none; } }
 
-.tut-foot { margin-top: var(--lg); padding: var(--xl) 0; border-top: 1px solid var(--oc-border); display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1.2rem; }
+.tut-foot { margin-top: var(--lg); padding-block: var(--xl); border-top: 1px solid var(--oc-border); display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1.2rem; }
 .tut-foot__src { font-size: .92rem; color: var(--oc-gray); max-width: 60ch; }
 .tut-foot__src b { color: var(--oc-navy); font-weight: 700; }
 .btn { /* secondary button: navy border + text, 6px radius, no shadow */
