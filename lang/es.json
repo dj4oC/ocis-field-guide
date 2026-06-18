@@ -1052,6 +1052,25 @@
         }
       ]
     },
+    "versionchangelog": {
+      "category": "Registro de cambios con IA · Vista previa",
+      "title": "Registro de cambios de versiones con IA",
+      "summary": "Para un archivo conservado a lo largo de varias versiones, genera un resumen en lenguaje sencillo de lo que cambió en cada revisión, escrito por un asistente de IA a partir del diff real entre versiones. Vista previa de la extensión Version Changelog (web-extensions PR #459).",
+      "steps": [
+        {
+          "title": "Abrir el panel de Changelog",
+          "caption": "Selecciona un archivo de texto o Markdown que tenga más de una versión guardada y luego abre el panel <strong>Changelog</strong> desde la barra lateral del archivo. Cada versión aparece con su fecha, la más reciente primero."
+        },
+        {
+          "title": "Generar una entrada",
+          "caption": "Junto a una versión, haz clic en <strong>Generate</strong>. La extensión compara esa versión con la siguiente y envía solo las líneas modificadas al endpoint de IA configurado, nunca el archivo completo."
+        },
+        {
+          "title": "Leer qué cambió",
+          "caption": "Bajo cada versión aparece un breve resumen que describe las ediciones en lenguaje sencillo, aquí que se añadió una fecha de lanzamiento y se eliminó a un asistente, para que puedas revisar el historial de un archivo sin abrir cada revisión."
+        }
+      ]
+    },
     "passwordfolder": {
       "category": "Trabajar con archivos",
       "title": "Carpetas protegidas con contraseña",

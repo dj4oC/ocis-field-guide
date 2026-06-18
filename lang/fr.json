@@ -1052,6 +1052,25 @@
         }
       ]
     },
+    "versionchangelog": {
+      "category": "Journal des modifications par IA · Aperçu",
+      "title": "Journal des versions par IA",
+      "summary": "Pour un fichier conservé en plusieurs versions, générez un résumé en langage clair de ce qui a changé à chaque révision, rédigé par un assistant IA à partir du diff réel entre les versions. Aperçu de l'extension Version Changelog (web-extensions PR #459).",
+      "steps": [
+        {
+          "title": "Ouvrir le panneau Changelog",
+          "caption": "Sélectionnez un fichier texte ou Markdown qui possède plus d'une version enregistrée, puis ouvrez le panneau <strong>Changelog</strong> depuis la barre latérale du fichier. Chaque version est listée avec sa date, la plus récente en premier."
+        },
+        {
+          "title": "Générer une entrée",
+          "caption": "À côté d'une version, cliquez sur <strong>Generate</strong>. L'extension compare cette version à la suivante et n'envoie que les lignes modifiées au point d'accès IA configuré, jamais le fichier entier."
+        },
+        {
+          "title": "Lire ce qui a changé",
+          "caption": "Un court résumé apparaît sous chaque version, décrivant les modifications en langage clair, ici qu'une date de lancement a été ajoutée et un participant retiré, afin de parcourir l'historique d'un fichier sans ouvrir chaque révision."
+        }
+      ]
+    },
     "passwordfolder": {
       "category": "Travailler avec les fichiers",
       "title": "Dossiers protégés par mot de passe",

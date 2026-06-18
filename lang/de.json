@@ -1052,6 +1052,25 @@
         }
       ]
     },
+    "versionchangelog": {
+      "category": "KI-Changelog · Vorschau",
+      "title": "KI-Versions-Changelog",
+      "summary": "Erzeugen Sie für eine über mehrere Versionen aufbewahrte Datei eine verständliche Zusammenfassung dessen, was sich in jeder Revision geändert hat, geschrieben von einem KI-Assistenten anhand des tatsächlichen Diffs zwischen den Versionen. Vorschau der Erweiterung Version Changelog (web-extensions PR #459).",
+      "steps": [
+        {
+          "title": "Das Changelog-Panel öffnen",
+          "caption": "Wählen Sie eine Text- oder Markdown-Datei mit mehr als einer gespeicherten Version und öffnen Sie dann das <strong>Changelog</strong>-Panel in der Dateiseitenleiste. Jede Version wird mit ihrem Datum aufgeführt, die neueste zuerst."
+        },
+        {
+          "title": "Einen Eintrag erzeugen",
+          "caption": "Klicken Sie neben einer Version auf <strong>Generate</strong>. Die Erweiterung vergleicht diese Version per Diff mit der folgenden und sendet nur die geänderten Zeilen an den konfigurierten KI-Endpunkt, niemals die gesamte Datei."
+        },
+        {
+          "title": "Lesen, was sich geändert hat",
+          "caption": "Unter jeder Version erscheint eine kurze Zusammenfassung, die die Änderungen in verständlicher Sprache beschreibt, hier dass ein Starttermin hinzugefügt und ein Teilnehmer entfernt wurde, sodass Sie die Historie einer Datei überblicken können, ohne jede Revision zu öffnen."
+        }
+      ]
+    },
     "passwordfolder": {
       "category": "Mit Dateien arbeiten",
       "title": "Passwortgeschützte Ordner",

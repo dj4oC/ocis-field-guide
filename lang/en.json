@@ -1052,6 +1052,25 @@
         }
       ]
     },
+    "versionchangelog": {
+      "category": "AI changelog · Preview",
+      "title": "AI version changelog",
+      "summary": "For a file kept across several versions, generate a plain-language summary of what changed in each revision, written by an AI assistant from the actual diff between versions. Preview of the Version Changelog extension (web-extensions PR #459).",
+      "steps": [
+        {
+          "title": "Open the Changelog panel",
+          "caption": "Select a text or Markdown file that has more than one saved version, then open the <strong>Changelog</strong> panel from the file sidebar. Each version is listed with its date, newest first."
+        },
+        {
+          "title": "Generate an entry",
+          "caption": "Next to a version, click <strong>Generate</strong>. The extension diffs that version against the following one and sends only the changed lines to the configured AI endpoint, never the whole file."
+        },
+        {
+          "title": "Read what changed",
+          "caption": "A short summary appears under each version, describing the edits in plain language, here that a launch date was added and an attendee removed, so you can scan a file's history without opening every revision."
+        }
+      ]
+    },
     "passwordfolder": {
       "category": "Working with files",
       "title": "Password protected folders",

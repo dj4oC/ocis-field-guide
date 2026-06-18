@@ -892,6 +892,22 @@
       ]
     },
     {
+      "id": "versionchangelog",
+      "source": "owncloud/web-extensions · packages/web-app-version-changelog (PR #459)",
+      "thumb": "assets/versionchangelog/03-summaries.png",
+      "steps": [
+        {
+          "img": "assets/versionchangelog/01-select-file.png"
+        },
+        {
+          "img": "assets/versionchangelog/02-generate.png"
+        },
+        {
+          "img": "assets/versionchangelog/03-summaries.png"
+        }
+      ]
+    },
+    {
       "id": "passwordfolder",
       "source": "owncloud/web · tests/e2e/specs/file-action/passwordProtectedFolder.spec.ts",
       "thumb": "assets/passwordfolder/02-enter-password.png",
