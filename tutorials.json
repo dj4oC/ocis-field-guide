@@ -33,6 +33,28 @@
   ],
   "tutorials": [
     {
+      "id": "webtour",
+      "source": "doc.owncloud.com · ownCloud Web for users",
+      "thumb": "assets/webtour/01-files.png",
+      "steps": [
+        {
+          "img": "assets/webtour/01-files.png"
+        },
+        {
+          "img": "assets/webtour/02-app-switcher.png"
+        },
+        {
+          "img": "assets/webtour/03-search.png"
+        },
+        {
+          "img": "assets/webtour/04-account.png"
+        },
+        {
+          "img": "assets/webtour/05-preferences.png"
+        }
+      ]
+    },
+    {
       "id": "search",
       "source": "owncloud/web · tests/e2e/specs/search/search.spec.ts",
       "thumb": "assets/search/03-search-results-page.png",

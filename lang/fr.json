@@ -1112,6 +1112,33 @@
           "caption": "Copiez le lien du dossier pour le partager ; une notification confirme que le lien a été <strong>copied to your clipboard</strong>. Les destinataires ouvrent le lien et le déverrouillent avec le même mot de passe."
         }
       ]
+    },
+    "webtour": {
+      "category": "Prise en main",
+      "title": "Se repérer dans ownCloud Web",
+      "summary": "Une visite de l'interface ownCloud Web pour un usage quotidien : où vivent vos fichiers, comment changer d'application, tout rechercher, et retrouver les paramètres de votre compte, de votre stockage et de l'apparence. Recapturée automatiquement depuis une instance oCIS réelle, afin de ne jamais s'écarter du produit.",
+      "steps": [
+        {
+          "title": "Vos fichiers",
+          "caption": "Après connexion, vous arrivez dans <strong>Personal</strong>, votre espace privé. La barre latérale gauche bascule entre <strong>Personal</strong>, <strong>Shares</strong>, <strong>Spaces</strong> et <strong>Deleted files</strong> ; la zone principale liste tout ce qui se trouve à l'emplacement courant."
+        },
+        {
+          "title": "Changer d'application",
+          "caption": "Le <strong>menu des applications</strong> dans le coin supérieur gauche permet de passer entre Files et les autres applications activées pour vous, comme l'éditeur de texte, les paramètres d'administration ou les extensions installées."
+        },
+        {
+          "title": "Tout rechercher",
+          "caption": "La <strong>barre de recherche</strong> en haut trouve les fichiers par leur nom dans tout ce à quoi vous avez accès, et par leur contenu quand la recherche plein texte est activée. Des filtres vous permettent de limiter une recherche à un Space ou à un type de fichier."
+        },
+        {
+          "title": "Votre compte et votre stockage",
+          "caption": "Le <strong>menu du compte</strong> en haut à droite montre l'espace de stockage que vous avez utilisé, ouvre vos <strong>Preferences</strong> et vous permet de vous déconnecter."
+        },
+        {
+          "title": "Préférences et apparence",
+          "caption": "Ouvrez les <strong>Preferences</strong> pour définir votre langue, basculer entre le mode clair et le mode sombre, et passer en revue les détails de votre compte."
+        }
+      ]
     }
   },
   "upcoming": {

@@ -1112,6 +1112,33 @@
           "caption": "Copy the folder's link to share it, and a confirmation toast reports the link has been <strong>copied to your clipboard</strong>. Recipients open the link and unlock it with the same password."
         }
       ]
+    },
+    "webtour": {
+      "category": "Getting started",
+      "title": "Getting around ownCloud Web",
+      "summary": "A tour of the ownCloud Web interface for everyday use: where your files live, how to switch apps, search everything, and find your account, storage and appearance settings. Re-captured automatically from a live oCIS instance so it never drifts from the product.",
+      "steps": [
+        {
+          "title": "Your files",
+          "caption": "After signing in you land in <strong>Personal</strong>, your private space. The left sidebar switches between <strong>Personal</strong>, <strong>Shares</strong>, <strong>Spaces</strong> and <strong>Deleted files</strong>; the main area lists whatever is in the current location."
+        },
+        {
+          "title": "Switch applications",
+          "caption": "The <strong>application switcher</strong> in the top-left corner jumps between Files and the other apps enabled for you, such as the text editor, admin settings or installed extensions."
+        },
+        {
+          "title": "Search everything",
+          "caption": "The <strong>search bar</strong> at the top finds files by name across everything you can access, and by their content when full-text search is enabled. Filters let you narrow a search to a space or file type."
+        },
+        {
+          "title": "Your account and storage",
+          "caption": "The <strong>account menu</strong> in the top-right shows how much storage you have used, opens your <strong>Preferences</strong>, and lets you log out."
+        },
+        {
+          "title": "Preferences and appearance",
+          "caption": "Open <strong>Preferences</strong> to set your language, switch between light and dark mode, and review your account details."
+        }
+      ]
     }
   },
   "upcoming": {

@@ -1112,6 +1112,33 @@
           "caption": "フォルダーのリンクをコピーして共有します。リンクが <strong>copied to your clipboard</strong> されたことが通知で表示されます。受信者はリンクを開き、同じパスワードでロックを解除します。"
         }
       ]
+    },
+    "webtour": {
+      "category": "はじめに",
+      "title": "ownCloud Web の歩き方",
+      "summary": "日常的に使う ownCloud Web インターフェースのツアーです。ファイルがどこにあるか、アプリの切り替え方、すべてを横断する検索、そしてアカウント・ストレージ・外観の設定の見つけ方を紹介します。実際の oCIS インスタンスから自動で再キャプチャされるため、製品とずれることはありません。",
+      "steps": [
+        {
+          "title": "自分のファイル",
+          "caption": "サインインすると、プライベートな拠点である <strong>Personal</strong> に着きます。左のサイドバーで <strong>Personal</strong>、<strong>Shares</strong>、<strong>Spaces</strong>、<strong>Deleted files</strong> を切り替えられ、メインエリアには現在の場所にあるものが一覧表示されます。"
+        },
+        {
+          "title": "アプリケーションを切り替える",
+          "caption": "左上隅の <strong>application switcher</strong> から、Files と、テキストエディター・管理設定・インストール済みの拡張機能など、利用できる他のアプリへ移動できます。"
+        },
+        {
+          "title": "すべてを検索する",
+          "caption": "上部の <strong>search bar</strong> は、アクセスできるすべての範囲からファイルを名前で見つけ、全文検索が有効ならその内容でも見つけます。フィルターを使えば、検索を特定の Space やファイル種別に絞り込めます。"
+        },
+        {
+          "title": "アカウントとストレージ",
+          "caption": "右上の <strong>account menu</strong> には、使用しているストレージ量が表示され、<strong>Preferences</strong> を開いたり、ログアウトしたりできます。"
+        },
+        {
+          "title": "設定と外観",
+          "caption": "<strong>Preferences</strong> を開くと、言語を設定し、ライトモードとダークモードを切り替え、アカウントの詳細を確認できます。"
+        }
+      ]
     }
   },
   "upcoming": {

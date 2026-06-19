@@ -1112,6 +1112,33 @@
           "caption": "Copia el enlace de la carpeta para compartirla; un aviso confirma que el enlace se ha <strong>copied to your clipboard</strong>. Los destinatarios abren el enlace y lo desbloquean con la misma contraseña."
         }
       ]
+    },
+    "webtour": {
+      "category": "Primeros pasos",
+      "title": "Moverte por ownCloud Web",
+      "summary": "Un recorrido por la interfaz de ownCloud Web para el uso diario: dónde viven tus archivos, cómo cambiar de aplicación, buscar en todo y encontrar los ajustes de tu cuenta, almacenamiento y apariencia. Se vuelve a capturar automáticamente desde una instancia oCIS en vivo, así que nunca se desvía del producto.",
+      "steps": [
+        {
+          "title": "Tus archivos",
+          "caption": "Tras iniciar sesión llegas a <strong>Personal</strong>, tu espacio privado. La barra lateral izquierda cambia entre <strong>Personal</strong>, <strong>Shares</strong>, <strong>Spaces</strong> y <strong>Deleted files</strong>; el área principal lista lo que haya en la ubicación actual."
+        },
+        {
+          "title": "Cambiar de aplicación",
+          "caption": "El <strong>menú de aplicaciones</strong> de la esquina superior izquierda salta entre Files y las demás aplicaciones activadas para ti, como el editor de texto, los ajustes de administración o las extensiones instaladas."
+        },
+        {
+          "title": "Buscar en todo",
+          "caption": "La <strong>barra de búsqueda</strong> de la parte superior encuentra archivos por su nombre en todo lo que puedes ver, y por su contenido cuando la búsqueda de texto completo está activada. Los filtros te permiten acotar una búsqueda a un Space o a un tipo de archivo."
+        },
+        {
+          "title": "Tu cuenta y tu almacenamiento",
+          "caption": "El <strong>menú de cuenta</strong> de la esquina superior derecha muestra cuánto almacenamiento has usado, abre tus <strong>Preferences</strong> y te permite cerrar sesión."
+        },
+        {
+          "title": "Preferencias y apariencia",
+          "caption": "Abre <strong>Preferences</strong> para definir tu idioma, cambiar entre el modo claro y oscuro y revisar los datos de tu cuenta."
+        }
+      ]
     }
   },
   "upcoming": {

@@ -1112,6 +1112,33 @@
           "caption": "Kopieer de link van de map om hem te delen; een melding bevestigt dat de link is <strong>copied to your clipboard</strong>. Ontvangers openen de link en ontgrendelen hem met hetzelfde wachtwoord."
         }
       ]
+    },
+    "webtour": {
+      "category": "Aan de slag",
+      "title": "Wegwijs worden in ownCloud Web",
+      "summary": "Een rondleiding door de ownCloud Web-interface voor dagelijks gebruik: waar je bestanden staan, hoe je tussen apps wisselt, alles doorzoekt en je account-, opslag- en weergave-instellingen vindt. Automatisch opnieuw vastgelegd uit een actieve oCIS-instantie, zodat het nooit afwijkt van het product.",
+      "steps": [
+        {
+          "title": "Je bestanden",
+          "caption": "Na het aanmelden kom je terecht in <strong>Personal</strong>, je privéruimte. De linker zijbalk wisselt tussen <strong>Personal</strong>, <strong>Shares</strong>, <strong>Spaces</strong> en <strong>Deleted files</strong>; het hoofdgebied toont wat er op de huidige locatie staat."
+        },
+        {
+          "title": "Wissel van app",
+          "caption": "Het <strong>applicatiemenu</strong> in de linkerbovenhoek springt tussen Files en de andere apps die voor jou zijn ingeschakeld, zoals de teksteditor, beheerinstellingen of geïnstalleerde extensies."
+        },
+        {
+          "title": "Doorzoek alles",
+          "caption": "De <strong>zoekbalk</strong> bovenaan vindt bestanden op naam in alles waar je toegang toe hebt, en op inhoud wanneer full-text-zoeken is ingeschakeld. Met filters beperk je een zoekopdracht tot een Space of een bestandstype."
+        },
+        {
+          "title": "Je account en opslag",
+          "caption": "Het <strong>accountmenu</strong> rechtsboven toont hoeveel opslag je hebt gebruikt, opent je <strong>Preferences</strong> en laat je uitloggen."
+        },
+        {
+          "title": "Voorkeuren en uiterlijk",
+          "caption": "Open <strong>Preferences</strong> om je taal in te stellen, te wisselen tussen lichte en donkere modus, en je accountgegevens te bekijken."
+        }
+      ]
     }
   },
   "upcoming": {

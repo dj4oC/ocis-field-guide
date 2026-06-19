@@ -1112,6 +1112,33 @@
           "caption": "Kopieren Sie den Link des Ordners, um ihn zu teilen; eine Bestätigung meldet, dass der Link <strong>copied to your clipboard</strong> wurde. Empfänger öffnen den Link und entsperren ihn mit demselben Passwort."
         }
       ]
+    },
+    "webtour": {
+      "category": "Erste Schritte",
+      "title": "Sich in ownCloud Web zurechtfinden",
+      "summary": "Eine Tour durch die Oberfläche von ownCloud Web für den täglichen Gebrauch: wo Ihre Dateien liegen, wie Sie zwischen Apps wechseln, alles durchsuchen und Ihre Konto-, Speicher- und Darstellungseinstellungen finden. Automatisch aus einer laufenden oCIS-Instanz neu aufgenommen, damit sie niemals vom Produkt abweicht.",
+      "steps": [
+        {
+          "title": "Ihre Dateien",
+          "caption": "Nach der Anmeldung landen Sie in <strong>Personal</strong>, Ihrem privaten Bereich. Die linke Seitenleiste wechselt zwischen <strong>Personal</strong>, <strong>Shares</strong>, <strong>Spaces</strong> und <strong>Deleted files</strong>; der Hauptbereich listet auf, was sich am aktuellen Ort befindet."
+        },
+        {
+          "title": "Anwendungen wechseln",
+          "caption": "Der <strong>Anwendungswechsler</strong> in der oberen linken Ecke springt zwischen Files und den anderen für Sie aktivierten Apps, etwa dem Texteditor, den Verwaltungseinstellungen oder installierten Erweiterungen."
+        },
+        {
+          "title": "Alles durchsuchen",
+          "caption": "Die <strong>Suchleiste</strong> oben findet Dateien anhand des Namens über alles hinweg, worauf Sie zugreifen können, und anhand ihres Inhalts, wenn die Volltextsuche aktiviert ist. Mit Filtern grenzen Sie eine Suche auf einen Space oder einen Dateityp ein."
+        },
+        {
+          "title": "Ihr Konto und Speicher",
+          "caption": "Das <strong>Kontomenü</strong> oben rechts zeigt, wie viel Speicher Sie belegt haben, öffnet Ihre <strong>Preferences</strong> und lässt Sie sich abmelden."
+        },
+        {
+          "title": "Einstellungen und Darstellung",
+          "caption": "Öffnen Sie <strong>Preferences</strong>, um Ihre Sprache festzulegen, zwischen hellem und dunklem Modus zu wechseln und Ihre Kontodetails einzusehen."
+        }
+      ]
     }
   },
   "upcoming": {

@@ -1,0 +1,14 @@
+{
+  "name": "ocis-field-guide-capture",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Playwright capture harness that automates the ownCloud Web end-user flows and regenerates Field Guide walkthroughs from live screenshots.",
+  "scripts": {
+    "capture": "playwright test",
+    "capture:headed": "playwright test --headed"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0"
+  }
+}
