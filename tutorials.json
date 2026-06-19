@@ -55,6 +55,44 @@
       ]
     },
     {
+      "id": "storagetour",
+      "source": "doc.owncloud.com · ownCloud Web for users",
+      "thumb": "assets/storagetour/01-personal.png",
+      "steps": [
+        {
+          "img": "assets/storagetour/01-personal.png"
+        },
+        {
+          "img": "assets/storagetour/02-shares.png"
+        },
+        {
+          "img": "assets/storagetour/03-spaces.png"
+        },
+        {
+          "img": "assets/storagetour/04-deleted.png"
+        }
+      ]
+    },
+    {
+      "id": "filesidebar",
+      "source": "doc.owncloud.com · ownCloud Web for users",
+      "thumb": "assets/filesidebar/01-details.png",
+      "steps": [
+        {
+          "img": "assets/filesidebar/01-details.png"
+        },
+        {
+          "img": "assets/filesidebar/02-share.png"
+        },
+        {
+          "img": "assets/filesidebar/03-roles.png"
+        },
+        {
+          "img": "assets/filesidebar/04-versions.png"
+        }
+      ]
+    },
+    {
       "id": "search",
       "source": "owncloud/web · tests/e2e/specs/search/search.spec.ts",
       "thumb": "assets/search/03-search-results-page.png",

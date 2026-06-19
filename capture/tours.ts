@@ -98,5 +98,134 @@ export const tours: Tour[] = [
         }
       }
     ]
+  },
+  {
+    id: 'storagetour',
+    source: 'doc.owncloud.com · ownCloud Web for users',
+    category: 'Getting started',
+    title: 'Your files, shares and spaces',
+    summary:
+      "The left sidebar is your map to everything you can reach: your private files, what others have shared with you, collaborative spaces, and a trash bin for recovering deleted items. Re-captured automatically from a live oCIS instance.",
+    steps: [
+      {
+        shot: 'personal',
+        title: 'Personal',
+        caption:
+          '<strong>Personal</strong> is your private space. Only you can see what is here until you choose to share it. Upload files, create folders and organise your own documents.',
+        run: async (page) => {
+          await page.goto('/files/spaces/personal')
+          await page.waitForURL(/files\/spaces\/personal/, { timeout: 30_000 })
+          await expect(page.getByRole('heading', { level: 1, name: 'Personal' })).toBeVisible()
+        }
+      },
+      {
+        shot: 'shares',
+        title: 'Shared with you',
+        caption:
+          '<strong>Shares</strong> collects everything other people have shared with you. Depending on the instance you may need to accept a share before it appears, and you can decline ones you do not want.',
+        run: async (page) => {
+          await page.getByRole('link', { name: 'Shares' }).click()
+          await page.waitForURL(/files\/shares/, { timeout: 30_000 })
+          await page.waitForTimeout(900)
+        }
+      },
+      {
+        shot: 'spaces',
+        title: 'Spaces',
+        caption:
+          '<strong>Spaces</strong> are shared project areas with their own members and storage. Use them to collaborate with a team in a dedicated location, separate from your personal files.',
+        run: async (page) => {
+          await page.getByRole('link', { name: 'Spaces' }).click()
+          await page.waitForURL(/files\/spaces\/projects/, { timeout: 30_000 })
+          await page.waitForTimeout(900)
+        }
+      },
+      {
+        shot: 'deleted',
+        title: 'Deleted files',
+        caption:
+          '<strong>Deleted files</strong> is your trash bin. Restore something you removed by mistake, or permanently delete it to free up space.',
+        run: async (page) => {
+          await page.getByRole('link', { name: 'Deleted files' }).click()
+          await page.waitForURL(/files\/trash/, { timeout: 30_000 })
+          await page.waitForTimeout(900)
+        }
+      }
+    ]
+  },
+  {
+    id: 'filesidebar',
+    source: 'doc.owncloud.com · ownCloud Web for users',
+    category: 'Getting started',
+    title: 'File details, sharing and versions',
+    summary:
+      'Select any file and the right sidebar shows everything about it: its details, who it is shared with, and its previous versions. This is where most day-to-day file actions happen. Re-captured automatically from a live oCIS instance.',
+    steps: [
+      {
+        shot: 'details',
+        title: 'See the details',
+        caption:
+          'Select a file to open the right sidebar. <strong>Details</strong> shows its size, when it was last modified, the owner, sharing status, tags and how many versions it has.',
+        run: async (page) => {
+          await page.goto('/files/spaces/personal')
+          await page.waitForURL(/files\/spaces\/personal/, { timeout: 30_000 })
+          const checkbox = page
+            .getByRole('row', { name: /report\.md/ })
+            .getByLabel('Select file')
+          await checkbox.waitFor({ state: 'visible', timeout: 30_000 })
+          await checkbox.click()
+          // The right sidebar is collapsed in a fresh session; open it to reveal details.
+          const openSidebar = page.getByRole('button', { name: 'Open sidebar to view details' })
+          if (await openSidebar.isVisible().catch(() => false)) {
+            await openSidebar.click()
+          }
+          await expect(page.getByRole('heading', { level: 3, name: 'report.md' })).toBeVisible({
+            timeout: 15_000
+          })
+        }
+      },
+      {
+        shot: 'share',
+        title: 'Share with people',
+        caption:
+          'The <strong>Shares</strong> panel lets you invite registered users by name, or create a <strong>public link</strong> that anyone can open, optionally protected with a password and an expiry date.',
+        run: async (page) => {
+          await page.locator('[data-testid="sidebar-panel-sharing-select"]').click()
+          await expect(page.getByRole('heading', { name: 'Share with people' })).toBeVisible({
+            timeout: 15_000
+          })
+          await page.waitForTimeout(400)
+        }
+      },
+      {
+        shot: 'roles',
+        title: 'Choose what they can do',
+        caption:
+          'Pick a role for each person you share with. <strong>Can view</strong> lets them view and download; <strong>Can edit</strong> also lets them upload and change the file. Folders and spaces offer further roles such as Uploader and Manager.',
+        run: async (page) => {
+          await page.locator('#files-collaborators-role-button-new').click()
+          await page.waitForTimeout(500)
+        }
+      },
+      {
+        shot: 'versions',
+        title: 'Restore an earlier version',
+        caption:
+          'The <strong>Versions</strong> panel keeps previous copies of a file. Open it to download or restore an older version, which is handy when several people edit the same document.',
+        run: async (page) => {
+          await page.keyboard.press('Escape')
+          await page.waitForTimeout(200)
+          // The Shares sub-panel is active; return to the Details panel where the
+          // Versions tab lives before opening it.
+          const back = page.getByRole('button', { name: 'Back to Details panel' })
+          if (await back.isVisible().catch(() => false)) {
+            await back.click()
+            await page.waitForTimeout(300)
+          }
+          await page.locator('[data-testid="sidebar-panel-versions-select"]').click()
+          await page.waitForTimeout(700)
+        }
+      }
+    ]
   }
 ]

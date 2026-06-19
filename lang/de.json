@@ -1139,6 +1139,52 @@
           "caption": "Öffnen Sie <strong>Preferences</strong>, um Ihre Sprache festzulegen, zwischen hellem und dunklem Modus zu wechseln und Ihre Kontodetails einzusehen."
         }
       ]
+    },
+    "storagetour": {
+      "category": "Erste Schritte",
+      "title": "Ihre Dateien, Freigaben und Spaces",
+      "summary": "Die linke Seitenleiste ist Ihre Landkarte zu allem, was Sie erreichen können: Ihre privaten Dateien, was andere mit Ihnen geteilt haben, gemeinsame Spaces und ein Papierkorb zum Wiederherstellen gelöschter Objekte. Automatisch aus einer laufenden oCIS-Instanz neu aufgenommen.",
+      "steps": [
+        {
+          "title": "Personal",
+          "caption": "<strong>Personal</strong> ist Ihr privater Bereich. Nur Sie sehen, was hier liegt, bis Sie es teilen. Laden Sie Dateien hoch, erstellen Sie Ordner und organisieren Sie Ihre eigenen Dokumente."
+        },
+        {
+          "title": "Shared with you",
+          "caption": "<strong>Shares</strong> sammelt alles, was andere mit Ihnen geteilt haben. Je nach Instanz müssen Sie eine Freigabe annehmen, bevor sie erscheint, und Sie können solche ablehnen, die Sie nicht möchten."
+        },
+        {
+          "title": "Spaces",
+          "caption": "<strong>Spaces</strong> sind gemeinsame Projektbereiche mit eigenen Mitgliedern und eigenem Speicher. Nutzen Sie sie, um mit einem Team an einem eigenen Ort zusammenzuarbeiten, getrennt von Ihren persönlichen Dateien."
+        },
+        {
+          "title": "Deleted files",
+          "caption": "<strong>Deleted files</strong> ist Ihr Papierkorb. Stellen Sie etwas wieder her, das Sie versehentlich entfernt haben, oder löschen Sie es endgültig, um Speicher freizugeben."
+        }
+      ]
+    },
+    "filesidebar": {
+      "category": "Erste Schritte",
+      "title": "Dateidetails, Teilen und Versionen",
+      "summary": "Wählen Sie eine beliebige Datei, und die rechte Seitenleiste zeigt alles über sie: ihre Details, mit wem sie geteilt ist und ihre früheren Versionen. Hier finden die meisten täglichen Dateiaktionen statt. Automatisch aus einer laufenden oCIS-Instanz neu aufgenommen.",
+      "steps": [
+        {
+          "title": "Die Details ansehen",
+          "caption": "Wählen Sie eine Datei, um die rechte Seitenleiste zu öffnen. <strong>Details</strong> zeigt ihre Größe, wann sie zuletzt geändert wurde, den Eigentümer, den Freigabestatus, Tags und wie viele Versionen sie hat."
+        },
+        {
+          "title": "Mit Personen teilen",
+          "caption": "Im Bereich <strong>Shares</strong> können Sie registrierte Benutzer namentlich einladen oder einen <strong>öffentlichen Link</strong> erstellen, den jeder öffnen kann, optional geschützt mit einem Passwort und einem Ablaufdatum."
+        },
+        {
+          "title": "Festlegen, was sie dürfen",
+          "caption": "Wählen Sie für jede Person, mit der Sie teilen, eine Rolle. <strong>Can view</strong> erlaubt Ansehen und Herunterladen; <strong>Can edit</strong> erlaubt zusätzlich Hochladen und Ändern der Datei. Ordner und Spaces bieten weitere Rollen wie Uploader und Manager."
+        },
+        {
+          "title": "Eine frühere Version wiederherstellen",
+          "caption": "Im Bereich <strong>Versions</strong> bleiben frühere Kopien einer Datei erhalten. Öffnen Sie ihn, um eine ältere Version herunterzuladen oder wiederherzustellen, was praktisch ist, wenn mehrere Personen dasselbe Dokument bearbeiten."
+        }
+      ]
     }
   },
   "upcoming": {

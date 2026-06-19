@@ -1139,6 +1139,52 @@
           "caption": "Open <strong>Preferences</strong> to set your language, switch between light and dark mode, and review your account details."
         }
       ]
+    },
+    "storagetour": {
+      "category": "Getting started",
+      "title": "Your files, shares and spaces",
+      "summary": "The left sidebar is your map to everything you can reach: your private files, what others have shared with you, collaborative spaces, and a trash bin for recovering deleted items. Re-captured automatically from a live oCIS instance.",
+      "steps": [
+        {
+          "title": "Personal",
+          "caption": "<strong>Personal</strong> is your private space. Only you can see what is here until you choose to share it. Upload files, create folders and organise your own documents."
+        },
+        {
+          "title": "Shared with you",
+          "caption": "<strong>Shares</strong> collects everything other people have shared with you. Depending on the instance you may need to accept a share before it appears, and you can decline ones you do not want."
+        },
+        {
+          "title": "Spaces",
+          "caption": "<strong>Spaces</strong> are shared project areas with their own members and storage. Use them to collaborate with a team in a dedicated location, separate from your personal files."
+        },
+        {
+          "title": "Deleted files",
+          "caption": "<strong>Deleted files</strong> is your trash bin. Restore something you removed by mistake, or permanently delete it to free up space."
+        }
+      ]
+    },
+    "filesidebar": {
+      "category": "Getting started",
+      "title": "File details, sharing and versions",
+      "summary": "Select any file and the right sidebar shows everything about it: its details, who it is shared with, and its previous versions. This is where most day-to-day file actions happen. Re-captured automatically from a live oCIS instance.",
+      "steps": [
+        {
+          "title": "See the details",
+          "caption": "Select a file to open the right sidebar. <strong>Details</strong> shows its size, when it was last modified, the owner, sharing status, tags and how many versions it has."
+        },
+        {
+          "title": "Share with people",
+          "caption": "The <strong>Shares</strong> panel lets you invite registered users by name, or create a <strong>public link</strong> that anyone can open, optionally protected with a password and an expiry date."
+        },
+        {
+          "title": "Choose what they can do",
+          "caption": "Pick a role for each person you share with. <strong>Can view</strong> lets them view and download; <strong>Can edit</strong> also lets them upload and change the file. Folders and spaces offer further roles such as Uploader and Manager."
+        },
+        {
+          "title": "Restore an earlier version",
+          "caption": "The <strong>Versions</strong> panel keeps previous copies of a file. Open it to download or restore an older version, which is handy when several people edit the same document."
+        }
+      ]
     }
   },
   "upcoming": {

@@ -1139,6 +1139,52 @@
           "caption": "Ouvrez les <strong>Preferences</strong> pour définir votre langue, basculer entre le mode clair et le mode sombre, et passer en revue les détails de votre compte."
         }
       ]
+    },
+    "storagetour": {
+      "category": "Prise en main",
+      "title": "Vos fichiers, vos partages et vos Spaces",
+      "summary": "La barre latérale gauche est votre carte vers tout ce que vous pouvez atteindre : vos fichiers privés, ce que d'autres ont partagé avec vous, les Spaces collaboratifs et une corbeille pour récupérer les éléments supprimés. Recapturée automatiquement depuis une instance oCIS réelle.",
+      "steps": [
+        {
+          "title": "Personal",
+          "caption": "<strong>Personal</strong> est votre espace privé. Vous seul voyez ce qui s'y trouve jusqu'à ce que vous choisissiez de le partager. Envoyez des fichiers, créez des dossiers et organisez vos propres documents."
+        },
+        {
+          "title": "Partagé avec vous",
+          "caption": "<strong>Shares</strong> rassemble tout ce que d'autres personnes ont partagé avec vous. Selon l'instance, vous devrez peut-être accepter un partage avant qu'il n'apparaisse, et vous pouvez refuser ceux que vous ne voulez pas."
+        },
+        {
+          "title": "Spaces",
+          "caption": "Les <strong>Spaces</strong> sont des zones de projet partagées avec leurs propres membres et leur propre stockage. Utilisez-les pour collaborer avec une équipe dans un emplacement dédié, distinct de vos fichiers personnels."
+        },
+        {
+          "title": "Deleted files",
+          "caption": "<strong>Deleted files</strong> est votre corbeille. Restaurez un élément que vous avez retiré par erreur, ou supprimez-le définitivement pour libérer de l'espace."
+        }
+      ]
+    },
+    "filesidebar": {
+      "category": "Prise en main",
+      "title": "Détails, partage et versions d'un fichier",
+      "summary": "Sélectionnez n'importe quel fichier et la barre latérale droite affiche tout à son sujet : ses détails, avec qui il est partagé et ses versions antérieures. C'est là que se passent la plupart des actions quotidiennes sur les fichiers. Recapturée automatiquement depuis une instance oCIS réelle.",
+      "steps": [
+        {
+          "title": "Voir les détails",
+          "caption": "Sélectionnez un fichier pour ouvrir la barre latérale droite. <strong>Details</strong> montre sa taille, sa date de dernière modification, son propriétaire, son état de partage, ses étiquettes et combien de versions il possède."
+        },
+        {
+          "title": "Partager avec des personnes",
+          "caption": "Le panneau <strong>Shares</strong> vous permet d'inviter des utilisateurs enregistrés par leur nom, ou de créer un <strong>public link</strong> que tout le monde peut ouvrir, éventuellement protégé par un mot de passe et une date d'expiration."
+        },
+        {
+          "title": "Choisir ce qu'ils peuvent faire",
+          "caption": "Choisissez un rôle pour chaque personne avec qui vous partagez. <strong>Can view</strong> permet de consulter et de télécharger ; <strong>Can edit</strong> permet aussi d'envoyer et de modifier le fichier. Les dossiers et les Spaces offrent d'autres rôles comme Uploader et Manager."
+        },
+        {
+          "title": "Restaurer une version antérieure",
+          "caption": "Le panneau <strong>Versions</strong> conserve les copies antérieures d'un fichier. Ouvrez-le pour télécharger ou restaurer une version plus ancienne, ce qui est pratique quand plusieurs personnes modifient le même document."
+        }
+      ]
     }
   },
   "upcoming": {

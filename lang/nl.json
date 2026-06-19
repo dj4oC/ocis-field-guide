@@ -1139,6 +1139,52 @@
           "caption": "Open <strong>Preferences</strong> om je taal in te stellen, te wisselen tussen lichte en donkere modus, en je accountgegevens te bekijken."
         }
       ]
+    },
+    "storagetour": {
+      "category": "Aan de slag",
+      "title": "Je bestanden, shares en Spaces",
+      "summary": "De linker zijbalk is je kaart naar alles wat je kunt bereiken: je privébestanden, wat anderen met je hebben gedeeld, gezamenlijke Spaces en een prullenbak om verwijderde items terug te halen. Automatisch opnieuw vastgelegd uit een actieve oCIS-instantie.",
+      "steps": [
+        {
+          "title": "Personal",
+          "caption": "<strong>Personal</strong> is je privéruimte. Alleen jij ziet wat hier staat totdat je het besluit te delen. Upload bestanden, maak mappen aan en orden je eigen documenten."
+        },
+        {
+          "title": "Met jou gedeeld",
+          "caption": "<strong>Shares</strong> verzamelt alles wat anderen met je hebben gedeeld. Afhankelijk van de instantie moet je een share misschien eerst accepteren voordat hij verschijnt, en kun je shares die je niet wilt weigeren."
+        },
+        {
+          "title": "Spaces",
+          "caption": "<strong>Spaces</strong> zijn gedeelde projectruimtes met eigen leden en opslag. Gebruik ze om met een team op een aparte plek samen te werken, los van je persoonlijke bestanden."
+        },
+        {
+          "title": "Verwijderde bestanden",
+          "caption": "<strong>Deleted files</strong> is je prullenbak. Herstel iets dat je per ongeluk hebt verwijderd, of verwijder het definitief om ruimte vrij te maken."
+        }
+      ]
+    },
+    "filesidebar": {
+      "category": "Aan de slag",
+      "title": "Bestandsdetails, delen en versies",
+      "summary": "Selecteer een willekeurig bestand en de rechter zijbalk toont er alles over: de details, met wie het is gedeeld en de eerdere versies. Hier vinden de meeste dagelijkse bestandshandelingen plaats. Automatisch opnieuw vastgelegd uit een actieve oCIS-instantie.",
+      "steps": [
+        {
+          "title": "Bekijk de details",
+          "caption": "Selecteer een bestand om de rechter zijbalk te openen. <strong>Details</strong> toont de grootte, wanneer het voor het laatst is gewijzigd, de eigenaar, de deelstatus, tags en hoeveel versies het heeft."
+        },
+        {
+          "title": "Deel met mensen",
+          "caption": "Met het <strong>Shares</strong>-paneel nodig je geregistreerde gebruikers op naam uit, of maak je een <strong>public link</strong> die iedereen kan openen, eventueel beveiligd met een wachtwoord en een vervaldatum."
+        },
+        {
+          "title": "Kies wat ze mogen doen",
+          "caption": "Kies een rol voor elke persoon met wie je deelt. <strong>Can view</strong> laat ze bekijken en downloaden; <strong>Can edit</strong> laat ze ook uploaden en het bestand wijzigen. Mappen en Spaces bieden verdere rollen zoals Uploader en Manager."
+        },
+        {
+          "title": "Herstel een eerdere versie",
+          "caption": "Het <strong>Versions</strong>-paneel bewaart eerdere kopieën van een bestand. Open het om een oudere versie te downloaden of te herstellen, wat handig is wanneer meerdere mensen aan hetzelfde document werken."
+        }
+      ]
     }
   },
   "upcoming": {

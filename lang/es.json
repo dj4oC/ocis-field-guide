@@ -1139,6 +1139,52 @@
           "caption": "Abre <strong>Preferences</strong> para definir tu idioma, cambiar entre el modo claro y oscuro y revisar los datos de tu cuenta."
         }
       ]
+    },
+    "storagetour": {
+      "category": "Primeros pasos",
+      "title": "Tus archivos, recursos compartidos y Spaces",
+      "summary": "La barra lateral izquierda es tu mapa hacia todo lo que puedes alcanzar: tus archivos privados, lo que otros han compartido contigo, los espacios colaborativos y una papelera para recuperar elementos eliminados. Se vuelve a capturar automáticamente desde una instancia oCIS en vivo.",
+      "steps": [
+        {
+          "title": "Personal",
+          "caption": "<strong>Personal</strong> es tu espacio privado. Solo tú puedes ver lo que hay aquí hasta que decidas compartirlo. Sube archivos, crea carpetas y organiza tus propios documentos."
+        },
+        {
+          "title": "Compartido contigo",
+          "caption": "<strong>Shares</strong> reúne todo lo que otras personas han compartido contigo. Según la instancia, puede que necesites aceptar un recurso compartido antes de que aparezca, y puedes rechazar los que no quieras."
+        },
+        {
+          "title": "Spaces",
+          "caption": "<strong>Spaces</strong> son áreas de proyecto compartidas con sus propios miembros y almacenamiento. Úsalos para colaborar con un equipo en una ubicación dedicada, separada de tus archivos personales."
+        },
+        {
+          "title": "Archivos eliminados",
+          "caption": "<strong>Deleted files</strong> es tu papelera. Restaura algo que quitaste por error, o elimínalo de forma permanente para liberar espacio."
+        }
+      ]
+    },
+    "filesidebar": {
+      "category": "Primeros pasos",
+      "title": "Detalles del archivo, compartir y versiones",
+      "summary": "Selecciona cualquier archivo y la barra lateral derecha muestra todo sobre él: sus detalles, con quién está compartido y sus versiones anteriores. Aquí es donde ocurren la mayoría de las acciones cotidianas con archivos. Se vuelve a capturar automáticamente desde una instancia oCIS en vivo.",
+      "steps": [
+        {
+          "title": "Consulta los detalles",
+          "caption": "Selecciona un archivo para abrir la barra lateral derecha. <strong>Details</strong> muestra su tamaño, cuándo se modificó por última vez, el propietario, el estado de compartido, las etiquetas y cuántas versiones tiene."
+        },
+        {
+          "title": "Comparte con personas",
+          "caption": "El panel <strong>Shares</strong> te permite invitar por su nombre a usuarios registrados, o crear un <strong>public link</strong> que cualquiera puede abrir, protegido opcionalmente con una contraseña y una fecha de caducidad."
+        },
+        {
+          "title": "Elige lo que pueden hacer",
+          "caption": "Elige un rol para cada persona con la que compartes. <strong>Can view</strong> permite ver y descargar; <strong>Can edit</strong> también permite subir y modificar el archivo. Las carpetas y los Spaces ofrecen roles adicionales como Uploader y Manager."
+        },
+        {
+          "title": "Restaura una versión anterior",
+          "caption": "El panel <strong>Versions</strong> conserva las copias previas de un archivo. Ábrelo para descargar o restaurar una versión más antigua, lo que resulta útil cuando varias personas editan el mismo documento."
+        }
+      ]
     }
   },
   "upcoming": {

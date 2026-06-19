@@ -39,23 +39,21 @@ test.afterAll(() => {
     return
   }
 
-  // tutorials.json (language-neutral structure)
+  // tutorials.json (language-neutral structure). The captured doc tours lead the
+  // catalog, in their tours.ts definition order; everything else keeps its order.
   const tutorialsFile = path.join(repoRoot, 'tutorials.json')
   const tutorials = JSON.parse(fs.readFileSync(tutorialsFile, 'utf8'))
-  for (const tour of captured) {
-    const entry = {
-      id: tour.id,
-      source: tour.source,
-      thumb: imgPath(tour, 0),
-      steps: tour.steps.map((_, i) => ({ img: imgPath(tour, i) }))
-    }
-    const idx = tutorials.tutorials.findIndex((t: { id: string }) => t.id === tour.id)
-    if (idx === -1) {
-      tutorials.tutorials.unshift(entry) // a getting-started tour leads the catalog
-    } else {
-      tutorials.tutorials[idx] = entry
-    }
-  }
+  const capturedIds = new Set(captured.map((t) => t.id))
+  const entries = captured.map((tour) => ({
+    id: tour.id,
+    source: tour.source,
+    thumb: imgPath(tour, 0),
+    steps: tour.steps.map((_, i) => ({ img: imgPath(tour, i) }))
+  }))
+  tutorials.tutorials = [
+    ...entries,
+    ...tutorials.tutorials.filter((t: { id: string }) => !capturedIds.has(t.id))
+  ]
   fs.writeFileSync(tutorialsFile, JSON.stringify(tutorials, null, 2) + '\n')
 
   // lang/en.json (English source text)
