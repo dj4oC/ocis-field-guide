@@ -1185,6 +1185,21 @@
           "caption": "The <strong>Versions</strong> panel keeps previous copies of a file. Open it to download or restore an older version, which is handy when several people edit the same document."
         }
       ]
+    },
+    "contextualhelp": {
+      "category": "Getting started",
+      "title": "Help where you need it",
+      "summary": "ownCloud Web keeps help close at hand: small question-mark icons sit next to features that benefit from a little explanation, and clicking one shows guidance specific to what you are doing without leaving the page. Re-captured automatically from a live oCIS instance.",
+      "steps": [
+        {
+          "title": "Spot the help icons",
+          "caption": "Throughout the interface a small <strong>?</strong> icon sits next to features that need a little explanation, such as beside <strong>Share with people</strong> and <strong>Public links</strong> in a file's sharing panel."
+        },
+        {
+          "title": "Open contextual help",
+          "caption": "Click a help icon to read short, context-specific guidance right where you are, here explaining how sharing with people works, with a <strong>Read more</strong> link to the full documentation."
+        }
+      ]
     }
   },
   "upcoming": {

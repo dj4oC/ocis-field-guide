@@ -1185,6 +1185,21 @@
           "caption": "Im Bereich <strong>Versions</strong> bleiben frühere Kopien einer Datei erhalten. Öffnen Sie ihn, um eine ältere Version herunterzuladen oder wiederherzustellen, was praktisch ist, wenn mehrere Personen dasselbe Dokument bearbeiten."
         }
       ]
+    },
+    "contextualhelp": {
+      "category": "Erste Schritte",
+      "title": "Hilfe genau dort, wo Sie sie brauchen",
+      "summary": "ownCloud Web hält Hilfe stets griffbereit: Kleine Fragezeichen-Symbole sitzen neben Funktionen, die etwas Erklärung vertragen, und ein Klick darauf zeigt eine auf Ihre aktuelle Tätigkeit zugeschnittene Anleitung, ohne die Seite zu verlassen. Automatisch aus einer laufenden oCIS-Instanz neu aufgenommen.",
+      "steps": [
+        {
+          "title": "Die Hilfe-Symbole erkennen",
+          "caption": "Überall in der Oberfläche sitzt ein kleines <strong>?</strong>-Symbol neben Funktionen, die etwas Erklärung brauchen, etwa neben <strong>Share with people</strong> und <strong>Public links</strong> im Teilen-Panel einer Datei."
+        },
+        {
+          "title": "Die kontextbezogene Hilfe öffnen",
+          "caption": "Klicken Sie auf ein Hilfe-Symbol, um eine kurze, kontextbezogene Anleitung direkt dort zu lesen, wo Sie gerade sind, hier mit einer Erklärung, wie das Teilen mit Personen funktioniert, samt einem <strong>Read more</strong>-Link zur vollständigen Dokumentation."
+        }
+      ]
     }
   },
   "upcoming": {

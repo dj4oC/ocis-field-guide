@@ -93,6 +93,19 @@
       ]
     },
     {
+      "id": "contextualhelp",
+      "source": "doc.owncloud.com · ownCloud Web for users",
+      "thumb": "assets/contextualhelp/01-icons.png",
+      "steps": [
+        {
+          "img": "assets/contextualhelp/01-icons.png"
+        },
+        {
+          "img": "assets/contextualhelp/02-popover.png"
+        }
+      ]
+    },
+    {
       "id": "search",
       "source": "owncloud/web · tests/e2e/specs/search/search.spec.ts",
       "thumb": "assets/search/03-search-results-page.png",

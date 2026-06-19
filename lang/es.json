@@ -1185,6 +1185,21 @@
           "caption": "El panel <strong>Versions</strong> conserva las copias previas de un archivo. Ábrelo para descargar o restaurar una versión más antigua, lo que resulta útil cuando varias personas editan el mismo documento."
         }
       ]
+    },
+    "contextualhelp": {
+      "category": "Primeros pasos",
+      "title": "Ayuda donde la necesitas",
+      "summary": "ownCloud Web mantiene la ayuda al alcance de la mano: pequeños iconos de interrogación se sitúan junto a las funciones que se benefician de una breve explicación, y al hacer clic en uno aparece una orientación específica para lo que estás haciendo sin salir de la página. Se vuelve a capturar automáticamente desde una instancia oCIS en vivo.",
+      "steps": [
+        {
+          "title": "Localiza los iconos de ayuda",
+          "caption": "Por toda la interfaz, un pequeño icono <strong>?</strong> se sitúa junto a las funciones que necesitan una breve explicación, como junto a <strong>Share with people</strong> y <strong>Public links</strong> en el panel de compartir de un archivo."
+        },
+        {
+          "title": "Abre la ayuda contextual",
+          "caption": "Haz clic en un icono de ayuda para leer una orientación breve y específica del contexto justo donde estás, aquí explicando cómo funciona compartir con personas, con un enlace <strong>Read more</strong> a la documentación completa."
+        }
+      ]
     }
   },
   "upcoming": {

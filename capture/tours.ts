@@ -227,5 +227,53 @@ export const tours: Tour[] = [
         }
       }
     ]
+  },
+  {
+    id: 'contextualhelp',
+    source: 'doc.owncloud.com · ownCloud Web for users',
+    category: 'Getting started',
+    title: 'Help where you need it',
+    summary:
+      'ownCloud Web keeps help close at hand: small question-mark icons sit next to features that benefit from a little explanation, and clicking one shows guidance specific to what you are doing without leaving the page. Re-captured automatically from a live oCIS instance.',
+    steps: [
+      {
+        shot: 'icons',
+        title: 'Spot the help icons',
+        caption:
+          "Throughout the interface a small <strong>?</strong> icon sits next to features that need a little explanation, such as beside <strong>Share with people</strong> and <strong>Public links</strong> in a file's sharing panel.",
+        run: async (page) => {
+          await page.goto('/files/spaces/personal')
+          await page.waitForURL(/files\/spaces\/personal/, { timeout: 30_000 })
+          const checkbox = page
+            .getByRole('row', { name: /report\.md/ })
+            .getByLabel('Select file')
+          await checkbox.waitFor({ state: 'visible', timeout: 30_000 })
+          await checkbox.click()
+          const openSidebar = page.getByRole('button', { name: 'Open sidebar to view details' })
+          if (await openSidebar.isVisible().catch(() => false)) {
+            await openSidebar.click()
+          }
+          await page.locator('[data-testid="sidebar-panel-sharing-select"]').click()
+          await expect(page.getByRole('heading', { name: 'Share with people' })).toBeVisible({
+            timeout: 15_000
+          })
+          await page.waitForTimeout(300)
+        }
+      },
+      {
+        shot: 'popover',
+        title: 'Open contextual help',
+        caption:
+          'Click a help icon to read short, context-specific guidance right where you are, here explaining how sharing with people works, with a <strong>Read more</strong> link to the full documentation.',
+        run: async (page) => {
+          await page
+            .locator('#sidebar-panel-sharing')
+            .getByRole('button', { name: 'Show more information' })
+            .first()
+            .click()
+          await page.waitForTimeout(500)
+        }
+      }
+    ]
   }
 ]

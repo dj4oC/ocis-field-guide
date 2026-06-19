@@ -1185,6 +1185,21 @@
           "caption": "Het <strong>Versions</strong>-paneel bewaart eerdere kopieën van een bestand. Open het om een oudere versie te downloaden of te herstellen, wat handig is wanneer meerdere mensen aan hetzelfde document werken."
         }
       ]
+    },
+    "contextualhelp": {
+      "category": "Aan de slag",
+      "title": "Hulp waar je die nodig hebt",
+      "summary": "ownCloud Web houdt hulp binnen handbereik: kleine vraagtekenicoontjes staan naast functies die wat uitleg verdienen, en als je erop klikt verschijnt er begeleiding die past bij wat je op dat moment doet, zonder de pagina te verlaten. Automatisch opnieuw vastgelegd uit een actieve oCIS-instantie.",
+      "steps": [
+        {
+          "title": "Herken de hulpicoontjes",
+          "caption": "Door de hele interface staat een klein <strong>?</strong>-icoon naast functies die wat uitleg verdienen, zoals naast <strong>Share with people</strong> en <strong>Public links</strong> in het deelpaneel van een bestand."
+        },
+        {
+          "title": "Open de contextuele hulp",
+          "caption": "Klik op een hulpicoon om korte, contextspecifieke begeleiding te lezen precies daar waar je bent, hier met uitleg over hoe delen met mensen werkt, met een <strong>Read more</strong>-link naar de volledige documentatie."
+        }
+      ]
     }
   },
   "upcoming": {
