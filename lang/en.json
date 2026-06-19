@@ -1071,6 +1071,25 @@
         }
       ]
     },
+    "groupmanagement": {
+      "category": "Administration · Preview",
+      "title": "Managing groups",
+      "summary": "Create groups and manage who belongs to them from one screen. The Group Management app lists every group with its member count, lets you create, rename and delete groups, and add or remove users from a group. Preview of the Group Management extension (web-extensions PR #463).",
+      "steps": [
+        {
+          "title": "Open Group Management",
+          "caption": "Open <strong>Group Management</strong> from the app menu. The left pane lists every group with its member count; selecting a group shows its members on the right."
+        },
+        {
+          "title": "Create a group",
+          "caption": "Click <strong>Create group</strong>, enter a name and confirm. The new group is added to the list and selected, ready for you to add members."
+        },
+        {
+          "title": "Add members",
+          "caption": "On a group, choose <strong>Add members</strong> and pick users from the searchable list. Each member can be removed again from the group's detail panel."
+        }
+      ]
+    },
     "passwordfolder": {
       "category": "Working with files",
       "title": "Password protected folders",

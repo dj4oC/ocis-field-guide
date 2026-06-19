@@ -1071,6 +1071,25 @@
         }
       ]
     },
+    "groupmanagement": {
+      "category": "Administration · Vorschau",
+      "title": "Gruppen verwalten",
+      "summary": "Erstellen Sie Gruppen und verwalten Sie deren Mitglieder von einem einzigen Bildschirm aus. Die App Group Management listet jede Gruppe mit ihrer Mitgliederzahl auf, ermöglicht das Erstellen, Umbenennen und Löschen von Gruppen sowie das Hinzufügen und Entfernen von Benutzern aus einer Gruppe. Vorschau der Erweiterung Group Management (web-extensions PR #463).",
+      "steps": [
+        {
+          "title": "Group Management öffnen",
+          "caption": "Öffnen Sie <strong>Group Management</strong> über das App-Menü. Der linke Bereich listet jede Gruppe mit ihrer Mitgliederzahl auf; die Auswahl einer Gruppe zeigt deren Mitglieder rechts an."
+        },
+        {
+          "title": "Eine Gruppe erstellen",
+          "caption": "Klicken Sie auf <strong>Create group</strong>, geben Sie einen Namen ein und bestätigen Sie. Die neue Gruppe wird der Liste hinzugefügt und ausgewählt, sodass Sie direkt Mitglieder hinzufügen können."
+        },
+        {
+          "title": "Mitglieder hinzufügen",
+          "caption": "Wählen Sie bei einer Gruppe <strong>Add members</strong> und wählen Sie Benutzer aus der durchsuchbaren Liste aus. Jedes Mitglied kann über den Detailbereich der Gruppe wieder entfernt werden."
+        }
+      ]
+    },
     "passwordfolder": {
       "category": "Mit Dateien arbeiten",
       "title": "Passwortgeschützte Ordner",

@@ -1071,6 +1071,25 @@
         }
       ]
     },
+    "groupmanagement": {
+      "category": "管理 · プレビュー",
+      "title": "グループを管理する",
+      "summary": "グループを作成し、誰がそこに所属するかを 1 つの画面から管理します。Group Management アプリはすべてのグループをメンバー数とともに一覧表示し、グループの作成・名前変更・削除や、グループへのユーザーの追加・削除ができます。Group Management 拡張機能（web-extensions PR #463）のプレビューです。",
+      "steps": [
+        {
+          "title": "Group Management を開く",
+          "caption": "アプリメニューから <strong>Group Management</strong> を開きます。左ペインにすべてのグループがメンバー数とともに一覧表示され、グループを選択すると右側にそのメンバーが表示されます。"
+        },
+        {
+          "title": "グループを作成する",
+          "caption": "<strong>Create group</strong> をクリックし、名前を入力して確定します。新しいグループが一覧に追加されて選択され、メンバーを追加できる状態になります。"
+        },
+        {
+          "title": "メンバーを追加する",
+          "caption": "グループで <strong>Add members</strong> を選び、検索できる一覧からユーザーを選びます。各メンバーは、グループの詳細パネルから再び削除できます。"
+        }
+      ]
+    },
     "passwordfolder": {
       "category": "ファイル操作",
       "title": "パスワード保護フォルダー",

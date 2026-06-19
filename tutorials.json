@@ -908,6 +908,22 @@
       ]
     },
     {
+      "id": "groupmanagement",
+      "source": "owncloud/web-extensions · packages/web-app-group-management (PR #463)",
+      "thumb": "assets/groupmanagement/01-overview.png",
+      "steps": [
+        {
+          "img": "assets/groupmanagement/01-overview.png"
+        },
+        {
+          "img": "assets/groupmanagement/02-create.png"
+        },
+        {
+          "img": "assets/groupmanagement/03-add-members.png"
+        }
+      ]
+    },
+    {
       "id": "passwordfolder",
       "source": "owncloud/web · tests/e2e/specs/file-action/passwordProtectedFolder.spec.ts",
       "thumb": "assets/passwordfolder/02-enter-password.png",

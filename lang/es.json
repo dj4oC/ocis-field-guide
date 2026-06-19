@@ -1071,6 +1071,25 @@
         }
       ]
     },
+    "groupmanagement": {
+      "category": "Administración · Vista previa",
+      "title": "Gestionar grupos",
+      "summary": "Crea grupos y gestiona quién pertenece a ellos desde una sola pantalla. La aplicación Group Management lista cada grupo con su recuento de miembros, te permite crear, renombrar y eliminar grupos, y añadir o quitar usuarios de un grupo. Vista previa de la extensión Group Management (web-extensions PR #463).",
+      "steps": [
+        {
+          "title": "Abrir Group Management",
+          "caption": "Abre <strong>Group Management</strong> desde el menú de aplicaciones. El panel izquierdo lista cada grupo con su recuento de miembros; al seleccionar un grupo se muestran sus miembros a la derecha."
+        },
+        {
+          "title": "Crear un grupo",
+          "caption": "Haz clic en <strong>Create group</strong>, introduce un nombre y confirma. El nuevo grupo se añade a la lista y queda seleccionado, listo para que le añadas miembros."
+        },
+        {
+          "title": "Añadir miembros",
+          "caption": "En un grupo, elige <strong>Add members</strong> y selecciona usuarios de la lista con búsqueda. Cada miembro puede volver a quitarse desde el panel de detalles del grupo."
+        }
+      ]
+    },
     "passwordfolder": {
       "category": "Trabajar con archivos",
       "title": "Carpetas protegidas con contraseña",

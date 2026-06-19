@@ -1071,6 +1071,25 @@
         }
       ]
     },
+    "groupmanagement": {
+      "category": "Administratie · Preview",
+      "title": "Groepen beheren",
+      "summary": "Maak groepen aan en beheer wie erbij hoort vanuit één scherm. De Group Management-app toont elke groep met het aantal leden, laat je groepen aanmaken, hernoemen en verwijderen, en gebruikers aan een groep toevoegen of eruit verwijderen. Preview van de Group Management-extensie (web-extensions PR #463).",
+      "steps": [
+        {
+          "title": "Open Group Management",
+          "caption": "Open <strong>Group Management</strong> via het applicatiemenu. Het linkerpaneel toont elke groep met het aantal leden; een groep selecteren toont de leden ervan aan de rechterkant."
+        },
+        {
+          "title": "Maak een groep aan",
+          "caption": "Klik op <strong>Create group</strong>, voer een naam in en bevestig. De nieuwe groep wordt aan de lijst toegevoegd en geselecteerd, klaar om leden toe te voegen."
+        },
+        {
+          "title": "Voeg leden toe",
+          "caption": "Kies bij een groep <strong>Add members</strong> en selecteer gebruikers uit de doorzoekbare lijst. Elk lid kan weer uit het detailpaneel van de groep worden verwijderd."
+        }
+      ]
+    },
     "passwordfolder": {
       "category": "Werken met bestanden",
       "title": "Met een wachtwoord beveiligde mappen",
