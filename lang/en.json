@@ -18,7 +18,12 @@
     "sourceLink": "Source on GitHub",
     "footerLede": "Every walkthrough is generated from a passing end-to-end test and re-captured on each full CI run, so the screenshots can never drift from the real product.",
     "footerMeta": "Captured against ownCloud Infinite Scale {ocis}, Web UI {web}.",
-    "loadError": "Could not load content. Serve this folder over HTTP."
+    "loadError": "Could not load content. Serve this folder over HTTP.",
+    "searchPlaceholder": "Search walkthroughs…",
+    "allCategories": "All",
+    "categoriesLabel": "Categories",
+    "noResults": "No matching walkthroughs.",
+    "showingCount": "{n} of {m}"
   },
   "content": {
     "search": {

@@ -70,6 +70,8 @@ function buildSwitcher() {
     LANG = e.target.value;
     localStorage.setItem(STORE, LANG);
     L = await loadLangMerged(LANG);
+    catState.cat = null;
+    catState.q = '';
     applyChrome();
     route();
   });
@@ -104,11 +106,12 @@ function route() {
 }
 
 /* ---------- catalog ---------- */
-function renderCatalog() {
-  const cards = BASE.tutorials.map((bt) => {
-    const t = tut(bt.id);
-    return `
-    <a class="card load d3" href="#/${esc(t.id)}">
+let CATALOG = null;
+const catState = { q: '', cat: null };
+
+function cardHTML(t) {
+  return `
+    <a class="card" href="#/${esc(t.id)}">
       <div class="card__thumb"><img src="${esc(t.thumb)}" alt="" loading="lazy"></div>
       <div class="card__body">
         <span class="tag">${esc(t.category)}</span>
@@ -120,12 +123,15 @@ function renderCatalog() {
         </div>
       </div>
     </a>`;
-  }).join('');
+}
+
+function renderCatalog() {
+  const items = BASE.tutorials.map((bt) => tut(bt.id)).filter(Boolean);
 
   const ghosts = (BASE.upcoming || []).map((g) => {
     const u = (L.upcoming && L.upcoming[g.id]) || { category: g.id, title: '' };
     return `
-    <div class="card card--ghost load d4">
+    <div class="card card--ghost">
       <div class="ghost__inner">
         <span class="tag">${esc(u.category)}</span>
         <h3 class="card__title">${esc(u.title)}</h3>
@@ -133,6 +139,15 @@ function renderCatalog() {
       </div>
     </div>`;
   }).join('');
+
+  const counts = new Map();
+  items.forEach((t) => counts.set(t.category, (counts.get(t.category) || 0) + 1));
+  const cats = [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+  const catBtn = (cat, label, n, active) =>
+    `<button type="button" class="cat${active ? ' active' : ''}" data-cat="${esc(cat)}">` +
+    `<span class="cat__label">${esc(label)}</span><span class="cat__n">${n}</span></button>`;
+  const catList = catBtn('', ui('allCategories'), items.length, catState.cat == null) +
+    cats.map(([c, n]) => catBtn(c, c, n, catState.cat === c)).join('');
 
   const m = BASE.meta;
   main.innerHTML = `
@@ -143,7 +158,7 @@ function renderCatalog() {
         <p class="hero__lede load d3">${esc(ui('lede'))}</p>
         <p class="hero__short load d3">open source. <b>original.</b> yours.</p>
         <div class="hero__strip load d4">
-          <span><span class="live"></span> ${ui('liveWalkthroughs', { n: '<b>' + BASE.tutorials.length + '</b>' })}</span>
+          <span><span class="live"></span> ${ui('liveWalkthroughs', { n: '<b>' + items.length + '</b>' })}</span>
           <span>oCIS <b>${esc(m.ocisVersion)}</b></span>
           <span>${esc(ui('webUiLabel'))} <b>${esc(m.webUiVersion)}</b></span>
           <span>${esc(ui('updatedLabel'))} <b>${esc(m.updated)}</b></span>
@@ -151,11 +166,48 @@ function renderCatalog() {
       </div>
     </section>
     <section class="catalog">
-      <div class="wrap">
-        <p class="section-label">${esc(ui('walkthroughs'))}</p>
-        <div class="grid">${cards}${ghosts}</div>
+      <div class="wrap catalog__layout">
+        <aside class="catalog__side">
+          <div class="search">
+            <input id="catSearch" type="search" autocomplete="off"
+              placeholder="${esc(ui('searchPlaceholder'))}" aria-label="${esc(ui('searchPlaceholder'))}"
+              value="${esc(catState.q)}">
+          </div>
+          <nav class="cats" aria-label="${esc(ui('categoriesLabel'))}">${catList}</nav>
+        </aside>
+        <div class="catalog__main">
+          <p class="section-label" id="catCount"></p>
+          <div class="grid" id="catGrid"></div>
+        </div>
       </div>
     </section>`;
+
+  CATALOG = { items, ghosts };
+  const search = document.getElementById('catSearch');
+  search.addEventListener('input', (e) => { catState.q = e.target.value; applyFilter(); });
+  main.querySelectorAll('.cat').forEach((b) => b.addEventListener('click', () => {
+    catState.cat = b.dataset.cat || null;
+    main.querySelectorAll('.cat').forEach((x) => x.classList.toggle('active', x === b));
+    applyFilter();
+  }));
+  applyFilter();
+}
+
+function applyFilter() {
+  if (!CATALOG) return;
+  const grid = document.getElementById('catGrid');
+  const count = document.getElementById('catCount');
+  if (!grid) return;
+  const q = catState.q.trim().toLowerCase();
+  const cat = catState.cat;
+  const list = CATALOG.items.filter((t) =>
+    (!cat || t.category === cat) &&
+    (!q || (t.title + ' ' + t.summary + ' ' + t.category).toLowerCase().includes(q)));
+  const showGhosts = !cat && !q && CATALOG.ghosts;
+  grid.innerHTML = (list.length || showGhosts)
+    ? list.map(cardHTML).join('') + (showGhosts ? CATALOG.ghosts : '')
+    : `<p class="no-results">${esc(ui('noResults'))}</p>`;
+  if (count) count.textContent = ui('showingCount', { n: list.length, m: CATALOG.items.length });
 }
 
 /* ---------- walkthrough ---------- */

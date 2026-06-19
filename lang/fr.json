@@ -18,7 +18,12 @@
     "sourceLink": "Code source sur GitHub",
     "footerLede": "Chaque visite est générée à partir d'un test end-to-end réussi et recapturée à chaque exécution complète de la CI, afin que les captures ne s'écartent jamais du produit réel.",
     "footerMeta": "Capturé avec ownCloud Infinite Scale {ocis}, Web UI {web}.",
-    "loadError": "Impossible de charger le contenu. Servez ce dossier via HTTP."
+    "loadError": "Impossible de charger le contenu. Servez ce dossier via HTTP.",
+    "searchPlaceholder": "Rechercher des visites…",
+    "allCategories": "Toutes",
+    "categoriesLabel": "Catégories",
+    "noResults": "Aucune visite guidée correspondante.",
+    "showingCount": "{n} sur {m}"
   },
   "content": {
     "search": {

@@ -18,7 +18,12 @@
     "sourceLink": "Código en GitHub",
     "footerLede": "Cada recorrido se genera a partir de una prueba end-to-end superada y se vuelve a capturar en cada ejecución completa de CI, de modo que las capturas nunca se desvían del producto real.",
     "footerMeta": "Capturado con ownCloud Infinite Scale {ocis}, Web UI {web}.",
-    "loadError": "No se pudo cargar el contenido. Sirva esta carpeta por HTTP."
+    "loadError": "No se pudo cargar el contenido. Sirva esta carpeta por HTTP.",
+    "searchPlaceholder": "Buscar recorridos…",
+    "allCategories": "Todas",
+    "categoriesLabel": "Categorías",
+    "noResults": "No hay recorridos coincidentes.",
+    "showingCount": "{n} de {m}"
   },
   "content": {
     "search": {

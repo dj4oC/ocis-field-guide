@@ -18,7 +18,12 @@
     "sourceLink": "Quelle auf GitHub",
     "footerLede": "Jede Anleitung wird aus einem bestandenen End-to-End-Test generiert und bei jedem vollständigen CI-Lauf neu aufgenommen, damit die Screenshots niemals vom echten Produkt abweichen.",
     "footerMeta": "Aufgenommen mit ownCloud Infinite Scale {ocis}, Web UI {web}.",
-    "loadError": "Inhalt konnte nicht geladen werden. Bitte diesen Ordner über HTTP bereitstellen."
+    "loadError": "Inhalt konnte nicht geladen werden. Bitte diesen Ordner über HTTP bereitstellen.",
+    "searchPlaceholder": "Anleitungen durchsuchen…",
+    "allCategories": "Alle",
+    "categoriesLabel": "Kategorien",
+    "noResults": "Keine passenden Anleitungen.",
+    "showingCount": "{n} von {m}"
   },
   "content": {
     "search": {

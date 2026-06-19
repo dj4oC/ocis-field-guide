@@ -18,7 +18,12 @@
     "sourceLink": "GitHub のソース",
     "footerLede": "各チュートリアルは合格したエンドツーエンドテストから生成され、完全な CI 実行のたびに再キャプチャされます。そのためスクリーンショットが実際の製品とずれることはありません。",
     "footerMeta": "ownCloud Infinite Scale {ocis}、Web UI {web} で取得。",
-    "loadError": "コンテンツを読み込めませんでした。このフォルダーを HTTP 経由で配信してください。"
+    "loadError": "コンテンツを読み込めませんでした。このフォルダーを HTTP 経由で配信してください。",
+    "searchPlaceholder": "チュートリアルを検索…",
+    "allCategories": "すべて",
+    "categoriesLabel": "カテゴリ",
+    "noResults": "一致するチュートリアルはありません。",
+    "showingCount": "{n} / {m}"
   },
   "content": {
     "search": {

@@ -18,7 +18,12 @@
     "sourceLink": "Broncode op GitHub",
     "footerLede": "Elke rondleiding wordt gegenereerd uit een geslaagde end-to-end-test en opnieuw vastgelegd bij elke volledige CI-run, zodat de schermafbeeldingen nooit afwijken van het echte product.",
     "footerMeta": "Vastgelegd met ownCloud Infinite Scale {ocis}, Web UI {web}.",
-    "loadError": "Kon de inhoud niet laden. Serveer deze map via HTTP."
+    "loadError": "Kon de inhoud niet laden. Serveer deze map via HTTP.",
+    "searchPlaceholder": "Rondleidingen doorzoeken…",
+    "allCategories": "Alle",
+    "categoriesLabel": "Categorieën",
+    "noResults": "Geen overeenkomende rondleidingen.",
+    "showingCount": "{n} van {m}"
   },
   "content": {
     "search": {
