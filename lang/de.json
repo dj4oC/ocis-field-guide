@@ -1058,9 +1058,9 @@
       ]
     },
     "versionchangelog": {
-      "category": "KI-Changelog · Vorschau",
+      "category": "KI-Changelog · v0.1.0",
       "title": "KI-Versions-Changelog",
-      "summary": "Erzeugen Sie für eine über mehrere Versionen aufbewahrte Datei eine verständliche Zusammenfassung dessen, was sich in jeder Revision geändert hat, geschrieben von einem KI-Assistenten anhand des tatsächlichen Diffs zwischen den Versionen. Vorschau der Erweiterung Version Changelog (web-extensions PR #459).",
+      "summary": "Erzeugen Sie für eine über mehrere Versionen aufbewahrte Datei eine verständliche Zusammenfassung dessen, was sich in jeder Revision geändert hat, geschrieben von einem KI-Assistenten anhand des tatsächlichen Diffs zwischen den Versionen. Veröffentlicht als v0.1.0 der Erweiterung Version Changelog (web-extensions).",
       "steps": [
         {
           "title": "Das Changelog-Panel öffnen",

@@ -1058,9 +1058,9 @@
       ]
     },
     "versionchangelog": {
-      "category": "AI changelog · Preview",
+      "category": "AI changelog · v0.1.0",
       "title": "AI version changelog",
-      "summary": "For a file kept across several versions, generate a plain-language summary of what changed in each revision, written by an AI assistant from the actual diff between versions. Preview of the Version Changelog extension (web-extensions PR #459).",
+      "summary": "For a file kept across several versions, generate a plain-language summary of what changed in each revision, written by an AI assistant from the actual diff between versions. Released as v0.1.0 of the Version Changelog extension (web-extensions).",
       "steps": [
         {
           "title": "Open the Changelog panel",

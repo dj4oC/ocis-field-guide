@@ -1058,9 +1058,9 @@
       ]
     },
     "versionchangelog": {
-      "category": "AI changelog · プレビュー",
+      "category": "AI changelog · v0.1.0",
       "title": "AI バージョン変更履歴",
-      "summary": "複数のバージョンにわたって保持されているファイルについて、各リビジョンで何が変わったかを、バージョン間の実際の差分（diff）から AI アシスタントが平易な言葉でまとめます。Version Changelog 拡張機能（web-extensions PR #459）のプレビューです。",
+      "summary": "複数のバージョンにわたって保持されているファイルについて、各リビジョンで何が変わったかを、バージョン間の実際の差分（diff）から AI アシスタントが平易な言葉でまとめます。Version Changelog 拡張機能（web-extensions）の v0.1.0 としてリリースされました。",
       "steps": [
         {
           "title": "Changelog パネルを開く",

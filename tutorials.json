@@ -2,7 +2,7 @@
   "meta": {
     "ocisVersion": "8.0.1 Community",
     "webUiVersion": "12.3.2",
-    "updated": "2026-06-17",
+    "updated": "2026-06-23",
     "repo": "https://github.com/dj4oC/ocis-field-guide"
   },
   "languages": [
@@ -966,7 +966,7 @@
     },
     {
       "id": "versionchangelog",
-      "source": "owncloud/web-extensions · packages/web-app-version-changelog (PR #459)",
+      "source": "owncloud/web-extensions · version-changelog v0.1.0",
       "thumb": "assets/versionchangelog/03-summaries.png",
       "steps": [
         {

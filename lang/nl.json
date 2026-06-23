@@ -1058,9 +1058,9 @@
       ]
     },
     "versionchangelog": {
-      "category": "AI-changelog · Preview",
+      "category": "AI-changelog · v0.1.0",
       "title": "AI-versiechangelog",
-      "summary": "Genereer voor een bestand dat over meerdere versies is bewaard een samenvatting in gewone taal van wat er in elke revisie is gewijzigd, geschreven door een AI-assistent op basis van het werkelijke verschil tussen versies. Preview van de Version Changelog-extensie (web-extensions PR #459).",
+      "summary": "Genereer voor een bestand dat over meerdere versies is bewaard een samenvatting in gewone taal van wat er in elke revisie is gewijzigd, geschreven door een AI-assistent op basis van het werkelijke verschil tussen versies. Uitgebracht als v0.1.0 van de Version Changelog-extensie (web-extensions).",
       "steps": [
         {
           "title": "Open het Changelog-paneel",

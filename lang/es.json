@@ -1058,9 +1058,9 @@
       ]
     },
     "versionchangelog": {
-      "category": "Registro de cambios con IA · Vista previa",
+      "category": "Registro de cambios con IA · v0.1.0",
       "title": "Registro de cambios de versiones con IA",
-      "summary": "Para un archivo conservado a lo largo de varias versiones, genera un resumen en lenguaje sencillo de lo que cambió en cada revisión, escrito por un asistente de IA a partir del diff real entre versiones. Vista previa de la extensión Version Changelog (web-extensions PR #459).",
+      "summary": "Para un archivo conservado a lo largo de varias versiones, genera un resumen en lenguaje sencillo de lo que cambió en cada revisión, escrito por un asistente de IA a partir del diff real entre versiones. Publicado como v0.1.0 de la extensión Version Changelog (web-extensions).",
       "steps": [
         {
           "title": "Abrir el panel de Changelog",

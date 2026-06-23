@@ -1058,9 +1058,9 @@
       ]
     },
     "versionchangelog": {
-      "category": "Journal des modifications par IA · Aperçu",
+      "category": "Journal des modifications par IA · v0.1.0",
       "title": "Journal des versions par IA",
-      "summary": "Pour un fichier conservé en plusieurs versions, générez un résumé en langage clair de ce qui a changé à chaque révision, rédigé par un assistant IA à partir du diff réel entre les versions. Aperçu de l'extension Version Changelog (web-extensions PR #459).",
+      "summary": "Pour un fichier conservé en plusieurs versions, générez un résumé en langage clair de ce qui a changé à chaque révision, rédigé par un assistant IA à partir du diff réel entre les versions. Publié en version v0.1.0 de l'extension Version Changelog (web-extensions).",
       "steps": [
         {
           "title": "Ouvrir le panneau Changelog",
