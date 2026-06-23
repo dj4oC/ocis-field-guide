@@ -294,6 +294,16 @@ em { font-style: normal; }
 .tut-foot { margin-top: var(--lg); padding-block: var(--xl); border-top: 1px solid var(--oc-border); display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1.2rem; }
 .tut-foot__src { font-size: .92rem; color: var(--oc-gray); max-width: 60ch; }
 .tut-foot__src b { color: var(--oc-navy); font-weight: 700; }
+.tut-foot__release { margin: 0; }
+.release-badge {
+  display: inline-flex; align-items: center; gap: .35rem;
+  font-size: .8rem; font-weight: 700;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  color: var(--oc-navy); background: rgba(78, 133, 200, .16);
+  padding: .32rem .72rem; border-radius: 100px; text-decoration: none;
+  border: 1px solid transparent; transition: background .15s, border-color .15s;
+}
+.release-badge:hover { background: rgba(78, 133, 200, .28); border-color: #4e85c8; }
 .btn { /* secondary button: navy border + text, 6px radius, no shadow */
   font-size: .92rem; font-weight: 700; text-decoration: none; color: var(--oc-navy);
   background: transparent; border: 1.5px solid var(--oc-navy); border-radius: var(--radius);

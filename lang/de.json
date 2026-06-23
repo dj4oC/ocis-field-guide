@@ -1035,9 +1035,9 @@
       ]
     },
     "chatwithfile": {
-      "category": "KI-Chat · Vorschau",
+      "category": "KI-Chat",
       "title": "Mit einer Datei chatten",
-      "summary": "Öffnen Sie eine Chat-Seitenleiste neben einer PDF-, Text- oder Markdown-Datei, um Fragen dazu zu stellen oder die Datei von einem KI-Assistenten direkt umschreiben zu lassen. Vorschau der Erweiterung Chat with File (web-extensions PR #454).",
+      "summary": "Öffnen Sie eine Chat-Seitenleiste neben einer PDF-, Text- oder Markdown-Datei, um Fragen dazu zu stellen oder die Datei von einem KI-Assistenten direkt umschreiben zu lassen. Die Erweiterung Chat with File, veröffentlicht als chat-with-file 0.1.0.",
       "steps": [
         {
           "title": "Das Chat-Panel öffnen",

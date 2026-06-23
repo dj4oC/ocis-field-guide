@@ -1035,9 +1035,9 @@
       ]
     },
     "chatwithfile": {
-      "category": "Chat IA · Aperçu",
+      "category": "Chat IA",
       "title": "Discuter avec un fichier",
-      "summary": "Ouvrez une barre latérale de chat à côté d'un fichier PDF, texte ou Markdown pour lui poser des questions, ou demandez à un assistant IA de le réécrire directement. Aperçu de l'extension Chat with File (web-extensions PR #454).",
+      "summary": "Ouvrez une barre latérale de chat à côté d'un fichier PDF, texte ou Markdown pour lui poser des questions, ou demandez à un assistant IA de le réécrire directement. L'extension Chat with File, publiée en version chat-with-file 0.1.0.",
       "steps": [
         {
           "title": "Ouvrir le panneau Chat",

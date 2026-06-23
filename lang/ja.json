@@ -1035,9 +1035,9 @@
       ]
     },
     "chatwithfile": {
-      "category": "AI チャット · プレビュー",
+      "category": "AI チャット",
       "title": "ファイルとチャットする",
-      "summary": "PDF・テキスト・Markdown ファイルの横にチャットのサイドパネルを開き、その内容について質問したり、AI アシスタントにその場で書き換えてもらったりできます。Chat with File 拡張機能（web-extensions PR #454）のプレビューです。",
+      "summary": "PDF・テキスト・Markdown ファイルの横にチャットのサイドパネルを開き、その内容について質問したり、AI アシスタントにその場で書き換えてもらったりできます。Chat with File 拡張機能（chat-with-file 0.1.0 としてリリース済み）です。",
       "steps": [
         {
           "title": "チャットパネルを開く",

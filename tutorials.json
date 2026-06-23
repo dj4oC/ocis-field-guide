@@ -947,7 +947,11 @@
     },
     {
       "id": "chatwithfile",
-      "source": "owncloud/web-extensions · packages/web-app-chat-with-file/tests/e2e/chatWithFile.spec.ts (PR #454)",
+      "source": "owncloud/web-extensions · packages/web-app-chat-with-file (chat-with-file-v0.1.0)",
+      "release": {
+        "url": "https://github.com/owncloud/web-extensions/releases/tag/chat-with-file-v0.1.0",
+        "version": "chat-with-file 0.1.0"
+      },
       "thumb": "assets/chatwithfile/02-ask.png",
       "steps": [
         {

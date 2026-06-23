@@ -92,7 +92,8 @@ function tut(id) {
   const c = L.content[id];
   if (!base || !c) return null;
   return {
-    id, source: base.source, thumb: base.thumb, category: c.category, title: c.title, summary: c.summary,
+    id, source: base.source, thumb: base.thumb, release: base.release || null,
+    category: c.category, title: c.title, summary: c.summary,
     steps: base.steps.map((s, i) => ({ img: s.img, title: c.steps[i].title, caption: c.steps[i].caption }))
   };
 }
@@ -251,6 +252,7 @@ function renderTutorial(t) {
     </section>
     <section class="wrap tut-foot">
       <p class="tut-foot__src">${ui('sourceNote', { source: '<b>' + esc(t.source) + '</b>' })}</p>
+      ${t.release ? `<p class="tut-foot__release"><a class="release-badge" href="${esc(t.release.url)}" target="_blank" rel="noopener noreferrer" title="View release on GitHub">${esc(t.release.version)} &nearr;</a></p>` : ''}
       <a class="btn" href="#/">&larr; ${esc(ui('backToAll'))}</a>
     </section>`;
 

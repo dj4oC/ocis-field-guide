@@ -1035,9 +1035,9 @@
       ]
     },
     "chatwithfile": {
-      "category": "AI chat · Preview",
+      "category": "AI chat",
       "title": "Chatting with a file",
-      "summary": "Open a chat sidebar next to a PDF, text or Markdown file to ask questions about it, or have an AI assistant rewrite it for you in place. Preview of the Chat with File extension (web-extensions PR #454).",
+      "summary": "Open a chat sidebar next to a PDF, text or Markdown file to ask questions about it, or have an AI assistant rewrite it for you in place. The Chat with File extension, released as chat-with-file 0.1.0.",
       "steps": [
         {
           "title": "Open the Chat panel",

@@ -1035,9 +1035,9 @@
       ]
     },
     "chatwithfile": {
-      "category": "AI-chat · Preview",
+      "category": "AI-chat",
       "title": "Chatten met een bestand",
-      "summary": "Open een chat-zijbalk naast een PDF-, tekst- of Markdown-bestand om er vragen over te stellen, of laat een AI-assistent het voor je herschrijven. Preview van de Chat with File-extensie (web-extensions PR #454).",
+      "summary": "Open een chat-zijbalk naast een PDF-, tekst- of Markdown-bestand om er vragen over te stellen, of laat een AI-assistent het voor je herschrijven. De Chat with File-extensie, uitgebracht als chat-with-file 0.1.0.",
       "steps": [
         {
           "title": "Open het Chat-paneel",
