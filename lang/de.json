@@ -1205,6 +1205,93 @@
           "caption": "Klicken Sie auf ein Hilfe-Symbol, um eine kurze, kontextbezogene Anleitung direkt dort zu lesen, wo Sie gerade sind, hier mit einer Erklärung, wie das Teilen mit Personen funktioniert, samt einem <strong>Read more</strong>-Link zur vollständigen Dokumentation."
         }
       ]
+    },
+    "filecomments": {
+      "category": "Zusammenarbeit",
+      "title": "Kommentieren einer Datei",
+      "summary": "Hinterlassen Sie in Threads organisierte Markdown-Kommentare an jeder Datei oder jedem Ordner, den Sie bearbeiten dürfen, und bearbeiten oder löschen Sie Ihre eigenen. Die Erweiterung File Comments ergänzt ein Comments-Panel und eine Kontextaktion und speichert Kommentare als WebDAV-Eigenschaften, sodass sie mit der Datei mitwandern, wenn diese umbenannt oder verschoben wird. Veröffentlicht als file-comments 0.1.0.",
+      "steps": [
+        {
+          "title": "Das Comments-Panel öffnen",
+          "caption": "Wählen Sie eine Datei oder einen Ordner aus, den Sie bearbeiten dürfen, und öffnen Sie das <strong>Comments</strong>-Panel über die Seitenleiste (oder die Kontextaktion <strong>Comments</strong>). Bei einer neuen Datei erscheint einfach <em>No comments yet</em> mit einem <strong>Add a comment</strong>-Feld."
+        },
+        {
+          "title": "In Markdown schreiben",
+          "caption": "Geben Sie Ihre Notiz in das Feld ein — Markdown wird unterstützt, sodass <strong>fett</strong>, <em>kursiv</em> und Aufzählungslisten allesamt dargestellt werden. Klicken Sie auf <strong>Comment</strong>, um sie im Thread zu veröffentlichen."
+        },
+        {
+          "title": "Den Thread lesen",
+          "caption": "Jeder Kommentar wird aus seinem Markdown gerendert und mit Autor und Uhrzeit versehen. Da die Kommentare an der Datei selbst hängen, folgen sie ihr, wenn sie umbenannt oder in einen anderen Ordner verschoben wird."
+        },
+        {
+          "title": "Eigene Kommentare bearbeiten oder löschen",
+          "caption": "Verwenden Sie das Stiftsymbol, um einen Ihrer eigenen Kommentare direkt zu bearbeiten (sein Markdown-Rohtext wird bearbeitbar), oder das Papierkorbsymbol, um ihn zu entfernen. Diese Bedienelemente erscheinen nur bei Kommentaren, die Sie selbst verfasst haben."
+        }
+      ]
+    },
+    "sensitivescan": {
+      "category": "KI-Sicherheit",
+      "title": "Dateien auf sensible Daten prüfen",
+      "summary": "Wählen Sie eine oder mehrere Dateien aus und lassen Sie einen KI-Assistenten alle personenbezogenen Daten, Zugangsdaten oder vertraulichen Inhalte kennzeichnen, wobei die sensiblen Werte geschwärzt werden. Der AI Sensitive Data Scanner ergänzt eine Stapelaktion für TXT-, MD- und PDF-Dateien und sendet den extrahierten Text an einen vom Administrator konfigurierten KI-Endpunkt. Veröffentlicht als ai-sensitive-data-scanner 0.1.0.",
+      "steps": [
+        {
+          "title": "Dateien auswählen und prüfen",
+          "caption": "Wählen Sie eine oder mehrere Dateien aus und wählen Sie dann <strong>Scan for sensitive data</strong> aus der Aktionsleiste. Die Aktion erscheint, sobald mindestens eine ausgewählte Datei einen unterstützten Typ hat — TXT, MD oder PDF."
+        },
+        {
+          "title": "Die Ergebnisse prüfen",
+          "caption": "Jede Datei wird nacheinander geprüft. Die Ergebnisse werden als <strong>PII</strong>, <strong>Credentials</strong> oder <strong>Confidential</strong> gruppiert, wobei der sensible Wert als <code>[REDACTED]</code> angezeigt wird. Bei sauberen Dateien wird <em>No sensitive data found</em> gemeldet und nicht unterstützte Typen werden als <em>skipped</em> gekennzeichnet. <strong>Re-scan</strong> führt die Prüfung bei Bedarf erneut aus."
+        }
+      ]
+    },
+    "folderbrief": {
+      "category": "KI-Überblick",
+      "title": "Eine Ordnerübersicht erhalten",
+      "summary": "Wählen Sie einen Ordner aus und erhalten Sie einen kurzen, von der KI verfassten Überblick darüber, was er enthält, welche Dateitypen überwiegen und wann zuletzt Aktivität stattfand — ganz ohne eine einzige Datei zu öffnen. Die Seitenleiste AI Folder Brief liest nur die Ordnerauflistung (Namen, Typen, Größen und Daten), niemals Dateiinhalte. Veröffentlicht als ai-folder-brief-sidebar 0.1.0.",
+      "steps": [
+        {
+          "title": "Einen Ordner auswählen",
+          "caption": "Wählen Sie genau einen Ordner aus und öffnen Sie seine Detail-Seitenleiste. Neben den üblichen Panels erscheint ein <strong>Folder Brief</strong>-Tab, gekennzeichnet mit einem KI-Funkeln."
+        },
+        {
+          "title": "Die Übersicht lesen",
+          "caption": "Beim Öffnen des Panels wird die Übersicht automatisch erzeugt: eine kurze <strong>Zusammenfassung</strong> des erkennbaren Zwecks des Ordners, eine Zeile mit <strong>Dateien nach Typ</strong> und ein Hinweis auf die <strong>jüngsten</strong> Änderungen. <strong>Regenerate</strong> führt die Erzeugung bei Bedarf erneut aus."
+        }
+      ]
+    },
+    "datainsights": {
+      "category": "KI-Daten",
+      "title": "Erkenntnisse aus einer CSV gewinnen",
+      "summary": "Öffnen Sie eine CSV- oder TSV-Datei und erhalten Sie KI-erkannte Spaltentypen, Wertebereiche und einige Beobachtungen zu den Daten in verständlicher Sprache. Die Seitenleiste AI Data Insights verarbeitet die Datei in Ihrem Browser und sendet nur eine kompakte Vorschau an den KI-Endpunkt. Veröffentlicht als ai-data-insights-sidebar 0.1.0.",
+      "steps": [
+        {
+          "title": "Das Insights-Panel öffnen",
+          "caption": "Wählen Sie eine CSV- oder TSV-Datei aus und öffnen Sie das <strong>Insights</strong>-Panel (oder die Kontextaktion <strong>Insights</strong>) und klicken Sie dann auf <strong>Analyze</strong>."
+        },
+        {
+          "title": "Die Datenfreigabe bestätigen",
+          "caption": "Bei der ersten Analyse in einer Sitzung wird um Zustimmung gebeten, da ein Teil der Datei an den KI-Dienst gesendet wird, den Ihr Administrator konfiguriert hat. Klicken Sie auf <strong>Send to AI</strong>, um fortzufahren."
+        },
+        {
+          "title": "Die Erkenntnisse lesen",
+          "caption": "Das Panel zeigt eine Tabelle mit dem erkannten <strong>Typ</strong> und dem Wert<strong>bereich</strong> jeder Spalte, gefolgt von zwei oder drei <strong>Beobachtungen</strong> in natürlicher Sprache. <strong>Re-analyze</strong> führt die Analyse erneut aus."
+        }
+      ]
+    },
+    "alttext": {
+      "category": "KI-Barrierefreiheit",
+      "title": "Alternativtext für Bilder erzeugen",
+      "summary": "Erzeugen Sie mit einem bildfähigen KI-Modell eine prägnante, barrierefreie Beschreibung für ein Bild, bearbeiten Sie sie und speichern Sie sie zurück in die Datei. Der AI Image Alt-Text Generator ergänzt ein Alt Text-Panel und eine Kontextaktion für JPG-, PNG-, WEBP- und GIF-Bilder. Veröffentlicht als ai-image-alt-text-sidebar 0.1.0.",
+      "steps": [
+        {
+          "title": "Das Alt Text-Panel öffnen",
+          "caption": "Wählen Sie ein Bild aus und öffnen Sie das <strong>Alt Text</strong>-Panel (oder die Kontextaktion <strong>Generate Alt Text</strong>) und klicken Sie dann auf <strong>Generate</strong>. Das Bild wird an das konfigurierte Vision-Modell gesendet."
+        },
+        {
+          "title": "Bearbeiten und speichern",
+          "caption": "Die vorgeschlagene Beschreibung erscheint in einem bearbeitbaren Feld. Verfeinern Sie den Wortlaut nach Belieben, <strong>Copy</strong>ieren Sie ihn anschließend, nutzen Sie <strong>Regenerate</strong> für einen weiteren Versuch oder <strong>Save</strong>n Sie ihn zurück ins Bild als gespeicherte Eigenschaft, die auch nach dem Neuladen der Seite erhalten bleibt."
+        }
+      ]
     }
   },
   "upcoming": {

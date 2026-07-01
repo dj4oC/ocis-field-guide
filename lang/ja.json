@@ -1205,6 +1205,93 @@
           "caption": "ヘルプアイコンをクリックすると、今いるその場で短い、状況に応じたガイダンスを読めます。ここでは人との共有の仕組みを説明しており、完全なドキュメントへの <strong>Read more</strong> リンクが付いています。"
         }
       ]
+    },
+    "filecomments": {
+      "category": "コラボレーション",
+      "title": "ファイルにコメントする",
+      "summary": "編集できるすべてのファイルやフォルダーにスレッド形式の Markdown コメントを残し、自分のコメントを編集・削除できます。File Comments 拡張機能は Comments パネルとコンテキストアクションを追加し、コメントを WebDAV プロパティとして保存するため、ファイルの名前変更や移動を行ってもコメントが一緒に移動します。file-comments 0.1.0 としてリリースされています。",
+      "steps": [
+        {
+          "title": "Comments パネルを開く",
+          "caption": "編集できるファイルまたはフォルダーを選択し、サイドバーから <strong>Comments</strong> パネルを開きます（または <strong>Comments</strong> コンテキストアクションを使用します）。新規のファイルには <em>No comments yet</em> と表示され、<strong>Add a comment</strong> ボックスが並びます。"
+        },
+        {
+          "title": "Markdown で書く",
+          "caption": "ボックスにメモを入力します。Markdown に対応しているため、<strong>太字</strong>、<em>斜体</em>、箇条書きリストがすべて表示されます。<strong>Comment</strong> をクリックすると、スレッドに投稿されます。"
+        },
+        {
+          "title": "スレッドを読む",
+          "caption": "各コメントは Markdown からレンダリングされ、投稿者と時刻が記録されます。コメントはファイル自体に保存されるため、ファイルの名前を変更したり別のフォルダーへ移動したりしてもコメントが追従します。"
+        },
+        {
+          "title": "自分のコメントを編集・削除する",
+          "caption": "鉛筆アイコンを使うと自分のコメントをその場で編集でき（生の Markdown が編集可能になります）、ゴミ箱アイコンで削除できます。これらの操作は自分が書いたコメントにのみ表示されます。"
+        }
+      ]
+    },
+    "sensitivescan": {
+      "category": "AIセキュリティ",
+      "title": "ファイルの機密データをスキャンする",
+      "summary": "1 つ以上のファイルを選択し、AI アシスタントに個人データ、資格情報、機密コンテンツを検出させ、機密の値を伏せ字にできます。AI Sensitive Data Scanner は TXT、MD、PDF ファイル向けのバッチアクションを追加し、抽出したテキストを管理者が構成した AI エンドポイントに送信します。ai-sensitive-data-scanner 0.1.0 としてリリースされています。",
+      "steps": [
+        {
+          "title": "ファイルを選んでスキャンする",
+          "caption": "1 つ以上のファイルを選択し、アクションバーから <strong>Scan for sensitive data</strong> を選びます。このアクションは、選択したファイルの少なくとも 1 つが対応形式（TXT、MD、PDF）である場合に表示されます。"
+        },
+        {
+          "title": "検出結果を確認する",
+          "caption": "各ファイルが順番にスキャンされます。検出結果は <strong>PII</strong>、<strong>Credentials</strong>、<strong>Confidential</strong> に分類され、機密の値は <code>[REDACTED]</code> として表示されます。問題のないファイルは <em>No sensitive data found</em> と報告され、非対応の形式は <em>skipped</em> と表示されます。<strong>Re-scan</strong> でいつでも再実行できます。"
+        }
+      ]
+    },
+    "folderbrief": {
+      "category": "AI概要",
+      "title": "フォルダーの概要を取得する",
+      "summary": "フォルダーを選択すると、ファイルを 1 つも開くことなく、その内容、主なファイルの種類、最近のアクティビティについて AI が作成した短い概要を取得できます。AI Folder Brief サイドバーは、フォルダーの一覧（名前、種類、サイズ、日付）のみを読み取り、ファイルの内容は一切読み取りません。ai-folder-brief-sidebar 0.1.0 としてリリースされています。",
+      "steps": [
+        {
+          "title": "フォルダーを選択する",
+          "caption": "フォルダーをちょうど 1 つ選択し、その詳細サイドバーを開きます。通常のパネルと並んで <strong>Folder Brief</strong> タブが表示され、AI のきらめきマークが付いています。"
+        },
+        {
+          "title": "概要を読む",
+          "caption": "パネルを開くと概要が自動的に生成されます。フォルダーの目的とみられる内容の短い <strong>summary</strong>、<strong>files-by-type</strong> の行、そして <strong>most recent</strong> の変更に関するメモが表示されます。<strong>Regenerate</strong> でいつでも再実行できます。"
+        }
+      ]
+    },
+    "datainsights": {
+      "category": "AIデータ",
+      "title": "CSV からインサイトを取得する",
+      "summary": "CSV または TSV ファイルを開くと、AI が検出した列の型、値の範囲、そしてデータに関するいくつかの平易な説明を取得できます。AI Data Insights サイドバーはファイルをブラウザー内で解析し、コンパクトなプレビューのみを AI エンドポイントに送信します。ai-data-insights-sidebar 0.1.0 としてリリースされています。",
+      "steps": [
+        {
+          "title": "Insights パネルを開く",
+          "caption": "CSV または TSV ファイルを選択し、<strong>Insights</strong> パネルを開きます（または <strong>Insights</strong> コンテキストアクションを使用します）。その後 <strong>Analyze</strong> をクリックします。"
+        },
+        {
+          "title": "開示内容を確認する",
+          "caption": "セッション内で最初の分析を行うときは、ファイルの一部が管理者の構成した AI サービスに送信されるため、同意を求められます。続行するには <strong>Send to AI</strong> をクリックします。"
+        },
+        {
+          "title": "インサイトを読む",
+          "caption": "パネルには各列の検出された <strong>type</strong> と値の <strong>range</strong> を示す表が表示され、続いて 2〜3 個の自然言語による <strong>observations</strong> が示されます。<strong>Re-analyze</strong> で再実行できます。"
+        }
+      ]
+    },
+    "alttext": {
+      "category": "AIアクセシビリティ",
+      "title": "画像の代替テキストを生成する",
+      "summary": "ビジョン対応の AI モデルを使って画像の簡潔でアクセシブルな説明を生成し、それを編集してファイルに保存できます。AI Image Alt-Text Generator は JPG、PNG、WEBP、GIF 画像向けに Alt Text パネルとコンテキストアクションを追加します。ai-image-alt-text-sidebar 0.1.0 としてリリースされています。",
+      "steps": [
+        {
+          "title": "Alt Text パネルを開く",
+          "caption": "画像を選択し、<strong>Alt Text</strong> パネルを開きます（または <strong>Generate Alt Text</strong> コンテキストアクションを使用します）。その後 <strong>Generate</strong> をクリックします。画像は構成されたビジョンモデルに送信されます。"
+        },
+        {
+          "title": "編集して保存する",
+          "caption": "提案された説明が編集可能なボックスに表示されます。必要に応じて表現を調整し、<strong>Copy</strong> でコピーするか、<strong>Regenerate</strong> で別の案を試すか、<strong>Save</strong> で画像に保存できます。保存された説明はプロパティとして格納され、ページを再読み込みしても残ります。"
+        }
+      ]
     }
   },
   "upcoming": {

@@ -2,7 +2,7 @@
   "meta": {
     "ocisVersion": "8.0.1 Community",
     "webUiVersion": "12.3.2",
-    "updated": "2026-06-23",
+    "updated": "2026-07-01",
     "repo": "https://github.com/dj4oC/ocis-field-guide"
   },
   "languages": [
@@ -1016,6 +1016,100 @@
         },
         {
           "img": "assets/passwordfolder/04-share-link.png"
+        }
+      ]
+    },
+    {
+      "id": "filecomments",
+      "source": "owncloud/web-extensions · packages/web-app-file-comments (file-comments-v0.1.0)",
+      "release": {
+        "url": "https://github.com/owncloud/web-extensions/releases/tag/file-comments-v0.1.0",
+        "version": "file-comments 0.1.0"
+      },
+      "thumb": "assets/filecomments/03-thread-rendered.png",
+      "steps": [
+        {
+          "img": "assets/filecomments/01-comments-panel.png"
+        },
+        {
+          "img": "assets/filecomments/02-compose-markdown.png"
+        },
+        {
+          "img": "assets/filecomments/03-thread-rendered.png"
+        },
+        {
+          "img": "assets/filecomments/04-edit-comment.png"
+        }
+      ]
+    },
+    {
+      "id": "sensitivescan",
+      "source": "owncloud/web-extensions · packages/web-app-ai-sensitive-data-scanner (ai-sensitive-data-scanner-v0.1.0)",
+      "release": {
+        "url": "https://github.com/owncloud/web-extensions/releases/tag/ai-sensitive-data-scanner-v0.1.0",
+        "version": "ai-sensitive-data-scanner 0.1.0"
+      },
+      "thumb": "assets/sensitivescan/02-results.png",
+      "steps": [
+        {
+          "img": "assets/sensitivescan/01-batch-action.png"
+        },
+        {
+          "img": "assets/sensitivescan/02-results.png"
+        }
+      ]
+    },
+    {
+      "id": "folderbrief",
+      "source": "owncloud/web-extensions · packages/web-app-ai-folder-brief-sidebar (ai-folder-brief-sidebar-v0.1.0)",
+      "release": {
+        "url": "https://github.com/owncloud/web-extensions/releases/tag/ai-folder-brief-sidebar-v0.1.0",
+        "version": "ai-folder-brief-sidebar 0.1.0"
+      },
+      "thumb": "assets/folderbrief/02-brief.png",
+      "steps": [
+        {
+          "img": "assets/folderbrief/01-folder-selected.png"
+        },
+        {
+          "img": "assets/folderbrief/02-brief.png"
+        }
+      ]
+    },
+    {
+      "id": "datainsights",
+      "source": "owncloud/web-extensions · packages/web-app-ai-data-insights-sidebar (ai-data-insights-sidebar-v0.1.0)",
+      "release": {
+        "url": "https://github.com/owncloud/web-extensions/releases/tag/ai-data-insights-sidebar-v0.1.0",
+        "version": "ai-data-insights-sidebar 0.1.0"
+      },
+      "thumb": "assets/datainsights/03-result.png",
+      "steps": [
+        {
+          "img": "assets/datainsights/01-idle.png"
+        },
+        {
+          "img": "assets/datainsights/02-consent.png"
+        },
+        {
+          "img": "assets/datainsights/03-result.png"
+        }
+      ]
+    },
+    {
+      "id": "alttext",
+      "source": "owncloud/web-extensions · packages/web-app-ai-image-alt-text-sidebar (ai-image-alt-text-sidebar-v0.1.0)",
+      "release": {
+        "url": "https://github.com/owncloud/web-extensions/releases/tag/ai-image-alt-text-sidebar-v0.1.0",
+        "version": "ai-image-alt-text-sidebar 0.1.0"
+      },
+      "thumb": "assets/alttext/02-result.png",
+      "steps": [
+        {
+          "img": "assets/alttext/01-panel.png"
+        },
+        {
+          "img": "assets/alttext/02-result.png"
         }
       ]
     }

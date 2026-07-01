@@ -1205,6 +1205,93 @@
           "caption": "Klik op een hulpicoon om korte, contextspecifieke begeleiding te lezen precies daar waar je bent, hier met uitleg over hoe delen met mensen werkt, met een <strong>Read more</strong>-link naar de volledige documentatie."
         }
       ]
+    },
+    "filecomments": {
+      "category": "Samenwerking",
+      "title": "Reageren op een bestand",
+      "summary": "Laat threaded Markdown-reacties achter op elk bestand of elke map die u mag bewerken, en bewerk of verwijder uw eigen reacties. De File Comments-extensie voegt een Comments-paneel en een contextactie toe, en slaat reacties op als WebDAV-eigenschappen zodat ze met het bestand meereizen wanneer het wordt hernoemd of verplaatst. Uitgebracht als file-comments 0.1.0.",
+      "steps": [
+        {
+          "title": "Open het Comments-paneel",
+          "caption": "Selecteer een bestand of map die u mag bewerken en open het <strong>Comments</strong>-paneel vanuit de zijbalk (of via de <strong>Comments</strong>-contextactie). Een leeg bestand toont eenvoudigweg <em>No comments yet</em> met een <strong>Add a comment</strong>-vak."
+        },
+        {
+          "title": "Schrijf in Markdown",
+          "caption": "Typ uw notitie in het vak — Markdown wordt ondersteund, dus <strong>vet</strong>, <em>cursief</em> en opsommingslijsten worden allemaal weergegeven. Klik op <strong>Comment</strong> om het in de thread te plaatsen."
+        },
+        {
+          "title": "Lees de thread",
+          "caption": "Elke reactie wordt vanuit de bijbehorende Markdown weergegeven en voorzien van de auteur en het tijdstip. Omdat reacties op het bestand zelf leven, volgen ze het wanneer het wordt hernoemd of naar een andere map verplaatst."
+        },
+        {
+          "title": "Bewerk of verwijder uw eigen reacties",
+          "caption": "Gebruik het potlood om een van uw eigen reacties ter plekke te bewerken (de ruwe Markdown wordt dan bewerkbaar), of het prullenbakpictogram om deze te verwijderen. Deze knoppen verschijnen alleen bij reacties die u zelf hebt geschreven."
+        }
+      ]
+    },
+    "sensitivescan": {
+      "category": "AI-beveiliging",
+      "title": "Bestanden scannen op gevoelige gegevens",
+      "summary": "Selecteer een of meer bestanden en laat een AI-assistent alle persoonsgegevens, inloggegevens of vertrouwelijke inhoud markeren, waarbij de gevoelige waarden worden geredigeerd. De AI Sensitive Data Scanner voegt een batchactie toe voor TXT-, MD- en PDF-bestanden en stuurt de geëxtraheerde tekst naar een door de beheerder geconfigureerd AI-eindpunt. Uitgebracht als ai-sensitive-data-scanner 0.1.0.",
+      "steps": [
+        {
+          "title": "Kies bestanden en scan",
+          "caption": "Selecteer een of meer bestanden en kies vervolgens <strong>Scan for sensitive data</strong> in de actiebalk. Deze verschijnt zodra ten minste één geselecteerd bestand van een ondersteund type is — TXT, MD of PDF."
+        },
+        {
+          "title": "Bekijk de bevindingen",
+          "caption": "Elk bestand wordt om de beurt gescand. Bevindingen worden gegroepeerd als <strong>PII</strong>, <strong>Credentials</strong> of <strong>Confidential</strong>, waarbij de gevoelige waarde wordt getoond als <code>[REDACTED]</code>. Schone bestanden melden <em>No sensitive data found</em> en niet-ondersteunde typen worden gemarkeerd als <em>skipped</em>. <strong>Re-scan</strong> voert de scan op verzoek opnieuw uit."
+        }
+      ]
+    },
+    "folderbrief": {
+      "category": "AI-overzicht",
+      "title": "Een mapoverzicht opvragen",
+      "summary": "Selecteer een map en krijg een kort, door AI geschreven overzicht van wat deze bevat, de belangrijkste bestandstypen en de meest recente activiteit — zonder ook maar één bestand te openen. De AI Folder Brief-zijbalk leest alleen de mapinhoud (namen, typen, groottes en datums), nooit de inhoud van bestanden. Uitgebracht als ai-folder-brief-sidebar 0.1.0.",
+      "steps": [
+        {
+          "title": "Selecteer een map",
+          "caption": "Selecteer precies één map en open de detailzijbalk. Een <strong>Folder Brief</strong>-tabblad verschijnt naast de gebruikelijke panelen, gemarkeerd met een AI-sparkle."
+        },
+        {
+          "title": "Lees het overzicht",
+          "caption": "Bij het openen van het paneel wordt het overzicht automatisch gegenereerd: een korte <strong>samenvatting</strong> van het kennelijke doel van de map, een regel met <strong>bestanden per type</strong> en een notitie over de <strong>meest recente</strong> wijzigingen. <strong>Regenerate</strong> voert het op verzoek opnieuw uit."
+        }
+      ]
+    },
+    "datainsights": {
+      "category": "AI-data",
+      "title": "Inzichten uit een CSV halen",
+      "summary": "Open een CSV- of TSV-bestand en krijg door AI gedetecteerde kolomtypen, waardebereiken en enkele observaties over de gegevens in gewone taal. De AI Data Insights-zijbalk parseert het bestand in uw browser en stuurt alleen een compacte voorvertoning naar het AI-eindpunt. Uitgebracht als ai-data-insights-sidebar 0.1.0.",
+      "steps": [
+        {
+          "title": "Open het Insights-paneel",
+          "caption": "Selecteer een CSV- of TSV-bestand en open het <strong>Insights</strong>-paneel (of de <strong>Insights</strong>-contextactie), en klik vervolgens op <strong>Analyze</strong>."
+        },
+        {
+          "title": "Bevestig de kennisgeving",
+          "caption": "De eerste analyse in een sessie vraagt om toestemming, omdat een deel van het bestand wordt verstuurd naar de AI-service die uw beheerder heeft geconfigureerd. Klik op <strong>Send to AI</strong> om door te gaan."
+        },
+        {
+          "title": "Lees de inzichten",
+          "caption": "Het paneel toont een tabel met het gedetecteerde <strong>type</strong> en waardebereik (<strong>range</strong>) van elke kolom, gevolgd door twee of drie <strong>observaties</strong> in natuurlijke taal. <strong>Re-analyze</strong> voert het opnieuw uit."
+        }
+      ]
+    },
+    "alttext": {
+      "category": "AI-toegankelijkheid",
+      "title": "Alt-tekst voor afbeeldingen genereren",
+      "summary": "Genereer een beknopte, toegankelijke beschrijving voor een afbeelding met een AI-model met beeldherkenning, bewerk deze vervolgens en sla ze terug op in het bestand. De AI Image Alt-Text Generator voegt een Alt Text-paneel en een contextactie toe voor JPG-, PNG-, WEBP- en GIF-afbeeldingen. Uitgebracht als ai-image-alt-text-sidebar 0.1.0.",
+      "steps": [
+        {
+          "title": "Open het Alt Text-paneel",
+          "caption": "Selecteer een afbeelding en open het <strong>Alt Text</strong>-paneel (of de <strong>Generate Alt Text</strong>-contextactie), en klik vervolgens op <strong>Generate</strong>. De afbeelding wordt naar het geconfigureerde beeldherkenningsmodel gestuurd."
+        },
+        {
+          "title": "Bewerk en sla op",
+          "caption": "De voorgestelde beschrijving verschijnt in een bewerkbaar vak. Verfijn de bewoording naar wens en <strong>Copy</strong> deze vervolgens, klik op <strong>Regenerate</strong> voor een nieuwe poging, of <strong>Save</strong> deze terug op in de afbeelding als een opgeslagen eigenschap die herladen van de pagina overleeft."
+        }
+      ]
     }
   },
   "upcoming": {

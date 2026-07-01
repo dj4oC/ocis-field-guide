@@ -1205,6 +1205,93 @@
           "caption": "Haz clic en un icono de ayuda para leer una orientación breve y específica del contexto justo donde estás, aquí explicando cómo funciona compartir con personas, con un enlace <strong>Read more</strong> a la documentación completa."
         }
       ]
+    },
+    "filecomments": {
+      "category": "Colaboración",
+      "title": "Comentar un archivo",
+      "summary": "Deja comentarios en Markdown organizados por hilos en cualquier archivo o carpeta que puedas editar, y edita o elimina los tuyos. La extensión File Comments añade un panel Comments y una acción contextual, y guarda los comentarios como propiedades WebDAV, de modo que viajan con el archivo cuando este se renombra o se mueve. Publicada como file-comments 0.1.0.",
+      "steps": [
+        {
+          "title": "Abre el panel Comments",
+          "caption": "Selecciona un archivo o carpeta que puedas editar y abre el panel <strong>Comments</strong> desde la barra lateral (o mediante la acción contextual <strong>Comments</strong>). Un archivo nuevo simplemente muestra <em>No comments yet</em> con un cuadro <strong>Add a comment</strong>."
+        },
+        {
+          "title": "Escribe en Markdown",
+          "caption": "Escribe tu nota en el cuadro: se admite Markdown, por lo que <strong>negrita</strong>, <em>cursiva</em> y listas con viñetas se representan correctamente. Haz clic en <strong>Comment</strong> para publicarla en el hilo."
+        },
+        {
+          "title": "Lee el hilo",
+          "caption": "Cada comentario se representa a partir de su Markdown y lleva la marca de su autor y la hora. Como los comentarios residen en el propio archivo, lo acompañan cuando se renombra o se mueve a otra carpeta."
+        },
+        {
+          "title": "Edita o elimina los tuyos",
+          "caption": "Usa el lápiz para editar en el momento uno de tus propios comentarios (su Markdown original pasa a ser editable), o el icono de la papelera para eliminarlo. Estos controles solo aparecen en los comentarios que escribiste tú."
+        }
+      ]
+    },
+    "sensitivescan": {
+      "category": "Seguridad con IA",
+      "title": "Analizar archivos en busca de datos sensibles",
+      "summary": "Selecciona uno o varios archivos y deja que un asistente de IA marque cualquier dato personal, credencial o contenido confidencial, con los valores sensibles ocultos. El AI Sensitive Data Scanner añade una acción por lotes para archivos TXT, MD y PDF y envía el texto extraído a un endpoint de IA configurado por el administrador. Publicado como ai-sensitive-data-scanner 0.1.0.",
+      "steps": [
+        {
+          "title": "Elige archivos y analiza",
+          "caption": "Selecciona uno o varios archivos y luego elige <strong>Scan for sensitive data</strong> en la barra de acciones. Aparece siempre que al menos uno de los archivos seleccionados sea de un tipo admitido: TXT, MD o PDF."
+        },
+        {
+          "title": "Revisa los hallazgos",
+          "caption": "Cada archivo se analiza por turnos. Los hallazgos se agrupan como <strong>PII</strong>, <strong>Credentials</strong> o <strong>Confidential</strong>, y el valor sensible se muestra como <code>[REDACTED]</code>. Los archivos sin datos sensibles informan <em>No sensitive data found</em> y los tipos no admitidos se marcan como <em>skipped</em>. <strong>Re-scan</strong> vuelve a ejecutarlo cuando lo necesites."
+        }
+      ]
+    },
+    "folderbrief": {
+      "category": "Resumen con IA",
+      "title": "Obtener un resumen de carpeta",
+      "summary": "Selecciona una carpeta y obtén un breve resumen escrito por IA de lo que contiene, sus principales tipos de archivo y su actividad más reciente, sin abrir un solo archivo. La barra lateral AI Folder Brief lee únicamente el listado de la carpeta (nombres, tipos, tamaños y fechas), nunca el contenido de los archivos. Publicada como ai-folder-brief-sidebar 0.1.0.",
+      "steps": [
+        {
+          "title": "Selecciona una carpeta",
+          "caption": "Selecciona exactamente una carpeta y abre su barra lateral de detalles. Aparece una pestaña <strong>Folder Brief</strong> junto a los paneles habituales, marcada con un destello de IA."
+        },
+        {
+          "title": "Lee el resumen",
+          "caption": "Al abrir el panel se genera el resumen automáticamente: un breve <strong>summary</strong> del propósito aparente de la carpeta, una línea de <strong>files-by-type</strong> y una nota sobre los cambios <strong>most recent</strong>. <strong>Regenerate</strong> vuelve a ejecutarlo cuando lo necesites."
+        }
+      ]
+    },
+    "datainsights": {
+      "category": "Datos con IA",
+      "title": "Obtener información de un CSV",
+      "summary": "Abre un archivo CSV o TSV y obtén tipos de columna detectados por IA, rangos de valores y algunas observaciones en lenguaje sencillo sobre los datos. La barra lateral AI Data Insights analiza el archivo en tu navegador y envía solo una vista previa compacta al endpoint de IA. Publicada como ai-data-insights-sidebar 0.1.0.",
+      "steps": [
+        {
+          "title": "Abre el panel Insights",
+          "caption": "Selecciona un archivo CSV o TSV y abre el panel <strong>Insights</strong> (o la acción contextual <strong>Insights</strong>), luego haz clic en <strong>Analyze</strong>."
+        },
+        {
+          "title": "Confirma el aviso",
+          "caption": "El primer análisis de una sesión pide tu consentimiento, ya que parte del archivo se enviará al servicio de IA que configuró tu administrador. Haz clic en <strong>Send to AI</strong> para continuar."
+        },
+        {
+          "title": "Lee la información",
+          "caption": "El panel muestra una tabla con el <strong>type</strong> detectado de cada columna y su <strong>range</strong> de valores, seguida de dos o tres <strong>observations</strong> en lenguaje natural. <strong>Re-analyze</strong> vuelve a ejecutarlo."
+        }
+      ]
+    },
+    "alttext": {
+      "category": "Accesibilidad con IA",
+      "title": "Generar texto alternativo de imágenes",
+      "summary": "Genera una descripción concisa y accesible para una imagen con un modelo de IA con capacidad de visión, luego edítala y guárdala de vuelta en el archivo. El AI Image Alt-Text Generator añade un panel Alt Text y una acción contextual para imágenes JPG, PNG, WEBP y GIF. Publicado como ai-image-alt-text-sidebar 0.1.0.",
+      "steps": [
+        {
+          "title": "Abre el panel Alt Text",
+          "caption": "Selecciona una imagen y abre el panel <strong>Alt Text</strong> (o la acción contextual <strong>Generate Alt Text</strong>), luego haz clic en <strong>Generate</strong>. La imagen se envía al modelo de visión configurado."
+        },
+        {
+          "title": "Edita y guarda",
+          "caption": "La descripción sugerida aparece en un cuadro editable. Ajusta la redacción si quieres, luego usa <strong>Copy</strong> para copiarla, <strong>Regenerate</strong> para probar otra vez, o <strong>Save</strong> para guardarla de vuelta en la imagen como una propiedad almacenada que sobrevive a las recargas de página."
+        }
+      ]
     }
   },
   "upcoming": {

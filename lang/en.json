@@ -1205,6 +1205,93 @@
           "caption": "Click a help icon to read short, context-specific guidance right where you are, here explaining how sharing with people works, with a <strong>Read more</strong> link to the full documentation."
         }
       ]
+    },
+    "filecomments": {
+      "category": "Collaboration",
+      "title": "Commenting on a file",
+      "summary": "Leave threaded Markdown comments on any file or folder you can edit, and edit or delete your own. The File Comments extension adds a Comments panel and context action, and stores comments as WebDAV properties so they travel with the file when it is renamed or moved. Released as file-comments 0.1.0.",
+      "steps": [
+        {
+          "title": "Open the Comments panel",
+          "caption": "Select a file or folder you can edit and open the <strong>Comments</strong> panel from the sidebar (or the <strong>Comments</strong> context action). A fresh file simply shows <em>No comments yet</em> with an <strong>Add a comment</strong> box."
+        },
+        {
+          "title": "Write in Markdown",
+          "caption": "Type your note in the box — Markdown is supported, so <strong>bold</strong>, <em>italic</em> and bulleted lists all render. Click <strong>Comment</strong> to post it to the thread."
+        },
+        {
+          "title": "Read the thread",
+          "caption": "Each comment is rendered from its Markdown and stamped with its author and time. Because comments live on the file itself, they follow it when it is renamed or moved to another folder."
+        },
+        {
+          "title": "Edit or delete your own",
+          "caption": "Use the pencil to edit one of your own comments in place (its raw Markdown becomes editable), or the trash icon to remove it. These controls appear only on comments you wrote."
+        }
+      ]
+    },
+    "sensitivescan": {
+      "category": "AI security",
+      "title": "Scanning files for sensitive data",
+      "summary": "Select one or more files and have an AI assistant flag any personal data, credentials or confidential content, with the sensitive values redacted. The AI Sensitive Data Scanner adds a batch action for TXT, MD and PDF files and sends the extracted text to an admin-configured AI endpoint. Released as ai-sensitive-data-scanner 0.1.0.",
+      "steps": [
+        {
+          "title": "Pick files and scan",
+          "caption": "Select one or more files, then choose <strong>Scan for sensitive data</strong> from the actions bar. It appears whenever at least one selected file is a supported type — TXT, MD or PDF."
+        },
+        {
+          "title": "Review the findings",
+          "caption": "Each file is scanned in turn. Findings are grouped as <strong>PII</strong>, <strong>Credentials</strong> or <strong>Confidential</strong>, with the sensitive value shown as <code>[REDACTED]</code>. Clean files report <em>No sensitive data found</em> and unsupported types are marked <em>skipped</em>. <strong>Re-scan</strong> runs it again on demand."
+        }
+      ]
+    },
+    "folderbrief": {
+      "category": "AI overview",
+      "title": "Getting a folder brief",
+      "summary": "Select a folder and get a short AI-written overview of what it contains, its main file types and its most recent activity — without opening a single file. The AI Folder Brief sidebar reads only the folder listing (names, types, sizes and dates), never file contents. Released as ai-folder-brief-sidebar 0.1.0.",
+      "steps": [
+        {
+          "title": "Select a folder",
+          "caption": "Select exactly one folder and open its details sidebar. A <strong>Folder Brief</strong> tab appears alongside the usual panels, marked with an AI sparkle."
+        },
+        {
+          "title": "Read the brief",
+          "caption": "Opening the panel generates the brief automatically: a short <strong>summary</strong> of the folder's apparent purpose, a <strong>files-by-type</strong> line, and a note on the <strong>most recent</strong> changes. <strong>Regenerate</strong> re-runs it on demand."
+        }
+      ]
+    },
+    "datainsights": {
+      "category": "AI data",
+      "title": "Getting insights from a CSV",
+      "summary": "Open a CSV or TSV file and get AI-detected column types, value ranges and a few plain-language observations about the data. The AI Data Insights sidebar parses the file in your browser and sends only a compact preview to the AI endpoint. Released as ai-data-insights-sidebar 0.1.0.",
+      "steps": [
+        {
+          "title": "Open the Insights panel",
+          "caption": "Select a CSV or TSV file and open the <strong>Insights</strong> panel (or the <strong>Insights</strong> context action), then click <strong>Analyze</strong>."
+        },
+        {
+          "title": "Confirm the disclosure",
+          "caption": "The first analysis in a session asks for consent, since part of the file will be sent to the AI service your administrator configured. Click <strong>Send to AI</strong> to continue."
+        },
+        {
+          "title": "Read the insights",
+          "caption": "The panel shows a table of each column's detected <strong>type</strong> and value <strong>range</strong>, followed by two or three natural-language <strong>observations</strong>. <strong>Re-analyze</strong> runs it again."
+        }
+      ]
+    },
+    "alttext": {
+      "category": "AI accessibility",
+      "title": "Generating image alt text",
+      "summary": "Generate a concise, accessible description for an image with a vision-capable AI model, then edit it and save it back to the file. The AI Image Alt-Text Generator adds an Alt Text panel and context action for JPG, PNG, WEBP and GIF images. Released as ai-image-alt-text-sidebar 0.1.0.",
+      "steps": [
+        {
+          "title": "Open the Alt Text panel",
+          "caption": "Select an image and open the <strong>Alt Text</strong> panel (or the <strong>Generate Alt Text</strong> context action), then click <strong>Generate</strong>. The image is sent to the configured vision model."
+        },
+        {
+          "title": "Edit and save",
+          "caption": "The suggested description appears in an editable box. Refine the wording if you like, then <strong>Copy</strong> it, <strong>Regenerate</strong> for another try, or <strong>Save</strong> it back to the image as a stored property that survives page reloads."
+        }
+      ]
     }
   },
   "upcoming": {
